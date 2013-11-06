@@ -9232,7 +9232,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="SUPPLY11" gate="+5V" x="-38.1" y="-48.26"/>
 <instance part="SUPPLY12" gate="GND" x="-30.48" y="-63.5"/>
 <instance part="SUPPLY19" gate="GND" x="-17.78" y="-68.58"/>
-<instance part="SUPPLY20" gate="+5V" x="-106.68" y="20.32"/>
+<instance part="SUPPLY20" gate="+5V" x="-106.68" y="27.94"/>
 <instance part="SUPPLY15" gate="G$1" x="-119.38" y="-33.02"/>
 <instance part="SUPPLY22" gate="+5V" x="-78.74" y="-12.7"/>
 <instance part="SUPPLY23" gate="GND" x="-78.74" y="-43.18"/>
@@ -9296,11 +9296,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-38.1" y1="-60.96" x2="-38.1" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ARD1" gate="G$1" pin="AREF"/>
-<pinref part="SUPPLY20" gate="+5V" pin="+5V"/>
-<wire x1="-99.06" y1="17.78" x2="-106.68" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY22" gate="+5V" pin="+5V"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-78.74" y1="-15.24" x2="-78.74" y2="-17.78" width="0.1524" layer="91"/>
@@ -9323,6 +9318,16 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="SUPPLY26" gate="+5V" pin="+5V"/>
 <wire x1="-35.56" y1="40.64" x2="-35.56" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-35.56" y="38.1"/>
+</segment>
+<segment>
+<pinref part="ARD1" gate="G$1" pin="IOREF"/>
+<pinref part="SUPPLY20" gate="+5V" pin="+5V"/>
+<wire x1="-99.06" y1="22.86" x2="-106.68" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="22.86" x2="-106.68" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="ARD1" gate="G$1" pin="AREF"/>
+<wire x1="-99.06" y1="17.78" x2="-106.68" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="17.78" x2="-106.68" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-106.68" y="22.86"/>
 </segment>
 </net>
 <net name="N$1" class="0">
