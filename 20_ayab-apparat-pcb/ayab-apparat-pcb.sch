@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Dispositivos_I2C
-LIBS:numato_kicad_lib
+LIBS:ayab-apparat-pcb-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
