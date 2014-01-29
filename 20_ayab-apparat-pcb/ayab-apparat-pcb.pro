@@ -1,4 +1,4 @@
-update=Mon 27 Jan 2014 09:20:26 PM CET
+update=Wed 29 Jan 2014 09:00:23 PM CET
 version=1
 last_client=eeschema
 [cvpcb]
@@ -50,7 +50,7 @@ version=1
 PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=../05_kicad_libs
+LibDir=../05_kicad_libs;../05_kicad_libs/numato_kicad_lib_v0.01
 NetFmtName=
 RptD_X=0
 RptD_Y=100
