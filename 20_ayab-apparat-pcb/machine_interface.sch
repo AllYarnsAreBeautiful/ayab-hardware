@@ -147,8 +147,6 @@ F 3 "" H 6400 4300 60  0000 C CNN
 	1    6400 4300
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6400 4000 0    60   Input ~ 0
-Vsolenoid
 Text Notes 6100 3850 0    60   ~ 0
 KH-910
 $Comp
@@ -217,12 +215,6 @@ F 3 "" H 3800 5150 60  0000 C CNN
 	1    3800 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3600 1850 0    60   Input ~ 0
-Vsolenoid
-Text GLabel 3650 3650 0    60   Input ~ 0
-Vsolenoid
-Text GLabel 6350 1450 0    60   Input ~ 0
-Vsolenoid
 $Comp
 L GND #PWR?
 U 1 1 52E6C9F8
@@ -682,8 +674,6 @@ Wire Wire Line
 Connection ~ 7900 4200
 Wire Wire Line
 	7900 4300 8000 4300
-Text GLabel 7900 4000 0    60   Input ~ 0
-Vsolenoid
 Wire Wire Line
 	7900 4000 8000 4000
 Text GLabel 7900 4400 0    60   Input ~ 0
@@ -784,4 +774,59 @@ Wire Notes Line
 	8600 3300 8600 1150
 Wire Notes Line
 	8600 1150 5800 1150
+$Comp
+L +12V #PWR?
+U 1 1 52EA8D08
+P 6400 4000
+F 0 "#PWR?" H 6400 3950 20  0001 C CNN
+F 1 "+12V" H 6400 4100 30  0000 C CNN
+F 2 "" H 6400 4000 60  0000 C CNN
+F 3 "" H 6400 4000 60  0000 C CNN
+	1    6400 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 52EA8D1C
+P 7900 4000
+F 0 "#PWR?" H 7900 3950 20  0001 C CNN
+F 1 "+12V" H 7900 4100 30  0000 C CNN
+F 2 "" H 7900 4000 60  0000 C CNN
+F 3 "" H 7900 4000 60  0000 C CNN
+	1    7900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 52EA8D30
+P 6350 1450
+F 0 "#PWR?" H 6350 1400 20  0001 C CNN
+F 1 "+12V" H 6350 1550 30  0000 C CNN
+F 2 "" H 6350 1450 60  0000 C CNN
+F 3 "" H 6350 1450 60  0000 C CNN
+	1    6350 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 52EA8D44
+P 3600 1850
+F 0 "#PWR?" H 3600 1800 20  0001 C CNN
+F 1 "+12V" H 3600 1950 30  0000 C CNN
+F 2 "" H 3600 1850 60  0000 C CNN
+F 3 "" H 3600 1850 60  0000 C CNN
+	1    3600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 52EA8D58
+P 3650 3650
+F 0 "#PWR?" H 3650 3600 20  0001 C CNN
+F 1 "+12V" H 3650 3750 30  0000 C CNN
+F 2 "" H 3650 3650 60  0000 C CNN
+F 3 "" H 3650 3650 60  0000 C CNN
+	1    3650 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
