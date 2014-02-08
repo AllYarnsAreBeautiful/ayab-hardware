@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Tue 04 Feb 2014 11:08:14 PM CET
+Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Sun 09 Feb 2014 12:01:01 AM CET
 
 BeginCmp
 TimeStamp = /52EAB7DE;
@@ -151,84 +151,84 @@ BeginCmp
 TimeStamp = /52E14CBB/52E14DD9;
 Reference = K1;
 ValeurCmp = CONN_3;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E14CBB/52E7E6D3;
 Reference = K2;
 ValeurCmp = CONN_3;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E14CBB/52E14DC5;
 Reference = P1;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E14CBB/52E14E01;
 Reference = P2;
 ValeurCmp = CONN_10;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E14CBB/52E14DAF;
 Reference = P3;
 ValeurCmp = CONN_10;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E14CBB/52E14DED;
 Reference = P4;
 ValeurCmp = CONN_8;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E14CBB/52E7E6E7;
 Reference = P5;
 ValeurCmp = CONN_5;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E14CBB/52E7E6BB;
 Reference = P6;
 ValeurCmp = CONN_5;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E804E1/52E80C8E;
 Reference = P7;
 ValeurCmp = CONN_3X2;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E804E1/52EA94B5;
 Reference = P8;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E804E1/52EA919B;
 Reference = P9;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEC1AF;
 Reference = P10;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -319,7 +319,7 @@ BeginCmp
 TimeStamp = /52E804E1/52E8107B;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = Discret:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
