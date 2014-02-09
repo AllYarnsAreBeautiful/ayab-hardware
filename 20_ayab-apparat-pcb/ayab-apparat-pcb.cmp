@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Sun 09 Feb 2014 12:01:01 AM CET
+Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Sun 09 Feb 2014 09:55:01 PM CET
 
 BeginCmp
 TimeStamp = /52EAB7DE;
@@ -347,14 +347,14 @@ BeginCmp
 TimeStamp = /52E14CBB/52E157BC;
 Reference = U4;
 ValeurCmp = ULN2803;
-IdModule  = ;
+IdModule  = ab2tech_so:AB2_SO18_W;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E14CBB/52E157D0;
 Reference = U5;
 ValeurCmp = ULN2803;
-IdModule  = ;
+IdModule  = ab2tech_so:AB2_SO18_W;
 EndCmp
 
 BeginCmp

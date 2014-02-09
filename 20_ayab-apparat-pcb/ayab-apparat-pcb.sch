@@ -73,17 +73,6 @@ F7 "EOL_R" I R 5450 4700 60
 F8 "EOL_L" I R 5450 4600 60 
 $EndSheet
 $Comp
-L JACK_2P J1
-U 1 1 52EAACEF
-P 3500 2200
-F 0 "J1" H 3150 2000 60  0000 C CNN
-F 1 "JACK_2P" H 3350 2450 60  0000 C CNN
-F 2 "" H 3500 2200 60  0000 C CNN
-F 3 "" H 3500 2200 60  0000 C CNN
-	1    3500 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L CAPAPOL C1
 U 1 1 52EAB7DE
 P 5400 2500
@@ -104,17 +93,6 @@ F 2 "" H 5000 2500 60  0000 C CNN
 F 3 "" H 5000 2500 60  0000 C CNN
 	1    5000 2500
 	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR01
-U 1 1 52EAB978
-P 4250 2100
-F 0 "#PWR01" H 4250 2100 30  0001 C CNN
-F 1 "GND" H 4250 2030 30  0001 C CNN
-F 2 "" H 4250 2100 60  0000 C CNN
-F 3 "" H 4250 2100 60  0000 C CNN
-	1    4250 2100
-	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
@@ -182,20 +160,18 @@ F 3 "" H 4550 2300 60  0000 C CNN
 	1    4550 2300
 	-1   0    0    1   
 $EndComp
-Text Notes 3850 3100 0    60   ~ 0
-alternatively:\nUse CONN_2 and wire to Power Jack\nmounted in Machine enclosure
 $Comp
 L CONN_2 P10
 U 1 1 52EEC1AF
-P 3700 2600
-F 0 "P10" V 3650 2600 40  0000 C CNN
-F 1 "CONN_2" V 3750 2600 40  0000 C CNN
-F 2 "" H 3700 2600 60  0000 C CNN
-F 3 "" H 3700 2600 60  0000 C CNN
-	1    3700 2600
+P 3750 2400
+F 0 "P10" V 3700 2400 40  0000 C CNN
+F 1 "CONN_2" V 3800 2400 40  0000 C CNN
+F 2 "" H 3750 2400 60  0000 C CNN
+F 3 "" H 3750 2400 60  0000 C CNN
+	1    3750 2400
 	-1   0    0    1   
 $EndComp
-Text Notes 5150 1900 0    60   ~ 0
+Text Notes 3750 2150 0    60   ~ 0
 TODO value for 12V fuse
 $Comp
 L PWR_FLAG #FLG05
@@ -245,35 +221,16 @@ Wire Wire Line
 Wire Wire Line
 	5450 4700 6000 4700
 Wire Wire Line
-	3950 2200 4150 2200
-Wire Wire Line
-	4150 2050 4150 2500
-Wire Wire Line
-	3950 2050 4250 2050
-Wire Wire Line
-	3950 2300 4300 2300
-Wire Wire Line
 	4800 2300 6000 2300
-Wire Wire Line
-	4250 2050 4250 2100
-Connection ~ 4150 2050
 Wire Wire Line
 	6800 2300 7250 2300
 Wire Wire Line
-	5000 2750 7000 2750
+	4100 2750 7000 2750
 Connection ~ 7000 2300
 Wire Wire Line
 	7000 2750 7000 2700
 Wire Wire Line
 	7750 2300 7850 2300
-Connection ~ 4150 2200
-Wire Wire Line
-	4150 2500 4050 2500
-Wire Wire Line
-	4050 2700 4100 2700
-Wire Wire Line
-	4100 2700 4100 2300
-Connection ~ 4100 2300
 Wire Wire Line
 	5000 1900 5000 2300
 Wire Wire Line
@@ -293,4 +250,9 @@ Wire Wire Line
 Connection ~ 6400 2750
 Connection ~ 5850 2300
 Connection ~ 6750 3300
+Wire Wire Line
+	4100 2300 4300 2300
+Wire Wire Line
+	4100 2500 4100 2750
+Connection ~ 5000 2750
 $EndSCHEMATC
