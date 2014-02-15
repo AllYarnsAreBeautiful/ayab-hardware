@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Sun 09 Feb 2014 09:55:01 PM CET
+Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Sun 16 Feb 2014 12:14:19 AM CET
 
 BeginCmp
 TimeStamp = /52EAB7DE;
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /52EAB86E;
 Reference = D1;
 ValeurCmp = M7;
-IdModule  = Discret:D4;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
@@ -138,13 +138,6 @@ TimeStamp = /52EAEFC3;
 Reference = F2;
 ValeurCmp = MF-MSMF050-2;
 IdModule  = SMD_Packages:SM1812;
-EndCmp
-
-BeginCmp
-TimeStamp = /52EAACEF;
-Reference = J1;
-ValeurCmp = JACK_2P;
-IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -368,7 +361,7 @@ BeginCmp
 TimeStamp = /52E804E1/52EAB329;
 Reference = U8;
 ValeurCmp = BLM21;
-IdModule  = SMD_Packages:SM0603;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
