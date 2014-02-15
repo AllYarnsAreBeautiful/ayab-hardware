@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/chris/projects/ayab-apparat/hardware/20_ayab-apparat-pcb/ayab-apparat-pcb.sch)
-    (date "Sun 09 Feb 2014 09:57:04 PM CET")
+    (date "Sat 15 Feb 2014 12:46:44 PM CET")
     (tool "eeschema (2014-01-22 BZR 4631)-product"))
   (components
     (comp (ref C1)
@@ -603,6 +603,8 @@
         (pin (num 4) (name NC) (type BiDi))
         (pin (num 5) (name GND) (type power_in)))))
   (libraries
+    (library (logical numato_kicad_lib)
+      (uri ../05_kicad_libs/numato_kicad_lib_v0.01/numato_kicad_lib.lib))
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
     (library (logical conn)
@@ -614,9 +616,7 @@
     (library (logical atmel)
       (uri /usr/local/share/kicad/library/atmel.lib))
     (library (logical Dispositivos_I2C)
-      (uri ../05_kicad_libs/Dispositivos_I2C.lib))
-    (library (logical numato_kicad_lib)
-      (uri ../05_kicad_libs/numato_kicad_lib_v0.01/numato_kicad_lib.lib)))
+      (uri ../05_kicad_libs/Dispositivos_I2C.lib)))
   (nets
     (net (code 1) (name /atmega/SDA)
       (node (ref U2) (pin 15))

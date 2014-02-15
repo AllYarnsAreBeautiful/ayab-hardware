@@ -1,0 +1,35 @@
+Id	Designator	Package	Quantity	Designation	Supplier and ref	
+1	C1	Capacitors_Elko_ThroughHole:Elko_vert_DM6-3_RM2-5	1	10uF/25V	TANTAL 10/25	Reichelt
+2	C2,C3	SMD_Packages:SM0603_Capa	2	100nF	X7R-G0603 100N	Reichelt
+3	C4,C7,C8	SMD_Packages:SM0603_Capa	3	100n	X7R-G0603 100N	Reichelt
+4	C5,C6	SMD_Packages:SM0603_Capa	2	22p	X7R-G0603 22P	Reichelt
+5	C9,C12	SMD_Packages:SM0603_Capa	2	10u	X5R-G0603 10/6	Reichelt
+6	C10	SMD_Packages:SM0603_Capa	1	1u	X5R-G0603 1,0/25	Reichelt
+7	D1	Discret:D4	1	M7		
+8	D2	LEDs:LED-0603	1	LED_red	SMD-LED 0603 RT	Reichelt
+9	D3	SMD_Packages:SM0603	1	S01575		
+10	D4,D5	LEDs:LED-0603	2	LED_green	SMD-LED 0603 GN	Reichelt
+11	D6,D7	LEDs:LED-0603	2	LED_yellow	SMD-LED 0603 GE	Reichelt
+12	F1	Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III	1	FUSE		
+13	F2	SMD_Packages:SM1812	1	MF-MSMF050-2		
+14	K1,K2	Pin_Headers:Pin_Header_Straight_1x03	2	CONN_3	SL 1X50G 2,54	Reichelt
+15	P1,P8	Pin_Headers:Pin_Header_Straight_1x04	2	CONN_4		
+16	P2,P3	Pin_Headers:Pin_Header_Straight_1x10	2	CONN_10		
+17	P4	Pin_Headers:Pin_Header_Straight_1x08	1	CONN_8		
+18	P5,P6	Pin_Headers:Pin_Header_Straight_1x05	2	CONN_5		
+19	P7	Pin_Headers:Pin_Header_Straight_2x03	1	CONN_3X2		
+20	P9,P10	Pin_Headers:Pin_Header_Straight_1x02	2	CONN_2		
+21	R1,R2,R7	SMD_Packages:SM0603	3	10k	SMD-0603 10K	Reichelt
+22	R3	SMD_Packages:SM0603	1	1M	SMD-0603 1M	Reichelt
+23	R4,R5	SMD_Packages:SM0603	2	22R	SMD-0603 22	Reichelt
+24	R6,R8,R9,R10,R11	SMD_Packages:SM0603	5	1k5	SMD-0603 1,5K	Reichelt
+25	R12	SMD_Packages:SM0603	1	0R	SMD-0603 0	Reichelt
+26	SW1	Discret:SW_PUSH_SMALL	1	SW_PUSH	TASTER 9314	Reichelt
+27	U1	SMD_Packages:SOT223	1	NCP1117ST50T3G		
+28	U2,U3	SMD_Packages:SO16L	2	PCF8574		
+29	U4,U5	ab2tech_so:AB2_SO18_W	2	ULN2803		
+30	U6	SMD_Packages:TQFP44	1	ATMEGA32U4-A		
+31	U8	SMD_Packages:SM0603	1	BLM21		
+32	VR1,VR2	SMD_Packages:SM0603	2	CG0603MLC-05E		
+33	X1	Crystals:Crystal_HC49-U_Vertical	1	16MHz		
+34	X2	Connect:USB_MINI_B	1	USBMICRO		
