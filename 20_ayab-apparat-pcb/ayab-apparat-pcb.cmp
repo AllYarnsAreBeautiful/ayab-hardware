@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Mon 17 Feb 2014 10:10:26 PM CET
+Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Mon 17 Feb 2014 10:58:09 PM CET
 
 BeginCmp
 TimeStamp = /52F1A256;
@@ -228,7 +228,7 @@ BeginCmp
 TimeStamp = /53028068;
 Reference = Q1;
 ValeurCmp = MOSFET_P;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT23_Transistor;
+IdModule  = SMD_Packages:SOT23GDS;
 EndCmp
 
 BeginCmp
