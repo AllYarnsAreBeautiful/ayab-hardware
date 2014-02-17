@@ -1,23 +1,16 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Sun 16 Feb 2014 12:14:19 AM CET
-
-BeginCmp
-TimeStamp = /52EAB7DE;
-Reference = C1;
-ValeurCmp = 10uF/25V;
-IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM6-3_RM2-5;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Mon 17 Feb 2014 10:10:26 PM CET
 
 BeginCmp
 TimeStamp = /52F1A256;
 Reference = C2;
-ValeurCmp = 100nF;
+ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC19E;
 Reference = C3;
-ValeurCmp = 100nF;
+ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
@@ -80,7 +73,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52EAB86E;
 Reference = D1;
-ValeurCmp = M7;
+ValeurCmp = Schottky;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
@@ -94,7 +87,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52E804E1/52E810A3;
 Reference = D3;
-ValeurCmp = S01575;
+ValeurCmp = Schottky;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
@@ -123,6 +116,13 @@ BeginCmp
 TimeStamp = /52E804E1/52E9837F;
 Reference = D7;
 ValeurCmp = LED_yellow;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302A611;
+Reference = D8;
+ValeurCmp = LED;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
@@ -225,6 +225,13 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
+TimeStamp = /53028068;
+Reference = Q1;
+ValeurCmp = MOSFET_P;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT23_Transistor;
+EndCmp
+
+BeginCmp
 TimeStamp = /52E804E1/52E818CF;
 Reference = R1;
 ValeurCmp = 10k;
@@ -309,6 +316,13 @@ IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /5302A5FD;
+Reference = R13;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /52E804E1/52E8107B;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
@@ -318,7 +332,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52F1A2B7;
 Reference = U1;
-ValeurCmp = NCP1117ST50T3G;
+ValeurCmp = LM1117;
 IdModule  = SMD_Packages:SOT223;
 EndCmp
 
@@ -358,13 +372,6 @@ IdModule  = SMD_Packages:TQFP44;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E804E1/52EAB329;
-Reference = U8;
-ValeurCmp = BLM21;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /52E804E1/52E97894;
 Reference = VR1;
 ValeurCmp = CG0603MLC-05E;
@@ -388,7 +395,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52E804E1/52EAAD03;
 Reference = X2;
-ValeurCmp = USBMICRO;
+ValeurCmp = USBMINI;
 IdModule  = Connect:USB_MINI_B;
 EndCmp
 
