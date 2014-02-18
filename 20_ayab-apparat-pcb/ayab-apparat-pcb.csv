@@ -1,6 +1,6 @@
 Id	Designator	Package	Quantity	Designation	Supplier and ref	
 1	C2,C3,C4,C7,C8	SMD_Packages:SM0603_Capa	5	100n	X7R-G0603 100N	Reichelt
-2	C5,C6	SMD_Packages:SM0603_Capa	2	22p	X7R-G0603 22P	Reichelt
+2	C5,C6	SMD_Packages:SM0603_Capa	2	22p	NPO-G0603 22P	Reichelt
 3	C9,C12	SMD_Packages:SM0603_Capa	2	10u	X5R-G0603 10/6	Reichelt
 4	C10	SMD_Packages:SM0603_Capa	1	1u	X5R-G0603 1,0/25	Reichelt
 5	D1,D3	SMD_Packages:SM0603	2	Schottky	TSS 40U SMD	Reichelt
@@ -25,8 +25,10 @@ Id	Designator	Package	Quantity	Designation	Supplier and ref
 24	SW1	Discret:SW_PUSH_SMALL	1	SW_PUSH	TASTER 9314	Reichelt
 25	U1	SMD_Packages:SOT223	1	LM1117	LM 1117 MP5,0	Reichelt
 26	U2,U3	SMD_Packages:SO16L	2	PCF8574	PCF 8574 T	Reichelt
-27	U4,U5	ab2tech_so:AB2_SO18_W	2	ULN2803	ULN 2803 D	Reichelt
+27	U4,U5	ab2tech_so:AB2_SO18_W	2	ULN2803	ULN 2803A	Reichelt
 28	U6	SMD_Packages:TQFP44	1	ATMEGA32U4-A		Aliexpress
 29	VR1,VR2	SMD_Packages:SM0603	2	CG0603MLC-05E	NC	
 30	X1	Crystals:Crystal_HC49-U_Vertical	1	16MHz	16,0000-HC49U-S	Reichelt
 31	X2	Connect:USB_MINI_B	1	USBMINI		Aliexpress,Mouser
+						
+32		IC-Sockel 18-polig	2		GS 18	Reichelt
