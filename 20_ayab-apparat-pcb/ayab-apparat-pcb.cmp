@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Tue 18 Feb 2014 08:23:29 PM CET
+Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Wed 19 Feb 2014 09:04:23 PM CET
 
 BeginCmp
 TimeStamp = /52F1A256;
@@ -319,6 +319,13 @@ BeginCmp
 TimeStamp = /5302A5FD;
 Reference = R13;
 ValeurCmp = 1k5;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5305130C;
+Reference = R14;
+ValeurCmp = 0R;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
