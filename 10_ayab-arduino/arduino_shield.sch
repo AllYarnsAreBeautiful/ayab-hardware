@@ -9135,6 +9135,79 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="switch-tact">
+<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
+&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
+&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
+&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
+<packages>
+<package name="DTSM-6">
+<wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.2032" layer="51"/>
+<wire x1="3.1" y1="3.1" x2="3.1" y2="-3.1" width="0.2032" layer="51"/>
+<wire x1="3.1" y1="-3.1" x2="-3.1" y2="-3.1" width="0.2032" layer="51"/>
+<wire x1="-3.1" y1="-3.1" x2="-3.1" y2="3.1" width="0.2032" layer="51"/>
+<wire x1="2.75" y1="3.1" x2="-2.75" y2="3.1" width="0.2032" layer="21"/>
+<wire x1="3.1" y1="-1" x2="3.1" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.75" y1="-3.1" x2="-2.75" y2="-3.1" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="-1" x2="-3.1" y2="1" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<smd name="1" x="-3.975" y="2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="2" x="3.975" y="2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="3" x="-3.975" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="4" x="3.975" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TS2">
+<wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-4.445" y2="0" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="0" x2="-4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<circle x="0" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="2.54" radius="0.127" width="0.4064" layer="94"/>
+<text x="-6.35" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
+<pin name="3" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="4" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DTSM-6" prefix="S">
+<gates>
+<gate name="G$1" symbol="TS2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DTSM-6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9191,6 +9264,8 @@ DIN A4, landscape with location and doc. field</description>
 <part name="SUPPLY26" library="supply2" deviceset="+5V" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="JP6" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="S1" library="switch-tact" deviceset="DTSM-6" device=""/>
+<part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9219,7 +9294,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="SUPPLY21" gate="+5V" x="-30.48" y="33.02"/>
 <instance part="SUPPLY13" gate="+15V" x="-99.06" y="-33.02"/>
 <instance part="SUPPLY14" gate="GND" x="-104.14" y="-43.18"/>
-<instance part="SUPPLY2" gate="GND" x="-101.6" y="27.94"/>
+<instance part="SUPPLY2" gate="GND" x="-106.68" y="35.56"/>
 <instance part="SUPPLY4" gate="GND" x="-25.4" y="30.48"/>
 <instance part="SUPPLY8" gate="GND" x="-25.4" y="-20.32"/>
 <instance part="SUPPLY9" gate="GND" x="7.62" y="-22.86"/>
@@ -9232,7 +9307,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="SUPPLY11" gate="+5V" x="-38.1" y="-48.26"/>
 <instance part="SUPPLY12" gate="GND" x="-30.48" y="-63.5"/>
 <instance part="SUPPLY19" gate="GND" x="-17.78" y="-68.58"/>
-<instance part="SUPPLY20" gate="+5V" x="-106.68" y="27.94"/>
+<instance part="SUPPLY20" gate="+5V" x="-109.22" y="25.4"/>
 <instance part="SUPPLY15" gate="G$1" x="-119.38" y="-33.02"/>
 <instance part="SUPPLY22" gate="+5V" x="-78.74" y="-12.7"/>
 <instance part="SUPPLY23" gate="GND" x="-78.74" y="-43.18"/>
@@ -9248,6 +9323,8 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="SUPPLY26" gate="+5V" x="-35.56" y="43.18"/>
 <instance part="FRAME1" gate="G$1" x="-142.24" y="-96.52"/>
 <instance part="JP6" gate="G$1" x="-50.8" y="17.78" rot="R270"/>
+<instance part="S1" gate="G$1" x="81.28" y="-45.72" rot="R270"/>
+<instance part="SUPPLY27" gate="GND" x="88.9" y="-53.34"/>
 </instances>
 <busses>
 </busses>
@@ -9323,7 +9400,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="ARD1" gate="G$1" pin="IOREF"/>
 <pinref part="SUPPLY20" gate="+5V" pin="+5V"/>
 <wire x1="-99.06" y1="22.86" x2="-106.68" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="22.86" x2="-106.68" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="22.86" x2="-109.22" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="ARD1" gate="G$1" pin="AREF"/>
 <wire x1="-99.06" y1="17.78" x2="-106.68" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="17.78" x2="-106.68" y2="22.86" width="0.1524" layer="91"/>
@@ -9610,20 +9687,6 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="ARD1" gate="G$1" pin="GND@3"/>
-<wire x1="-99.06" y1="33.02" x2="-101.6" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="33.02" x2="-101.6" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<pinref part="ARD1" gate="G$1" pin="GND@1"/>
-<wire x1="-99.06" y1="38.1" x2="-101.6" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="38.1" x2="-101.6" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-101.6" y="33.02"/>
-<pinref part="ARD1" gate="G$1" pin="GND@2"/>
-<wire x1="-101.6" y1="35.56" x2="-101.6" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="35.56" x2="-101.6" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-101.6" y="35.56"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="A0"/>
 <wire x1="-20.32" y1="43.18" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="43.18" x2="-25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -9710,6 +9773,26 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-114.3" y1="-45.72" x2="-114.3" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="-38.1" x2="-109.22" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="-109.22" y="-38.1"/>
+</segment>
+<segment>
+<pinref part="ARD1" gate="G$1" pin="GND@3"/>
+<wire x1="-99.06" y1="33.02" x2="-101.6" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="ARD1" gate="G$1" pin="GND@1"/>
+<wire x1="-99.06" y1="38.1" x2="-101.6" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="38.1" x2="-101.6" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="ARD1" gate="G$1" pin="GND@2"/>
+<wire x1="-101.6" y1="35.56" x2="-101.6" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="35.56" x2="-101.6" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-101.6" y="35.56"/>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<wire x1="-106.68" y1="38.1" x2="-101.6" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-101.6" y="38.1"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="4"/>
+<pinref part="SUPPLY27" gate="GND" pin="GND"/>
+<wire x1="86.36" y1="-48.26" x2="88.9" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-48.26" x2="88.9" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -9835,6 +9918,18 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="IC3" gate="G$1" pin="P7"/>
 <pinref part="IC1" gate="G$1" pin="I8"/>
 <wire x1="2.54" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RESET" class="0">
+<segment>
+<pinref part="ARD1" gate="G$1" pin="RESET"/>
+<wire x1="-99.06" y1="27.94" x2="-101.6" y2="27.94" width="0.1524" layer="91"/>
+<label x="-106.68" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="-48.26" x2="73.66" y2="-48.26" width="0.1524" layer="91"/>
+<label x="66.04" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

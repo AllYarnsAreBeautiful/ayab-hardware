@@ -2792,6 +2792,36 @@ chip</description>
 </package>
 </packages>
 </library>
+<library name="switch-tact">
+<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
+&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
+&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
+&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
+<packages>
+<package name="DTSM-6">
+<wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.2032" layer="51"/>
+<wire x1="3.1" y1="3.1" x2="3.1" y2="-3.1" width="0.2032" layer="51"/>
+<wire x1="3.1" y1="-3.1" x2="-3.1" y2="-3.1" width="0.2032" layer="51"/>
+<wire x1="-3.1" y1="-3.1" x2="-3.1" y2="3.1" width="0.2032" layer="51"/>
+<wire x1="2.75" y1="3.1" x2="-2.75" y2="3.1" width="0.2032" layer="21"/>
+<wire x1="3.1" y1="-1" x2="3.1" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.75" y1="-3.1" x2="-2.75" y2="-3.1" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="-1" x2="-3.1" y2="1" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<smd name="1" x="-3.975" y="2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="2" x="3.975" y="2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="3" x="-3.975" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="4" x="3.975" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3048,6 +3078,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$1" library="frames" package="A4L-LOC" value="" x="-81.5975" y="-52.3875"/>
 <element name="JP6" library="pinhead" package="1X02" value="" x="39.0525" y="45.085" rot="R90"/>
+<element name="S1" library="switch-tact" package="DTSM-6" value="DTSM-6" x="-87.63" y="-47.625"/>
 </elements>
 <signals>
 <signal name="VIN">
@@ -3057,9 +3088,6 @@ design rules under a new name.</description>
 <contactref element="ARD1" pad="3V3"/>
 </signal>
 <signal name="GND">
-<contactref element="ARD1" pad="GND@1"/>
-<contactref element="ARD1" pad="GND@2"/>
-<contactref element="ARD1" pad="GND@3"/>
 <contactref element="IC3" pad="1"/>
 <contactref element="IC3" pad="2"/>
 <contactref element="IC3" pad="3"/>
@@ -3075,8 +3103,6 @@ design rules under a new name.</description>
 <contactref element="JP5" pad="9"/>
 <contactref element="JP5" pad="10"/>
 <contactref element="LED1" pad="C"/>
-<contactref element="ARD1" pad="GND@1"/>
-<contactref element="ARD1" pad="GND@2"/>
 <contactref element="JP1" pad="P$2"/>
 <contactref element="JP1" pad="P$3"/>
 <polygon width="0.6096" layer="1" isolate="0.4064">
@@ -3119,6 +3145,26 @@ design rules under a new name.</description>
 <wire x1="17.4625" y1="7.62" x2="18.0975" y2="8.255" width="0.6096" layer="16"/>
 <wire x1="18.0975" y1="8.255" x2="18.0975" y2="9.525" width="0.6096" layer="16"/>
 <wire x1="15.72" y1="7.62" x2="5.08" y2="7.62" width="0.6096" layer="16"/>
+<contactref element="ARD1" pad="GND@1"/>
+<contactref element="ARD1" pad="GND@2"/>
+<contactref element="ARD1" pad="GND@3"/>
+<contactref element="ARD1" pad="GND@1"/>
+<contactref element="ARD1" pad="GND@2"/>
+<contactref element="S1" pad="4"/>
+<wire x1="5.08" y1="7.62" x2="-83.655" y2="-49.875" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="12.62" x2="5.08" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="31.115" y1="22.86" x2="18.0975" y2="15.875" width="0" layer="19" extent="16-16"/>
+<wire x1="40.485" y1="16.51" x2="31.115" y2="22.86" width="0" layer="19" extent="16-16"/>
+<wire x1="40.64" y1="2.54" x2="40.485" y2="8.89" width="0" layer="19" extent="16-16"/>
+<wire x1="43.18" y1="2.54" x2="40.64" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="7.3025" x2="45.4025" y2="14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="10.34" x2="55.88" y2="7.3025" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="12.84" x2="63.5" y2="10.34" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="17.84" x2="63.5" y2="12.84" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="22.86" x2="63.5" y2="17.84" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="30.34" x2="55.88" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="45.72" y1="46.77" x2="63.5" y2="30.34" width="0" layer="19" extent="1-1"/>
+<wire x1="26.416" y1="50.8" x2="45.72" y2="46.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="R1" pad="2"/>
@@ -3562,6 +3608,11 @@ design rules under a new name.</description>
 <wire x1="29.845" y1="15.24" x2="29.845" y2="19.685" width="0.6096" layer="16"/>
 <wire x1="29.845" y1="19.685" x2="28.575" y2="20.955" width="0.6096" layer="16"/>
 <wire x1="28.575" y1="20.955" x2="28.575" y2="22.86" width="0.6096" layer="16"/>
+</signal>
+<signal name="RESET">
+<contactref element="ARD1" pad="RST"/>
+<contactref element="S1" pad="2"/>
+<wire x1="33.02" y1="2.54" x2="-83.655" y2="-45.375" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
