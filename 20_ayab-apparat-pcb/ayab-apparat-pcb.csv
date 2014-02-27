@@ -20,7 +20,7 @@ Id	Designator	Package	Quantity	Designation	Supplier and ref
 19	R1,R2,R7	SMD_Packages:SM0603	3	10k	SMD-0603 10K	Reichelt
 20	R3	SMD_Packages:SM0603	1	1M	SMD-0603 1M	Reichelt
 21	R4,R5	SMD_Packages:SM0603	2	22R	SMD-0603 22	Reichelt
-22	R6,R8,R9,R10,R11,R13	SMD_Packages:SM0603	6	1k5	SMD-0603 1,5K	Reichelt
+22	R6,R8,R9,R10,R11,R13	SMD_Packages:SM0603	6	150R	SMD-0603 150	Reichelt
 23	R12,R14	SMD_Packages:SM0603	1	0R	SMD-0603 0	Reichelt
 24	SW1	Discret:SW_PUSH_SMALL	1	SW_PUSH	TASTER 9314	Reichelt
 25	U1	SMD_Packages:SOT223	1	LM1117	LM 1117 MP5,0	Reichelt
