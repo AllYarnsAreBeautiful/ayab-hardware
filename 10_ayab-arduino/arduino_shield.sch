@@ -9752,38 +9752,18 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="101.6" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ENC0PINA" class="0">
+<net name="DFG" class="0">
 <segment>
 <pinref part="ARD1" gate="G$1" pin="2"/>
 <wire x1="-48.26" y1="60.96" x2="-43.18" y2="60.96" width="0.1524" layer="91"/>
 <label x="-43.18" y="60.96" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="JP5" gate="A" pin="4"/>
-<wire x1="-35.56" y1="-63.5" x2="-20.32" y2="-63.5" width="0.1524" layer="91"/>
-<label x="-20.32" y="-63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP8" gate="A" pin="3"/>
-<wire x1="-86.36" y1="-73.66" x2="-71.12" y2="-73.66" width="0.1524" layer="91"/>
-<label x="-71.12" y="-73.66" size="1.778" layer="95"/>
-</segment>
 </net>
-<net name="ENC0PINB" class="0">
+<net name="QEWRT" class="0">
 <segment>
 <pinref part="ARD1" gate="G$1" pin="PWM/3"/>
 <wire x1="-48.26" y1="58.42" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
 <label x="-43.18" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP5" gate="A" pin="5"/>
-<wire x1="-35.56" y1="-66.04" x2="-22.86" y2="-66.04" width="0.1524" layer="91"/>
-<label x="-22.86" y="-66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP8" gate="A" pin="4"/>
-<wire x1="-86.36" y1="-71.12" x2="-71.12" y2="-71.12" width="0.1524" layer="91"/>
-<label x="-71.12" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENC0PINC" class="0">
@@ -10092,6 +10072,30 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="-116.84" y1="-27.94" x2="-119.38" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-127" y="-27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ENC0PINA" class="0">
+<segment>
+<pinref part="JP5" gate="A" pin="4"/>
+<wire x1="-35.56" y1="-63.5" x2="-20.32" y2="-63.5" width="0.1524" layer="91"/>
+<label x="-20.32" y="-63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP8" gate="A" pin="3"/>
+<wire x1="-86.36" y1="-73.66" x2="-71.12" y2="-73.66" width="0.1524" layer="91"/>
+<label x="-71.12" y="-73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ENC0PINB" class="0">
+<segment>
+<pinref part="JP5" gate="A" pin="5"/>
+<wire x1="-35.56" y1="-66.04" x2="-22.86" y2="-66.04" width="0.1524" layer="91"/>
+<label x="-22.86" y="-66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP8" gate="A" pin="4"/>
+<wire x1="-86.36" y1="-71.12" x2="-71.12" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-71.12" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
