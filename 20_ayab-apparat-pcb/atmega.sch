@@ -732,17 +732,6 @@ F 3 "" H 3050 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR054
-U 1 1 52EAA124
-P 8900 1150
-F 0 "#PWR054" H 8900 1240 20  0001 C CNN
-F 1 "+5V" H 8900 1240 30  0000 C CNN
-F 2 "" H 8900 1150 60  0000 C CNN
-F 3 "" H 8900 1150 60  0000 C CNN
-	1    8900 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L USBMICRO X2
 U 1 1 52EAAD03
 P 8200 3100
@@ -772,16 +761,50 @@ NoConn ~ 3950 3450
 NoConn ~ 3950 3350
 NoConn ~ 7900 3200
 $Comp
-L PWR_FLAG #FLG055
+L PWR_FLAG #FLG054
 U 1 1 52EECE74
 P 7800 3350
-F 0 "#FLG055" H 7800 3445 30  0001 C CNN
+F 0 "#FLG054" H 7800 3445 30  0001 C CNN
 F 1 "PWR_FLAG" H 7800 3530 30  0000 C CNN
 F 2 "" H 7800 3350 60  0000 C CNN
 F 3 "" H 7800 3350 60  0000 C CNN
 	1    7800 3350
 	-1   0    0    1   
 $EndComp
+$Comp
+L R R12
+U 1 1 52F17D33
+P 7650 4000
+F 0 "R12" V 7730 4000 40  0000 C CNN
+F 1 "0R" V 7657 4001 40  0000 C CNN
+F 2 "" V 7580 4000 30  0000 C CNN
+F 3 "" H 7650 4000 30  0000 C CNN
+	1    7650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR055
+U 1 1 52F17DE8
+P 7650 4350
+F 0 "#PWR055" H 7650 4350 30  0001 C CNN
+F 1 "GND" H 7650 4280 30  0001 C CNN
+F 2 "" H 7650 4350 60  0000 C CNN
+F 3 "" H 7650 4350 60  0000 C CNN
+	1    7650 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7450 2900 0    60   Input ~ 0
+VUSB
+Text GLabel 7500 850  0    60   Input ~ 0
+VUSB
+Text Notes 6900 2050 0    60   ~ 0
+ATmega is only running\nwhen USB is attached
+Text Notes 7650 5450 0    60   ~ 0
+optional\nI2C extension
+Text GLabel 2400 2400 0    60   Input ~ 0
+VUSB
+Text GLabel 8750 850  0    60   Input ~ 0
+VUSB
 Wire Wire Line
 	5250 1100 5950 1100
 Wire Wire Line
@@ -916,7 +939,7 @@ Wire Wire Line
 	8900 1650 9200 1650
 Connection ~ 9200 1650
 Wire Wire Line
-	8900 1200 8900 1150
+	8900 850  8900 1200
 Wire Wire Line
 	3100 2600 3100 2700
 Wire Wire Line
@@ -1053,46 +1076,17 @@ Connection ~ 3100 2600
 Wire Wire Line
 	7800 3350 7800 3300
 Connection ~ 7800 3300
-$Comp
-L R R12
-U 1 1 52F17D33
-P 7650 4000
-F 0 "R12" V 7730 4000 40  0000 C CNN
-F 1 "0R" V 7657 4001 40  0000 C CNN
-F 2 "" V 7580 4000 30  0000 C CNN
-F 3 "" H 7650 4000 30  0000 C CNN
-	1    7650 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7650 3750 7650 3300
-$Comp
-L GND #PWR056
-U 1 1 52F17DE8
-P 7650 4350
-F 0 "#PWR056" H 7650 4350 30  0001 C CNN
-F 1 "GND" H 7650 4280 30  0001 C CNN
-F 2 "" H 7650 4350 60  0000 C CNN
-F 3 "" H 7650 4350 60  0000 C CNN
-	1    7650 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7650 4250 7650 4350
-Text GLabel 7450 2900 0    60   Input ~ 0
-VUSB
 Wire Wire Line
 	3000 2600 3100 2600
-Text GLabel 7500 850  0    60   Input ~ 0
-VUSB
 Wire Wire Line
 	7500 850  7650 850 
-Text Notes 6900 2050 0    60   ~ 0
-ATmega is only running\nwhen USB is attached
-Text Notes 7650 5450 0    60   ~ 0
-optional\nI2C extension
-Text GLabel 2400 2400 0    60   Input ~ 0
-VUSB
 Wire Wire Line
 	2400 2400 2650 2400
+Wire Wire Line
+	8750 850  8900 850 
+Connection ~ 8900 1150
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Wed 19 Feb 2014 09:04:23 PM CET
+Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Tue 04 Mar 2014 10:20:54 PM CET
 
 BeginCmp
 TimeStamp = /52F1A256;
@@ -269,7 +269,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52E804E1/52E812D9;
 Reference = R6;
-ValeurCmp = 1k5;
+ValeurCmp = 150R;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
@@ -283,28 +283,28 @@ EndCmp
 BeginCmp
 TimeStamp = /52E804E1/52EA9B10;
 Reference = R8;
-ValeurCmp = 1k5;
+ValeurCmp = 150R;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E804E1/52EA9B16;
 Reference = R9;
-ValeurCmp = 1k5;
+ValeurCmp = 150R;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E804E1/52E980D7;
 Reference = R10;
-ValeurCmp = 1k5;
+ValeurCmp = 150R;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E804E1/52E980EB;
 Reference = R11;
-ValeurCmp = 1k5;
+ValeurCmp = 150R;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
@@ -318,7 +318,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5302A5FD;
 Reference = R13;
-ValeurCmp = 1k5;
+ValeurCmp = 150R;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
@@ -333,7 +333,7 @@ BeginCmp
 TimeStamp = /52E804E1/52E8107B;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = Discret:SW_PUSH_SMALL;
+IdModule  = Open_Project:SW_PUSH_SMD;
 EndCmp
 
 BeginCmp
