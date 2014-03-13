@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Tue 04 Mar 2014 10:20:54 PM CET
+Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Thu 13 Mar 2014 08:38:39 PM CET
 
 BeginCmp
 TimeStamp = /52F1A256;
@@ -158,7 +158,7 @@ BeginCmp
 TimeStamp = /52E14CBB/52E14DC5;
 Reference = P1;
 ValeurCmp = CONN_4;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+IdModule  = ayab:KH-910_PWR_CON;
 EndCmp
 
 BeginCmp
@@ -186,7 +186,7 @@ BeginCmp
 TimeStamp = /52E14CBB/52E7E6E7;
 Reference = P5;
 ValeurCmp = CONN_5;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+IdModule  = ayab:KH-930_PWR_CON;
 EndCmp
 
 BeginCmp

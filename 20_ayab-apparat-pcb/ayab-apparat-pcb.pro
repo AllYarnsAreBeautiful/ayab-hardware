@@ -1,6 +1,6 @@
-update=Tue 04 Mar 2014 09:51:15 PM CET
+update=Thu 13 Mar 2014 08:13:09 PM CET
 version=1
-last_client=cvpcb
+last_client=eeschema
 [general]
 version=1
 [pcbnew]
@@ -42,12 +42,17 @@ LibName15=dip_sockets
 LibName16=pga_sockets
 LibName17=valves
 LibDir=../../../../../../Software/kicad_lib/kicadlibrary-master
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=../05_kicad_libs;../05_kicad_libs/numato_kicad_lib_v0.01;../../../../../../Software/kicad_lib/kicadlibrary-master
+LibDir=../05_kicad_libs;../05_kicad_libs/numato_kicad_lib_v0.01;../05_kicad_libs/open_project
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
@@ -87,8 +92,3 @@ LibName30=valves
 LibName31=Dispositivos_I2C
 LibName32=numato_kicad_lib
 LibName33=open-project
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
