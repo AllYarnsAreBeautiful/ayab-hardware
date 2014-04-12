@@ -9752,20 +9752,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="101.6" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DFG" class="0">
-<segment>
-<pinref part="ARD1" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="60.96" x2="-43.18" y2="60.96" width="0.1524" layer="91"/>
-<label x="-43.18" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="QEWRT" class="0">
-<segment>
-<pinref part="ARD1" gate="G$1" pin="PWM/3"/>
-<wire x1="-48.26" y1="58.42" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
-<label x="-43.18" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="ENC0PINC" class="0">
 <segment>
 <pinref part="ARD1" gate="G$1" pin="4"/>
@@ -10081,9 +10067,14 @@ DIN A4, landscape with location and doc. field</description>
 <label x="-20.32" y="-63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="A" pin="3"/>
-<wire x1="-86.36" y1="-73.66" x2="-71.12" y2="-73.66" width="0.1524" layer="91"/>
-<label x="-71.12" y="-73.66" size="1.778" layer="95"/>
+<pinref part="JP8" gate="A" pin="4"/>
+<wire x1="-86.36" y1="-71.12" x2="-73.66" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-73.66" y="-71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ARD1" gate="G$1" pin="2"/>
+<wire x1="-48.26" y1="60.96" x2="-43.18" y2="60.96" width="0.1524" layer="91"/>
+<label x="-43.18" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENC0PINB" class="0">
@@ -10093,9 +10084,14 @@ DIN A4, landscape with location and doc. field</description>
 <label x="-22.86" y="-66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="A" pin="4"/>
-<wire x1="-86.36" y1="-71.12" x2="-71.12" y2="-71.12" width="0.1524" layer="91"/>
-<label x="-71.12" y="-71.12" size="1.778" layer="95"/>
+<pinref part="JP8" gate="A" pin="3"/>
+<wire x1="-86.36" y1="-73.66" x2="-76.2" y2="-73.66" width="0.1524" layer="91"/>
+<label x="-76.2" y="-73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ARD1" gate="G$1" pin="PWM/3"/>
+<wire x1="-48.26" y1="58.42" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
+<label x="-43.18" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
