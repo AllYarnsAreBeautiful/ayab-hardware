@@ -6535,189 +6535,96 @@ Inexpensive i2c i/o expander - 8 general purpose i/o pins with optional pullups<
 </deviceset>
 </devicesets>
 </library>
-<library name="con-jack">
-<description>&lt;b&gt;Jacks&lt;/b&gt;&lt;p&gt;
-Power Connectors&lt;br&gt;
-Phone Connectors&lt;br&gt;
-Cinch Connectors&lt;br&gt;
+<library name="con-lumberg">
+<description>&lt;b&gt;Lumberg Connectors&lt;/b&gt;&lt;p&gt;
+include con-mfs.lbr - 2001.03.22&lt;br&gt;
+Jack connectors - 2005.11.23&lt;p&gt;
+http://www.lumberg.de&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SPC4078">
-<description>&lt;b&gt;DC POWER JACK 2.5mm&lt;/b&gt; Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
-Source: www.spctechnology.com .. 84N1162.pdf&lt;br&gt;
-Distributor: &lt;b&gt;Farnell (www.Farnell.de)&lt;/b&gt;&lt;br&gt;
-Created by Robert Siegler</description>
-<wire x1="-10.75" y1="-4.5" x2="-10.75" y2="-3.2" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="-3.2" x2="-10.75" y2="3.2" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="3.2" x2="-10.75" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-7.25" y1="-4.5" x2="-7.25" y2="4" width="0.1" layer="21"/>
-<wire x1="-7.25" y1="4" x2="-7.25" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-7.25" y1="-4" x2="1.25" y2="-4" width="0.1" layer="51"/>
-<wire x1="-7.25" y1="4" x2="1.25" y2="4" width="0.1" layer="21"/>
-<wire x1="1.25" y1="-4" x2="1.25" y2="4" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-4.5" x2="1.25" y2="-4" width="0.1" layer="51"/>
-<wire x1="1.25" y1="4" x2="1.25" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="4.5" x2="1.25" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="-4.5" x2="1.25" y2="-4.5" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-4" x2="2.75" y2="-4" width="0.1" layer="51"/>
-<wire x1="2.75" y1="-4" x2="3.25" y2="-4" width="0.1" layer="51"/>
-<wire x1="1.25" y1="4" x2="2.75" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="4" x2="3.25" y2="4" width="0.1" layer="21"/>
-<wire x1="3.25" y1="-4" x2="3.25" y2="4" width="0.1" layer="51"/>
-<wire x1="2.75" y1="-4" x2="2.75" y2="4" width="0.1" layer="51"/>
-<wire x1="-10.75" y1="3.2" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-10.75" y1="-3.2" x2="-1.75" y2="-3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="-3.2" x2="-1.75" y2="-1.25" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="-1.25" x2="-1.75" y2="1.25" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="1.25" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-8.75" y1="1.25" x2="-1.75" y2="1.25" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-8.75" y1="-1.25" x2="-1.75" y2="-1.25" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-8.75" y1="1.25" x2="-8.75" y2="-1.25" width="0.1" layer="21" curve="180"/>
-<wire x1="2.5" y1="1.75" x2="3.5" y2="1.75" width="0" layer="46"/>
-<wire x1="3.5" y1="1.75" x2="3.5" y2="-1.75" width="0" layer="46"/>
-<wire x1="3.5" y1="-1.75" x2="2.5" y2="-1.75" width="0" layer="46"/>
-<wire x1="2.5" y1="-1.75" x2="2.5" y2="1.75" width="0" layer="46"/>
-<wire x1="-3.4" y1="1.5" x2="-2.6" y2="1.5" width="0" layer="46"/>
-<wire x1="-2.6" y1="1.5" x2="-2.6" y2="-1.5" width="0" layer="46"/>
-<wire x1="-2.6" y1="-1.5" x2="-3.4" y2="-1.5" width="0" layer="46"/>
-<wire x1="-3.4" y1="-1.5" x2="-3.4" y2="1.5" width="0" layer="46"/>
-<wire x1="-1.5" y1="-4.4" x2="1.5" y2="-4.4" width="0" layer="46"/>
-<wire x1="1.5" y1="-4.4" x2="1.5" y2="-5.2" width="0" layer="46"/>
-<wire x1="1.5" y1="-5.2" x2="-1.5" y2="-5.2" width="0" layer="46"/>
-<wire x1="-1.5" y1="-5.2" x2="-1.5" y2="-4.4" width="0" layer="46"/>
-<wire x1="2.75" y1="2.35" x2="2.75" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="-4" x2="2.75" y2="-2.35" width="0.1" layer="21"/>
-<wire x1="3.25" y1="-4" x2="3.25" y2="-2.35" width="0.1" layer="21"/>
-<wire x1="3.25" y1="2.35" x2="3.25" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="-4" x2="3.25" y2="-4" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="-4.5" x2="-2.56" y2="-4.5" width="0.1" layer="21"/>
-<wire x1="1.25" y1="-2.73" x2="1.25" y2="4" width="0.1" layer="21"/>
-<pad name="2" x="0" y="-4.8" drill="0.8" diameter="2.1844" shape="long"/>
-<pad name="1" x="-3" y="0" drill="0.8" diameter="2.1844" shape="long" rot="R90"/>
-<pad name="3" x="3" y="0" drill="1" diameter="2.1844" shape="long" rot="R90"/>
-<text x="-10.16" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-10.16" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-1.25" y1="-5.05" x2="1.25" y2="-4.55" layer="51"/>
-<rectangle x1="2.75" y1="-1.5" x2="3.25" y2="1.5" layer="51"/>
-<rectangle x1="-3.1" y1="-1.25" x2="-2.9" y2="1.25" layer="51"/>
-</package>
-<package name="SPC4077">
-<description>&lt;b&gt;DC POWER JACK 2mm&lt;/b&gt;&lt;br&gt; Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
-Source: www.spctechnology.com .. 84N1161.pdf&lt;br&gt;
-Distributor: &lt;b&gt;Farnell (www.Farnell.de)&lt;/b&gt;&lt;br&gt;
-Created by Robert Siegler</description>
-<wire x1="-10.75" y1="-4.5" x2="-10.75" y2="-3.2" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="-3.2" x2="-10.75" y2="3.2" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="3.2" x2="-10.75" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-7.25" y1="-4.5" x2="-7.25" y2="4" width="0.1" layer="21"/>
-<wire x1="-7.25" y1="4" x2="-7.25" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-7.25" y1="-4" x2="1.25" y2="-4" width="0.1" layer="51"/>
-<wire x1="-7.25" y1="4" x2="1.25" y2="4" width="0.1" layer="21"/>
-<wire x1="1.25" y1="-4" x2="1.25" y2="4" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-4.5" x2="1.25" y2="-4" width="0.1" layer="51"/>
-<wire x1="1.25" y1="4" x2="1.25" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="4.5" x2="1.25" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="-4.5" x2="1.25" y2="-4.5" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-4" x2="2.75" y2="-4" width="0.1" layer="51"/>
-<wire x1="2.75" y1="-4" x2="3.25" y2="-4" width="0.1" layer="51"/>
-<wire x1="1.25" y1="4" x2="2.75" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="4" x2="3.25" y2="4" width="0.1" layer="21"/>
-<wire x1="3.25" y1="-4" x2="3.25" y2="4" width="0.1" layer="51"/>
-<wire x1="2.75" y1="-4" x2="2.75" y2="4" width="0.1" layer="51"/>
-<wire x1="-10.75" y1="3.2" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-10.75" y1="-3.2" x2="-1.75" y2="-3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="-3.2" x2="-1.75" y2="-1" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="-1" x2="-1.75" y2="1" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="1" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-8.75" y1="-1" x2="-1.75" y2="-1" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-8.75" y1="1" x2="-1.75" y2="1" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-8.75" y1="-1" x2="-8.75" y2="1" width="0.1" layer="21" curve="-180"/>
-<wire x1="2.5" y1="1.75" x2="3.5" y2="1.75" width="0" layer="46"/>
-<wire x1="3.5" y1="1.75" x2="3.5" y2="-1.75" width="0" layer="46"/>
-<wire x1="3.5" y1="-1.75" x2="2.5" y2="-1.75" width="0" layer="46"/>
-<wire x1="2.5" y1="-1.75" x2="2.5" y2="1.75" width="0" layer="46"/>
-<wire x1="-3.4" y1="1.5" x2="-2.6" y2="1.5" width="0" layer="46"/>
-<wire x1="-2.6" y1="1.5" x2="-2.6" y2="-1.5" width="0" layer="46"/>
-<wire x1="-2.6" y1="-1.5" x2="-3.4" y2="-1.5" width="0" layer="46"/>
-<wire x1="-3.4" y1="-1.5" x2="-3.4" y2="1.5" width="0" layer="46"/>
-<wire x1="-1.5" y1="-4.4" x2="1.5" y2="-4.4" width="0" layer="46"/>
-<wire x1="1.5" y1="-4.4" x2="1.5" y2="-5.2" width="0" layer="46"/>
-<wire x1="1.5" y1="-5.2" x2="-1.5" y2="-5.2" width="0" layer="46"/>
-<wire x1="-1.5" y1="-5.2" x2="-1.5" y2="-4.4" width="0" layer="46"/>
-<wire x1="-10.75" y1="-4.5" x2="-2.56" y2="-4.5" width="0.1" layer="21"/>
-<wire x1="2.75" y1="-4" x2="3.25" y2="-4" width="0.1" layer="21"/>
-<wire x1="3.25" y1="-4" x2="3.25" y2="-2.35" width="0.1" layer="21"/>
-<wire x1="3.25" y1="2.35" x2="3.25" y2="4" width="0.1" layer="21"/>
-<wire x1="1.25" y1="-2.73" x2="1.25" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="2.35" x2="2.75" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="-4" x2="2.75" y2="-2.35" width="0.1" layer="21"/>
-<pad name="2" x="0" y="-4.8" drill="0.8" diameter="2.1844" shape="long"/>
-<pad name="1" x="-3" y="0" drill="0.8" diameter="2.1844" shape="long" rot="R90"/>
-<pad name="3" x="3" y="0" drill="1" diameter="2.1844" shape="long" rot="R90"/>
-<text x="-10.16" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-10.16" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.25" y1="-5.05" x2="1.25" y2="-4.55" layer="51"/>
-<rectangle x1="2.75" y1="-1.5" x2="3.25" y2="1.5" layer="51"/>
-<rectangle x1="-3.1" y1="-1.25" x2="-2.9" y2="1.25" layer="51"/>
+<package name="NEB1R">
+<description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
+<wire x1="-5.9" y1="-4.9" x2="5.9" y2="-4.9" width="0.2032" layer="21"/>
+<wire x1="5.9" y1="-4.9" x2="5.9" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="5.9" y1="-2.4" x2="5.9" y2="-1" width="0.2032" layer="21"/>
+<wire x1="5.9" y1="1.05" x2="5.9" y2="12.4" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="-4.9" x2="-5.9" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="-2.4" x2="-5.9" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="1.05" x2="-5.9" y2="12.4" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="12.4" x2="5.9" y2="12.4" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="1.05" x2="-5.9" y2="-1" width="0.2032" layer="51"/>
+<wire x1="-5.9" y1="-3.9" x2="-4.9" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="-3.9" x2="-4.9" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="-2.4" x2="-5.9" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="5.9" y1="-2.4" x2="4.9" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="4.9" y1="-2.4" x2="4.9" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="4.9" y1="-3.9" x2="5.9" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="-2.4" x2="4.9" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="-3.1" x2="-3.2" y2="-4.55" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="-3.1" x2="3.2" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-0.85" y1="-2.7" x2="-0.85" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="0.85" y1="-2.7" x2="0.85" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="-0.5" x2="-3.2" y2="-1.95" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="-0.6" x2="3.2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="2.1" x2="-3.2" y2="0.65" width="0.2032" layer="21"/>
+<wire x1="-0.85" y1="-0.2" x2="-0.85" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="0.85" y1="-0.2" x2="0.85" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-0.85" y1="2.3" x2="-0.85" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="0.85" y1="2.3" x2="0.85" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="2" x2="3.2" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="4.6" x2="3.2" y2="3.2" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="4.7" x2="-3.2" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="7.3" x2="-3.2" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="7.2" x2="3.2" y2="5.8" width="0.2032" layer="21"/>
+<wire x1="0.85" y1="7.3" x2="0.85" y2="5.6" width="0.2032" layer="51"/>
+<wire x1="-0.85" y1="7.3" x2="-0.85" y2="5.6" width="0.2032" layer="51"/>
+<wire x1="5.9" y1="1.05" x2="5.9" y2="-1" width="0.2032" layer="51"/>
+<wire x1="-0.85" y1="4.7" x2="-0.85" y2="3" width="0.2032" layer="21"/>
+<wire x1="0.85" y1="4.7" x2="0.85" y2="3" width="0.2032" layer="21"/>
+<wire x1="-0.4" y1="-4.4" x2="0.4" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="7.9" x2="-1.75" y2="7.9" width="0.2032" layer="21"/>
+<wire x1="1.7" y1="7.9" x2="3.15" y2="7.9" width="0.2032" layer="21"/>
+<wire x1="-0.8" y1="7.9" x2="0.65" y2="7.9" width="0.2032" layer="21"/>
+<pad name="1@2" x="-5" y="0" drill="1.3" diameter="2.1844"/>
+<pad name="3" x="0" y="10" drill="1.3" diameter="2.1844"/>
+<pad name="1@1" x="5" y="0" drill="1.3" diameter="2.1844"/>
+<pad name="2" x="0" y="6.25" drill="1.3" diameter="2.1844"/>
+<text x="-3.6" y="11.2" size="1.016" layer="21">DIN45323</text>
+<text x="-6.35" y="1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="7.62" y="1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="JACK-PLUG">
-<wire x1="-5.715" y1="1.27" x2="-5.715" y2="3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-5.715" y1="3.81" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.635" x2="0" y2="4.445" width="0.1524" layer="94"/>
-<wire x1="0" y1="4.445" x2="-1.27" y2="4.445" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="4.445" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-5.715" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.715" y1="-2.54" x2="-6.35" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-1.27" x2="-6.985" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="1" x="5.08" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-<polygon width="0.1524" layer="94">
-<vertex x="0" y="-2.54"/>
-<vertex x="-0.508" y="-1.27"/>
-<vertex x="0.508" y="-1.27"/>
-</polygon>
+<symbol name="NEB1R">
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.524" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="1.016" x2="2.286" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="2.286" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="2.286" x2="-1.016" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.524" x2="-0.508" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.524" x2="-0.762" y2="2.286" width="0.254" layer="94"/>
+<text x="-2.54" y="4.064" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.096" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.54" y1="-3.048" x2="2.794" y2="-2.032" layer="94"/>
+<pin name="1@1" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="1@2" x="-2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JACK-PLUG" prefix="J" uservalue="yes">
-<description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;br&gt;
-Power Jack, DC, Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
-Distributor: &lt;b&gt;Farnell (www.Farnell.de)&lt;/b&gt;&lt;br&gt;
-Drawing: &lt;b&gt;84N1161.pdf / 84N1162.pdf&lt;/b&gt;&lt;br&gt;
-Manufacturer: &lt;b&gt;SPC Technology (www.spctechnology.com)&lt;/b&gt;&lt;br&gt;
-Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="NEB1R" prefix="X">
+<description>&lt;b&gt;Netzgeräte-Einbaukupplung&lt;/b&gt; nach DIN 45323, abgewinkelte Ausführung, mit Flansch und Öffner&lt;p&gt;
+Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <gates>
-<gate name="G$1" symbol="JACK-PLUG" x="0" y="0"/>
+<gate name="G$1" symbol="NEB1R" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1" package="SPC4078">
+<device name="" package="NEB1R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0" package="SPC4077">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="1@1" pad="1@1"/>
+<connect gate="G$1" pin="1@2" pad="1@2"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
@@ -6801,9 +6708,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="JP9" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="SUPPLY34" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
-<part name="JP1A" library="con-jack" deviceset="JACK-PLUG" device="1"/>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="+15V" device="" value="+16V"/>
+<part name="X1" library="con-lumberg" deviceset="NEB1R" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6901,9 +6808,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <instance part="JP9" gate="A" x="99.06" y="-53.34"/>
 <instance part="SUPPLY34" gate="+5V" x="88.9" y="-43.18"/>
 <instance part="SUPPLY35" gate="GND" x="88.9" y="-60.96"/>
-<instance part="JP1A" gate="G$1" x="-109.22" y="-30.48" rot="R180"/>
 <instance part="SUPPLY27" gate="GND" x="-116.84" y="-38.1"/>
 <instance part="SUPPLY36" gate="+15V" x="-116.84" y="-22.86"/>
+<instance part="X1" gate="G$1" x="-109.22" y="-30.48"/>
 </instances>
 <busses>
 </busses>
@@ -7399,10 +7306,10 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="88.9" y1="-55.88" x2="88.9" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1A" gate="G$1" pin="3"/>
 <pinref part="SUPPLY27" gate="GND" pin="GND"/>
 <wire x1="-114.3" y1="-33.02" x2="-116.84" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-116.84" y1="-33.02" x2="-116.84" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="1@1"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -7436,12 +7343,12 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <segment>
 <pinref part="SUPPLY36" gate="+15V" pin="+15V"/>
 <wire x1="-116.84" y1="-25.4" x2="-116.84" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="JP1A" gate="G$1" pin="1"/>
 <wire x1="-116.84" y1="-27.94" x2="-114.3" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="JP1A" gate="G$1" pin="2"/>
 <wire x1="-114.3" y1="-30.48" x2="-116.84" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-116.84" y1="-30.48" x2="-116.84" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="-116.84" y="-27.94"/>
+<pinref part="X1" gate="G$1" pin="3"/>
+<pinref part="X1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$35" class="0">
