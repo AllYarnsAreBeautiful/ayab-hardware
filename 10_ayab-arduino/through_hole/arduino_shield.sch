@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6641,6 +6641,292 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="headers_2mm">
+<packages>
+<package name="1X3">
+<rectangle x1="-2.254" y1="-0.254" x2="-1.746" y2="0.254" layer="21"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="21"/>
+<rectangle x1="1.746" y1="-0.254" x2="2.254" y2="0.254" layer="21"/>
+<pad name="1" x="-2" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="2" y="0" drill="0.8" diameter="1.4224"/>
+</package>
+<package name="1X5">
+<rectangle x1="-4.254" y1="-0.254" x2="-3.746" y2="0.254" layer="21"/>
+<rectangle x1="-2.254" y1="-0.254" x2="-1.746" y2="0.254" layer="21"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="21"/>
+<rectangle x1="1.746" y1="-0.254" x2="2.254" y2="0.254" layer="21"/>
+<rectangle x1="3.746" y1="-0.254" x2="4.254" y2="0.254" layer="21"/>
+<pad name="1" x="-4" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="2" x="-2" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="0" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="4" x="2" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="5" x="4" y="0" drill="0.8" diameter="1.4224"/>
+</package>
+<package name="1X10">
+<rectangle x1="-9.254" y1="-0.254" x2="-8.746" y2="0.254" layer="21"/>
+<rectangle x1="-7.254" y1="-0.254" x2="-6.746" y2="0.254" layer="21"/>
+<rectangle x1="-5.254" y1="-0.254" x2="-4.746" y2="0.254" layer="21"/>
+<rectangle x1="-3.254" y1="-0.254" x2="-2.746" y2="0.254" layer="21"/>
+<rectangle x1="-1.254" y1="-0.254" x2="-0.746" y2="0.254" layer="21"/>
+<rectangle x1="0.746" y1="-0.254" x2="1.254" y2="0.254" layer="21"/>
+<rectangle x1="2.746" y1="-0.254" x2="3.254" y2="0.254" layer="21"/>
+<rectangle x1="4.746" y1="-0.254" x2="5.254" y2="0.254" layer="21"/>
+<rectangle x1="6.746" y1="-0.254" x2="7.254" y2="0.254" layer="21"/>
+<rectangle x1="8.746" y1="-0.254" x2="9.254" y2="0.254" layer="21"/>
+<pad name="1" x="-9" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="2" x="-7" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="-5" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="4" x="-3" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="5" x="-1" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="6" x="1" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="7" x="3" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="8" x="5" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="9" x="7" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="10" x="9" y="0" drill="0.8" diameter="1.4224"/>
+</package>
+<package name="1X8">
+<rectangle x1="-7.254" y1="-0.254" x2="-6.746" y2="0.254" layer="21"/>
+<rectangle x1="-5.254" y1="-0.254" x2="-4.746" y2="0.254" layer="21"/>
+<rectangle x1="-3.254" y1="-0.254" x2="-2.746" y2="0.254" layer="21"/>
+<rectangle x1="-1.254" y1="-0.254" x2="-0.746" y2="0.254" layer="21"/>
+<rectangle x1="0.746" y1="-0.254" x2="1.254" y2="0.254" layer="21"/>
+<rectangle x1="2.746" y1="-0.254" x2="3.254" y2="0.254" layer="21"/>
+<rectangle x1="4.746" y1="-0.254" x2="5.254" y2="0.254" layer="21"/>
+<rectangle x1="6.746" y1="-0.254" x2="7.254" y2="0.254" layer="21"/>
+<pad name="1" x="-7" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="2" x="-5" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="-3" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="4" x="-1" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="5" x="1" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="6" x="3" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="7" x="5" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="8" x="7" y="0" drill="0.8" diameter="1.4224"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1X3_HEADER">
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">01</text>
+<text x="-2.54" y="5.715" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-6.985" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="2.54" y="2.54" visible="off" length="point" rot="R180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.016" layer="94" font="vector" rot="MR0" align="center">02</text>
+<pin name="2" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<text x="0" y="-2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">03</text>
+<pin name="3" x="2.54" y="-2.54" visible="off" length="point" rot="R180"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="1X5_HEADER">
+<wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="94" font="vector" rot="MR0" align="center">01</text>
+<text x="-2.54" y="8.255" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-9.525" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="2.54" y="5.08" visible="off" length="point" rot="R180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">02</text>
+<pin name="2" x="2.54" y="2.54" visible="off" length="point" rot="R180"/>
+<text x="0" y="0" size="1.016" layer="94" font="vector" rot="MR0" align="center">03</text>
+<pin name="3" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">04</text>
+<text x="0" y="-5.08" size="1.016" layer="94" font="vector" rot="MR0" align="center">05</text>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="4" x="2.54" y="-2.54" visible="off" length="point" rot="R180"/>
+<pin name="5" x="2.54" y="-5.08" visible="off" length="point" rot="R180"/>
+</symbol>
+<symbol name="1X10_HEADER">
+<wire x1="-2.54" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="1.27" y1="12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.016" layer="94" font="vector" rot="MR0" align="center">01</text>
+<text x="-2.54" y="15.875" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-14.605" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="2.54" y="12.7" visible="off" length="point" rot="R180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<text x="0" y="10.16" size="1.016" layer="94" font="vector" rot="MR0" align="center">02</text>
+<pin name="2" x="2.54" y="10.16" visible="off" length="point" rot="R180"/>
+<text x="0" y="7.62" size="1.016" layer="94" font="vector" rot="MR0" align="center">03</text>
+<text x="0" y="5.08" size="1.016" layer="94" font="vector" rot="MR0" align="center">04</text>
+<pin name="3" x="2.54" y="7.62" visible="off" length="point" rot="R180"/>
+<pin name="4" x="2.54" y="5.08" visible="off" length="point" rot="R180"/>
+<wire x1="1.27" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="1.27" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">05</text>
+<text x="0" y="0" size="1.016" layer="94" font="vector" rot="MR0" align="center">06</text>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<pin name="5" x="2.54" y="2.54" visible="off" length="point" rot="R180"/>
+<pin name="6" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<text x="0" y="-2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">07</text>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<pin name="7" x="2.54" y="-2.54" visible="off" length="point" rot="R180"/>
+<text x="0" y="-5.08" size="1.016" layer="94" font="vector" rot="MR0" align="center">08</text>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="8" x="2.54" y="-5.08" visible="off" length="point" rot="R180"/>
+<text x="0" y="-7.62" size="1.016" layer="94" font="vector" rot="MR0" align="center">09</text>
+<text x="0" y="-10.16" size="1.016" layer="94" font="vector" rot="MR0" align="center">10</text>
+<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<pin name="9" x="2.54" y="-7.62" visible="off" length="point" rot="R180"/>
+<pin name="10" x="2.54" y="-10.16" visible="off" length="point" rot="R180"/>
+</symbol>
+<symbol name="1X8_HEADER">
+<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="1.27" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="10.16" size="1.016" layer="94" font="vector" rot="MR0" align="center">01</text>
+<text x="-2.54" y="13.335" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-12.065" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="2.54" y="10.16" visible="off" length="point" rot="R180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<text x="0" y="7.62" size="1.016" layer="94" font="vector" rot="MR0" align="center">02</text>
+<pin name="2" x="2.54" y="7.62" visible="off" length="point" rot="R180"/>
+<text x="0" y="5.08" size="1.016" layer="94" font="vector" rot="MR0" align="center">03</text>
+<text x="0" y="2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">04</text>
+<pin name="3" x="2.54" y="5.08" visible="off" length="point" rot="R180"/>
+<pin name="4" x="2.54" y="2.54" visible="off" length="point" rot="R180"/>
+<wire x1="1.27" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.016" layer="94" font="vector" rot="MR0" align="center">05</text>
+<text x="0" y="-2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">06</text>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<pin name="5" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<pin name="6" x="2.54" y="-2.54" visible="off" length="point" rot="R180"/>
+<text x="0" y="-5.08" size="1.016" layer="94" font="vector" rot="MR0" align="center">07</text>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="7" x="2.54" y="-5.08" visible="off" length="point" rot="R180"/>
+<text x="0" y="-7.62" size="1.016" layer="94" font="vector" rot="MR0" align="center">08</text>
+<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<pin name="8" x="2.54" y="-7.62" visible="off" length="point" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1X3">
+<gates>
+<gate name="G$1" symbol="1X3_HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1X5">
+<gates>
+<gate name="G$1" symbol="1X5_HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1X10">
+<gates>
+<gate name="G$1" symbol="1X10_HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1X8">
+<gates>
+<gate name="G$1" symbol="1X8_HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X8">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6711,6 +6997,11 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="+15V" device="" value="+16V"/>
 <part name="X1" library="con-lumberg" deviceset="NEB1R" device=""/>
+<part name="JP7A" library="headers_2mm" deviceset="1X3" device=""/>
+<part name="JP2A" library="headers_2mm" deviceset="1X3" device=""/>
+<part name="JP8A" library="headers_2mm" deviceset="1X5" device=""/>
+<part name="JP4A" library="headers_2mm" deviceset="1X10" device=""/>
+<part name="JP3A" library="headers_2mm" deviceset="1X8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6771,7 +7062,7 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <instance part="SUPPLY8" gate="GND" x="15.24" y="-22.86"/>
 <instance part="SUPPLY9" gate="GND" x="60.96" y="-17.78"/>
 <instance part="SUPPLY17" gate="GND" x="60.96" y="27.94"/>
-<instance part="SUPPLY18" gate="GND" x="40.64" y="-50.8" rot="R90"/>
+<instance part="SUPPLY18" gate="GND" x="43.18" y="-58.42"/>
 <instance part="SUPPLY7" gate="+15V" x="93.98" y="27.94" rot="R180"/>
 <instance part="SUPPLY10" gate="+15V" x="93.98" y="-17.78" rot="R180"/>
 <instance part="SUPPLY6" gate="+15V" x="93.98" y="66.04"/>
@@ -6797,10 +7088,10 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <instance part="JP6" gate="G$1" x="-40.64" y="33.02" rot="R270"/>
 <instance part="JP7" gate="A" x="-88.9" y="-48.26" rot="R180"/>
 <instance part="SUPPLY28" gate="+5V" x="-78.74" y="-40.64"/>
-<instance part="SUPPLY29" gate="GND" x="-73.66" y="-48.26" rot="R90"/>
+<instance part="SUPPLY29" gate="GND" x="-68.58" y="-55.88"/>
 <instance part="JP8" gate="A" x="-88.9" y="-73.66" rot="R180"/>
-<instance part="SUPPLY30" gate="+5V" x="-76.2" y="-78.74" rot="R270"/>
-<instance part="SUPPLY31" gate="GND" x="-78.74" y="-76.2" rot="R90"/>
+<instance part="SUPPLY30" gate="+5V" x="-68.58" y="-63.5"/>
+<instance part="SUPPLY31" gate="GND" x="-76.2" y="-83.82"/>
 <instance part="IC4" gate="G$1" x="35.56" y="-2.54"/>
 <instance part="SUPPLY32" gate="GND" x="22.86" y="-27.94"/>
 <instance part="IC3" gate="G$1" x="30.48" y="43.18"/>
@@ -6811,6 +7102,11 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <instance part="SUPPLY27" gate="GND" x="-116.84" y="-38.1"/>
 <instance part="SUPPLY36" gate="+15V" x="-116.84" y="-22.86"/>
 <instance part="X1" gate="G$1" x="-109.22" y="-30.48"/>
+<instance part="JP7A" gate="G$1" x="-63.5" y="-48.26" rot="R180"/>
+<instance part="JP2A" gate="G$1" x="48.26" y="-50.8" rot="R180"/>
+<instance part="JP8A" gate="G$1" x="-63.5" y="-73.66" rot="R180"/>
+<instance part="JP4A" gate="G$1" x="109.22" y="45.72"/>
+<instance part="JP3A" gate="G$1" x="109.22" y="-2.54"/>
 </instances>
 <busses>
 </busses>
@@ -6877,17 +7173,27 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <wire x1="-86.36" y1="-45.72" x2="-78.74" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY28" gate="+5V" pin="+5V"/>
 <wire x1="-78.74" y1="-45.72" x2="-78.74" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="JP7A" gate="G$1" pin="3"/>
+<wire x1="-66.04" y1="-45.72" x2="-78.74" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="-78.74" y="-45.72"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="3"/>
 <wire x1="30.48" y1="-48.26" x2="38.1" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="+5V" pin="+5V"/>
 <wire x1="38.1" y1="-48.26" x2="38.1" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="JP2A" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="-48.26" x2="38.1" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="38.1" y="-48.26"/>
 </segment>
 <segment>
 <pinref part="JP8" gate="A" pin="1"/>
 <pinref part="SUPPLY30" gate="+5V" pin="+5V"/>
-<wire x1="-86.36" y1="-78.74" x2="-78.74" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="JP8A" gate="G$1" pin="1"/>
+<wire x1="-66.04" y1="-78.74" x2="-68.58" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-78.74" x2="-86.36" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-66.04" x2="-68.58" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-78.74"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -7028,6 +7334,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="IC2" gate="G$1" pin="O1"/>
 <pinref part="JP3" gate="A" pin="1"/>
 <wire x1="88.9" y1="7.62" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="7.62" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="JP3A" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -7035,6 +7343,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="IC2" gate="G$1" pin="O2"/>
 <pinref part="JP3" gate="A" pin="2"/>
 <wire x1="88.9" y1="5.08" x2="101.6" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="JP3A" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="5.08" x2="101.6" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -7042,6 +7352,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="IC2" gate="G$1" pin="O3"/>
 <pinref part="JP3" gate="A" pin="3"/>
 <wire x1="88.9" y1="2.54" x2="101.6" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="JP3A" gate="G$1" pin="3"/>
+<wire x1="111.76" y1="2.54" x2="101.6" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -7049,6 +7361,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="IC2" gate="G$1" pin="O4"/>
 <pinref part="JP3" gate="A" pin="4"/>
 <wire x1="88.9" y1="0" x2="101.6" y2="0" width="0.1524" layer="91"/>
+<pinref part="JP3A" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="0" x2="101.6" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -7056,13 +7370,18 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="JP3" gate="A" pin="5"/>
 <pinref part="IC2" gate="G$1" pin="O5"/>
 <wire x1="101.6" y1="-2.54" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="JP3A" gate="G$1" pin="5"/>
+<wire x1="111.76" y1="-2.54" x2="101.6" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="O6"/>
 <pinref part="JP3" gate="A" pin="6"/>
-<wire x1="88.9" y1="-5.08" x2="101.6" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-5.08" x2="99.06" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="JP3A" gate="G$1" pin="6"/>
+<wire x1="99.06" y1="-5.08" x2="101.6" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-5.08" x2="101.6" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -7070,6 +7389,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="JP3" gate="A" pin="7"/>
 <pinref part="IC2" gate="G$1" pin="O7"/>
 <wire x1="101.6" y1="-7.62" x2="88.9" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="JP3A" gate="G$1" pin="7"/>
+<wire x1="111.76" y1="-7.62" x2="101.6" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -7077,13 +7398,18 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="IC2" gate="G$1" pin="O8"/>
 <pinref part="JP3" gate="A" pin="8"/>
 <wire x1="88.9" y1="-10.16" x2="101.6" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="JP3A" gate="G$1" pin="8"/>
+<wire x1="111.76" y1="-10.16" x2="101.6" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="O8"/>
 <pinref part="JP4" gate="A" pin="10"/>
-<wire x1="88.9" y1="35.56" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="JP4A" gate="G$1" pin="10"/>
+<wire x1="111.76" y1="35.56" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -7091,6 +7417,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="JP4" gate="A" pin="9"/>
 <pinref part="IC1" gate="G$1" pin="O7"/>
 <wire x1="101.6" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="JP4A" gate="G$1" pin="9"/>
+<wire x1="111.76" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -7098,6 +7426,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="IC1" gate="G$1" pin="O6"/>
 <pinref part="JP4" gate="A" pin="8"/>
 <wire x1="88.9" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="JP4A" gate="G$1" pin="8"/>
+<wire x1="111.76" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -7105,6 +7435,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="JP4" gate="A" pin="7"/>
 <pinref part="IC1" gate="G$1" pin="O5"/>
 <wire x1="101.6" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="JP4A" gate="G$1" pin="7"/>
+<wire x1="111.76" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -7112,6 +7444,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="IC1" gate="G$1" pin="O4"/>
 <pinref part="JP4" gate="A" pin="6"/>
 <wire x1="88.9" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="JP4A" gate="G$1" pin="6"/>
+<wire x1="111.76" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -7119,6 +7453,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="JP4" gate="A" pin="5"/>
 <pinref part="IC1" gate="G$1" pin="O3"/>
 <wire x1="101.6" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="JP4A" gate="G$1" pin="5"/>
+<wire x1="111.76" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -7126,6 +7462,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="IC1" gate="G$1" pin="O2"/>
 <pinref part="JP4" gate="A" pin="4"/>
 <wire x1="88.9" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="JP4A" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -7133,6 +7471,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <pinref part="JP4" gate="A" pin="3"/>
 <pinref part="IC1" gate="G$1" pin="O1"/>
 <wire x1="101.6" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="JP4A" gate="G$1" pin="3"/>
+<wire x1="111.76" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ENC0PINC" class="0">
@@ -7148,8 +7488,9 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 </segment>
 <segment>
 <pinref part="JP8" gate="A" pin="5"/>
-<wire x1="-86.36" y1="-68.58" x2="-71.12" y2="-68.58" width="0.1524" layer="91"/>
-<label x="-71.12" y="-68.58" size="1.778" layer="95"/>
+<wire x1="-86.36" y1="-68.58" x2="-66.04" y2="-68.58" width="0.1524" layer="91"/>
+<label x="-81.28" y="-68.58" size="1.778" layer="95"/>
+<pinref part="JP8A" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="EOL0R" class="0">
@@ -7165,15 +7506,17 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 </segment>
 <segment>
 <pinref part="JP7" gate="A" pin="1"/>
-<wire x1="-86.36" y1="-50.8" x2="-81.28" y2="-50.8" width="0.1524" layer="91"/>
 <label x="-81.28" y="-50.8" size="1.778" layer="95"/>
+<pinref part="JP7A" gate="G$1" pin="1"/>
+<wire x1="-86.36" y1="-50.8" x2="-66.04" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EOL0L" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="1"/>
-<wire x1="30.48" y1="-53.34" x2="35.56" y2="-53.34" width="0.1524" layer="91"/>
 <label x="35.56" y="-53.34" size="1.778" layer="95"/>
+<pinref part="JP2A" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="-53.34" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ARD1" gate="G$1" pin="AIN1"/>
@@ -7254,18 +7597,30 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 </segment>
 <segment>
 <pinref part="JP7" gate="A" pin="2"/>
-<wire x1="-76.2" y1="-48.26" x2="-86.36" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY29" gate="GND" pin="GND"/>
+<pinref part="JP7A" gate="G$1" pin="2"/>
+<wire x1="-86.36" y1="-48.26" x2="-68.58" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-48.26" x2="-66.04" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-53.34" x2="-68.58" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-48.26"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
-<wire x1="38.1" y1="-50.8" x2="30.48" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
+<pinref part="JP2A" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="-50.8" x2="43.18" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="43.18" y="-50.8"/>
+<wire x1="43.18" y1="-50.8" x2="45.72" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-50.8" x2="43.18" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP8" gate="A" pin="2"/>
 <pinref part="SUPPLY31" gate="GND" pin="GND"/>
-<wire x1="-86.36" y1="-76.2" x2="-81.28" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="JP8A" gate="G$1" pin="2"/>
+<wire x1="-66.04" y1="-76.2" x2="-76.2" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-76.2" x2="-86.36" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-81.28" x2="-76.2" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="-76.2" y="-76.2"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="GND2"/>
@@ -7331,9 +7686,13 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 <wire x1="93.98" y1="58.42" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="1"/>
-<wire x1="101.6" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <junction x="93.98" y="58.42"/>
 <pinref part="SUPPLY6" gate="+15V" pin="+15V"/>
+<wire x1="111.76" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="JP4A" gate="G$1" pin="1"/>
+<pinref part="JP4A" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="+15V" pin="+15V"/>
@@ -7455,8 +7814,9 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 </segment>
 <segment>
 <pinref part="JP8" gate="A" pin="4"/>
-<wire x1="-86.36" y1="-71.12" x2="-73.66" y2="-71.12" width="0.1524" layer="91"/>
-<label x="-73.66" y="-71.12" size="1.778" layer="95"/>
+<wire x1="-86.36" y1="-71.12" x2="-66.04" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-81.28" y="-71.12" size="1.778" layer="95"/>
+<pinref part="JP8A" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="ARD1" gate="G$1" pin="2"/>
@@ -7472,8 +7832,9 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB1R.pdf</description>
 </segment>
 <segment>
 <pinref part="JP8" gate="A" pin="3"/>
-<wire x1="-86.36" y1="-73.66" x2="-76.2" y2="-73.66" width="0.1524" layer="91"/>
-<label x="-76.2" y="-73.66" size="1.778" layer="95"/>
+<label x="-81.28" y="-73.66" size="1.778" layer="95"/>
+<pinref part="JP8A" gate="G$1" pin="3"/>
+<wire x1="-66.04" y1="-73.66" x2="-86.36" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ARD1" gate="G$1" pin="PWM/3"/>
