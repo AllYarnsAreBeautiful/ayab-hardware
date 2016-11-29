@@ -1,0 +1,32 @@
+,,,,,,,,,,,,,,
+,Line,QTY,Reference,Type,Value,Footprint,Pin Count,Side,Manf,Manf PN,Alt. Manf,Alt Manf PN,DIGI-KEY #,NOTES
+,1,1,-,PCB,AYAB-EMS-1 Circuit Board,-,-,-,Evil Mad Sci.,60-0043/D,,,-,OSHW FTW.
+,2,1,U1,Microcontroller,Adafruit Metro Mini ,,,BOT,Adafruit,,-,-,N/A,
+,3,2,U1,Header,"Header, 0.1"", 14-pin, male-male short",PTH,14,BOT,4UCon,17168,-,-,,
+,4,1,S1,Switch,Tactile button switch,SMT Switch,4,TOP,TE Connectivity,FSM4JSMATR,,,450-1129-ND,
+,13,1,L1,Buzzer,BUZZER MAGN 5V 2.4KHZ PCB,PTH,2,TOP,PUI,AT-1224-TWT-5V-2-R,,,668-1470-ND,
+,5,2,"C1,C4",Capacitor,1 uF Ceramic 1206,1206,2,TOP,Kemet,C1206C105M3RACTU,,,399-8148-1-ND,
+,6,1,C2,Capacitor,0.1 uF Ceramic 0603,0603,2,TOP,Kemet,C0603C104K3RACTU,,,C0603C104K3RACTU,
+,7,1,C3,Capacitor,"22 uF, 16V electrolytic ",SMT Cap.,2,TOP,Panasonic,EEE-1CA220SR,,,PCE3881CT-ND,
+,12,1,D1,Diode,DIODE SCHOTTKY 40V 2A,DO214AA,2,TOP,Micro Commercial,SK24-TP,,,SK24-TPCT-ND,
+,15,4,"D2, D3, D5, D6",LED,"SMT RA, blue, 90 mCd min.",0805,2,TOP,Lite-On,LTST-S220TBKT,,,160-2032-1-ND,
+,8,3,"R1, R7, R8",Resistor,"5k,  5%,  1/8 W",0805,2,TOP,Stackpole,RNCP0805FTD4K99,,,RNCP0805FTD4K99CT-ND,
+,10,4,"R2, R4, R5, R6",Resistor,"62, 1/4W or higher",0805,2,TOP,Rohm,ESR10EZPJ620,,,RHM62KCT-ND,
+,9,1,R3,Resistor,"330, 5%, 1/4W",0805,2,TOP,Rohm,ESR10EZPJ331,,,ESR10EZPJ331,
+,14,1,Q1,Transistor,NPN 40V 0.2A,SOT-23-3,2,TOP,ON Semi,MMBT3904LT1G,,,MMBT3904LT1GOSCT-ND,
+,16,2,"U2,U3",IC,"PCF8574, I2C IO Expander",SO-16W,16,TOP,NXP,"PCF8574T/3,518",,,568-1077-1-ND,
+,17,2,"U4, U5",IC,"ULN2803A, Transistor array",SO-18W,18,TOP,TI,ULN2803ADWR,,,296-15777-1-ND,
+,11,1,J5,Jack,"Power Jack, 2.1x5.1 mm, rated for 2A DC
+",PTH,3,BOT,CUI,CP-002AH-ND,,,CP-002AH-ND,Should be rated for at least 1 A.
+,18,2,"J2B, J6B",Molex Jack (2.5mm),"Molex 5267 Series, 3 position Male",PTH,3,TOP,Molex,99-99-0987,4UCON,1678,WM2889-ND,
+,19,1,J3B,Molex Jack (2.5mm),"Molex 5267 Series, 5 position Male",PTH,5,TOP,Molex,99-99-0989,4UCON,1680,WM2891-ND,
+,20,1,J4B,Molex Jack (2.5mm),"Molex 5267 Series, 8 position Male",PTH,8,TOP,Molex,99-99-0992,4UCON,1683,0099990992-ND,
+,21,1,J5B,Molex Jack (2.5mm),"Molex 5267 Series, 10 position Male",PTH,10,TOP,Molex,99-99-0994,4UCON,1685,0099990994-Nd,
+,22,2,"J2C,J6C",Molex Jack (2mm),"Molex 53014 series, 3 position male",PTH,3,TOP,Molex,53014-0310,,,WM18967-ND,
+,23,1,J3C,Molex Jack (2mm),"Molex 53014 series, 5 position male",PTH,5,TOP,Molex,54014-0510,,,WM18968-ND,
+,24,1,J4C,Molex Jack (2mm),"Molex 53014 series, 8 position male",PTH,8,TOP,Molex,53014-0810,,,WM18971-ND,
+,25,1,J5C,Molex Jack (2mm),"Molex 53014 series, 10 position male",PTH,10,TOP,Molex,53014-1010,,,WM18973-ND,
+,26,1,J7A,Latching Header (2.5mm),"Hirose HNC series, 3 position male",PTH,3,TOP,Hirose,HNC2-2.5P-3DS(02),,,HNC2-2.5P-3DS(02)-ND,2.54 (0.1 inch) header substitute OK if unable to find
+,27,1,J3A,Latching Header (2.5mm),"Hirose HNC series, 8 position male",PTH,8,TOP,Hirose,HNC2-2.5P-8DS(02),,,H124015-ND,2.54 (0.1 inch) header substitute OK if unable to find
+,28,2,"J2A,J5A",Latching Header (2.5mm),"Hirose HNC series, 10 position male",PTH,10,TOP,Hirose,HNC2-2.5P-10DS(02),,,HNC2-2.5P-10DS(02)-ND,2.54 (0.1 inch) header substitute OK if unable to find
+,29,0,"J8, J9",Header,"4-pin PTH Male Pin, 2.54 mm pitch",PTH,4,TOP,N/A,N/A,,,,Optional I2C breakout pins
