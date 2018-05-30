@@ -1,4 +1,4 @@
-AYAB-EMS Interface Board - Rev D
+AYAB-EMS Interface Board - Rev E
 Designed by Evil Mad Scientist Laboratories
 in cooperation with ayab-knitting.com
 
@@ -15,7 +15,7 @@ ayab_rs.bottommask.gbr		  	- bottom soldermask
 ayab_rs.bottomsilk.gbr			- Bottom Silkscreen
 
 ayab_rs.plated-drill.cnc      		- NC drill file (For plated holes)
-ayab_rs.unplated-drill.cnc    		- NC drill file (for Unplated holes)
+ayab_rs.unplated-drill.cnc    		- NC drill file (for unplated holes)
 
 ayab_rs.DrillDrawing.gbr   	 	- drill Drawing with outline 
 ayab_rs.outline.gbr			- Outline drawing
@@ -40,6 +40,9 @@ One V-score is required for a break-off tab.
 
 Min Trace/Space: 8 mil
 Min. Annular Ring: 12 mil
+
+
+The following additional specifications are default for this board:
 
 Finish: Pb-Free HASL, RoHS Compliant
 Soldermask: BLACK LPI, both sides
