@@ -1,7 +1,8 @@
+# $Id$
 # PcbXY Version 1.0
-# Date: Fri Dec 25 22:38:12 2015 UTC
+# Date: 2018-05-30 20:36:34 UTC
 # Author: Windell H. Oskay
-# Title: AYAB-RS_D - PCB X-Y
+# Title: AYAB-RS_E - PCB X-Y
 # RefDes, Description, Value, X, Y, rotation, top/bottom
 # X,Y in mil.  rotation in degrees.
 # --------------------------------------------
@@ -10,38 +11,37 @@ C3,"cap_elec_100uF_6V3V_Panasonic_EEVFK0J101UR","22_uF_16V",6837.25,500.00,180,t
 U1A,"JUMPER14","unknown",850.00,1100.00,180,top
 U1B,"JUMPER14B","unknown",1650.00,1100.00,0,top
 Q1,"SOT23_3","unknown",1255.00,1686.88,90,top
-J1,"2.5mmjack","unknown",6395.00,775.00,0,bottom
-U1,"MetroMini","METROMINI",1250.00,1100.00,180,bottom
+J1,"2.5mmjack","unknown",6395.00,775.00,-90,bottom
+U1,"MetroMini","METROMINI",1250.00,1100.00,90,bottom
 S1,"TYCO_FSMJSM","unknown",1250.00,760.00,0,top
-R4,"0805_reflow_solder_2","60",1100.00,1510.00,90,top
-R1,"0805_reflow_solder_2","5k",1215.00,1510.00,270,top
+R4,"0805_reflow_solder_2","62",1100.00,1510.00,90,top
+R1,"0805_reflow_solder_2","5k",1215.00,1510.00,-90,top
 C4,"1206_reflow_solder_2","1_uF",7160.00,775.00,90,top
 C1,"1206_reflow_solder_2","1_uF",1240.00,1150.00,180,top
 C2,"0603_reflow_solder","0.1_uF",1240.00,1260.00,0,top
 GND,"JUMPER1","unknown",1990.00,350.00,0,top
-R3,"0805_reflow_solder_2","430",4525.00,390.00,0,top
+R3,"0805_reflow_solder_2","320",4525.00,390.00,0,top
 D3,"LED_0805_RA_LT220","unknown",3898.10,391.00,0,top
 D6,"LED_0805_RA_LT220","unknown",3148.10,391.00,0,top
 D5,"LED_0805_RA_LT220","unknown",3398.10,391.00,0,top
 D2,"LED_0805_RA_LT220","unknown",3648.10,391.00,0,top
-R2,"0805_reflow_solder_2","100",4882.40,390.00,0,top
+R2,"0805_reflow_solder_2","62",4882.40,390.00,0,top
 U4,"SO18W","unknown",9100.00,1575.00,0,top
-U2,"SO16W","unknown",8450.00,1575.00,270,top
-J8,"header_4_SIL_V_Wiggle_25mm.fp","unknown",2857.36,1943.94,270,top
-J9,"header_4_SIL_V_Wiggle_25mm.fp","unknown",2857.36,1818.94,270,top
+U2,"SO16W","unknown",8450.00,1575.00,-90,top
+J8,"header_4_SIL_V_Wiggle_25mm.fp","unknown",2857.36,1943.93,-90,top
+J9,"header_4_SIL_V_Wiggle_25mm.fp","unknown",2857.36,1818.93,-90,top
 5V,"JUMPER1","unknown",1815.00,350.00,0,top
-J3B,"Molex5267_5","unknown",2423.15,1315.00,270,top
-J2B,"Molex5267_3","unknown",371.57,400.00,270,top
-J4B,"Molex5267_8","unknown",2525.51,620.00,270,top
-J5B,"Molex5267_10","unknown",3607.91,620.00,270,top
-J6B,"Molex5267_3","unknown",10750.00,405.00,270,top
-R6,"0805_reflow_solder_2","100",2405.00,385.00,0,top
-R5,"0805_reflow_solder_2","100",2180.00,385.00,0,top
+J3B,"Molex5267_5","unknown",2423.15,1315.00,-90,top
+J2B,"Molex5267_3","unknown",371.57,400.00,-90,top
+J4B,"Molex5267_8","unknown",2525.51,620.00,-90,top
+J5B,"Molex5267_10","unknown",3607.91,620.00,-90,top
+J6B,"Molex5267_3","unknown",10750.00,405.00,-90,top
+R6,"0805_reflow_solder_2","62",2405.00,385.00,0,top
+R5,"0805_reflow_solder_2","62",2180.00,385.00,0,top
 GND2,"JUMPER1","unknown",6150.00,510.00,0,top
 9V,"JUMPER1","unknown",5950.00,510.00,0,top
 U5,"SO18W","unknown",4830.00,1580.00,0,top
-U3,"SO16W","unknown",4180.00,1560.00,270,top
-L1,"buzzer.fp","AT-1224-TWT-5V-2-R",3420.00,1425.00,270,top
+L1,"buzzer.fp","AT-1224-TWT-5V-2-R",3420.00,1425.00,-90,top
 (unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",5100.00,345.00,0,top
 (unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",160.00,1810.00,0,top
 (unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",1425.00,1695.00,0,top
@@ -51,21 +51,28 @@ L1,"buzzer.fp","AT-1224-TWT-5V-2-R",3420.00,1425.00,270,top
 (unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",10025.00,370.00,0,top
 (unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",6825.00,745.00,0,top
 (unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",8800.00,1345.00,0,top
-(unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",8800.00,1970.00,0,top
+(unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",8700.00,1810.00,0,top
 (unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",7375.00,1095.00,0,top
-(unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",5025.00,1955.00,0,top
-(unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",4005.00,1955.00,0,top
-(unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",4005.00,1240.00,0,top
+(unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",5145.00,1260.00,0,top
+(unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",3920.00,1245.00,0,top
 (unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",2550.00,1905.00,0,top
 (unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",575.00,545.00,0,top
 J7A,"(unknown)","(unknown)",353.43,890.41,90,top
-J5A,"(unknown)","(unknown)",7899.21,678.03,90,top
-J2A,"(unknown)","(unknown)",10349.21,983.03,90,top
+J5A,"(unknown)","(unknown)",7899.22,678.03,90,top
+J2A,"(unknown)","(unknown)",10349.22,983.03,90,top
 J3A,"(unknown)","(unknown)",9434.49,673.03,90,top
-J4C,"(unknown)","(unknown)",2594.41,830.00,270,top
-J3C,"(unknown)","(unknown)",2312.52,1043.31,270,top
-J5C,"(unknown)","(unknown)",3640.67,855.00,270,top
-J2C,"(unknown)","(unknown)",370.00,1150.00,270,top
-J6C,"(unknown)","(unknown)",10331.26,410.00,270,top
+J4C,"(unknown)","(unknown)",2594.41,830.00,-90,top
+J3C,"(unknown)","(unknown)",2312.52,1043.31,-90,top
+J5C,"(unknown)","(unknown)",3640.67,855.00,-90,top
+J2C,"(unknown)","(unknown)",370.00,1150.00,-90,top
+J6C,"(unknown)","(unknown)",10331.26,410.00,-90,top
 R8,"0805_reflow_solder_2","5k",390.00,1810.00,0,top
 R7,"0805_reflow_solder_2","5k",390.00,1700.00,0,top
+RN4,"ResArray_1206x4","unknown",4076.77,1246.54,-90,top
+C5,"1206_reflow_solder_2","1_uF",8105.00,1545.00,0,top
+RN3,"ResArray_1206x4","unknown",3867.25,1739.61,-90,top
+C6,"1206_reflow_solder_2","1_uF",3825.00,1595.00,180,top
+U3,"SO16W","unknown",4180.00,1560.00,-90,top
+(unknown),"FIDUCIAL__pad-50-100-100.fp","(unknown)",4470.00,1865.00,0,top
+RN2,"ResArray_1206x4","unknown",8350.75,1248.46,-90,top
+RN1,"ResArray_1206x4","unknown",8084.25,1753.46,-90,top
