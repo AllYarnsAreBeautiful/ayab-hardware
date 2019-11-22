@@ -1,34 +1,31 @@
-Line,QTY,Reference,Type,Value,Footprint,Pin Count,Side,Manf,Manf PN,Alt. Manf,Alt Manf PN,DIGI-KEY #,Fabrication note
-1,1,-,PCB,AYAB-EMS-1 Circuit Board,-,-,-,-,60-0043/E,,,-,
-2,0,U1,Microcontroller,Adafruit Metro Mini ,,,BOT,Adafruit,,-,-,N/A,DO NOT POPULATE. Mask holes if wave soldered
-3,2,U1,Header,"Header, 0.1"", 14-pin, male-male short",PTH,14,BOT,4UCon,17168,-,-,,
-4,1,S1,Switch,Tactile button switch,SMT Switch,4,TOP,TE Connectivity,FSM4JSMATR,,,450-1129-ND,
-5,1,L1,Buzzer,BUZZER MAGN 5V 2.4KHZ PCB,PTH,2,TOP,PUI,AT-1224-TWT-5V-2-R,,,668-1470-ND,
-6,4,"C1,C4,C5,C6",Capacitor,1 uF Ceramic 1206,1206,2,TOP,Kemet,C1206C105M3RACTU,,,399-8148-1-ND,
-7,1,C2,Capacitor,0.1 uF Ceramic 0603,0603,2,TOP,Kemet,C0603C104K3RACTU,,,C0603C104K3RACTU,
-8,1,C3,Capacitor,"22 uF, 16V electrolytic ",SMT Cap.,2,TOP,Panasonic,EEE-1CA220SR,,,PCE3881CT-ND,
-9,1,D1,Diode,DIODE SCHOTTKY 40V 2A,DO214AA,2,TOP,Micro Commercial,SK24-TP,,,SK24-TPCT-ND,
-10,4,"D2, D3, D5, D6",LED,"SMT RA, blue, 90 mCd min.",0805,2,TOP,Lite-On,LTST-S220TBKT,,,160-2032-1-ND,
-11,3,"R1, R7, R8",Resistor,"5k,  5%,  1/8 W",0805,2,TOP,Stackpole,RNCP0805FTD4K99,,,RNCP0805FTD4K99CT-ND,
-12,4,"R2, R4, R5, R6",Resistor,"62, 1/4W or higher",0805,2,TOP,Rohm,ESR10EZPJ620,,,RHM62KCT-ND,
-13,1,R3,Resistor,"330, 5%, 1/4W",0805,2,TOP,Rohm,ESR10EZPJ331,,,ESR10EZPJ331,
-14,4,"RN1,RN2,RN3,RN4",Resistor array,"1k, 5%, 4 X Isolated array",1206,8,TOP,Yageo,YC164-JR-071KL,,,YC164J-1.0KCT-ND,
-15,1,Q1,Transistor,NPN 40V 0.2A,SOT-23-3,2,TOP,ON Semi,MMBT3904LT1G,,,MMBT3904LT1GOSCT-ND,
-16,2,"U2,U3",IC,"PCF8574, I2C IO Expander",16-SOIC,16,TOP,NXP,"PCF8574ADWR",,,296-13105-1-ND,
-17,2,"U4, U5",IC,"ULN2803A, Transistor array",SO-18W,18,TOP,TI,ULN2803ADWR,,,296-15777-1-ND,
-18,1,J5,Jack,"Power Jack, 2.1x5.1 mm, rated for 2A DC
-",PTH,3,BOT,CUI,CP-002AH-ND,,,CP-002AH-ND,Bottom side of PCB
-19,2,"J2B, J6B",Molex Jack (2.5mm),"Molex 5267 Series, 3 position Male",PTH,3,TOP,Molex,99-99-0987,4UCON,1678,WM2889-ND,Orientation of connectors is critical
-20,1,J3B,Molex Jack (2.5mm),"Molex 5267 Series, 5 position Male",PTH,5,TOP,Molex,99-99-0989,4UCON,1680,WM2891-ND,Orientation of connectors is critical
-21,1,J4B,Molex Jack (2.5mm),"Molex 5267 Series, 8 position Male",PTH,8,TOP,Molex,99-99-0992,4UCON,1683,0099990992-ND,Orientation of connectors is critical
-22,1,J5B,Molex Jack (2.5mm),"Molex 5267 Series, 10 position Male",PTH,10,TOP,Molex,99-99-0994,4UCON,1685,0099990994-Nd,Orientation of connectors is critical
-23,2,"J2C,J6C",Molex Jack (2mm),"Molex 53014 series, 3 position male",PTH,3,TOP,Molex,53014-0310,,,WM18967-ND,Orientation of connectors is critical
-24,1,J3C,Molex Jack (2mm),"Molex 53014 series, 5 position male",PTH,5,TOP,Molex,53014-0510,,,WM18968-ND,DO NOT POPULATE. Mask holes if wave soldered
-25,1,J4C,Molex Jack (2mm),"Molex 53014 series, 8 position male",PTH,8,TOP,Molex,53014-0810,,,WM18971-ND,DO NOT POPULATE. Mask holes if wave soldered
-26,1,J5C,Molex Jack (2mm),"Molex 53014 series, 10 position male",PTH,10,TOP,Molex,53014-1010,,,WM18973-ND,DO NOT POPULATE. Mask holes if wave soldered
-27,1,J7A,Latching Header (2.5mm),"Hirose HNC series, 3 position male",PTH,3,TOP,Hirose,HNC2-2.5P-3DS(02),,,HNC2-2.5P-3DS(02)-ND,Orientation of connectors is critical
-28,1,J3A,Latching Header (2.5mm),"Hirose HNC series, 8 position male",PTH,8,TOP,Hirose,HNC2-2.5P-8DS(02),,,H124015-ND,Orientation of connectors is critical
-29,2,"J2A,J5A",Latching Header (2.5mm),"Hirose HNC series, 10 position male",PTH,10,TOP,Hirose,HNC2-2.5P-10DS(02),,,HNC2-2.5P-10DS(02)-ND,Orientation of connectors is critical
-30,0,"J8, J9",Header,"4-pin PTH Male Pin, 2.54 mm pitch",PTH,4,TOP,,,,,,DO NOT POPULATE. Mask holes if wave soldered
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
+Line,QTY,Reference,Type,Value,Footprint,Pin Count,Side,Manf,Manf PN,Alt. Manf,Alt Manf PN,DIGI-KEY #,Mouser #,Fabrication note
+1,1,-,PCB,AYAB-EMS-1 Circuit Board,,,,,60-0043/E,,,,,
+2,1,U1,Microcontroller,Adafruit Metro Mini,,28,BOT,Adafruit,2590,,,1528-1374-ND,485-2590,DO NOT POPULATE. Mask holes if wave soldered
+3,2,U1,Header,"Header, 0.1"", 14-pin, male-male short",PTH,14,BOT,4UCon,17168,,,,,
+4,1,S1,Switch,Tactile button switch,SMT Switch,4,TOP,TE Connectivity,FSM4JSMATR,,,450-1129-ND,506-FSM4JSMATR,
+5,1,L1,Buzzer,BUZZER MAGN 5V 2.4KHZ PCB,PTH,2,TOP,PUI,AT-1224-TWT-5V-2-R,,,668-1470-ND,665-AT1224TWT5V2R,
+6,4,"C1,C4,C5,C6",Capacitor,1 uF Ceramic 1206,1206,2,TOP,Kemet,C1206C105M3RACTU,,,399-8148-1-ND,80-C1206C105M3R,
+7,1,C2,Capacitor,0.1 uF Ceramic 0603,603,2,TOP,Kemet,C0603C104K3RACTU,,,C0603C104K3RACTU,80-C0603C104K3R,
+8,1,C3,Capacitor,"22 uF, 16V electrolytic ",SMT Cap.,2,TOP,Panasonic,EEE-1CA220SR,,,PCE3881CT-ND,667-EEE-1CA220SR,
+9,1,D1,Diode,DIODE SCHOTTKY 40V 2A,DO214AA,2,TOP,Micro Commercial,SK24-TP,,,SK24-TPCT-ND,833-SK24-TP,
+10,4,"D2, D3, D5, D6",LED,"SMT RA, blue, 90 mCd min.",805,2,TOP,Lite-On,LTST-S220TBKT,,,160-2032-1-ND,859-LTST-S220TBKT,
+11,3,"R1, R7, R8",Resistor,"5k,  5%,  1/8 W",805,2,TOP,Stackpole,RNCP0805FTD4K99,Bourns,CR0805-FX-4991ELF,RNCP0805FTD4K99CT-ND,652-CR0805FX-4991ELF,
+12,4,"R2, R4, R5, R6",Resistor,"62, 1/4W or higher",805,2,TOP,Rohm,ESR10EZPJ620,,,RHM62KCT-ND,755-ESR10EZPJ620,
+13,1,R3,Resistor,"330, 5%, 1/4W",805,2,TOP,Rohm,ESR10EZPJ331,,,ESR10EZPJ331,755-ESR10EZPJ331,
+14,4,"RN1,RN2,RN3,RN4",Resistor array,"1k, 5%, 4 X Isolated array",1206,8,TOP,Yageo,YC164-JR-071KL,Bourns,CAT16-102J4GLF,YC164J-1.0KCT-ND,652-CAT16-102J4GLF,
+15,1,Q1,Transistor,NPN 40V 0.2A,SOT-23-3,2,TOP,ON Semi,MMBT3904LT1G,,,MMBT3904LT1GOSCT-ND,863-MMBT3904LT1G,
+16,2,"U2,U3",IC,"PCF8574, I2C IO Expander",16-SOIC,16,TOP,NXP,PCF8574ADWR,,,296-13105-1-ND,595-PCF8574ADWR,
+17,2,"U4, U5",IC,"ULN2803A, Transistor array",SO-18W,18,TOP,TI,ULN2803ADWR,,,296-15777-1-ND,595-ULN2803ADWR,
+18,1,J5,Jack,"Power Jack, 2.1x5.1 mm, rated for 2A DC",PTH,3,BOT,CUI,CP-002AH-ND,CUI,PJ-002AH,CP-002AH-ND,490-PJ-002AH,Bottom side of PCB
+19,2,"J2B, J6B",Molex Jack (2.5mm),"Molex 5267 Series, 3 position Male",PTH,3,TOP,Molex,99-99-0987,4UCON,1678,WM2889-ND,538-99-99-0987,Orientation of connectors is critical
+20,1,J3B,Molex Jack (2.5mm),"Molex 5267 Series, 5 position Male",PTH,5,TOP,Molex,99-99-0989,4UCON,1680,WM2891-ND,538-99-99-0989,Orientation of connectors is critical
+21,1,J4B,Molex Jack (2.5mm),"Molex 5267 Series, 8 position Male",PTH,8,TOP,Molex,99-99-0992,4UCON,1683,0099990992-ND,538-99-99-0992,Orientation of connectors is critical
+22,1,J5B,Molex Jack (2.5mm),"Molex 5267 Series, 10 position Male",PTH,10,TOP,Molex,99-99-0994,4UCON,1685,0099990994-Nd,538-99-99-0994,Orientation of connectors is critical
+23,2,"J2C,J6C",Molex Jack (2mm),"Molex 53014 series, 3 position male",PTH,3,TOP,Molex,53014-0310,Molex,53253-0870,WM18967-ND,538-53253-0870,Orientation of connectors is critical
+24,1,J3C,Molex Jack (2mm),"Molex 53014 series, 5 position male",PTH,5,TOP,Molex,53014-0510,Molex,53253-1070,WM18968-ND,538-53253-1070,DO NOT POPULATE. Mask holes if wave soldered
+25,1,J4C,Molex Jack (2mm),"Molex 53014 series, 8 position male",PTH,8,TOP,Molex,53014-0810,Molex,53253-0370,WM18971-ND,538-53253-0370,DO NOT POPULATE. Mask holes if wave soldered
+26,1,J5C,Molex Jack (2mm),"Molex 53014 series, 10 position male",PTH,10,TOP,Molex,53014-1010,Molex,53253-0570,WM18973-ND,538-53253-0570,DO NOT POPULATE. Mask holes if wave soldered
+27,1,J7A,Latching Header (2.5mm),"Hirose HNC series, 3 position male",PTH,3,TOP,Hirose,HNC2-2.5P-3DS(02),,,HNC2-2.5P-3DS(02)-ND,798-HNC2-2.5P-3DS02,Orientation of connectors is critical
+28,1,J3A,Latching Header (2.5mm),"Hirose HNC series, 8 position male",PTH,8,TOP,Hirose,HNC2-2.5P-8DS(02),,,H124015-ND,798-HNC2-2.5P-8DS02,Orientation of connectors is critical
+29,2,"J2A,J5A",Latching Header (2.5mm),"Hirose HNC series, 10 position male",PTH,10,TOP,Hirose,HNC2-2.5P-10DS(02),,,HNC2-2.5P-10DS(02)-ND,798-HNC22.5P10DS02,Orientation of connectors is critical
+30,2,"J8, J9",Header,"4-pin PTH Male Pin, 2.54 mm pitch",PTH,4,TOP,,,,,,,DO NOT POPULATE. Mask holes if wave soldered
