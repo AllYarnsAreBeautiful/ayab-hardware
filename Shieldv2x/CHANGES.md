@@ -9,7 +9,7 @@
 - EMS catalog number removed and Woolly Logic PCB code substituted
 - OSHW logo addded
 - Woolly Logic logo added
-- SMD Tantalum capacitor substituted for SMD electrolytic capacitor C1
+- SMD Tantalum capacitor substituted for SMD electrolytic capacitor C3
 
 ## Version E
 
