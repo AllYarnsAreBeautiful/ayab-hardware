@@ -90,7 +90,7 @@ device=Capacitor
 T 65200 47300 5 10 0 0 270 0 1
 symversion=0.1
 T 64300 47500 5 10 0 0 0 0 1
-footprint=cap_elec_100uF_6V3V_Panasonic_EEVFK0J101UR
+footprint=pcblib-newlib_geda_EIA7343
 T 64300 47500 5 10 0 0 0 0 1
 model-name=EEE-1CA220SR
 T 64800 46800 5 10 1 1 0 0 1
