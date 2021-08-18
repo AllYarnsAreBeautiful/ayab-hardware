@@ -28,14 +28,13 @@ ayab_rs.xy				- XY file for SMT Assembly
 The PCB specifications are as follows:
 
 All specifications given in INCHES or MILS.
-Board size (max): 11.000 x 2.070 INCHES   (279.4 mm x 52.6 mm) 
+Board size (max): 11.000 x 1.900 INCHES   (279.4 mm x 48.3 mm) 
 Material: FR4
 Thickness: 0.062" (1.6 mm) nominal
 Layers: 2
 Copper weight: 1 oz.
 
 Individual routing according to outline on ayab_rs.outline.gbr layer.
-One V-score is required for a break-off tab.
 
 
 Min Trace/Space: 8 mil
