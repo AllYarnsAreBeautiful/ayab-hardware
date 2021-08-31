@@ -1,4 +1,4 @@
-AYAB-EMS Interface Board - Rev E
+AYAB-EMS Interface Board - Rev F
 Designed by Evil Mad Scientist Laboratories
 in cooperation with ayab-knitting.com
 
@@ -19,10 +19,8 @@ ayab_rs.unplated-drill.cnc    		- NC drill file (for unplated holes)
 
 ayab_rs.DrillDrawing.gbr   	 	- drill Drawing with outline 
 ayab_rs.outline.gbr			- Outline drawing
-ayab_rs.VSCORE.gbr			- V-Score drawing
 
 ayab_rs.toppaste.gbr    	 	- Solder paste file (top)
-ayab_rs.xy				- XY file for SMT Assembly
 
 
 The PCB specifications are as follows:
@@ -58,4 +56,3 @@ RoHS Compliant fabrication
 Full electrical test of printed circuit boards is required.
 
 NO CHANGE to any copper without prior approval.
-
