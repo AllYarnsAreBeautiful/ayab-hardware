@@ -1178,7 +1178,7 @@ Note: Pin numbers of the connectors have been
 reversed as needed to match connector pin 
 numbering as per Molex/Hirose datasheets.
 
-T 67100 56100 1 12 1 0 0 0 2
+T 67900 56100 1 12 1 0 0 0 2
 NOTE: 5V power supply derived entirely from 
 USB input. Limit total draw to 500 mA.
 C 67000 46800 1 90 0 resistor-1.sym
