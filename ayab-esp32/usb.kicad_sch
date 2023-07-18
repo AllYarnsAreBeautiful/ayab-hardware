@@ -6,9 +6,11 @@
 
   (title_block
     (title "USB & ESD")
-    (date "2023-06-17")
-    (rev "1.0")
-    (company "matei repair lab")
+    (date "2023-07-17")
+    (rev "0.1")
+    (company "matei")
+    (comment 1 "ayab-knitting.com")
+    (comment 2 "distributed under CC-BY-SA-4.0")
   )
 
   (lib_symbols
@@ -877,6 +879,9 @@
   (junction (at 182.88 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 5228eee5-3397-4f5d-815b-e9591856e09a)
   )
+  (junction (at 147.32 74.93) (diameter 0) (color 0 0 0 0)
+    (uuid 5d97f1bd-1a83-4a8a-8d39-e158a0b00e64)
+  )
   (junction (at 149.86 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 62e3117d-a8ca-4ccc-b5b0-8499382841ac)
   )
@@ -931,6 +936,10 @@
     (stroke (width 0) (type default))
     (uuid 27844c04-3d11-4309-84f5-54db6ebdb4f4)
   )
+  (wire (pts (xy 147.32 74.93) (xy 171.45 74.93))
+    (stroke (width 0) (type default))
+    (uuid 2b17a122-1574-4be0-b046-18715cec3c1d)
+  )
   (wire (pts (xy 149.86 105.41) (xy 160.02 105.41))
     (stroke (width 0) (type default))
     (uuid 2f8faf9e-0eca-4d3b-b618-2d2541be2cb8)
@@ -950,6 +959,14 @@
   (wire (pts (xy 149.86 102.87) (xy 149.86 105.41))
     (stroke (width 0) (type default))
     (uuid 5ce767fc-dbe5-40e4-9e44-c72b35d2bd48)
+  )
+  (wire (pts (xy 151.13 69.85) (xy 147.32 69.85))
+    (stroke (width 0) (type default))
+    (uuid 61e794b7-20c1-4ebb-be09-c79db9ec3e02)
+  )
+  (wire (pts (xy 147.32 69.85) (xy 147.32 74.93))
+    (stroke (width 0) (type default))
+    (uuid 6a86ceec-a0b2-4538-82e2-27704c9b370b)
   )
   (wire (pts (xy 129.54 80.01) (xy 135.89 80.01))
     (stroke (width 0) (type default))
@@ -1019,7 +1036,7 @@
     (stroke (width 0) (type default))
     (uuid e75682a8-c6df-44cb-ba55-3665889da94e)
   )
-  (wire (pts (xy 129.54 74.93) (xy 171.45 74.93))
+  (wire (pts (xy 129.54 74.93) (xy 147.32 74.93))
     (stroke (width 0) (type default))
     (uuid e8a2fa92-f727-4ea2-b026-fdf22fefef0f)
   )
@@ -1040,11 +1057,6 @@
     (uuid fb47c60a-a3d6-4bd6-be3c-4664e704067f)
   )
 
-  (label "USB_5V" (at 151.13 74.93 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3309461f-9ec9-4f09-8ce5-3188505d8775)
-  )
-
   (hierarchical_label "USB_M" (shape bidirectional) (at 135.89 86.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2125bf52-4de5-4c83-b2d1-1b966fb8f338)
@@ -1052,6 +1064,10 @@
   (hierarchical_label "UCPD_CC2" (shape bidirectional) (at 135.89 82.55 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2f0b02ba-95ad-491b-935d-34e1ba51eb53)
+  )
+  (hierarchical_label "USB_VBUS" (shape output) (at 151.13 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 4cbc44f1-030c-4c68-be4f-d4bcacd7a7c5)
   )
   (hierarchical_label "USB_P" (shape bidirectional) (at 135.89 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1215,7 +1231,7 @@
   (symbol (lib_id "Device:C_Small") (at 160.02 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f38dda2-81f2-49ba-949e-98b121097ad0)
-    (property "Reference" "C?" (at 157.48 99.0663 0)
+    (property "Reference" "C202" (at 157.48 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47p" (at 157.48 101.6063 0)
@@ -1232,7 +1248,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7889acbf-96cc-4a04-a98d-615c06d1b134"
-          (reference "C?") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
       (project "stm32g431-mt6701-stspin233"
@@ -1249,7 +1265,7 @@
   (symbol (lib_id "power:GND") (at 160.02 107.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d12a79b-570b-451d-a1ab-b9384f16b03a)
-    (property "Reference" "#PWR?" (at 160.02 114.3 0)
+    (property "Reference" "#PWR0107" (at 160.02 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 109.22 0)
@@ -1265,7 +1281,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7889acbf-96cc-4a04-a98d-615c06d1b134"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
       (project "stm32g431-mt6701-stspin233"
@@ -1318,7 +1334,7 @@
   (symbol (lib_id "Device:C_Small") (at 149.86 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb323398-3b6f-4a42-a847-71234d3d92ba)
-    (property "Reference" "C?" (at 147.32 99.0663 0)
+    (property "Reference" "C201" (at 147.32 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47p" (at 147.32 101.6063 0)
@@ -1335,7 +1351,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7889acbf-96cc-4a04-a98d-615c06d1b134"
-          (reference "C?") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
       (project "stm32g431-mt6701-stspin233"

@@ -1,2 +1,5 @@
 *.pcb-*
 *.sch~*
+*.DS_Store
+*-backups
+*fp-info-cache

@@ -5,10 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "MECHANICAL INTERFACE")
-    (date "2023-04-16")
-    (rev "1.0")
-    (company "matei repair lab")
+    (title "SOLENOID DRIVERS")
+    (date "2023-07-17")
+    (rev "0.1")
+    (company "matei")
+    (comment 1 "ayab-knitting.com")
+    (comment 2 "distributed under CC-BY-SA-4.0")
   )
 
   (lib_symbols
@@ -1209,7 +1211,7 @@
     (stroke (width 0) (type default))
     (uuid 5498d115-15a3-4ef0-a1a6-d829a8c22705)
   )
-  (wire (pts (xy 180.34 99.06) (xy 180.34 100.33))
+  (wire (pts (xy 180.34 97.79) (xy 180.34 100.33))
     (stroke (width 0) (type default))
     (uuid 54d5ed0c-4269-48c6-a85b-0869919490eb)
   )
@@ -1647,10 +1649,6 @@
     (stroke (width 0) (type default))
     (uuid a652f6fc-1c82-4826-a365-7b6a910b293a)
   )
-  (wire (pts (xy 60.96 100.33) (xy 60.325 100.33))
-    (stroke (width 0) (type default))
-    (uuid a7b48b6b-b01b-4fb9-a829-9bed1ab04188)
-  )
   (wire (pts (xy 218.44 39.37) (xy 218.44 36.83))
     (stroke (width 0) (type default))
     (uuid a865c706-4167-4ff8-9845-986da576133c)
@@ -1956,7 +1954,7 @@
     (stroke (width 0) (type default))
     (uuid e373d935-bea9-44c2-a480-9457b9e26814)
   )
-  (wire (pts (xy 60.325 99.06) (xy 60.325 100.33))
+  (wire (pts (xy 60.96 97.79) (xy 60.96 100.33))
     (stroke (width 0) (type default))
     (uuid e3890885-95e5-4a24-ab27-f365d98e8dd4)
   )
@@ -2239,19 +2237,19 @@
     (uuid f5be4d71-2050-4bf4-999f-f5cf24f29c98)
   )
 
-  (hierarchical_label "SOL_OUT" (shape output) (at 146.05 144.78 0) (fields_autoplaced)
+  (hierarchical_label "{SOL}" (shape output) (at 146.05 144.78 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7224703b-3440-4893-b407-fe0d76b99636)
   )
-  (hierarchical_label "DRV_IN" (shape input) (at 153.67 27.94 180) (fields_autoplaced)
+  (hierarchical_label "{MCU_SOL}" (shape input) (at 153.67 27.94 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9861b540-af27-442a-9d44-120b83f8c7e4)
   )
-  (hierarchical_label "DRV_IN" (shape input) (at 34.29 27.94 180) (fields_autoplaced)
+  (hierarchical_label "{MCU_SOL}" (shape input) (at 34.29 27.94 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a1449b70-7555-4136-92a6-5f5b0765c511)
   )
-  (hierarchical_label "SOL_OUT" (shape output) (at 264.16 144.78 0) (fields_autoplaced)
+  (hierarchical_label "{SOL}" (shape output) (at 264.16 144.78 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b19e6485-3be2-4081-8f6a-c86318164b01)
   )
@@ -2284,7 +2282,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R445") (unit 1)
         )
       )
     )
@@ -2318,7 +2316,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R409") (unit 1)
         )
       )
     )
@@ -2352,7 +2350,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R416") (unit 1)
         )
       )
     )
@@ -2385,7 +2383,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -2419,7 +2417,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R446") (unit 1)
         )
       )
     )
@@ -2467,7 +2465,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "U?") (unit 1)
+          (reference "U403") (unit 1)
         )
       )
     )
@@ -2501,7 +2499,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R418") (unit 1)
         )
       )
     )
@@ -2535,7 +2533,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R415") (unit 1)
         )
       )
     )
@@ -2602,7 +2600,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R436") (unit 1)
         )
       )
     )
@@ -2641,19 +2639,19 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 180.34 99.06 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 180.34 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 356098cb-d710-4b9a-8491-0c45a1904d47)
-    (property "Reference" "#PWR0209" (at 180.34 102.87 0)
+    (property "Reference" "#PWR0209" (at 180.34 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 180.34 95.885 0)
+    (property "Value" "+3V3" (at 180.34 94.615 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 180.34 99.06 0)
+    (property "Footprint" "" (at 180.34 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 180.34 99.06 0)
+    (property "Datasheet" "" (at 180.34 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1be94d26-21fe-46d4-a84c-bcf7aa52898e))
@@ -2699,7 +2697,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R414") (unit 1)
         )
       )
     )
@@ -2733,7 +2731,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R458") (unit 1)
         )
       )
     )
@@ -2767,7 +2765,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R456") (unit 1)
         )
       )
     )
@@ -2815,7 +2813,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "U?") (unit 1)
+          (reference "U404") (unit 1)
         )
       )
     )
@@ -2849,7 +2847,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R443") (unit 1)
         )
       )
     )
@@ -2883,7 +2881,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R429") (unit 1)
         )
       )
     )
@@ -2917,7 +2915,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R449") (unit 1)
         )
       )
     )
@@ -2951,7 +2949,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R412") (unit 1)
         )
       )
     )
@@ -2985,7 +2983,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R455") (unit 1)
         )
       )
     )
@@ -3019,7 +3017,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R430") (unit 1)
         )
       )
     )
@@ -3053,7 +3051,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R433") (unit 1)
         )
       )
     )
@@ -3087,7 +3085,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R408") (unit 1)
         )
       )
     )
@@ -3121,7 +3119,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R417") (unit 1)
         )
       )
     )
@@ -3155,7 +3153,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R421") (unit 1)
         )
       )
     )
@@ -3189,7 +3187,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R431") (unit 1)
         )
       )
     )
@@ -3223,7 +3221,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R460") (unit 1)
         )
       )
     )
@@ -3257,25 +3255,25 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R425") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 60.325 99.06 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 60.96 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79fa4272-f4ea-47a9-8b89-0119a2b28cd4)
-    (property "Reference" "#PWR0202" (at 60.325 102.87 0)
+    (property "Reference" "#PWR0202" (at 60.96 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 60.325 95.885 0)
+    (property "Value" "+3V3" (at 60.96 94.615 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 60.325 99.06 0)
+    (property "Footprint" "" (at 60.96 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 60.325 99.06 0)
+    (property "Datasheet" "" (at 60.96 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c3c999f0-eaad-4acd-a20a-83453b37ffaa))
@@ -3321,7 +3319,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R428") (unit 1)
         )
       )
     )
@@ -3355,7 +3353,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R426") (unit 1)
         )
       )
     )
@@ -3389,7 +3387,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R454") (unit 1)
         )
       )
     )
@@ -3423,7 +3421,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R448") (unit 1)
         )
       )
     )
@@ -3457,7 +3455,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R424") (unit 1)
         )
       )
     )
@@ -3491,7 +3489,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R462") (unit 1)
         )
       )
     )
@@ -3572,7 +3570,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "U?") (unit 1)
+          (reference "U406") (unit 1)
         )
       )
     )
@@ -3639,7 +3637,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R411") (unit 1)
         )
       )
     )
@@ -3673,7 +3671,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R423") (unit 1)
         )
       )
     )
@@ -3707,7 +3705,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R422") (unit 1)
         )
       )
     )
@@ -3774,7 +3772,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R447") (unit 1)
         )
       )
     )
@@ -3808,7 +3806,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R457") (unit 1)
         )
       )
     )
@@ -3842,7 +3840,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R410") (unit 1)
         )
       )
     )
@@ -3876,7 +3874,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R427") (unit 1)
         )
       )
     )
@@ -3910,7 +3908,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R413") (unit 1)
         )
       )
     )
@@ -3958,7 +3956,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "U?") (unit 1)
+          (reference "U405") (unit 1)
         )
       )
     )
@@ -3992,7 +3990,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R438") (unit 1)
         )
       )
     )
@@ -4025,7 +4023,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -4059,7 +4057,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R434") (unit 1)
         )
       )
     )
@@ -4093,7 +4091,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R420") (unit 1)
         )
       )
     )
@@ -4127,7 +4125,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R451") (unit 1)
         )
       )
     )
@@ -4161,7 +4159,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R453") (unit 1)
         )
       )
     )
@@ -4195,7 +4193,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R463") (unit 1)
         )
       )
     )
@@ -4229,7 +4227,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R432") (unit 1)
         )
       )
     )
@@ -4263,7 +4261,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R452") (unit 1)
         )
       )
     )
@@ -4297,7 +4295,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R442") (unit 1)
         )
       )
     )
@@ -4331,7 +4329,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R440") (unit 1)
         )
       )
     )
@@ -4365,7 +4363,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R444") (unit 1)
         )
       )
     )
@@ -4399,7 +4397,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R461") (unit 1)
         )
       )
     )
@@ -4433,7 +4431,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R419") (unit 1)
         )
       )
     )
@@ -4467,7 +4465,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R450") (unit 1)
         )
       )
     )
@@ -4501,7 +4499,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R459") (unit 1)
         )
       )
     )
@@ -4535,7 +4533,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R439") (unit 1)
         )
       )
     )
@@ -4662,7 +4660,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R437") (unit 1)
         )
       )
     )
@@ -4696,7 +4694,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R435") (unit 1)
         )
       )
     )
@@ -4730,7 +4728,7 @@
       )
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "R?") (unit 1)
+          (reference "R441") (unit 1)
         )
       )
     )
