@@ -502,8 +502,8 @@
     )
   )
 
-  (bus_alias "MCU_SOL" (members "MCU_SOL_0" "MCU_SOL_1" "MCU_SOL_2" "MCU_SOL_4" "MCU_SOL_5" "MCU_SOL_6" "MCU_SOL_7" "MCU_SOL_8" "MCU_SOL_9" "MCU_SOL_A" "MCU_SOL_B" "MCU_SOL_C" "MCU_SOL_D" "MCU_SOL_E" "MCU_SOL_F" "MCU_SOL_3"))
   (bus_alias "SOL" (members "SOL_0" "SOL_1" "SOL_2" "SOL_3" "SOL_4" "SOL_5" "SOL_6" "SOL_7" "SOL_8" "SOL_9" "SOL_A" "SOL_B" "SOL_C" "SOL_D" "SOL_E" "SOL_F"))
+  (bus_alias "MCU_SOL" (members "MCU_SOL_0" "MCU_SOL_1" "MCU_SOL_2" "MCU_SOL_4" "MCU_SOL_5" "MCU_SOL_6" "MCU_SOL_7" "MCU_SOL_8" "MCU_SOL_9" "MCU_SOL_A" "MCU_SOL_B" "MCU_SOL_C" "MCU_SOL_D" "MCU_SOL_E" "MCU_SOL_F" "MCU_SOL_3"))
   (junction (at 80.01 137.16) (diameter 0) (color 0 0 0 0)
     (uuid 0145c28b-a9e4-4d4d-b0e2-6600af141005)
   )
