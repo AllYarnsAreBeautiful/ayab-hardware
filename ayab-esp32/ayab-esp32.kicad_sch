@@ -1259,7 +1259,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 200.66 138.43 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 2904f84a-7ff3-4e9b-bdef-e2950649b3f4)
-    (property "Reference" "R?" (at 201.93 137.16 0)
+    (property "Reference" "R110" (at 201.93 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.1k" (at 201.93 139.7 0)
@@ -1276,7 +1276,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
+          (reference "R110") (unit 1)
         )
       )
     )
@@ -1386,7 +1386,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 198.12 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ccf5b91-b990-464a-9a7c-fdba84528dcf)
-    (property "Reference" "R?" (at 199.39 105.41 0)
+    (property "Reference" "R109" (at 199.39 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.1k" (at 199.39 107.95 0)
@@ -1403,7 +1403,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
+          (reference "R109") (unit 1)
         )
       )
     )
@@ -1412,7 +1412,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 208.28 138.43 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 6d9f2b8b-d6b3-4d49-89e3-3fa3a86d21b4)
-    (property "Reference" "R?" (at 209.55 137.16 0)
+    (property "Reference" "R112" (at 209.55 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.1k" (at 209.55 139.7 0)
@@ -1429,7 +1429,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
+          (reference "R112") (unit 1)
         )
       )
     )
@@ -2042,7 +2042,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 205.74 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0208037-53ca-4f32-af0a-573effda5296)
-    (property "Reference" "R?" (at 207.01 105.41 0)
+    (property "Reference" "R111" (at 207.01 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.1k" (at 207.01 107.95 0)
@@ -2059,7 +2059,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
+          (reference "R111") (unit 1)
         )
       )
     )

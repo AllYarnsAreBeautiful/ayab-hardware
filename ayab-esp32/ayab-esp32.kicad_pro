@@ -458,7 +458,8 @@
       "+3V3": "PWR",
       "+5V": "PWR",
       "/ESP32/USB_VBUS": "PWR",
-      "GND": "GND"
+      "GND": "GND",
+      "Net-(Q601-D)": "PWR"
     },
     "netclass_patterns": [
       {

@@ -2503,7 +2503,7 @@
   (symbol (lib_id "Device:C_Small") (at 267.97 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08689fd8-587a-438f-ab14-19fdd3635282)
-    (property "Reference" "C?" (at 270.51 44.4563 0)
+    (property "Reference" "C308" (at 270.51 44.4563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 270.51 46.9963 0)
@@ -2520,7 +2520,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "C?") (unit 1)
+          (reference "C308") (unit 1)
         )
       )
     )
@@ -2563,7 +2563,7 @@
   (symbol (lib_id "Device:C_Small") (at 148.59 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 166827a6-41d1-4025-b455-4cd83e9b55cf)
-    (property "Reference" "C?" (at 151.13 44.4563 0)
+    (property "Reference" "C306" (at 151.13 44.4563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 151.13 46.9963 0)
@@ -2580,7 +2580,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "C?") (unit 1)
+          (reference "C306") (unit 1)
         )
       )
     )
@@ -2903,7 +2903,7 @@
   (symbol (lib_id "Device:C_Small") (at 148.59 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38cf9921-3ec1-49ee-9789-12c1e825843a)
-    (property "Reference" "C?" (at 151.13 107.9563 0)
+    (property "Reference" "C307" (at 151.13 107.9563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 151.13 110.4963 0)
@@ -2920,7 +2920,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "C?") (unit 1)
+          (reference "C307") (unit 1)
         )
       )
     )
@@ -4762,7 +4762,7 @@
   (symbol (lib_id "Device:C_Small") (at 267.97 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7eedefa-3d5f-4e5c-823f-80542e699599)
-    (property "Reference" "C?" (at 270.51 107.9563 0)
+    (property "Reference" "C309" (at 270.51 107.9563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 270.51 110.4963 0)
@@ -4779,7 +4779,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774"
-          (reference "C?") (unit 1)
+          (reference "C309") (unit 1)
         )
       )
     )

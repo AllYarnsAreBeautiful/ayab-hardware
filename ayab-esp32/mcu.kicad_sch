@@ -9554,6 +9554,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 47034fb7-8309-420f-aafd-ad71cb1d0976)
   )
+  (label "JTAG_SEL" (at 189.23 78.74 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 49c22b6d-d06c-4a7f-b9d6-60b62ff30447)
+  )
   (label "BOOT1" (at 82.55 184.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5a74894a-9c11-4c63-a373-b8bd7f93130d)
@@ -10064,7 +10068,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 246.38 73.66 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 691e579d-8d46-4fc4-bf27-47bc5cdcbc9d)
-    (property "Reference" "R?" (at 245.11 68.58 90)
+    (property "Reference" "R202" (at 245.11 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "20k" (at 245.11 71.12 90)
@@ -10081,7 +10085,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "R?") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
@@ -10090,7 +10094,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 241.3 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e45b11a-4840-4552-910b-fceac085292f)
-    (property "Reference" "R?" (at 238.76 77.47 0)
+    (property "Reference" "R201" (at 238.76 77.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "30k" (at 238.76 80.01 0)
@@ -10107,7 +10111,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "R?") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )

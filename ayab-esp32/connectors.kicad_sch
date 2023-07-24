@@ -2498,7 +2498,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 113.03 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 554fbfa2-deab-4a8b-baa9-72a0ce4daeb3)
-    (property "Reference" "TP?" (at 111.76 106.68 0)
+    (property "Reference" "TP405" (at 111.76 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10" (at 111.76 109.22 0)
@@ -2514,7 +2514,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "TP?") (unit 1)
+          (reference "TP405") (unit 1)
         )
       )
     )
@@ -2742,7 +2742,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 106.68 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99224e29-8175-474c-9fc4-81a01feacd2e)
-    (property "Reference" "TP?" (at 105.41 106.68 0)
+    (property "Reference" "TP404" (at 105.41 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "9" (at 105.41 109.22 0)
@@ -2758,7 +2758,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "TP?") (unit 1)
+          (reference "TP404") (unit 1)
         )
       )
     )
@@ -3165,7 +3165,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 105.41 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de39a30d-5e56-464f-88f4-fca8bcf64d41)
-    (property "Reference" "J?" (at 107.95 177.8 0)
+    (property "Reference" "J401" (at 107.95 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06" (at 107.95 180.34 0)
@@ -3186,7 +3186,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J?") (unit 1)
+          (reference "J401") (unit 1)
         )
       )
     )
