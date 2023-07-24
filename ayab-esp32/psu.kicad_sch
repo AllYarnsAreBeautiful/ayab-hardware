@@ -2083,8 +2083,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 39eb64f0-6c53-4aeb-9105-a401d1bdf4b5)
   )
-  (text "is this current limit too high?\nwhat's appropriate?"
-    (at 54.61 67.31 0)
+  (text "Zener current \n5mA @ 6V -> 1.2k\n\n" (at 57.15 68.58 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 839661cf-8427-4a17-b161-8c5682b8922d)
   )
@@ -3877,7 +3876,7 @@
     (property "Reference" "R404" (at 68.58 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100k" (at 68.58 58.42 0)
+    (property "Value" "1.2k" (at 68.58 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 63.5 57.15 0)
