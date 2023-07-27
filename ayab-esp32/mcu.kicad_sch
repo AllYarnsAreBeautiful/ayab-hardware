@@ -9635,7 +9635,7 @@
     (uuid fa8ca95a-482a-4768-8d46-08d07b4c763c)
   )
 
-  (hierarchical_label "EOL_RIGHT" (shape input) (at 194.31 76.2 0) (fields_autoplaced)
+  (hierarchical_label "EOL_L_N" (shape input) (at 194.31 76.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 15fb3d01-8564-4b58-bc87-cd2a44001c8f)
   )
@@ -9647,7 +9647,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3a09db8c-1731-430a-a1f9-c993515c6056)
   )
-  (hierarchical_label "EOL_R_S" (shape input) (at 72.39 116.84 180) (fields_autoplaced)
+  (hierarchical_label "EOL_R_N" (shape input) (at 72.39 116.84 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4388bfaa-9268-40bb-80f0-3369629ba357)
   )
@@ -9675,7 +9675,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8d0c4485-1d71-46af-9a02-1afc6a79578f)
   )
-  (hierarchical_label "EOL_LEFT" (shape input) (at 194.31 73.66 0) (fields_autoplaced)
+  (hierarchical_label "EOL_L_P" (shape input) (at 194.31 73.66 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a820194c-ed85-4e43-ab3e-b3fa3cae595c)
   )
@@ -9695,7 +9695,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e284dd9c-9067-4b77-a5a7-f049c739a022)
   )
-  (hierarchical_label "EOL_R_N" (shape input) (at 194.31 124.46 0) (fields_autoplaced)
+  (hierarchical_label "EOL_R_P" (shape input) (at 194.31 124.46 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e57c9566-3f0f-4e5f-ace7-d909aea26c33)
   )
@@ -9719,7 +9719,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 68.58 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16c945e0-48b2-4cee-b4a7-ee073cb90134)
-    (property "Reference" "R301" (at 66.04 39.37 0)
+    (property "Reference" "R201" (at 66.04 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 66.04 41.91 0)
@@ -9736,7 +9736,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "R301") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -9745,7 +9745,7 @@
   (symbol (lib_id "power:GND") (at 157.48 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18aabd21-748a-416d-a7bd-0397a11e5046)
-    (property "Reference" "#PWR08" (at 157.48 184.15 0)
+    (property "Reference" "#PWR0208" (at 157.48 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 180.34 0)
@@ -9761,7 +9761,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -9770,10 +9770,10 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28fd7baa-a26f-4385-b329-0539de8355be)
-    (property "Reference" "C303" (at 148.59 40.6463 0)
+    (property "Reference" "C203" (at 148.59 40.6463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u" (at 148.59 43.18 0)
+    (property "Value" "100n" (at 148.59 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 146.05 41.91 0)
@@ -9787,7 +9787,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "C303") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -9796,7 +9796,7 @@
   (symbol (lib_id "Espressif:ESP32-S3-MINI-1") (at 130.81 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d21c261-ca50-430d-bfaf-51312341002d)
-    (property "Reference" "U301" (at 127 48.26 0)
+    (property "Reference" "U201" (at 127 48.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "ESP32-S3-MINI-1" (at 127 50.8 0)
@@ -9876,7 +9876,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "U301") (unit 1)
+          (reference "U201") (unit 1)
         )
       )
     )
@@ -9885,7 +9885,7 @@
   (symbol (lib_id "Transistor_FET:AO3400A") (at 224.79 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d436299-2de5-4ab2-9e73-12b24f842151)
-    (property "Reference" "Q301" (at 231.14 115.57 0)
+    (property "Reference" "Q201" (at 231.14 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AO3400A" (at 231.14 118.11 0)
@@ -9903,7 +9903,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "Q301") (unit 1)
+          (reference "Q201") (unit 1)
         )
       )
     )
@@ -9912,7 +9912,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 146.05 173.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 437e306a-9259-40da-9710-b01c2e5157ee)
-    (property "Reference" "R305" (at 143.51 171.45 90)
+    (property "Reference" "R204" (at 143.51 171.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 149.86 171.45 90)
@@ -9929,7 +9929,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "R305") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )
@@ -9938,10 +9938,10 @@
   (symbol (lib_id "Device:C_Small") (at 63.5 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43aa6e07-41b3-4cd2-98fb-6bde348b9bb1)
-    (property "Reference" "C301" (at 60.96 48.2663 0)
+    (property "Reference" "C201" (at 60.96 48.2663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (at 60.96 50.8063 0)
+    (property "Value" "100n" (at 60.96 50.8063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 63.5 49.53 0)
@@ -9955,7 +9955,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "C301") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -9964,7 +9964,7 @@
   (symbol (lib_id "power:GND") (at 241.3 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44eb774a-7cc7-4c46-9573-ab3a6af18ba0)
-    (property "Reference" "#PWR0203" (at 241.3 90.17 0)
+    (property "Reference" "#PWR0213" (at 241.3 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 86.36 0)
@@ -9980,7 +9980,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR0203") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -9989,7 +9989,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 91.44 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 490d479b-4e3c-4e5d-8e02-fdad945a5815)
-    (property "Reference" "R303" (at 88.9 171.45 0)
+    (property "Reference" "R202" (at 88.9 171.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 88.9 173.99 0)
@@ -10006,7 +10006,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "R303") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
@@ -10015,7 +10015,7 @@
   (symbol (lib_id "LED:WS2812B") (at 219.71 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ecb9147-0b12-47f5-ae00-476e63404a90)
-    (property "Reference" "D301" (at 213.36 45.7961 0)
+    (property "Reference" "D201" (at 213.36 45.7961 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "WS2812B" (at 212.09 48.26 0)
@@ -10034,7 +10034,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "D301") (unit 1)
+          (reference "D201") (unit 1)
         )
       )
     )
@@ -10043,7 +10043,7 @@
   (symbol (lib_id "power:GND") (at 63.5 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5720afa6-4865-47d1-b0e2-aa48bc1d66be)
-    (property "Reference" "#PWR012" (at 63.5 60.96 0)
+    (property "Reference" "#PWR0201" (at 63.5 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 57.15 0)
@@ -10059,7 +10059,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -10068,7 +10068,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 246.38 73.66 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 691e579d-8d46-4fc4-bf27-47bc5cdcbc9d)
-    (property "Reference" "R202" (at 245.11 68.58 90)
+    (property "Reference" "R208" (at 245.11 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "20k" (at 245.11 71.12 90)
@@ -10085,7 +10085,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "R202") (unit 1)
+          (reference "R208") (unit 1)
         )
       )
     )
@@ -10094,7 +10094,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 241.3 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e45b11a-4840-4552-910b-fceac085292f)
-    (property "Reference" "R201" (at 238.76 77.47 0)
+    (property "Reference" "R207" (at 238.76 77.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "30k" (at 238.76 80.01 0)
@@ -10111,7 +10111,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "R201") (unit 1)
+          (reference "R207") (unit 1)
         )
       )
     )
@@ -10120,7 +10120,7 @@
   (symbol (lib_id "Switch:SW_Push_45deg") (at 99.06 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e0c855a-111c-4ae0-861d-b7f454fd8d73)
-    (property "Reference" "SW302" (at 96.52 167.64 90)
+    (property "Reference" "SW202" (at 96.52 167.64 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BOOTSEL" (at 96.52 170.18 90)
@@ -10137,7 +10137,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "SW302") (unit 1)
+          (reference "SW202") (unit 1)
         )
       )
     )
@@ -10146,7 +10146,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 55.88 44.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 885a12d2-4973-4171-abec-91d9e0d70793)
-    (property "Reference" "SW301" (at 55.88 36.83 0)
+    (property "Reference" "SW201" (at 55.88 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RESET" (at 55.88 39.37 0)
@@ -10163,7 +10163,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "SW301") (unit 1)
+          (reference "SW201") (unit 1)
         )
       )
     )
@@ -10172,10 +10172,10 @@
   (symbol (lib_id "Device:C_Small") (at 135.89 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a5fe325-8838-49fd-b641-401e55a3ec7b)
-    (property "Reference" "C302" (at 138.43 40.6463 0)
+    (property "Reference" "C202" (at 138.43 40.6463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (at 138.43 43.1863 0)
+    (property "Value" "100n" (at 138.43 43.1863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 135.89 41.91 0)
@@ -10189,7 +10189,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "C302") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -10198,7 +10198,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 96.52 184.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d8180cd-9e0f-4852-8395-f96e8d20abda)
-    (property "Reference" "R304" (at 93.98 181.61 90)
+    (property "Reference" "R203" (at 93.98 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 100.33 181.61 90)
@@ -10215,7 +10215,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "R304") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -10224,7 +10224,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 227.33 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a22b8527-7e47-4787-9894-a09b9474b382)
-    (property "Reference" "R307" (at 229.87 105.41 0)
+    (property "Reference" "R206" (at 229.87 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0R" (at 229.87 107.95 0)
@@ -10241,7 +10241,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "R307") (unit 1)
+          (reference "R206") (unit 1)
         )
       )
     )
@@ -10250,7 +10250,7 @@
   (symbol (lib_id "Device:C_Small") (at 154.94 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a51c08a9-e253-4a0e-9108-e1ed6bf358ff)
-    (property "Reference" "C304" (at 157.48 40.6463 0)
+    (property "Reference" "C204" (at 157.48 40.6463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 157.48 43.1863 0)
@@ -10267,7 +10267,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "C304") (unit 1)
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -10276,7 +10276,7 @@
   (symbol (lib_id "power:GND") (at 130.81 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5fffda3-b4f3-4579-b301-9acebd7933da)
-    (property "Reference" "#PWR03" (at 130.81 143.51 0)
+    (property "Reference" "#PWR0206" (at 130.81 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 142.24 0)
@@ -10292,7 +10292,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -10301,7 +10301,7 @@
   (symbol (lib_id "power:+5V") (at 227.33 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af199c08-6a0e-4d4d-892a-5bf7330e57e2)
-    (property "Reference" "#PWR010" (at 227.33 96.52 0)
+    (property "Reference" "#PWR0211" (at 227.33 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 227.33 87.63 0)
@@ -10317,7 +10317,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -10326,7 +10326,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 212.09 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba0f1673-76a0-4104-9cad-8613a25fffb0)
-    (property "Reference" "R306" (at 214.63 120.65 0)
+    (property "Reference" "R205" (at 214.63 120.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 214.63 123.19 0)
@@ -10343,7 +10343,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "R306") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
     )
@@ -10352,7 +10352,7 @@
   (symbol (lib_id "Device:Buzzer") (at 232.41 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2c982ac-51dc-460b-9900-464d399bc426)
-    (property "Reference" "BZ301" (at 236.22 96.52 0)
+    (property "Reference" "BZ201" (at 236.22 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Buzzer" (at 236.22 99.06 0)
@@ -10369,7 +10369,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "BZ301") (unit 1)
+          (reference "BZ201") (unit 1)
         )
       )
     )
@@ -10378,7 +10378,7 @@
   (symbol (lib_id "power:GND") (at 219.71 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6f61a3b-670b-4582-b46b-57949c5c49a0)
-    (property "Reference" "#PWR013" (at 219.71 72.39 0)
+    (property "Reference" "#PWR0210" (at 219.71 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 68.58 0)
@@ -10394,7 +10394,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -10403,10 +10403,10 @@
   (symbol (lib_id "Device:C_Small") (at 232.41 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c84ec56f-80bd-4823-b701-4830dfab0be9)
-    (property "Reference" "C305" (at 234.95 54.6163 0)
+    (property "Reference" "C205" (at 234.95 54.6163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (at 234.95 57.1563 0)
+    (property "Value" "100n" (at 234.95 57.1563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 232.41 55.88 0)
@@ -10420,7 +10420,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "C305") (unit 1)
+          (reference "C205") (unit 1)
         )
       )
     )
@@ -10429,7 +10429,7 @@
   (symbol (lib_id "power:GND") (at 227.33 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb333821-bf2a-4929-af99-c95a8502c512)
-    (property "Reference" "#PWR011" (at 227.33 138.43 0)
+    (property "Reference" "#PWR0212" (at 227.33 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 227.33 137.16 0)
@@ -10445,7 +10445,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -10454,7 +10454,7 @@
   (symbol (lib_id "power:+3V3") (at 130.81 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc1cf170-5bd0-416a-98aa-d8e2a795d885)
-    (property "Reference" "#PWR04" (at 130.81 40.64 0)
+    (property "Reference" "#PWR0205" (at 130.81 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 130.81 31.75 0)
@@ -10470,7 +10470,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -10479,7 +10479,7 @@
   (symbol (lib_id "power:+5V") (at 219.71 45.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df1ffd2e-c6d0-45a5-968e-34c1263a0fdb)
-    (property "Reference" "#PWR06" (at 219.71 49.53 0)
+    (property "Reference" "#PWR0209" (at 219.71 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 219.71 40.64 0)
@@ -10495,7 +10495,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -10504,7 +10504,7 @@
   (symbol (lib_id "power:+3V3") (at 68.58 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef9c0ca2-2d28-489f-a686-79316a489c7c)
-    (property "Reference" "#PWR09" (at 68.58 40.64 0)
+    (property "Reference" "#PWR0202" (at 68.58 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 68.58 31.75 0)
@@ -10520,7 +10520,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -10529,7 +10529,7 @@
   (symbol (lib_id "power:+3V3") (at 91.44 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc531d5c-6b31-4c71-bc50-bd17688df6cb)
-    (property "Reference" "#PWR02" (at 91.44 172.72 0)
+    (property "Reference" "#PWR0203" (at 91.44 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 91.44 163.83 0)
@@ -10545,7 +10545,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -10554,7 +10554,7 @@
   (symbol (lib_id "power:GND") (at 154.94 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdceed8c-7dc0-4848-88e6-cd2594d68546)
-    (property "Reference" "#PWR05" (at 154.94 53.34 0)
+    (property "Reference" "#PWR0207" (at 154.94 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 49.53 0)
@@ -10570,7 +10570,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -10579,7 +10579,7 @@
   (symbol (lib_id "power:GND") (at 107.95 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe5b4a01-86c5-4682-b480-becb74f76304)
-    (property "Reference" "#PWR01" (at 107.95 194.31 0)
+    (property "Reference" "#PWR0204" (at 107.95 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 190.5 0)
@@ -10595,7 +10595,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )

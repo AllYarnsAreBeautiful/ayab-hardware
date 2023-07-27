@@ -454,11 +454,10 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "+12V": "PWR",
-      "+3V3": "PWR",
-      "+5V": "PWR",
       "/ESP32/USB_VBUS": "PWR",
       "GND": "GND",
+      "Net-(D601-K)": "PWR",
+      "Net-(JP501-B)": "PWR",
       "Net-(Q601-D)": "PWR"
     },
     "netclass_patterns": [
@@ -549,6 +548,10 @@
     [
       "512b1de4-f8f4-4173-a7be-69b46f59a5e5",
       "PSU"
+    ],
+    [
+      "a44519f5-2a17-4043-8636-a7b7c38f71bc",
+      "IO CONDITIONING"
     ]
   ],
   "text_variables": {}
