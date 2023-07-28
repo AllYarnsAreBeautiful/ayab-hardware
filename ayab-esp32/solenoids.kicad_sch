@@ -862,8 +862,8 @@
     (uuid ff4fc750-ee86-4aad-b8ba-06d094459bd5)
   )
 
-  (text "unmodified machine is 26W\nassuming all power is \nused by solenoids ~ 130mA each\n\nULN2003A max current 500mA each\n"
-    (at 21.59 146.05 0)
+  (text "unmodified machine is 26W\nassuming all power is \nused by solenoids ~ 130mA each\n\nULN2003A max current 500mA each output\n2.5A package current max\n"
+    (at 21.59 152.4 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 09ec5ff8-3d63-4506-a49f-19c358d512c2)
   )
