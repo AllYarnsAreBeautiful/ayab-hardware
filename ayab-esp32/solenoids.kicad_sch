@@ -14,7 +14,7 @@
   )
 
   (lib_symbols
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "ayab-esp32:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -65,7 +65,7 @@
         )
       )
     )
-    (symbol "Transistor_Array:ULN2003A" (in_bom yes) (on_board yes)
+    (symbol "ayab-esp32:ULN2003A" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 15.875 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1051,7 +1051,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 228.6 55.88 0) (unit 1)
+  (symbol (lib_id "ayab-esp32:C_Small") (at 228.6 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08689fd8-587a-438f-ab14-19fdd3635282)
     (property "Reference" "C303" (at 231.14 54.6163 0)
@@ -1077,7 +1077,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 132.08 55.88 0) (unit 1)
+  (symbol (lib_id "ayab-esp32:C_Small") (at 132.08 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 166827a6-41d1-4025-b455-4cd83e9b55cf)
     (property "Reference" "C301" (at 134.62 54.6163 0)
@@ -1103,7 +1103,7 @@
     )
   )
 
-  (symbol (lib_id "Transistor_Array:ULN2003A") (at 101.6 62.23 0) (unit 1)
+  (symbol (lib_id "ayab-esp32:ULN2003A") (at 101.6 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d6d9d82-162e-4570-a864-d8fabc2a476e)
     (property "Reference" "U?" (at 101.6 45.72 0)
@@ -1184,7 +1184,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 132.08 104.14 0) (unit 1)
+  (symbol (lib_id "ayab-esp32:C_Small") (at 132.08 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38cf9921-3ec1-49ee-9789-12c1e825843a)
     (property "Reference" "C302" (at 134.62 102.8763 0)
@@ -1210,7 +1210,7 @@
     )
   )
 
-  (symbol (lib_id "Transistor_Array:ULN2003A") (at 101.6 110.49 0) (unit 1)
+  (symbol (lib_id "ayab-esp32:ULN2003A") (at 101.6 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c5a3847-1ee9-4161-a757-d842704d00ea)
     (property "Reference" "U?" (at 101.6 93.98 0)
@@ -1423,7 +1423,7 @@
     )
   )
 
-  (symbol (lib_id "Transistor_Array:ULN2003A") (at 198.12 62.23 0) (unit 1)
+  (symbol (lib_id "ayab-esp32:ULN2003A") (at 198.12 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abe06852-c45c-4b8d-884f-8a5af63d1852)
     (property "Reference" "U?" (at 198.12 45.72 0)
