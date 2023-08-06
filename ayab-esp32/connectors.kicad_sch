@@ -3168,7 +3168,7 @@
     (property "Reference" "J404" (at 107.95 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x06" (at 107.95 180.34 0)
+    (property "Value" "USER_SPI" (at 107.95 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 105.41 177.8 0)
