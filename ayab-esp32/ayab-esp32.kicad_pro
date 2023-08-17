@@ -454,6 +454,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/AUX-CONNECTORS/I2C_VBUS": "PWR",
+      "/AUX-CONNECTORS/SPI_VBUS": "PWR",
+      "/AUX-CONNECTORS/UART_VBUS": "PWR",
       "/USB/USB_VBUS": "PWR",
       "GND": "GND",
       "Net-(D601-K)": "PWR",
@@ -538,7 +541,7 @@
     ],
     [
       "7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d",
-      "CONNECTORS"
+      "BROTHER-CONNECTORS"
     ],
     [
       "7889acbf-96cc-4a04-a98d-615c06d1b134",
@@ -551,6 +554,10 @@
     [
       "a44519f5-2a17-4043-8636-a7b7c38f71bc",
       "IO CONDITIONING"
+    ],
+    [
+      "b41a48c7-b009-4c26-92ce-a01689c1d02b",
+      "AUX-CONNECTORS"
     ]
   ],
   "text_variables": {}
