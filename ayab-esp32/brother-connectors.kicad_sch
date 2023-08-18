@@ -1803,7 +1803,7 @@
   (symbol (lib_id "power:+5V") (at 254 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d43cbe5-d11a-4997-bdb5-fa1bd61d4854)
-    (property "Reference" "#PWR0415" (at 254 105.41 0)
+    (property "Reference" "#PWR0409" (at 254 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 254 96.52 0)
@@ -1819,7 +1819,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0415") (unit 1)
+          (reference "#PWR0409") (unit 1)
         )
       )
     )
@@ -1828,7 +1828,7 @@
   (symbol (lib_id "power:+5V") (at 185.42 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3abc536b-e114-4ab2-8cca-180612e22b0b)
-    (property "Reference" "#PWR0413" (at 185.42 105.41 0)
+    (property "Reference" "#PWR0407" (at 185.42 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 185.42 96.52 0)
@@ -1844,7 +1844,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0413") (unit 1)
+          (reference "#PWR0407") (unit 1)
         )
       )
     )
@@ -1853,7 +1853,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x05") (at 261.62 134.62 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f97e73a-9f7c-4557-a057-d5135768fdc2)
-    (property "Reference" "J416" (at 264.16 133.35 0)
+    (property "Reference" "J413" (at 264.16 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "965_ENCODERS" (at 264.16 135.89 0)
@@ -1873,7 +1873,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J416") (unit 1)
+          (reference "J413") (unit 1)
         )
       )
     )
@@ -1882,7 +1882,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x03") (at 261.62 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43cc1b23-aa51-4341-ad6d-30e49aa63ea7)
-    (property "Reference" "J414" (at 264.16 105.41 0)
+    (property "Reference" "J411" (at 264.16 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "965_EOL_L" (at 264.16 107.95 0)
@@ -1900,7 +1900,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J414") (unit 1)
+          (reference "J411") (unit 1)
         )
       )
     )
@@ -1934,7 +1934,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x03") (at 193.04 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c4331a0-cc95-4b5b-88cf-fd0408d7b12a)
-    (property "Reference" "J411" (at 195.58 105.41 0)
+    (property "Reference" "J408" (at 195.58 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "930_910_EOL_L" (at 195.58 107.95 0)
@@ -1952,7 +1952,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J411") (unit 1)
+          (reference "J408") (unit 1)
         )
       )
     )
@@ -1961,7 +1961,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x08") (at 121.92 76.2 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64066975-e465-4f4f-a768-ef92a2a135fa)
-    (property "Reference" "J406" (at 124.46 73.66 0)
+    (property "Reference" "J404" (at 124.46 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "910_SOLENOIDS_B" (at 124.46 76.2 0)
@@ -1984,7 +1984,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J406") (unit 1)
+          (reference "J404") (unit 1)
         )
       )
     )
@@ -1993,7 +1993,7 @@
   (symbol (lib_id "power:+12V") (at 114.3 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d63714e-f87b-4e02-8bb8-6099d7e44780)
-    (property "Reference" "#PWR0408" (at 114.3 36.83 0)
+    (property "Reference" "#PWR0404" (at 114.3 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 114.3 27.94 0)
@@ -2009,7 +2009,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0408") (unit 1)
+          (reference "#PWR0404") (unit 1)
         )
       )
     )
@@ -2018,7 +2018,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x10") (at 193.04 48.26 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89689d5e-d26e-4531-8b3d-9fa0da340e3a)
-    (property "Reference" "J409" (at 195.58 45.72 0)
+    (property "Reference" "J406" (at 195.58 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "930_SOLENOIDS_A" (at 195.58 48.26 0)
@@ -2043,7 +2043,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J409") (unit 1)
+          (reference "J406") (unit 1)
         )
       )
     )
@@ -2052,7 +2052,7 @@
   (symbol (lib_id "power:GND") (at 251.46 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9264d450-1e8b-4a98-8c98-6baceee2ce48)
-    (property "Reference" "#PWR0414" (at 251.46 149.86 0)
+    (property "Reference" "#PWR0408" (at 251.46 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 148.59 0)
@@ -2068,7 +2068,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0414") (unit 1)
+          (reference "#PWR0408") (unit 1)
         )
       )
     )
@@ -2102,7 +2102,7 @@
   (symbol (lib_id "power:+12V") (at 185.42 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a92b1d0-770a-4614-98ce-a41d98603e63)
-    (property "Reference" "#PWR0412" (at 185.42 36.83 0)
+    (property "Reference" "#PWR0406" (at 185.42 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 185.42 27.94 0)
@@ -2118,7 +2118,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0412") (unit 1)
+          (reference "#PWR0406") (unit 1)
         )
       )
     )
@@ -2127,7 +2127,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x10") (at 121.92 48.26 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9bca4ccf-e1d8-4251-901d-ea49139bca54)
-    (property "Reference" "J405" (at 124.46 45.72 0)
+    (property "Reference" "J403" (at 124.46 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "910_SOLENOIDS_A" (at 124.46 48.26 0)
@@ -2152,7 +2152,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J405") (unit 1)
+          (reference "J403") (unit 1)
         )
       )
     )
@@ -2218,7 +2218,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x08") (at 193.04 76.2 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c25bcd5d-3f4c-4748-917d-347652b28e30)
-    (property "Reference" "J410" (at 195.58 73.66 0)
+    (property "Reference" "J407" (at 195.58 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "930_SOLENOIDS_B" (at 195.58 76.2 0)
@@ -2241,7 +2241,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J410") (unit 1)
+          (reference "J407") (unit 1)
         )
       )
     )
@@ -2250,7 +2250,7 @@
   (symbol (lib_id "power:GND") (at 113.03 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5fa949a-292a-458e-8241-76494d0344e6)
-    (property "Reference" "#PWR0407" (at 113.03 149.86 0)
+    (property "Reference" "#PWR0403" (at 113.03 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 148.59 0)
@@ -2266,7 +2266,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0407") (unit 1)
+          (reference "#PWR0403") (unit 1)
         )
       )
     )
@@ -2275,7 +2275,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x10") (at 121.92 129.54 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6f77c7a-3ca5-4b79-b7ee-dc98b450b5d6)
-    (property "Reference" "J407" (at 124.46 137.16 0)
+    (property "Reference" "J405" (at 124.46 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "910_ENCODERS_EOL_R" (at 124.46 139.7 0)
@@ -2300,7 +2300,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J407") (unit 1)
+          (reference "J405") (unit 1)
         )
       )
     )
@@ -2309,7 +2309,7 @@
   (symbol (lib_id "power:+5V") (at 106.68 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d19e353a-160a-4707-a139-c62c8048eacf)
-    (property "Reference" "#PWR0406" (at 106.68 142.24 0)
+    (property "Reference" "#PWR0402" (at 106.68 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 102.87 137.16 0)
@@ -2325,7 +2325,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0406") (unit 1)
+          (reference "#PWR0402") (unit 1)
         )
       )
     )
@@ -2368,7 +2368,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x05") (at 193.04 134.62 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8ba394f-9ab4-45e4-86b2-954e6cfef5e1)
-    (property "Reference" "J413" (at 195.58 133.35 0)
+    (property "Reference" "J410" (at 195.58 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "930_ENCODERS" (at 195.58 135.89 0)
@@ -2388,7 +2388,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J413") (unit 1)
+          (reference "J410") (unit 1)
         )
       )
     )
@@ -2397,7 +2397,7 @@
   (symbol (lib_id "power:GND") (at 182.88 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db7b154a-672d-4570-a90c-c26c16d6ca46)
-    (property "Reference" "#PWR0411" (at 182.88 149.86 0)
+    (property "Reference" "#PWR0405" (at 182.88 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 148.59 0)
@@ -2413,7 +2413,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0411") (unit 1)
+          (reference "#PWR0405") (unit 1)
         )
       )
     )
@@ -2422,7 +2422,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x03") (at 261.62 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcc3be04-dfc5-49bf-9b14-7e8fcd8ce43b)
-    (property "Reference" "J415" (at 264.16 118.11 0)
+    (property "Reference" "J412" (at 264.16 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "965_EOL_R" (at 264.16 120.65 0)
@@ -2440,7 +2440,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J415") (unit 1)
+          (reference "J412") (unit 1)
         )
       )
     )
@@ -2449,7 +2449,7 @@
   (symbol (lib_id "ayab-esp32:Conn_01x03") (at 193.04 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f176c0f1-5a9e-4eb6-9f3d-9457fc36e149)
-    (property "Reference" "J412" (at 195.58 118.11 0)
+    (property "Reference" "J409" (at 195.58 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "930_EOL_R" (at 195.58 120.65 0)
@@ -2467,7 +2467,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J412") (unit 1)
+          (reference "J409") (unit 1)
         )
       )
     )
