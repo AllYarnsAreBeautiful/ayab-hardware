@@ -5,59 +5,6 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Connector_Generic:Conn_01x03" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x03" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x03_1_1"
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 3.81) (end 1.27 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "ayab-esp32:AO3400A" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.905 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -202,6 +149,59 @@
         )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "ayab-esp32:Conn_01x03" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x03" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x03_1_1"
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 2.667) (end 0 2.413)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 3.81) (end 1.27 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at -5.08 2.54 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1122,7 +1122,7 @@
   (symbol (lib_id "ayab-esp32:R_Small_US") (at 149.86 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d1df890-9025-4400-8e33-4451e50fe810)
-    (property "Reference" "R?" (at 147.32 124.46 0)
+    (property "Reference" "R812" (at 147.32 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 147.32 127 0)
@@ -1139,7 +1139,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R?") (unit 1)
+          (reference "R812") (unit 1)
         )
       )
     )
@@ -1168,16 +1168,16 @@
           (reference "R401") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R822") (unit 1)
+          (reference "R815") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 116.84 44.45 90) (unit 1)
+  (symbol (lib_id "ayab-esp32:Conn_01x03") (at 116.84 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 147df3ae-1383-41d0-8e7a-0b61d16938ea)
-    (property "Reference" "J801" (at 113.03 39.37 90)
+    (property "Reference" "J802" (at 113.03 39.37 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "I2C_VBUS" (at 113.03 41.91 90)
@@ -1195,7 +1195,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "J801") (unit 1)
+          (reference "J802") (unit 1)
         )
       )
     )
@@ -1223,7 +1223,7 @@
           (reference "#PWR0403") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "#PWR0808") (unit 1)
+          (reference "#PWR0807") (unit 1)
         )
       )
     )
@@ -1232,7 +1232,7 @@
   (symbol (lib_id "ayab-esp32:R_Small_US") (at 129.54 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 240db3cf-1acc-422a-b1c7-56f0da367336)
-    (property "Reference" "R813" (at 127 129.54 90)
+    (property "Reference" "R809" (at 127 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47R" (at 132.08 129.54 90)
@@ -1249,7 +1249,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R813") (unit 1)
+          (reference "R809") (unit 1)
         )
       )
     )
@@ -1277,7 +1277,7 @@
           (reference "#PWR0403") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "#PWR0815") (unit 1)
+          (reference "#PWR0809") (unit 1)
         )
       )
     )
@@ -1308,7 +1308,7 @@
           (reference "J403") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "J804") (unit 1)
+          (reference "J801") (unit 1)
         )
       )
     )
@@ -1367,7 +1367,7 @@
           (reference "#PWR0402") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "#PWR0813") (unit 1)
+          (reference "#PWR0808") (unit 1)
         )
       )
     )
@@ -1376,7 +1376,7 @@
   (symbol (lib_id "ayab-esp32:R_Small_US") (at 54.61 129.54 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52db817c-bd3a-484a-8a5f-110477605d17)
-    (property "Reference" "R804" (at 52.07 132.08 90)
+    (property "Reference" "R802" (at 52.07 132.08 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47R" (at 57.15 132.08 90)
@@ -1393,7 +1393,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R804") (unit 1)
+          (reference "R802") (unit 1)
         )
       )
     )
@@ -1430,7 +1430,7 @@
   (symbol (lib_id "power:+5V") (at 125.73 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68cdc0dd-0e27-46d2-af81-7f37be9b7b9e)
-    (property "Reference" "#PWR0803" (at 125.73 52.07 0)
+    (property "Reference" "#PWR0804" (at 125.73 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 129.54 46.99 0)
@@ -1446,7 +1446,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "#PWR0803") (unit 1)
+          (reference "#PWR0804") (unit 1)
         )
       )
     )
@@ -1477,7 +1477,7 @@
           (reference "J403") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "J805") (unit 1)
+          (reference "J804") (unit 1)
         )
       )
     )
@@ -1506,7 +1506,7 @@
           (reference "R402") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R807") (unit 1)
+          (reference "R806") (unit 1)
         )
       )
     )
@@ -1535,7 +1535,7 @@
           (reference "R402") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R809") (unit 1)
+          (reference "R807") (unit 1)
         )
       )
     )
@@ -1563,7 +1563,7 @@
           (reference "#PWR0402") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "#PWR0807") (unit 1)
+          (reference "#PWR0806") (unit 1)
         )
       )
     )
@@ -1591,7 +1591,7 @@
           (reference "#PWR0402") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "#PWR0802") (unit 1)
+          (reference "#PWR0801") (unit 1)
         )
       )
     )
@@ -1619,7 +1619,7 @@
           (reference "#PWR0403") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "#PWR0806") (unit 1)
+          (reference "#PWR0802") (unit 1)
         )
       )
     )
@@ -1628,7 +1628,7 @@
   (symbol (lib_id "ayab-esp32:AO3400A") (at 105.41 66.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a43274a7-843d-429a-9a4e-c8b0626f5698)
-    (property "Reference" "Q803" (at 99.06 69.85 90)
+    (property "Reference" "Q802" (at 99.06 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AO3400A" (at 101.6 72.39 90)
@@ -1646,7 +1646,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "Q803") (unit 1)
+          (reference "Q802") (unit 1)
         )
       )
     )
@@ -1655,7 +1655,7 @@
   (symbol (lib_id "ayab-esp32:R_Small_US") (at 54.61 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6308f30-fc34-4099-aa77-8cfda775184e)
-    (property "Reference" "R803" (at 52.07 124.46 90)
+    (property "Reference" "R801" (at 52.07 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47R" (at 57.15 124.46 90)
@@ -1672,7 +1672,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R803") (unit 1)
+          (reference "R801") (unit 1)
         )
       )
     )
@@ -1700,7 +1700,7 @@
           (reference "#PWR0402") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "#PWR0801") (unit 1)
+          (reference "#PWR0803") (unit 1)
         )
       )
     )
@@ -1709,7 +1709,7 @@
   (symbol (lib_id "ayab-esp32:R_Small_US") (at 62.23 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9580e0e-3000-46fc-bf6c-0a6b90bcdecc)
-    (property "Reference" "R802" (at 59.69 66.04 90)
+    (property "Reference" "R804" (at 59.69 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47R" (at 64.77 66.04 90)
@@ -1726,7 +1726,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R802") (unit 1)
+          (reference "R804") (unit 1)
         )
       )
     )
@@ -1755,7 +1755,7 @@
           (reference "R402") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R811") (unit 1)
+          (reference "R808") (unit 1)
         )
       )
     )
@@ -1784,7 +1784,7 @@
           (reference "R401") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R821") (unit 1)
+          (reference "R814") (unit 1)
         )
       )
     )
@@ -1793,7 +1793,7 @@
   (symbol (lib_id "ayab-esp32:R_Small_US") (at 62.23 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd52ac82-41a6-473c-be45-fb29d051c7ea)
-    (property "Reference" "R801" (at 59.69 60.96 90)
+    (property "Reference" "R803" (at 59.69 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47R" (at 64.77 60.96 90)
@@ -1810,7 +1810,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R801") (unit 1)
+          (reference "R803") (unit 1)
         )
       )
     )
@@ -1819,7 +1819,7 @@
   (symbol (lib_id "ayab-esp32:R_Small_US") (at 224.79 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d85a1500-6cfd-48ba-80da-726093985761)
-    (property "Reference" "R819" (at 220.98 132.08 90)
+    (property "Reference" "R813" (at 220.98 132.08 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47R" (at 228.6 132.08 90)
@@ -1836,7 +1836,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R819") (unit 1)
+          (reference "R813") (unit 1)
         )
       )
     )
@@ -1845,7 +1845,7 @@
   (symbol (lib_id "ayab-esp32:R_Small_US") (at 140.97 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9b811bf-eaa5-4ae2-a2d2-c74d1a35d7d7)
-    (property "Reference" "R?" (at 138.43 124.46 0)
+    (property "Reference" "R811" (at 138.43 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 138.43 127 0)
@@ -1862,7 +1862,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R?") (unit 1)
+          (reference "R811") (unit 1)
         )
       )
     )
@@ -1895,7 +1895,7 @@
           (reference "J404") (unit 1)
         )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "J808") (unit 1)
+          (reference "J805") (unit 1)
         )
       )
     )
@@ -1904,7 +1904,7 @@
   (symbol (lib_id "ayab-esp32:R_Small_US") (at 129.54 134.62 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7533b38-6b69-4c5d-9d94-44870dffde4b)
-    (property "Reference" "R814" (at 127 137.16 90)
+    (property "Reference" "R810" (at 127 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47R" (at 132.08 137.16 90)
@@ -1921,7 +1921,7 @@
     (instances
       (project "ayab-esp32"
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
-          (reference "R814") (unit 1)
+          (reference "R810") (unit 1)
         )
       )
     )
