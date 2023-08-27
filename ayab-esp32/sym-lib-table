@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ayab-esp32")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/ayab-esp32.kicad_sym")(options "")(descr ""))
+)
