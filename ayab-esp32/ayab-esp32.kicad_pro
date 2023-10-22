@@ -455,6 +455,7 @@
     "net_colors": null,
     "netclass_assignments": {
       "/AUX-CONNECTORS/I2C_VBUS": "PWR",
+      "/PSU/5V_SW": "PWR",
       "/USB/USB_VBUS": "PWR",
       "GND": "GND",
       "Net-(D601-K)": "PWR",
