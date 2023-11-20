@@ -14,7 +14,7 @@
   )
 
   (lib_symbols
-    (symbol "Library:Fiducial" (in_bom yes) (on_board yes)
+    (symbol "ayab-lib:Fiducial" (in_bom yes) (on_board yes)
       (property "Reference" "FID" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -43,7 +43,7 @@
         )
       )
     )
-    (symbol "Library:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "ayab-lib:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 0 6.35 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -78,7 +78,7 @@
         )
       )
     )
-    (symbol "Library:R_Small_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "ayab-lib:R_Small_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0.762 0.508 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1617,7 +1617,7 @@
     (uuid c85c8254-3e8d-436b-b2f1-ffe35c77f243)
   )
 
-  (symbol (lib_id "Library:Fiducial") (at 40.64 111.76 0) (unit 1)
+  (symbol (lib_id "ayab-lib:Fiducial") (at 40.64 111.76 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b6021e4-8310-486e-93bd-ab33aa778919)
     (property "Reference" "FID101" (at 43.18 110.49 0)
@@ -1656,7 +1656,7 @@
     )
   )
 
-  (symbol (lib_id "Library:MountingHole_Pad") (at 71.12 123.19 0) (unit 1)
+  (symbol (lib_id "ayab-lib:MountingHole_Pad") (at 71.12 123.19 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0dd945d2-e718-4479-8f84-67f8a75aaf90)
     (property "Reference" "H107" (at 73.66 120.65 0)
@@ -1696,7 +1696,7 @@
     )
   )
 
-  (symbol (lib_id "Library:R_Small_US") (at 68.58 81.28 90) (unit 1)
+  (symbol (lib_id "ayab-lib:R_Small_US") (at 68.58 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43b0bd08-f62a-4eaa-bdf5-87d393b1f7bb)
     (property "Reference" "R101" (at 64.77 78.74 90)
@@ -1762,7 +1762,7 @@
     )
   )
 
-  (symbol (lib_id "Library:Fiducial") (at 55.88 111.76 0) (unit 1)
+  (symbol (lib_id "ayab-lib:Fiducial") (at 55.88 111.76 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 46ae236e-77c6-4449-9d60-8c28517aa82b)
     (property "Reference" "FID102" (at 58.42 110.49 0)
@@ -1801,7 +1801,7 @@
     )
   )
 
-  (symbol (lib_id "Library:MountingHole_Pad") (at 40.64 123.19 0) (unit 1)
+  (symbol (lib_id "ayab-lib:MountingHole_Pad") (at 40.64 123.19 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7775d337-88e9-43f1-a5f6-24bc34537f6f)
     (property "Reference" "H101" (at 43.18 120.65 0)
@@ -1866,7 +1866,7 @@
     )
   )
 
-  (symbol (lib_id "Library:MountingHole_Pad") (at 50.8 123.19 0) (unit 1)
+  (symbol (lib_id "ayab-lib:MountingHole_Pad") (at 50.8 123.19 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8702030d-f2ad-44fb-aa57-ca04159cd54b)
     (property "Reference" "H103" (at 53.34 120.65 0)
@@ -1906,7 +1906,7 @@
     )
   )
 
-  (symbol (lib_id "Library:MountingHole_Pad") (at 60.96 134.62 0) (unit 1)
+  (symbol (lib_id "ayab-lib:MountingHole_Pad") (at 60.96 134.62 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87b0c1b5-9ca8-4753-ab68-f917e638212e)
     (property "Reference" "H106" (at 63.5 132.08 0)
@@ -1946,7 +1946,7 @@
     )
   )
 
-  (symbol (lib_id "Library:Fiducial") (at 71.12 111.76 0) (unit 1)
+  (symbol (lib_id "ayab-lib:Fiducial") (at 71.12 111.76 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91894e96-eb10-4b73-9d9d-bda49ceef64d)
     (property "Reference" "FID103" (at 73.66 110.49 0)
@@ -1985,7 +1985,7 @@
     )
   )
 
-  (symbol (lib_id "Library:R_Small_US") (at 68.58 86.36 90) (unit 1)
+  (symbol (lib_id "ayab-lib:R_Small_US") (at 68.58 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a330e943-48d5-4266-9cd2-579cb889c813)
     (property "Reference" "R102" (at 64.77 83.82 90)
@@ -2076,7 +2076,7 @@
     )
   )
 
-  (symbol (lib_id "Library:MountingHole_Pad") (at 71.12 134.62 0) (unit 1)
+  (symbol (lib_id "ayab-lib:MountingHole_Pad") (at 71.12 134.62 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3370c73-c4ff-4187-ac24-872b8843ac20)
     (property "Reference" "H108" (at 73.66 132.08 0)
@@ -2116,7 +2116,7 @@
     )
   )
 
-  (symbol (lib_id "Library:MountingHole_Pad") (at 50.8 134.62 0) (unit 1)
+  (symbol (lib_id "ayab-lib:MountingHole_Pad") (at 50.8 134.62 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de6a3907-f394-41d7-bfae-037dc4e65a3f)
     (property "Reference" "H104" (at 53.34 132.08 0)
@@ -2156,7 +2156,7 @@
     )
   )
 
-  (symbol (lib_id "Library:MountingHole_Pad") (at 40.64 134.62 0) (unit 1)
+  (symbol (lib_id "ayab-lib:MountingHole_Pad") (at 40.64 134.62 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec8f67d9-8a70-4fb9-aa9b-1b3c6a071943)
     (property "Reference" "H102" (at 43.18 132.08 0)
@@ -2246,7 +2246,7 @@
     )
   )
 
-  (symbol (lib_id "Library:MountingHole_Pad") (at 60.96 123.19 0) (unit 1)
+  (symbol (lib_id "ayab-lib:MountingHole_Pad") (at 60.96 123.19 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fff55568-c840-4e55-898d-6267da77f37b)
     (property "Reference" "H105" (at 63.5 120.65 0)
