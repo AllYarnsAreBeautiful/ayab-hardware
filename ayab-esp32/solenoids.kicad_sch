@@ -14,7 +14,7 @@
   )
 
   (lib_symbols
-    (symbol "Library:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "ayab-lib:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -65,7 +65,7 @@
         )
       )
     )
-    (symbol "Library:MCP23017_SS" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "ayab-lib:MCP23017_SS" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -11.43 24.13 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -208,7 +208,7 @@
         )
       )
     )
-    (symbol "Library:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+    (symbol "ayab-lib:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -243,7 +243,7 @@
         )
       )
     )
-    (symbol "Library:ULN2003A" (in_bom yes) (on_board yes)
+    (symbol "ayab-lib:ULN2003A" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 15.875 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1364,7 +1364,7 @@
     )
   )
 
-  (symbol (lib_id "Library:C_Small") (at 214.63 129.54 0) (unit 1)
+  (symbol (lib_id "ayab-lib:C_Small") (at 214.63 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08689fd8-587a-438f-ab14-19fdd3635282)
     (property "Reference" "C304" (at 217.17 128.2763 0)
@@ -1405,7 +1405,7 @@
     )
   )
 
-  (symbol (lib_id "Library:C_Small") (at 214.63 33.02 0) (unit 1)
+  (symbol (lib_id "ayab-lib:C_Small") (at 214.63 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 166827a6-41d1-4025-b455-4cd83e9b55cf)
     (property "Reference" "C302" (at 217.17 31.7563 0)
@@ -1446,7 +1446,7 @@
     )
   )
 
-  (symbol (lib_id "Library:ULN2003A") (at 184.15 38.1 0) (unit 1)
+  (symbol (lib_id "ayab-lib:ULN2003A") (at 184.15 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d6d9d82-162e-4570-a864-d8fabc2a476e)
     (property "Reference" "U?" (at 184.15 21.59 0)
@@ -1564,7 +1564,7 @@
     )
   )
 
-  (symbol (lib_id "Library:C_Small") (at 66.04 54.61 0) (mirror y) (unit 1)
+  (symbol (lib_id "ayab-lib:C_Small") (at 66.04 54.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 319b09a4-dc30-4d24-bc2c-35a6c1b836d4)
     (property "Reference" "C301" (at 63.5 53.3463 0)
@@ -1605,7 +1605,7 @@
     )
   )
 
-  (symbol (lib_id "Library:C_Small") (at 214.63 78.74 0) (unit 1)
+  (symbol (lib_id "ayab-lib:C_Small") (at 214.63 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38cf9921-3ec1-49ee-9789-12c1e825843a)
     (property "Reference" "C303" (at 217.17 77.4763 0)
@@ -1646,7 +1646,7 @@
     )
   )
 
-  (symbol (lib_id "Library:MCP23017_SS") (at 97.79 81.28 0) (unit 1)
+  (symbol (lib_id "ayab-lib:MCP23017_SS") (at 97.79 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c520f23-1397-448b-83dc-9903de744105)
     (property "Reference" "U301" (at 99.9841 53.34 0)
@@ -1710,7 +1710,7 @@
     )
   )
 
-  (symbol (lib_id "Library:ULN2003A") (at 184.15 83.82 0) (unit 1)
+  (symbol (lib_id "ayab-lib:ULN2003A") (at 184.15 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c5a3847-1ee9-4161-a757-d842704d00ea)
     (property "Reference" "U?" (at 184.15 67.31 0)
@@ -1836,7 +1836,7 @@
     )
   )
 
-  (symbol (lib_id "Library:TestPoint") (at 68.58 87.63 90) (unit 1)
+  (symbol (lib_id "ayab-lib:TestPoint") (at 68.58 87.63 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 957ce73a-ee46-4c13-a62b-0c53eb1ee6bb)
     (property "Reference" "TP301" (at 58.42 86.36 90)
@@ -1969,7 +1969,7 @@
     )
   )
 
-  (symbol (lib_id "Library:ULN2003A") (at 184.15 134.62 0) (unit 1)
+  (symbol (lib_id "ayab-lib:ULN2003A") (at 184.15 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abe06852-c45c-4b8d-884f-8a5af63d1852)
     (property "Reference" "U?" (at 184.15 118.11 0)
@@ -2062,7 +2062,7 @@
     )
   )
 
-  (symbol (lib_id "Library:TestPoint") (at 68.58 81.28 90) (unit 1)
+  (symbol (lib_id "ayab-lib:TestPoint") (at 68.58 81.28 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid e6b89ed0-ac91-46e3-a2cb-cd364075912d)
     (property "Reference" "TP302" (at 58.42 80.01 90)
