@@ -73,9 +73,9 @@
   (pad "8" thru_hole circle (at -5 0 180) (size 1.4 1.4) (drill 0.799998) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp efd61331-5a1a-48a9-b6ec-d9feadf69c2a))
   (pad "9" thru_hole circle (at -7 0 180) (size 1.4 1.4) (drill 0.799998) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 80656c55-8a95-46ad-8c10-a02d4017c1c5))
   (pad "10" thru_hole circle (at -9 0 180) (size 1.4 1.4) (drill 0.799998) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 963d5273-5e72-4134-8f8d-9e318b7030d9))
-  (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_CNJMA2004WV-10P.wrl"
-    (offset (xyz 0 -0.4 3.5))
+  (model "/Users/mateijordache/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/CONN-TH_CNJMA2004WV-10P.wrl"
+    (offset (xyz 0 -0.4 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )
