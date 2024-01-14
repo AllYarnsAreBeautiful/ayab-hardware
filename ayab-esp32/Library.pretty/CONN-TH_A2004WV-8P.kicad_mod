@@ -61,7 +61,7 @@
     (stroke (width 0.42) (type solid)) (fill none) (layer "F.Fab") (tstamp efde2f70-e1c5-43e3-bd34-c1e35cb4a370))
   (fp_circle (center 9.13 2.88) (end 9.16 2.88)
     (stroke (width 0.06) (type solid)) (fill none) (layer "F.Fab") (tstamp 550aabb4-7519-4188-93a9-86dbb6ffa266))
-  (pad "1" thru_hole circle (at 7 0) (size 1.5 1.5) (drill 1.049985) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp f79fb028-8712-43d0-ba2e-c3b6e622347c))
+  (pad "1" thru_hole rect (at 7 0) (size 1.5 1.5) (drill 1.049985) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp f79fb028-8712-43d0-ba2e-c3b6e622347c))
   (pad "2" thru_hole circle (at 5 0) (size 1.5 1.5) (drill 1.049985) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 5c685a36-9256-4442-81a6-012cd6303af7))
   (pad "3" thru_hole circle (at 3 0) (size 1.5 1.5) (drill 1.049985) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp e4bf27ec-a5dc-45d4-87ca-eac574498367))
   (pad "4" thru_hole circle (at 1 0) (size 1.5 1.5) (drill 1.049985) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 4f964e56-14c8-4537-95a7-68ebe9afd92d))
@@ -69,8 +69,8 @@
   (pad "6" thru_hole circle (at -3 0) (size 1.5 1.5) (drill 1.049985) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp d6236c4d-4c3d-405c-9223-8cea4a326769))
   (pad "7" thru_hole circle (at -5 0) (size 1.5 1.5) (drill 1.049985) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp d4a981a8-48ba-4e93-bd27-b75306fdda5b))
   (pad "8" thru_hole circle (at -7 0) (size 1.5 1.5) (drill 1.049985) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 910b8d88-c69e-42c2-8b3a-ea3ad63bc2a0))
-  (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_A2004WV-8P.wrl"
-    (offset (xyz -0 -0.45 3))
+  (model "/Users/mateijordache/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/CONN-TH_A2004WV-8P.wrl"
+    (offset (xyz 0 1.25 1.75))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
