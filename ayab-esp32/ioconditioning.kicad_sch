@@ -1915,7 +1915,7 @@
   (symbol (lib_id "power:GND") (at 204.47 53.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12eccd95-6ac5-4826-a291-d0ff4eeba7fc)
-    (property "Reference" "#PWR?" (at 204.47 59.69 0)
+    (property "Reference" "#PWR0709" (at 204.47 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 54.61 0)
@@ -1930,9 +1930,6 @@
     (pin "1" (uuid e2506814-648f-4fc5-9dfb-cff3c6c6211d))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0709") (unit 1)
         )
@@ -2006,7 +2003,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 121.92 109.22 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 1b8a4a58-ef72-4d66-89ed-f79a3dab8a3b)
-    (property "Reference" "R?" (at 123.19 107.95 0)
+    (property "Reference" "R707" (at 123.19 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 123.19 110.49 0)
@@ -2034,9 +2031,6 @@
     (pin "2" (uuid 7aa3eaa8-13c8-421d-acaf-1d66125200b1))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R707") (unit 1)
         )
@@ -2106,6 +2100,9 @@
     (property "OEM" "onsemi" (at 201.93 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC ID" "C7955" (at 201.93 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c4ba9b6d-f407-4b1d-b40a-f7bb6e054a70))
     (pin "2" (uuid e981607d-3ab5-4f0e-85eb-b1a88d70b413))
     (pin "3" (uuid f846ff1d-5f75-4122-8750-85289c8697cd))
@@ -2151,7 +2148,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 114.3 109.22 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 2f1f191c-cb5b-4e9e-99f5-8b574c4855dd)
-    (property "Reference" "R?" (at 115.57 107.95 0)
+    (property "Reference" "R705" (at 115.57 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 115.57 110.49 0)
@@ -2179,9 +2176,6 @@
     (pin "2" (uuid e9b1f62b-ddee-4947-ba76-8b0b0747f62f))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R705") (unit 1)
         )
@@ -2307,6 +2301,9 @@
     (property "OEM" "onsemi" (at 201.93 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC ID" "C7955" (at 201.93 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ea89ce2f-3027-41c2-930c-adf341c68801))
     (pin "2" (uuid 431d9167-a7e9-4bf4-9e37-7a9104e7997b))
     (pin "3" (uuid 6f57988e-106c-4013-869e-1c7447833672))
@@ -2327,7 +2324,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 137.16 109.22 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 3a314fb5-9340-4f91-954e-51d797451590)
-    (property "Reference" "R?" (at 138.43 107.95 0)
+    (property "Reference" "R711" (at 138.43 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 138.43 110.49 0)
@@ -2355,9 +2352,6 @@
     (pin "2" (uuid cbb881a5-cf0e-42f3-848f-7288cf21182a))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R711") (unit 1)
         )
@@ -2368,7 +2362,7 @@
   (symbol (lib_id "power:GND") (at 243.84 147.32 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ba69175-263c-4e99-b712-134f9d4bea06)
-    (property "Reference" "#PWR?" (at 243.84 153.67 0)
+    (property "Reference" "#PWR0715" (at 243.84 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 148.59 0)
@@ -2383,9 +2377,6 @@
     (pin "1" (uuid bb6242cc-7fab-4947-8a8f-a7dd1e04a529))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0715") (unit 1)
         )
@@ -2396,7 +2387,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 140.97 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f0dc7bb-3e29-4e38-b5e7-d765edfc6c22)
-    (property "Reference" "R?" (at 142.24 76.2 0)
+    (property "Reference" "R712" (at 142.24 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 142.24 78.74 0)
@@ -2424,9 +2415,6 @@
     (pin "2" (uuid d483e9e0-baa4-4992-85a9-6c3f6eb5f8c2))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R712") (unit 1)
         )
@@ -2437,7 +2425,7 @@
   (symbol (lib_id "power:GND") (at 157.48 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 407dd862-c4b5-4f3a-8e92-83157ecb2577)
-    (property "Reference" "#PWR?" (at 157.48 87.63 0)
+    (property "Reference" "#PWR0705" (at 157.48 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.29 82.55 0)
@@ -2452,9 +2440,6 @@
     (pin "1" (uuid 24e67305-c4f0-4584-a592-96e590ec5f07))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0705") (unit 1)
         )
@@ -2541,7 +2526,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 107.95 109.22 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 45697a15-6cfa-47e7-a5eb-a4381ad3559c)
-    (property "Reference" "R?" (at 109.22 107.95 0)
+    (property "Reference" "R703" (at 109.22 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 109.22 110.49 0)
@@ -2569,9 +2554,6 @@
     (pin "2" (uuid 2c248400-6dce-4196-8f36-5567de7aab80))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R703") (unit 1)
         )
@@ -2601,6 +2583,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "OEM" "onsemi" (at 201.93 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC ID" "C7955" (at 201.93 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fda294cd-672c-4a51-bf18-5a90507395fc))
@@ -2661,7 +2646,7 @@
   (symbol (lib_id "power:GND") (at 66.04 82.55 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5562ebd3-7cc9-4d1f-9f76-75645d197996)
-    (property "Reference" "#PWR?" (at 66.04 88.9 0)
+    (property "Reference" "#PWR0702" (at 66.04 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 83.82 0)
@@ -2676,9 +2661,6 @@
     (pin "1" (uuid be872416-2c0e-4728-81c2-37af9b039302))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0702") (unit 1)
         )
@@ -2710,6 +2692,9 @@
     (property "OEM" "onsemi" (at 201.93 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC ID" "C7955" (at 201.93 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ea89ce2f-3027-41c2-930c-adf341c68802))
     (pin "2" (uuid 431d9167-a7e9-4bf4-9e37-7a9104e7997c))
     (pin "3" (uuid 6f57988e-106c-4013-869e-1c7447833673))
@@ -2730,7 +2715,7 @@
   (symbol (lib_id "power:GND") (at 204.47 127 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59c20e1a-399e-497a-b6cd-ae51a9b701c4)
-    (property "Reference" "#PWR?" (at 204.47 133.35 0)
+    (property "Reference" "#PWR0711" (at 204.47 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 128.27 0)
@@ -2745,9 +2730,6 @@
     (pin "1" (uuid ed8475bc-7205-4551-817c-f1adabef1e2e))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0711") (unit 1)
         )
@@ -2758,7 +2740,7 @@
   (symbol (lib_id "ayab-lib:C_Small") (at 66.04 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cc345e6-65c2-4c8a-a5a3-87ce5579bb9c)
-    (property "Reference" "C?" (at 63.5 74.9363 0)
+    (property "Reference" "C701" (at 63.5 74.9363 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 63.5 77.4763 0)
@@ -2789,9 +2771,6 @@
     (pin "2" (uuid 25847564-921e-4d56-99d4-4365d5bb0145))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "C?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "C701") (unit 1)
         )
@@ -2861,6 +2840,9 @@
     (property "OEM" "onsemi" (at 201.93 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC ID" "C7955" (at 201.93 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a8f9fb52-4e55-404f-828c-76bdab83c621))
     (pin "2" (uuid 91fe44d1-3850-418d-bf9a-74fa8382ecd2))
     (pin "3" (uuid 611216c6-6a30-49d8-b443-db02ba0bd70b))
@@ -2927,6 +2909,9 @@
     (property "OEM" "onsemi" (at 201.93 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC ID" "C7955" (at 201.93 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0faa2684-2b48-4feb-a1ab-bea53fb3ec1f))
     (pin "2" (uuid dbcbee79-f552-41e9-88f7-98d77b5b5842))
     (pin "3" (uuid 30ad6ddc-78a0-4271-b7f7-484eed1bdadd))
@@ -2985,7 +2970,7 @@
   (symbol (lib_id "power:GND") (at 256.54 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b18bc14-eb5f-4005-9fe7-b074a2e1d37a)
-    (property "Reference" "#PWR?" (at 256.54 58.42 0)
+    (property "Reference" "#PWR0716" (at 256.54 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 53.34 0)
@@ -3000,9 +2985,6 @@
     (pin "1" (uuid e2885a6d-5c74-44bd-ae96-15818f528477))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0716") (unit 1)
         )
@@ -3013,7 +2995,7 @@
   (symbol (lib_id "power:GND") (at 144.78 118.11 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b91440d-d543-49d5-b998-6eadfee65d72)
-    (property "Reference" "#PWR?" (at 144.78 124.46 0)
+    (property "Reference" "#PWR0704" (at 144.78 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 119.38 0)
@@ -3028,9 +3010,6 @@
     (pin "1" (uuid b511e855-a7d2-4def-95dc-b2c5215f2c7d))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0704") (unit 1)
         )
@@ -3041,7 +3020,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 102.87 77.47 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 7cccfdf8-5521-408b-a73c-1a51aece7d8b)
-    (property "Reference" "R?" (at 104.14 76.2 0)
+    (property "Reference" "R702" (at 104.14 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 104.14 78.74 0)
@@ -3069,9 +3048,6 @@
     (pin "2" (uuid a8dc50f6-f7ea-49a8-8815-0b78e3f8a95a))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R702") (unit 1)
         )
@@ -3082,7 +3058,7 @@
   (symbol (lib_id "power:+3V3") (at 66.04 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f9aa2d1-fc1c-40be-911b-2ec2cb2a8b3d)
-    (property "Reference" "#PWR?" (at 66.04 72.39 0)
+    (property "Reference" "#PWR0701" (at 66.04 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 66.04 63.5 0)
@@ -3097,9 +3073,6 @@
     (pin "1" (uuid 82d6d090-c05f-4ec5-8ac4-23ec115facf4))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0701") (unit 1)
         )
@@ -3211,7 +3184,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 125.73 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8de6ef3c-5a7a-462e-a977-d1d8aa2922f1)
-    (property "Reference" "R?" (at 127 76.2 0)
+    (property "Reference" "R708" (at 127 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 127 78.74 0)
@@ -3239,9 +3212,6 @@
     (pin "2" (uuid 72e827fd-da62-4685-8daa-4a1cb8d2ad52))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R708") (unit 1)
         )
@@ -3346,10 +3316,13 @@
     (property "Package" "" (at 48.26 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "OEM PN" "" (at 48.26 116.84 0)
+    (property "OEM PN" "A2541WV-2x4P" (at 48.26 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "OEM" "" (at 48.26 116.84 0)
+    (property "OEM" "CJT(Changjiang Connectors)" (at 48.26 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC ID" "C225519" (at 48.26 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid af62a138-f3cf-4f7f-aa78-7dd7c270889b))
@@ -3372,7 +3345,7 @@
   (symbol (lib_id "power:GND") (at 190.5 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93d1e136-eb35-49e1-96e1-168fc64dda50)
-    (property "Reference" "#PWR?" (at 190.5 115.57 0)
+    (property "Reference" "#PWR0707" (at 190.5 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 110.49 0)
@@ -3387,9 +3360,6 @@
     (pin "1" (uuid 227ac94a-cb95-4072-bbb6-2aff6d2e7b45))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0707") (unit 1)
         )
@@ -3400,7 +3370,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 148.59 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95e8da02-7019-42b1-8df5-7734d37b2483)
-    (property "Reference" "R?" (at 149.86 76.2 0)
+    (property "Reference" "R714" (at 149.86 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 149.86 78.74 0)
@@ -3428,9 +3398,6 @@
     (pin "2" (uuid 83ef5568-f491-486d-93e2-7e66239ad100))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R714") (unit 1)
         )
@@ -3504,7 +3471,7 @@
   (symbol (lib_id "power:+5V") (at 87.63 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9dc2140e-e21e-41fd-b4b5-4a2626af6474)
-    (property "Reference" "#PWR?" (at 87.63 72.39 0)
+    (property "Reference" "#PWR0703" (at 87.63 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 87.63 63.5 0)
@@ -3519,9 +3486,6 @@
     (pin "1" (uuid 78c3dd4c-e774-4270-b9a0-3e60ea23f5d9))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0703") (unit 1)
         )
@@ -3532,7 +3496,7 @@
   (symbol (lib_id "power:GND") (at 190.5 35.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e76ec42-ab12-47da-af53-66dcc64bd463)
-    (property "Reference" "#PWR?" (at 190.5 41.91 0)
+    (property "Reference" "#PWR0706" (at 190.5 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 36.83 0)
@@ -3547,9 +3511,6 @@
     (pin "1" (uuid 69c3811d-cb31-4c12-b2ef-5cf2c187846e))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0706") (unit 1)
         )
@@ -3636,7 +3597,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 129.54 109.22 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid a8bb8528-6ce4-4606-8e57-61f9e510bfdf)
-    (property "Reference" "R?" (at 130.81 107.95 0)
+    (property "Reference" "R709" (at 130.81 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 130.81 110.49 0)
@@ -3664,9 +3625,6 @@
     (pin "2" (uuid 92784e18-f422-4065-a4c5-c9dcce189ad5))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R709") (unit 1)
         )
@@ -3677,7 +3635,7 @@
   (symbol (lib_id "ayab-lib:C_Small") (at 157.48 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa0312de-f542-401e-b06c-4a2d571df2ca)
-    (property "Reference" "C?" (at 160.02 76.2 0)
+    (property "Reference" "C702" (at 160.02 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 160.02 78.74 0)
@@ -3708,9 +3666,6 @@
     (pin "2" (uuid 2afc6e11-ade6-41c0-812c-987b99d23113))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "C?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "C702") (unit 1)
         )
@@ -3721,7 +3676,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 144.78 109.22 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid ad42e3f4-02e2-41b0-8a15-7303cd04b8ba)
-    (property "Reference" "R?" (at 146.05 107.95 0)
+    (property "Reference" "R713" (at 146.05 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 146.05 110.49 0)
@@ -3749,9 +3704,6 @@
     (pin "2" (uuid 9e980f34-5024-422e-94e1-0d65449199de))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R713") (unit 1)
         )
@@ -3800,7 +3752,7 @@
   (symbol (lib_id "power:GND") (at 256.54 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc831d85-c1b2-4b01-bb61-c19870e161a6)
-    (property "Reference" "#PWR?" (at 256.54 132.08 0)
+    (property "Reference" "#PWR0717" (at 256.54 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 127 0)
@@ -3815,9 +3767,6 @@
     (pin "1" (uuid 777079b4-cc93-4f99-a902-6425df69289c))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0717") (unit 1)
         )
@@ -3843,10 +3792,13 @@
     (property "Package" "" (at 165.1 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "OEM PN" "" (at 165.1 116.84 0)
+    (property "OEM PN" "A2541WV-2x4P" (at 165.1 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "OEM" "" (at 165.1 116.84 0)
+    (property "OEM" "CJT(Changjiang Connectors)" (at 165.1 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC ID" "C225519" (at 165.1 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7ac53fc3-1c13-44b9-b493-b607f03c7705))
@@ -3907,7 +3859,7 @@
   (symbol (lib_id "power:GND") (at 243.84 73.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0c34c71-01c6-4086-a74e-e6a10d2da02e)
-    (property "Reference" "#PWR?" (at 243.84 80.01 0)
+    (property "Reference" "#PWR0714" (at 243.84 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 74.93 0)
@@ -3922,9 +3874,6 @@
     (pin "1" (uuid ee247492-1e5c-42c8-8d66-03175f1d13a6))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "#PWR0714") (unit 1)
         )
@@ -4004,7 +3953,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 111.76 77.47 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid ec386ac4-107f-446a-8496-8d3d3d6a83c5)
-    (property "Reference" "R?" (at 113.03 76.2 0)
+    (property "Reference" "R704" (at 113.03 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 113.03 78.74 0)
@@ -4032,9 +3981,6 @@
     (pin "2" (uuid 119e10c0-558c-4170-a4fd-c76908a29279))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R704") (unit 1)
         )
@@ -4045,7 +3991,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 118.11 77.47 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid ed30b31a-b995-4eb7-b6cb-c32bff777bbd)
-    (property "Reference" "R?" (at 119.38 76.2 0)
+    (property "Reference" "R706" (at 119.38 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 119.38 78.74 0)
@@ -4073,9 +4019,6 @@
     (pin "2" (uuid 8f3a4e7c-eb5e-41f1-9c91-fef221e0d7bf))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R706") (unit 1)
         )
@@ -4086,7 +4029,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 99.06 109.22 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid edc98619-bc16-47d1-81a6-202cedf8dfb9)
-    (property "Reference" "R?" (at 100.33 107.95 0)
+    (property "Reference" "R701" (at 100.33 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 100.33 110.49 0)
@@ -4114,9 +4057,6 @@
     (pin "2" (uuid 5b39d992-f9fe-4ac4-9093-dd93b18c9163))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R701") (unit 1)
         )
@@ -4206,7 +4146,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 133.35 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb3291ec-34fb-4135-add8-083e85683738)
-    (property "Reference" "R?" (at 134.62 76.2 0)
+    (property "Reference" "R710" (at 134.62 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 134.62 78.74 0)
@@ -4234,9 +4174,6 @@
     (pin "2" (uuid afc3637c-d9f7-49b2-9ae0-da9addc6b9a7))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "R?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "R710") (unit 1)
         )
@@ -4247,7 +4184,7 @@
   (symbol (lib_id "ayab-lib:SN74LVC4245A") (at 82.55 92.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff5129de-4864-40f3-9067-b611690a11a0)
-    (property "Reference" "U?" (at 73.66 106.68 0)
+    (property "Reference" "U701" (at 73.66 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN74LVC4245" (at 73.66 109.22 0)
@@ -4297,9 +4234,6 @@
     (pin "22" (uuid 5c59d957-cd5c-4748-899a-476ab394f7dc))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2"
-          (reference "U?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc"
           (reference "U701") (unit 1)
         )
