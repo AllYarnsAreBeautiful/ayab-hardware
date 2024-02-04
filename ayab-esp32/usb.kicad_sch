@@ -1562,7 +1562,7 @@
   (symbol (lib_id "ayab-lib:Q_Dual_PNP_PNP_E1B1C2E2B2C1") (at 200.66 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d66d8cd-ec69-48bc-8a01-dad992f26e33)
-    (property "Reference" "Q?" (at 195.58 93.98 0)
+    (property "Reference" "Q501" (at 195.58 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BCM857BV" (at 195.58 96.52 0)
@@ -1594,9 +1594,6 @@
     (pin "5" (uuid dba1a996-7140-445f-8550-5db3d2a0f6a4))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/512b1de4-f8f4-4173-a7be-69b46f59a5e5"
-          (reference "Q?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7889acbf-96cc-4a04-a98d-615c06d1b134"
           (reference "Q501") (unit 1)
         )
@@ -1665,7 +1662,7 @@
   (symbol (lib_id "ayab-lib:AO3401A") (at 210.82 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a64e2db-c53d-4f80-864d-257592f83652)
-    (property "Reference" "Q?" (at 210.82 72.39 90)
+    (property "Reference" "Q502" (at 210.82 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LP9435LT1G" (at 214.63 74.93 90)
@@ -1697,9 +1694,6 @@
     (pin "3" (uuid fb48f851-8b0e-4443-81ce-b5b75513b88e))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/512b1de4-f8f4-4173-a7be-69b46f59a5e5"
-          (reference "Q?") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7889acbf-96cc-4a04-a98d-615c06d1b134"
           (reference "Q502") (unit 1)
         )
@@ -1875,7 +1869,7 @@
   (symbol (lib_id "ayab-lib:Q_Dual_PNP_PNP_E1B1C2E2B2C1") (at 219.71 95.25 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac00a306-d2f2-43bd-9a96-67a323afb050)
-    (property "Reference" "Q?" (at 224.79 93.98 0)
+    (property "Reference" "Q501" (at 224.79 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BCM857BV" (at 224.79 96.52 0)
@@ -1907,9 +1901,6 @@
     (pin "5" (uuid 5371470d-7e48-477c-a354-bcccbaf2e372))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/512b1de4-f8f4-4173-a7be-69b46f59a5e5"
-          (reference "Q?") (unit 2)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7889acbf-96cc-4a04-a98d-615c06d1b134"
           (reference "Q501") (unit 2)
         )

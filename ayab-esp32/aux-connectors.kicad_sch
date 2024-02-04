@@ -5,6 +5,79 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Diode:ESD9B3.3ST5G" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "ESD9B3.3ST5G" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Diode_SMD:D_SOD-923" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode TVS ESD" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "ESD protection diode, 3.3Vrwm, SOD-923" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "D*SOD?923*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "ESD9B3.3ST5G_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -1.27)
+            (xy 0 0)
+            (xy -2.54 1.27)
+            (xy -2.54 -1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 1.27)
+            (xy 0 1.27)
+            (xy 0 -1.27)
+            (xy -0.508 -1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.27)
+            (xy 2.54 -1.27)
+            (xy 0 0)
+            (xy 2.54 1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "ESD9B3.3ST5G_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "A1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "ayab-lib:AO3400A" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.905 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -554,6 +627,9 @@
   (junction (at 53.34 69.85) (diameter 0) (color 0 0 0 0)
     (uuid 1299c5d1-b3a8-4500-9d73-a6a737e456ec)
   )
+  (junction (at 57.15 148.59) (diameter 0) (color 0 0 0 0)
+    (uuid 46437591-32a4-461b-ab41-090bfcbd9f4d)
+  )
   (junction (at 101.6 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 5a6308de-f39c-4ae5-b26f-10ed3f984fa2)
   )
@@ -587,11 +663,17 @@
   (junction (at 63.5 64.77) (diameter 0) (color 0 0 0 0)
     (uuid a0fbe834-e318-41b6-90b8-596579fc4acb)
   )
+  (junction (at 48.26 132.08) (diameter 0) (color 0 0 0 0)
+    (uuid ad833eb3-94a4-4cb2-802f-04548f9ddb2d)
+  )
   (junction (at 101.6 67.31) (diameter 0) (color 0 0 0 0)
     (uuid b414d11e-1301-4272-a8f8-7bc36968b8cf)
   )
   (junction (at 210.82 135.89) (diameter 0) (color 0 0 0 0)
     (uuid b7301c9d-1a29-4024-8713-09dcc8de62b1)
+  )
+  (junction (at 81.28 148.59) (diameter 0) (color 0 0 0 0)
+    (uuid bda7759e-6bfb-43c8-a461-49d839ca12a7)
   )
   (junction (at 82.55 53.34) (diameter 0) (color 0 0 0 0)
     (uuid c07a1e1b-3bd1-4834-8515-f35ab7a0ec77)
@@ -611,6 +693,9 @@
   (junction (at 182.88 69.85) (diameter 0) (color 0 0 0 0)
     (uuid df830a9e-2b57-45d9-be8f-32d8463c22dd)
   )
+  (junction (at 57.15 134.62) (diameter 0) (color 0 0 0 0)
+    (uuid e185c2a1-0212-4367-bbe4-8e71894df4c7)
+  )
   (junction (at 203.2 53.34) (diameter 0) (color 0 0 0 0)
     (uuid f31787fa-2d85-4631-88f5-59e09f428a9d)
   )
@@ -625,6 +710,10 @@
   (wire (pts (xy 182.88 69.85) (xy 207.01 69.85))
     (stroke (width 0) (type default))
     (uuid 01ba0dfa-8847-43ae-87ac-a041016f2a77)
+  )
+  (wire (pts (xy 57.15 146.05) (xy 57.15 148.59))
+    (stroke (width 0) (type default))
+    (uuid 02b06485-d356-4b82-9ae3-2948a05d8e66)
   )
   (wire (pts (xy 33.02 64.77) (xy 36.83 64.77))
     (stroke (width 0) (type default))
@@ -733,13 +822,17 @@
     (stroke (width 0) (type default))
     (uuid 2ebb92f6-cd4f-4bec-a37f-1cd0555721f7)
   )
-  (wire (pts (xy 58.42 132.08) (xy 62.23 132.08))
+  (wire (pts (xy 33.02 132.08) (xy 35.56 132.08))
     (stroke (width 0) (type default))
     (uuid 2fb54348-d35e-4e56-88f1-f9b18cc7c23d)
   )
   (wire (pts (xy 203.2 53.34) (xy 212.09 53.34))
     (stroke (width 0) (type default))
     (uuid 323eca72-5481-4963-9e9c-add0b667987e)
+  )
+  (wire (pts (xy 40.64 132.08) (xy 48.26 132.08))
+    (stroke (width 0) (type default))
+    (uuid 348341c9-e172-40b9-acb2-ac8936166155)
   )
   (polyline (pts (xy 16.51 101.6) (xy 140.97 101.6))
     (stroke (width 0) (type dash))
@@ -766,7 +859,11 @@
     (stroke (width 0) (type default))
     (uuid 3b26e863-f9c6-4b4d-a3ce-a419449b4996)
   )
-  (wire (pts (xy 81.28 139.7) (xy 81.28 143.51))
+  (wire (pts (xy 48.26 146.05) (xy 48.26 148.59))
+    (stroke (width 0) (type default))
+    (uuid 3ca53d02-69c4-41f0-9a61-75faf9f20076)
+  )
+  (wire (pts (xy 81.28 139.7) (xy 81.28 148.59))
     (stroke (width 0) (type default))
     (uuid 3dbd87ec-d7e0-46d8-839e-6fa5ee16505f)
   )
@@ -786,7 +883,7 @@
     (stroke (width 0) (type default))
     (uuid 4c0c4df9-d459-49a7-ab6f-da541252c134)
   )
-  (wire (pts (xy 58.42 134.62) (xy 62.23 134.62))
+  (wire (pts (xy 33.02 134.62) (xy 35.56 134.62))
     (stroke (width 0) (type default))
     (uuid 4ccb2b8d-014a-4388-b667-fc86d28699a7)
   )
@@ -812,6 +909,10 @@
     (uuid 56562f31-fef4-4605-bd43-a20adfab64d2)
   )
 
+  (wire (pts (xy 48.26 132.08) (xy 48.26 138.43))
+    (stroke (width 0) (type default))
+    (uuid 5afcb08d-0bfc-41aa-8103-d08cb77b15e8)
+  )
   (wire (pts (xy 67.31 134.62) (xy 85.09 134.62))
     (stroke (width 0) (type default))
     (uuid 5b5c4d70-e1ea-4589-85e8-ea24a19e7133)
@@ -827,6 +928,14 @@
   (wire (pts (xy 73.66 53.34) (xy 73.66 57.15))
     (stroke (width 0) (type default))
     (uuid 6395ed62-96e2-48b3-9bcf-1ac337e55319)
+  )
+  (wire (pts (xy 48.26 148.59) (xy 57.15 148.59))
+    (stroke (width 0) (type default))
+    (uuid 65369bd0-09db-4371-bc2f-4ed6a35ab0e3)
+  )
+  (wire (pts (xy 81.28 148.59) (xy 81.28 152.4))
+    (stroke (width 0) (type default))
+    (uuid 65de5b5c-6276-43a4-9c6e-6e0e49610dd7)
   )
   (wire (pts (xy 193.04 53.34) (xy 203.2 53.34))
     (stroke (width 0) (type default))
@@ -866,6 +975,10 @@
     (uuid 7ce6ea75-2f72-44c0-9db6-b613fa5b9e16)
   )
 
+  (wire (pts (xy 40.64 134.62) (xy 57.15 134.62))
+    (stroke (width 0) (type default))
+    (uuid 838e916e-b4c5-4c5c-ac23-833ec7d418fa)
+  )
   (wire (pts (xy 81.28 127) (xy 81.28 137.16))
     (stroke (width 0) (type default))
     (uuid 86358909-064a-4412-b91b-ce104c38b841)
@@ -958,6 +1071,10 @@
     (stroke (width 0) (type default))
     (uuid b480c7d2-da90-4736-8985-f89a4618e068)
   )
+  (wire (pts (xy 57.15 134.62) (xy 57.15 138.43))
+    (stroke (width 0) (type default))
+    (uuid b8e41675-acba-4fed-8fd4-7772738638a7)
+  )
   (wire (pts (xy 93.98 53.34) (xy 93.98 57.15))
     (stroke (width 0) (type default))
     (uuid bb84ec95-e5ac-4dc8-91af-ba458114065e)
@@ -965,6 +1082,10 @@
   (wire (pts (xy 194.31 130.81) (xy 210.82 130.81))
     (stroke (width 0) (type default))
     (uuid bce42c5b-084d-42a1-9e33-b6b51cbcada6)
+  )
+  (wire (pts (xy 57.15 134.62) (xy 62.23 134.62))
+    (stroke (width 0) (type default))
+    (uuid bdfa02ad-eff7-4af3-876c-4ce8393ac3b3)
   )
   (wire (pts (xy 41.91 64.77) (xy 63.5 64.77))
     (stroke (width 0) (type default))
@@ -1024,6 +1145,10 @@
     (stroke (width 0) (type default))
     (uuid d64516f6-783e-4359-866f-1ad6c0e6e6ec)
   )
+  (wire (pts (xy 57.15 148.59) (xy 81.28 148.59))
+    (stroke (width 0) (type default))
+    (uuid d6aa4810-d21d-4827-a0b2-e64a54d36118)
+  )
   (wire (pts (xy 73.66 53.34) (xy 82.55 53.34))
     (stroke (width 0) (type default))
     (uuid d7d3e112-095e-4c7c-8d80-b2999314bfc8)
@@ -1048,6 +1173,10 @@
   (wire (pts (xy 194.31 138.43) (xy 223.52 138.43))
     (stroke (width 0) (type default))
     (uuid e4308998-f67c-48b2-afc7-6e2b041c55c4)
+  )
+  (wire (pts (xy 48.26 132.08) (xy 62.23 132.08))
+    (stroke (width 0) (type default))
+    (uuid e9dcd624-b887-404b-bb1b-68077b4d8145)
   )
   (wire (pts (xy 231.14 53.34) (xy 245.11 53.34))
     (stroke (width 0) (type default))
@@ -1193,11 +1322,11 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 89dbe6bd-ecca-4e19-8bac-9ce1febfe236)
   )
-  (hierarchical_label "UART_RX" (shape output) (at 58.42 132.08 180) (fields_autoplaced)
+  (hierarchical_label "UART_RX" (shape output) (at 33.02 132.08 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9f1e5658-b5e8-4f86-b64f-bc18ddea5acc)
   )
-  (hierarchical_label "UART_TX" (shape input) (at 58.42 134.62 180) (fields_autoplaced)
+  (hierarchical_label "UART_TX" (shape input) (at 33.02 134.62 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b86c83bb-f69b-41f2-a0ba-fed661440e49)
   )
@@ -1224,7 +1353,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 182.88 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 015b0e42-00cb-4a26-8eff-db9724ee994e)
-    (property "Reference" "R401" (at 181.61 58.42 0)
+    (property "Reference" "R811" (at 181.61 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 181.61 60.96 0)
@@ -1255,9 +1384,6 @@
     (pin "2" (uuid 719b57e8-6001-4aea-95c7-10d104d7d6b0))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "R401") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "R811") (unit 1)
         )
@@ -1268,7 +1394,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 210.82 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fecd6f0-8e02-499c-be34-cf52cbb64af7)
-    (property "Reference" "R401" (at 208.28 140.97 0)
+    (property "Reference" "R815" (at 208.28 140.97 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 208.28 143.51 0)
@@ -1299,9 +1425,6 @@
     (pin "2" (uuid a8c54ea5-3ea1-4a8c-8def-4817807bf801))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "R401") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "R815") (unit 1)
         )
@@ -1310,7 +1433,7 @@
   )
 
   (symbol (lib_id "ayab-lib:Conn_01x03") (at 93.98 43.18 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 147df3ae-1383-41d0-8e7a-0b61d16938ea)
     (property "Reference" "J802" (at 90.17 38.1 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1354,7 +1477,7 @@
   (symbol (lib_id "power:GND") (at 220.98 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ee668a5-fa98-47db-b9e6-e776df70a217)
-    (property "Reference" "#PWR0403" (at 220.98 154.94 0)
+    (property "Reference" "#PWR0808" (at 220.98 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 149.86 0)
@@ -1369,9 +1492,6 @@
     (pin "1" (uuid b15e4def-83b9-4633-87fe-d868e297f195))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0403") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "#PWR0808") (unit 1)
         )
@@ -1382,7 +1502,7 @@
   (symbol (lib_id "ayab-lib:Conn_01x04") (at 90.17 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3aaa4deb-7847-4652-84fc-0cd7799d375a)
-    (property "Reference" "J403" (at 92.71 134.62 0)
+    (property "Reference" "J801" (at 92.71 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AYAB_UART" (at 92.71 137.16 0)
@@ -1394,7 +1514,7 @@
     (property "Datasheet" "~" (at 90.17 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC ID" "C3029334" (at 90.17 134.62 0)
+    (property "LCSC ID" "C7501292" (at 90.17 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Voltage rating" "" (at 90.17 134.62 0)
@@ -1403,10 +1523,10 @@
     (property "Package" "" (at 90.17 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "OEM PN" "WAFER-SH1.0-4PLB" (at 90.17 134.62 0)
+    (property "OEM PN" "ZX-PZ2.54-1-4PWZ" (at 90.17 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "OEM" "XUNPU" (at 90.17 134.62 0)
+    (property "OEM" "Megastar" (at 90.17 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5d8f0f85-79f9-4325-9a2e-299d1b47c6ee))
@@ -1415,9 +1535,6 @@
     (pin "4" (uuid a216d750-04ca-4f32-a830-9f11ddd6e27c))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J403") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "J801") (unit 1)
         )
@@ -1428,7 +1545,7 @@
   (symbol (lib_id "ayab-lib:Conn_01x04") (at 124.46 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44fea64b-a9ba-428f-844f-88127472d1d0)
-    (property "Reference" "J403" (at 127 67.31 0)
+    (property "Reference" "J803" (at 127 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USER_I2C" (at 127 69.85 0)
@@ -1461,9 +1578,6 @@
     (pin "4" (uuid ade5987c-7c04-43e5-954a-eb25041b4cee))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J403") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "J803") (unit 1)
         )
@@ -1474,7 +1588,7 @@
   (symbol (lib_id "power:+3V3") (at 210.82 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4619ec4e-2907-4099-a4cb-3328f70653ea)
-    (property "Reference" "#PWR0402" (at 210.82 125.73 0)
+    (property "Reference" "#PWR0807" (at 210.82 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 214.63 120.65 0)
@@ -1489,9 +1603,6 @@
     (pin "1" (uuid fb62e897-8043-40d3-831e-f492485f3072))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0402") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "#PWR0807") (unit 1)
         )
@@ -1502,7 +1613,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 193.04 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ab1f2f5-f407-459f-9263-2721fa451e6c)
-    (property "Reference" "R402" (at 191.77 58.42 0)
+    (property "Reference" "R812" (at 191.77 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 191.77 60.96 0)
@@ -1533,9 +1644,6 @@
     (pin "2" (uuid 0a252914-5c72-4cd7-8e4a-f41a585e5722))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "R402") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "R812") (unit 1)
         )
@@ -1549,7 +1657,7 @@
     (property "Reference" "R806" (at 62.23 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "47R" (at 67.31 137.16 90)
+    (property "Value" "100R" (at 68.58 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 64.77 134.62 0)
@@ -1587,7 +1695,7 @@
   (symbol (lib_id "power:GND") (at 115.57 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59bd84c2-eb6b-47cc-a62d-0945137bcc61)
-    (property "Reference" "#PWR0403" (at 115.57 82.55 0)
+    (property "Reference" "#PWR0805" (at 115.57 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 77.47 0)
@@ -1602,9 +1710,6 @@
     (pin "1" (uuid c3dbe24f-ead3-4fa7-954e-56a8897169d8))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0403") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "#PWR0805") (unit 1)
         )
@@ -1681,7 +1786,7 @@
   (symbol (lib_id "ayab-lib:Conn_01x04") (at 254 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e686744-6bba-4c17-bc0e-1c23cd984622)
-    (property "Reference" "J403" (at 256.54 67.31 0)
+    (property "Reference" "J806" (at 256.54 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AYAB_I2C" (at 256.54 69.85 0)
@@ -1693,7 +1798,7 @@
     (property "Datasheet" "~" (at 254 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC ID" "C3029334" (at 254 67.31 0)
+    (property "LCSC ID" "C7501292" (at 254 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Voltage rating" "" (at 254 67.31 0)
@@ -1702,10 +1807,10 @@
     (property "Package" "" (at 254 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "OEM PN" "WAFER-SH1.0-4PLB" (at 254 67.31 0)
+    (property "OEM PN" "ZX-PZ2.54-1-4PWZ" (at 254 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "OEM" "XUNPU" (at 254 67.31 0)
+    (property "OEM" "Megastar" (at 254 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 42fd365a-21e0-4f60-8aa1-ca68731a5a32))
@@ -1714,9 +1819,6 @@
     (pin "4" (uuid ddda8296-7e5a-48fd-a048-3f8c80210f87))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J403") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "J806") (unit 1)
         )
@@ -1727,7 +1829,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 63.5 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 709415df-d537-49c8-804c-b320beb3b066)
-    (property "Reference" "R402" (at 62.23 58.42 0)
+    (property "Reference" "R804" (at 62.23 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 62.23 60.96 0)
@@ -1758,9 +1860,6 @@
     (pin "2" (uuid 64caff81-18e6-4339-b68b-71a88667274e))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "R402") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "R804") (unit 1)
         )
@@ -1771,7 +1870,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 93.98 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75968aed-2e1f-49f1-98ea-8178524b575d)
-    (property "Reference" "R402" (at 92.71 58.42 0)
+    (property "Reference" "R807" (at 92.71 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 92.71 60.96 0)
@@ -1802,9 +1901,6 @@
     (pin "2" (uuid 8bb28b23-252b-4dfa-8c1b-001cb759f294))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "R402") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "R807") (unit 1)
         )
@@ -1812,8 +1908,34 @@
     )
   )
 
-  (symbol (lib_id "ayab-lib:Conn_01x03") (at 223.52 43.18 90) (unit 1)
+  (symbol (lib_id "Diode:ESD9B3.3ST5G") (at 57.15 142.24 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8ee8ace4-344d-4020-a3a7-976776bfbeea)
+    (property "Reference" "D?" (at 54.61 140.97 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "3v3" (at 54.61 143.51 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-923" (at 57.15 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" (at 57.15 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 634ad1f9-e892-45c8-a3ff-0fc74fe7c09d))
+    (pin "1" (uuid b02a26c3-d1b8-4314-a3f7-ac0c33157ce5))
+    (instances
+      (project "ayab-esp32"
+        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
+          (reference "D?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ayab-lib:Conn_01x03") (at 223.52 43.18 90) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 95b77599-a567-4df4-bc3c-ed7948de82be)
     (property "Reference" "J804" (at 219.71 38.1 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1857,7 +1979,7 @@
   (symbol (lib_id "power:+3V3") (at 81.28 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d445361-a91e-4ea3-ae91-7d09687080a1)
-    (property "Reference" "#PWR0402" (at 81.28 130.81 0)
+    (property "Reference" "#PWR0802" (at 81.28 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 85.09 125.73 0)
@@ -1872,9 +1994,6 @@
     (pin "1" (uuid 31779d6e-758b-4e81-b551-22a7379d4fe8))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0402") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "#PWR0802") (unit 1)
         )
@@ -1882,27 +2001,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 81.28 143.51 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 81.28 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a03e6c9f-47a2-49c6-a4b5-9885490b8722)
-    (property "Reference" "#PWR0403" (at 81.28 149.86 0)
+    (property "Reference" "#PWR0803" (at 81.28 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 86.36 146.05 0)
+    (property "Value" "GND" (at 86.36 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 81.28 143.51 0)
+    (property "Footprint" "" (at 81.28 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 81.28 143.51 0)
+    (property "Datasheet" "" (at 81.28 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f8151489-856f-4eaa-b5c9-42a53851a3ab))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0403") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "#PWR0803") (unit 1)
         )
@@ -1958,7 +2074,7 @@
     (property "Reference" "R805" (at 62.23 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "47R" (at 67.31 129.54 90)
+    (property "Value" "100R" (at 68.58 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 64.77 132.08 0)
@@ -1996,7 +2112,7 @@
   (symbol (lib_id "power:+3V3") (at 53.34 46.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a795be96-a7c7-4643-99f8-2a612f0c22dc)
-    (property "Reference" "#PWR0402" (at 53.34 50.8 0)
+    (property "Reference" "#PWR0801" (at 53.34 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 49.53 45.72 0)
@@ -2011,9 +2127,6 @@
     (pin "1" (uuid 168ac65d-9729-4843-b172-c5a92725aff4))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0402") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "#PWR0801") (unit 1)
         )
@@ -2065,7 +2178,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 223.52 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5a272f7-e867-42d3-9927-abc16fc6cbd4)
-    (property "Reference" "R402" (at 222.25 58.42 0)
+    (property "Reference" "R816" (at 222.25 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 222.25 60.96 0)
@@ -2096,9 +2209,6 @@
     (pin "2" (uuid 50313d07-ecd4-49be-b4fb-10491d7cdabc))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "R402") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "R816") (unit 1)
         )
@@ -2109,7 +2219,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 101.6 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b79dbd3a-93b9-474c-b11c-1399162defa9)
-    (property "Reference" "R402" (at 100.33 58.42 0)
+    (property "Reference" "R808" (at 100.33 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 100.33 60.96 0)
@@ -2140,9 +2250,6 @@
     (pin "2" (uuid b092757b-071e-40ee-946a-3c34c2bc73d9))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "R402") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "R808") (unit 1)
         )
@@ -2153,7 +2260,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 231.14 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c51c32e1-1db8-4265-8224-6dc207a05d79)
-    (property "Reference" "R402" (at 229.87 58.42 0)
+    (property "Reference" "R817" (at 229.87 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 229.87 60.96 0)
@@ -2184,9 +2291,6 @@
     (pin "2" (uuid 3b4a130a-0baf-4b73-ba8e-b337089ffb30))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "R402") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "R817") (unit 1)
         )
@@ -2197,7 +2301,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 210.82 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c65a8ae2-ede9-47db-bb68-f98a453261ad)
-    (property "Reference" "R401" (at 208.28 125.73 0)
+    (property "Reference" "R814" (at 208.28 125.73 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 208.28 128.27 0)
@@ -2228,11 +2332,90 @@
     (pin "2" (uuid 7d6b5845-4a07-4123-a4ad-c8bcb038dbda))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "R401") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "R814") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ayab-lib:R_Small_US") (at 38.1 132.08 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c70cedaf-b490-4c1d-8ae5-05bc769ea5d6)
+    (property "Reference" "R?" (at 35.56 129.54 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1k" (at 41.91 129.54 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 38.1 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 38.1 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC ID" "C23182" (at 38.1 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Voltage rating" "" (at 38.1 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0603" (at 38.1 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "OEM PN" "0603WAF470JT5E" (at 38.1 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "OEM" "UNI-ROYAL(Uniroyal Elec)" (at 38.1 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5b150b8a-0f34-4648-bc15-267ec881a8ea))
+    (pin "2" (uuid e914604d-8516-49fa-8ecb-7fcbceba1609))
+    (instances
+      (project "ayab-esp32"
+        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
+          (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ayab-lib:R_Small_US") (at 38.1 134.62 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid cb40cb49-0847-4622-ba79-09dc1b0870ae)
+    (property "Reference" "R?" (at 35.56 137.16 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1k" (at 41.91 137.16 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 38.1 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 38.1 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC ID" "C23182" (at 38.1 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Voltage rating" "" (at 38.1 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0603" (at 38.1 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "OEM PN" "0603WAF470JT5E" (at 38.1 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "OEM" "UNI-ROYAL(Uniroyal Elec)" (at 38.1 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 74dd373d-f517-4f2e-9915-d17a8d2fbca1))
+    (pin "2" (uuid 79681b35-68db-4326-b9ba-341cf05647aa))
+    (instances
+      (project "ayab-esp32"
+        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2282,7 +2465,7 @@
   (symbol (lib_id "power:+3V3") (at 182.88 46.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6552db7-3102-4d8b-8c37-9e496d084e4d)
-    (property "Reference" "#PWR0402" (at 182.88 50.8 0)
+    (property "Reference" "#PWR0806" (at 182.88 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 179.07 45.72 0)
@@ -2297,9 +2480,6 @@
     (pin "1" (uuid c8c68b8a-a535-4215-85f6-8e407dfc7bc4))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0402") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "#PWR0806") (unit 1)
         )
@@ -2310,7 +2490,7 @@
   (symbol (lib_id "power:GND") (at 245.11 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d669eb21-e6cb-4ea8-8396-6a80b1e03fd0)
-    (property "Reference" "#PWR0403" (at 245.11 82.55 0)
+    (property "Reference" "#PWR0810" (at 245.11 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 77.47 0)
@@ -2325,9 +2505,6 @@
     (pin "1" (uuid 51c9e05f-a0e1-45fe-a81f-cca3430000f0))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "#PWR0403") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "#PWR0810") (unit 1)
         )
@@ -2420,7 +2597,7 @@
   (symbol (lib_id "ayab-lib:Conn_01x06") (at 228.6 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e24b6fe4-ec8e-4d4f-9194-1807a1fca4b5)
-    (property "Reference" "J404" (at 231.14 135.89 0)
+    (property "Reference" "J805" (at 231.14 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AYAB_SPI" (at 231.14 138.43 0)
@@ -2455,11 +2632,34 @@
     (pin "6" (uuid 9f75a786-e205-4c1e-9082-de33c78e3760))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "J404") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "J805") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:ESD9B3.3ST5G") (at 48.26 142.24 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e327fe87-fd5b-461c-a500-4f43bfff525e)
+    (property "Reference" "D?" (at 45.72 140.97 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "3v3" (at 45.72 143.51 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-923" (at 48.26 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" (at 48.26 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 326a6785-e57f-4c5d-86a1-34891fb5b96d))
+    (pin "1" (uuid 4f20aba6-f82c-44dc-b64c-ef8b4e566a74))
+    (instances
+      (project "ayab-esp32"
+        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -2577,7 +2777,7 @@
   (symbol (lib_id "ayab-lib:R_Small_US") (at 53.34 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fec4349b-4208-4da0-a276-52a9fb8ea7a9)
-    (property "Reference" "R401" (at 52.07 58.42 0)
+    (property "Reference" "R803" (at 52.07 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 52.07 60.96 0)
@@ -2608,9 +2808,6 @@
     (pin "2" (uuid 2459e972-9e7a-47a4-be71-e1277937d0f0))
     (instances
       (project "ayab-esp32"
-        (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d"
-          (reference "R401") (unit 1)
-        )
         (path "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b"
           (reference "R803") (unit 1)
         )
