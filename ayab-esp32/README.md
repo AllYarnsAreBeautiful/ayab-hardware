@@ -4,7 +4,7 @@ It currently has compatibility with the Brother KH-900, 910, 930, 940, 950, 965,
 Based on the ESP32, many new features have been implemented: 
 
 * Supports all carriages (K, L, and G)
-* Can be powered from internal Brother power supply, or 9-24V DC barrel jack of any polarity.
+* Can be powered from internal Brother power supply, or 9-12V DC barrel jack of any polarity.
 * PC connection via USB-C, with future web-app planned for "wireless" use.
 * Qwiic I2C connector available for user expansion or accessories (color changer, motorized carriage, etc)
 * 8 User-accessible GPIO brought out on 2.54mm headers.
