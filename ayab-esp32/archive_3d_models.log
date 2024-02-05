@@ -1,0 +1,13 @@
+02-04 19:27:43 svg2mod 1301:Font "FredokaOne" does not natively support style "Regular" using "Path" instead
+02-04 19:27:43 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+02-04 19:27:43 svg2mod 263:  Detailed names: [F.SilkS]
+02-04 19:27:43 svg2mod 304:  Inlining 3 segments...
+02-04 19:27:43 svg2mod 339:  Writing Text with 182 points
+02-04 19:27:57 com_github_gregdavill_KiBuzzard.plugin 57:Running KiBuzzard
+02-04 19:27:57 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+02-04 19:27:57 svg2mod 263:  Detailed names: [F.SilkS]
+02-04 19:27:57 svg2mod 304:  Inlining 3 segments...
+02-04 19:27:57 svg2mod 339:  Writing Text with 182 points
+02-04 19:27:57 com_github_gregdavill_KiBuzzard.plugin 71:Loading label onto clipboard
+02-04 19:27:57 com_github_gregdavill_KiBuzzard.plugin 128:Using wx.KeyEvent for paste
+02-04 19:27:57 com_github_gregdavill_KiBuzzard.plugin 132: Injecting event: <wx._core.KeyEvent object at 0x11239e670> into window: <wx._core.Window object at 0x1122fc160>
