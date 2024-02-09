@@ -4190,7 +4190,7 @@
     (property "Value" "SN74LVC4245" (at 73.66 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:TSSOP-24_4.4x6.5mm_P0.5mm" (at 81.28 119.38 0)
+    (property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" (at 81.28 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809192324_Texas-Instruments-SN74LVC4245APWR_C7859.pdf" (at 82.55 121.92 0)
