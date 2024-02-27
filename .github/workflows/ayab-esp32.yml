@@ -21,7 +21,7 @@ jobs:
         run: mkdir -p ayab-esp32/outputs/gerbers
 
       - name: Install KiCad
-        run: bash ./scripts/dependencies.sh; cd ayab-esp32
+        run: sudo bash ./scripts/dependencies.sh; cd ayab-esp32
 
       - name: Export schematic PDF 
         run: kicad-cli sch export pdf -b outputs/ayab-esp32.pdf ayab-esp32.kicad_sch
