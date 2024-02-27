@@ -6,7 +6,7 @@ on:
       - 'ayab-esp32/**'
       - '.github/workflows/buildfiles.yml'
 
-  pull-request:
+  pull_request:
     paths:
        - 'ayab-esp32/**'
        - '.github/workflows/buildfiles.yml'
