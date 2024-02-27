@@ -1,0 +1,55 @@
+name: Assembly Documentation (AYAB-ESP32)
+
+on:
+  push:
+    paths:
+      - 'ayab-esp32/**'
+      - '.github/workflows/buildfiles.yml'
+
+  pull-request:
+    paths:
+       - 'ayab-esp32/**'
+       - '.github/workflows/buildfiles.yml'
+
+jobs:
+  buildfiles:
+    name: Documentation Generation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create output directory
+        run: |
+          mkdir -p ayab-esp32/outputs; mkdir ayab-esp32/outputs/gerbers
+
+      - name: Install KiCad
+        run: |
+          ./scripts/dependencies.sh; cd ayab-esp32
+
+      - name: Export schematic PDF 
+        run: |
+          kicad-cli sch export pdf -b outputs/ayab-esp32.pdf ayab-esp32.kicad_sch
+
+      - name: Export gerbers
+        run: |
+          kicad-cli pcb export gerbers -o outputs/gerbers --erd -ev --use-drill-file-origin ayab-esp32.kicad_pcb
+
+      - name: Zip gerbers
+        run: |
+          zip -r outputs/ayab-esp32.zip outputs/gerbers; sudo rm -r outputs/gerbers
+
+      - name: Export BOM
+        run: |
+          kicad-cli sch export bom -o outputs/ayab-esp32-BOM.csv --fields "Reference,Value,Footprint,JLCPCB PN" --exclude-dnp ayab-esp32.kicad_sch
+
+      - name: Export CPL
+        run: |
+          kicad-cli pcb export pos -o outputs/ayab-esp32-CPL.csv --side front --format ascii --use-drill-file-origin --exclude-dnp ayab-esp32.kicad_pcb
+
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: electronics
+          path: electronics/build
