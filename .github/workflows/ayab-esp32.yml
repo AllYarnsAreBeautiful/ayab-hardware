@@ -27,7 +27,7 @@ jobs:
         run: kicad-cli sch export pdf -b -o ayab-esp32/outputs/ayab-esp32.pdf ayab-esp32/ayab-esp32.kicad_sch
 
       - name: Export gerbers
-        run: kicad-cli pcb export gerbers -o ayab-esp32/outputs/gerbers --erd -ev --use-drill-file-origin ayab-esp32/ayab-esp32.kicad_pcb
+        run: kicad-cli pcb export gerbers -o ayab-esp32/outputs/gerbers --erd --ev --use-drill-file-origin ayab-esp32/ayab-esp32.kicad_pcb
 
       - name: Zip gerbers
         run: zip -r ayab-esp32/outputs/ayab-esp32.zip ayab-esp32/outputs/gerbers; sudo rm -r ayab-esp32/outputs/gerbers
