@@ -1,3 +1,5 @@
+[![Hardware Design](https://github.com/AllYarnsAreBeautiful/ayab-hardware/actions/workflows/ayab-esp32-design.yml/badge.svg?branch=main)](https://github.com/AllYarnsAreBeautiful/ayab-hardware/actions/workflows/ayab-esp32-design.yml)
+[![Assembly Documentation](https://github.com/AllYarnsAreBeautiful/ayab-hardware/actions/workflows/ayab-esp32-documentation.yml/badge.svg)](https://github.com/AllYarnsAreBeautiful/ayab-hardware/actions/workflows/ayab-esp32-documentation.yml)\
 # AYAB-ESP32
 These are the design files for the latest generation of AYAB hardware, a new, next controller for knitting machines.\
 It currently has compatibility with the Brother KH 900, 910, 930, 940, 950, 965, with support planned for CK-35 and KH-270.\
