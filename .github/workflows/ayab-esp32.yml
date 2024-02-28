@@ -15,13 +15,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Create output directory
         run: mkdir -p ayab-esp32/outputs/gerbers
 
       - name: Install KiCad
-        run: sudo bash ./scripts/dependencies.sh; cd ayab-esp32
+        run: sudo bash ./scripts/dependencies.sh
+        
+      - name: Change directory
+        run: cd ayab-esp32
 
       - name: Export schematic PDF 
         run: kicad-cli sch export pdf -b outputs/ayab-esp32.pdf ayab-esp32.kicad_sch
