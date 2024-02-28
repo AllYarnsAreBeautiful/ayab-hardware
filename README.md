@@ -1,5 +1,5 @@
 # AYAB Hardware
-[![AYAB-ESP32 Status](https://github.com/VIPQualityPost/ayab-hardware/actions/workflows/ayab-esp32.yml/badge.svg?branch=master)](https://github.com/VIPQualityPost/ayab-hardware/actions/workflows/ayab-esp32.yml)
+[![Assembly Documentation (AYAB-ESP32)](https://github.com/VIPQualityPost/ayab-hardware/actions/workflows/ayab-esp32.yml/badge.svg)](https://github.com/VIPQualityPost/ayab-hardware/actions/workflows/ayab-esp32.yml)
 
 This is the respository for the open-source first-party hardware that interfaces with the AYAB desktop software. It contains design files, production files, and assembly documentation, sorted by hardware generation.
 
