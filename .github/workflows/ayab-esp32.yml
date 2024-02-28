@@ -24,15 +24,6 @@ jobs:
       - name: Create output directory
         run: mkdir -p ayab-esp32/outputs/gerbers
 
-      - name: Install Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip'
-
-      - name: Install Pandas
-        run: pip install pandas
-
       - name: Install KiCad
         run: sudo bash ./scripts/dependencies.sh
 
