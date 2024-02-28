@@ -42,5 +42,5 @@ jobs:
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: electronics
-          path: electronics/build
+          name: ayab-esp32-artifacts
+          path: ayab-esp32/outputs
