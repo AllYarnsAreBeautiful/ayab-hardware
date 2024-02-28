@@ -2,10 +2,14 @@ name: Assembly Documentation (AYAB-ESP32)
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'ayab-esp32/**'
 
   pull_request:
+    branches:
+      - main
     paths:
        - 'ayab-esp32/**'
 
@@ -20,26 +24,38 @@ jobs:
       - name: Create output directory
         run: mkdir -p ayab-esp32/outputs/gerbers
 
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+        run: pip install pandas
+
       - name: Install KiCad
         run: sudo bash ./scripts/dependencies.sh
 
-      - name: Export schematic PDF 
-        run: kicad-cli sch export pdf -b -o ayab-esp32/outputs/ayab-esp32.pdf ayab-esp32/ayab-esp32.kicad_sch
+      - name: Verify clean design files
+        run: kicad-cli sch erc -o ayab-esp32/outputs/erc_errors.json --format json --severity-error --exit-code-violations ayab-esp32/ayab-esp32.kicad_sch; sudo rm erc_errors.json
+        run: kicad-cli pcb drc -o ayab-esp32/outputs/drc_errors.json --format json --severity-error --exit-code-violations ayab-esp32/ayab-esp32.kicad_pcb; sudo rm drc_errors.json
 
-      - name: Export BOM
-        run: kicad-cli sch export bom -o ayab-esp32/outputs/ayab-esp32-BOM.csv --fields "Reference,Value,Footprint,JLCPCB PN" --exclude-dnp ayab-esp32/ayab-esp32.kicad_sch
+      - name: Export schematic & layout PDFs
+        run: kicad-cli sch export pdf -o ayab-esp32/outputs/ayab-esp32-sch.pdf ayab-esp32/ayab-esp32.kicad_sch
+        run: kicad-cli pcb export pdf -o ayab-esp32/outputs/ayab-esp32-pcb-front.pdf -l "F.Cu, F.Mask, F.Silkscreen" ayab-esp32/ayab-esp32.kicad_pcb
+        run: kicad-cli pcb export pdf -o ayab-esp32/outputs/ayab-esp32-pcb-back.pdf --erd --ev --mirror -l "B.Cu, B.Mask, B.Silkscreen" ayab-esp32/ayab-esp32.kicad_pcb
 
-      - name: Export CPL
-        run: kicad-cli pcb export pos -o ayab-esp32/outputs/ayab-esp32-CPL.csv --side front --format ascii --use-drill-file-origin --exclude-dnp ayab-esp32/ayab-esp32.kicad_pcb
+      - name: Export assembly files
+        run: kicad-cli sch export bom -o ayab-esp32/outputs/raw-BOM.csv --fields "Reference,Value,Footprint,JLCPCB PN" --exclude-dnp --group-by "Val" --sort-asc ayab-esp32/ayab-esp32.kicad_sch
+        run: kicad-cli pcb export pos -o ayab-esp32/outputs/raw-CPL.csv --side front --format ascii --use-drill-file-origin --exclude-dnp ayab-esp32/ayab-esp32.kicad_pcb
 
-      - name: Export gerbers
-        run: kicad-cli pcb export gerbers -o ayab-esp32/outputs/gerbers -l "F.Cu, F.Mask, F.Silkscreen, F.Paste, In1.Cu, In2.Cu, B.Cu, B.Mask, B.Silkscreen, B.Paste, Edge.Cuts"--erd --ev --use-drill-file-origin ayab-esp32/ayab-esp32.kicad_pcb
-
-      - name: Export drills
-        run: kicad-cli pcb export drill -o ayab-esp32/outputs/gerbers/ --drill-origin plot --generate-map --map-format gerberx2 ayab-esp32/ayab-esp32.kicad_pcb
-
-      - name: Zip gerbers
+      - name: Export mechanical files
+        run: kicad-cli pcb export gerbers -o ayab-esp32/outputs/gerbers/ -l "F.Cu, F.Mask, F.Silkscreen, F.Paste, In1.Cu, In2.Cu, B.Cu, B.Mask, B.Silkscreen, B.Paste, Edge.Cuts"--erd --ev --use-drill-file-origin ayab-esp32/ayab-esp32.kicad_pcb
+        run: kicad-cli pcb export drill -o ayab-esp32/outputs/gerbers/ --drill-origin plot ayab-esp32/ayab-esp32.kicad_pcb
         run: cd ayab-esp32/outputs; zip -r ayab-esp32-gerbers.zip gerbers; sudo rm -r gerbers
+
+      - name: Convert BOM & CPL to JLC format
+        run: python3 jlc_bom_formatter.py raw-BOM.csv ayab-esp32-BOM.csv; python3 jlc_cpl_formatter.py raw-CPL.csv ayab-esp32-CPL.csv
+        run: sudo rm raw-BOM.csv raw-CPL.csv
 
       - name: Archive artifacts
         uses: actions/upload-artifact@v4

@@ -1,0 +1,1385 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2024-02-27T21:48:07-0500",
+    "kicad_version": "8.0.0",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2",
+            "violations": [
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0105 [GND]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 1.4859
+                            },
+                            "uuid": "f90e90cf-0f75-4f09-97eb-bc9fcfedd187"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0104 [GND]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 0.889
+                            },
+                            "uuid": "824e1e02-9a90-4e94-bab2-43431e31eaf6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0102 [GND]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.4953
+                            },
+                            "uuid": "efffdac6-b3ae-404b-97be-da402c67df18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+12V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0101 [+12V]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.3175
+                            },
+                            "uuid": "b69eea11-2935-462d-a402-9933ea043220"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0106 [+3V3]",
+                            "pos": {
+                                "x": 0.8382,
+                                "y": 0.3175
+                            },
+                            "uuid": "4604a1d5-e7f0-4d7c-a3ed-f13c13fc4bb6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0103 [+5V]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 0.3175
+                            },
+                            "uuid": "b75f2191-2a34-4579-b899-70f4634893e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/ESP32/",
+            "uuid_path": "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a7e0db0f-e473-44d4-a2fe-681f732aacb2",
+            "violations": [
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0205 [+3V3]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.6891
+                            },
+                            "uuid": "fc531d5c-6b31-4c71-bc50-bd17688df6cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0209 [GND]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 1.778
+                            },
+                            "uuid": "18aabd21-748a-416d-a7bd-0397a11e5046"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0206 [GND]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 1.8796
+                            },
+                            "uuid": "fe5b4a01-86c5-4682-b480-becb74f76304"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0210 [GND]",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.4826
+                            },
+                            "uuid": "fdceed8c-7dc0-4848-88e6-cd2594d68546"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0207 [+3V3]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.3556
+                            },
+                            "uuid": "cc1cf170-5bd0-416a-98aa-d8e2a795d885"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0208 [GND]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 1.3843
+                            },
+                            "uuid": "a5fffda3-b4f3-4579-b301-9acebd7933da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0204 [+3V3]",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 0.3683
+                            },
+                            "uuid": "ef9c0ca2-2d28-489f-a686-79316a489c7c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0211 [+3V3]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.3302
+                            },
+                            "uuid": "22950f68-3b3c-4dad-a9f0-a96f14e9c0ea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0213 [GND]",
+                            "pos": {
+                                "x": 2.5146,
+                                "y": 0.7874
+                            },
+                            "uuid": "cb333821-bf2a-4929-af99-c95a8502c512"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0203 [GND]",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 0.5588
+                            },
+                            "uuid": "5720afa6-4865-47d1-b0e2-aa48bc1d66be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0201 [GND]",
+                            "pos": {
+                                "x": 0.3302,
+                                "y": 1.3589
+                            },
+                            "uuid": "056e8f1f-8996-4fd0-a639-2b359b65fa4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0202 [+3V3]",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.9652
+                            },
+                            "uuid": "bc716993-e7c1-4a40-b977-58cda93cdf0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/SOLENOID DRIVERS/",
+            "uuid_path": "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/5c12a608-dfd1-46fe-96db-4ec512a20774",
+            "violations": [
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0306 [GND]",
+                            "pos": {
+                                "x": 1.8415,
+                                "y": 1.524
+                            },
+                            "uuid": "02dfa649-449d-42db-a6f8-a8c4a6e249a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0305 [GND]",
+                            "pos": {
+                                "x": 1.8415,
+                                "y": 1.0414
+                            },
+                            "uuid": "2e9be011-650e-4e64-948e-40fca3e9fa04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0309 [GND]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 1.3462
+                            },
+                            "uuid": "f9c4a4d2-3af0-49f4-a3a0-505a23b9481b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0303 [GND]",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 1.143
+                            },
+                            "uuid": "9bd5728b-9de6-4c9a-8bd3-55e15d8504da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0302 [+3V3]",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.4826
+                            },
+                            "uuid": "20dff66b-fc0e-4421-baf3-74e90766e40f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0301 [GND]",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.5969
+                            },
+                            "uuid": "4c32b514-9119-432d-93c4-ff433f34e5ff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0304 [GND]",
+                            "pos": {
+                                "x": 1.8415,
+                                "y": 0.5588
+                            },
+                            "uuid": "95e5db7f-2772-4228-914b-7ada33d3ee7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0308 [GND]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 0.8382
+                            },
+                            "uuid": "856e241a-4176-474d-b1e4-492def1f8b03"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0307 [GND]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 0.381
+                            },
+                            "uuid": "a81b998b-cd69-4169-af89-4f5ee98aa2f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+12V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0310 [+12V]",
+                            "pos": {
+                                "x": 2.2733,
+                                "y": 0.254
+                            },
+                            "uuid": "b2a560a9-b2f6-4047-b4da-dd4738d76868"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/BROTHER-CONNECTORS/",
+            "uuid_path": "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7cdcbcc1-4c9b-4f2f-a9ba-c3dab0b4149d",
+            "violations": [
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0407 [+5V]",
+                            "pos": {
+                                "x": 2.3495,
+                                "y": 1.0541
+                            },
+                            "uuid": "3abc536b-e114-4ab2-8cca-180612e22b0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+12V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0406 [+12V]",
+                            "pos": {
+                                "x": 2.3495,
+                                "y": 0.3683
+                            },
+                            "uuid": "9a92b1d0-770a-4614-98ce-a41d98603e63"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0405 [GND]",
+                            "pos": {
+                                "x": 2.3241,
+                                "y": 1.4732
+                            },
+                            "uuid": "db7b154a-672d-4570-a90c-c26c16d6ca46"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+12V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0404 [+12V]",
+                            "pos": {
+                                "x": 1.4478,
+                                "y": 0.3429
+                            },
+                            "uuid": "6d63714e-f87b-4e02-8bb8-6099d7e44780"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0403 [GND]",
+                            "pos": {
+                                "x": 1.4351,
+                                "y": 1.4478
+                            },
+                            "uuid": "c5fa949a-292a-458e-8241-76494d0344e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0409 [+5V]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.0287
+                            },
+                            "uuid": "0d43cbe5-d11a-4997-bdb5-fa1bd61d4854"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0408 [GND]",
+                            "pos": {
+                                "x": 0.5334,
+                                "y": 1.4478
+                            },
+                            "uuid": "9264d450-1e8b-4a98-8c98-6baceee2ce48"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+12V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0401 [+12V]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.3429
+                            },
+                            "uuid": "bf4296be-623d-4213-b206-df3a18e5ca30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0402 [+5V]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 1.016
+                            },
+                            "uuid": "d19e353a-160a-4707-a139-c62c8048eacf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/USB/",
+            "uuid_path": "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/7889acbf-96cc-4a04-a98d-615c06d1b134",
+            "violations": [
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0501 [+3V3]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.8382
+                            },
+                            "uuid": "c18b2cb4-bec2-4020-918f-57ce7c54bf26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0502 [+5V]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 0.762
+                            },
+                            "uuid": "d1705c17-f220-4e83-bb81-9e620fe44fbd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0503 [GND]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 1.2192
+                            },
+                            "uuid": "ea903021-e19d-43d6-9b57-af27380af083"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/PSU/",
+            "uuid_path": "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/512b1de4-f8f4-4173-a7be-69b46f59a5e5",
+            "violations": [
+                {
+                    "description": "Symbol 'PWR_FLAG' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0602 [PWR_FLAG]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 0.3556
+                            },
+                            "uuid": "edd01cd5-c8d5-4ee2-a6ca-f007ccbe1c83"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0602 [GND]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.3208
+                            },
+                            "uuid": "b0c1c8d7-ca8b-4f81-bc59-df89c34173c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+12V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0601 [+12V]",
+                            "pos": {
+                                "x": 0.2667,
+                                "y": 1.1684
+                            },
+                            "uuid": "ea0c64dd-7cb4-4601-93da-bb492284ebc5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0604 [+5V]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.1303
+                            },
+                            "uuid": "a037b09c-877d-43da-97bd-968c89e01c94"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Both BRIDGE_P and 12V are attached to the same items; BRIDGE_P will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'BRIDGE_P'",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 0.3683
+                            },
+                            "uuid": "c65f5d7d-7d9e-4b16-816f-9cc47995682e"
+                        },
+                        {
+                            "description": "Hierarchical Label '12V'",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.3683
+                            },
+                            "uuid": "3ed71077-bee5-4e60-accc-bb57f06dd249"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Symbol 'Barrel_Jack_Switch' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J601 [Barrel_Jack_Switch]",
+                            "pos": {
+                                "x": 0.2794,
+                                "y": 0.3937
+                            },
+                            "uuid": "daac17c2-edbe-4abc-adf6-035304751803"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'D_Bridge_+-AA' not found in symbol library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol D601 [D_Bridge_+-AA]",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.4953
+                            },
+                            "uuid": "f7a30ae1-183f-4107-9a36-7f646f3235e9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'PWR_FLAG' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0601 [PWR_FLAG]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.6858
+                            },
+                            "uuid": "ffc77898-c704-4439-acc9-8ede44a35596"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0606 [GND]",
+                            "pos": {
+                                "x": 1.3335,
+                                "y": 1.3589
+                            },
+                            "uuid": "b68ce349-c33f-412a-b689-05a9b132479c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+12V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0603 [+12V]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.1303
+                            },
+                            "uuid": "2712946e-c747-4e06-a739-c6cba31467c0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0605 [+3V3]",
+                            "pos": {
+                                "x": 1.3335,
+                                "y": 1.1303
+                            },
+                            "uuid": "4323833f-5328-4caa-8362-946d22c0cb8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'PWR_FLAG' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0605 [PWR_FLAG]",
+                            "pos": {
+                                "x": 2.7051,
+                                "y": 0.5207
+                            },
+                            "uuid": "9ebe2f36-a146-42ab-8234-2a0ef483f1cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0608 [+5V]",
+                            "pos": {
+                                "x": 1.651,
+                                "y": 1.1811
+                            },
+                            "uuid": "8e6f0c56-8dfb-40cb-b743-8de148c0e415"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+12V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0607 [+12V]",
+                            "pos": {
+                                "x": 1.7526,
+                                "y": 0.4572
+                            },
+                            "uuid": "9cf5b075-c977-4c35-9d66-3098be1d116d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'PWR_FLAG' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0606 [PWR_FLAG]",
+                            "pos": {
+                                "x": 2.7051,
+                                "y": 1.2446
+                            },
+                            "uuid": "7e333feb-0c83-41a9-959f-693e583d0fc8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0612 [GND]",
+                            "pos": {
+                                "x": 2.5781,
+                                "y": 1.4351
+                            },
+                            "uuid": "f3fc9e5e-121d-4c44-859e-5cd50c961acc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0609 [GND]",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 0.4064
+                            },
+                            "uuid": "578301cf-6538-4d18-8cee-9c934239bcbc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0611 [GND]",
+                            "pos": {
+                                "x": 2.5781,
+                                "y": 0.6985
+                            },
+                            "uuid": "6749cb10-69bd-4936-9cbc-c215f60804d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0610 [GND]",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 1.1303
+                            },
+                            "uuid": "7fa44287-e143-40bb-bb17-600b08080088"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/IO CONDITIONING/",
+            "uuid_path": "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/a44519f5-2a17-4043-8636-a7b7c38f71bc",
+            "violations": [
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0713 [+5V]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 1.1938
+                            },
+                            "uuid": "809d70a6-56da-4223-bf84-e9d6136107f6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0715 [GND]",
+                            "pos": {
+                                "x": 2.4384,
+                                "y": 1.4732
+                            },
+                            "uuid": "3ba69175-263c-4e99-b712-134f9d4bea06"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0711 [GND]",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 1.27
+                            },
+                            "uuid": "59c20e1a-399e-497a-b6cd-ae51a9b701c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0710 [+5V]",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 1.0414
+                            },
+                            "uuid": "3318e060-9d72-4742-b403-837d318a209e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0714 [GND]",
+                            "pos": {
+                                "x": 2.4384,
+                                "y": 0.7366
+                            },
+                            "uuid": "e0c34c71-01c6-4086-a74e-e6a10d2da02e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0716 [GND]",
+                            "pos": {
+                                "x": 2.5654,
+                                "y": 0.5207
+                            },
+                            "uuid": "7b18bc14-eb5f-4005-9fe7-b074a2e1d37a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0709 [GND]",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 0.5334
+                            },
+                            "uuid": "12eccd95-6ac5-4826-a291-d0ff4eeba7fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0712 [+5V]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.4572
+                            },
+                            "uuid": "973a8853-dc9f-4c8b-a06c-2a2beea1332e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0719 [+5V]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 1.0414
+                            },
+                            "uuid": "164e7d07-81eb-4987-a9e7-b26f90a3483e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0707 [GND]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 1.0922
+                            },
+                            "uuid": "93d1e136-eb35-49e1-96e1-168fc64dda50"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0718 [+5V]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 0.3048
+                            },
+                            "uuid": "2de6c4a7-8d2b-4c04-a366-e412159c4179"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0717 [GND]",
+                            "pos": {
+                                "x": 2.5654,
+                                "y": 1.2573
+                            },
+                            "uuid": "bc831d85-c1b2-4b01-bb61-c19870e161a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0708 [+5V]",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 0.3048
+                            },
+                            "uuid": "6ee4782e-f7f8-4f9e-b628-6f96f61f1eb8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0706 [GND]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 0.3556
+                            },
+                            "uuid": "9e76ec42-ab12-47da-af53-66dcc64bd463"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0704 [GND]",
+                            "pos": {
+                                "x": 1.4478,
+                                "y": 1.1811
+                            },
+                            "uuid": "7b91440d-d543-49d5-b998-6eadfee65d72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0705 [GND]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 0.8128
+                            },
+                            "uuid": "407dd862-c4b5-4f3a-8e92-83157ecb2577"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0702 [GND]",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.8255
+                            },
+                            "uuid": "5562ebd3-7cc9-4d1f-9f76-75645d197996"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0701 [+3V3]",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.6858
+                            },
+                            "uuid": "7f9aa2d1-fc1c-40be-911b-2ec2cb2a8b3d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0703 [+5V]",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 0.6858
+                            },
+                            "uuid": "9dc2140e-e21e-41fd-b4b5-4a2626af6474"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/AUX-CONNECTORS/",
+            "uuid_path": "/ad16b75f-afc8-4717-a7c6-8dd7b69a18e2/b41a48c7-b009-4c26-92ce-a01689c1d02b",
+            "violations": [
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0808 [GND]",
+                            "pos": {
+                                "x": 2.2098,
+                                "y": 1.4859
+                            },
+                            "uuid": "2ee668a5-fa98-47db-b9e6-e776df70a217"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0807 [+3V3]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 1.2192
+                            },
+                            "uuid": "4619ec4e-2907-4099-a4cb-3328f70653ea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0805 [GND]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.762
+                            },
+                            "uuid": "59bd84c2-eb6b-47cc-a62d-0945137bcc61"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0802 [+3V3]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 1.27
+                            },
+                            "uuid": "9d445361-a91e-4ea3-ae91-7d09687080a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0803 [GND]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 1.524
+                            },
+                            "uuid": "a03e6c9f-47a2-49c6-a4b5-9885490b8722"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0809 [+5V]",
+                            "pos": {
+                                "x": 2.3241,
+                                "y": 0.4699
+                            },
+                            "uuid": "f9b174af-ff0e-42c7-bb8e-59e8bca84763"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0810 [GND]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 0.762
+                            },
+                            "uuid": "d669eb21-e6cb-4ea8-8396-6a80b1e03fd0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0806 [+3V3]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 0.4699
+                            },
+                            "uuid": "d6552db7-3102-4d8b-8c37-9e496d084e4d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0801 [+3V3]",
+                            "pos": {
+                                "x": 0.5334,
+                                "y": 0.4699
+                            },
+                            "uuid": "a795be96-a7c7-4643-99f8-2a612f0c22dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+5V' not found in symbol library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0804 [+5V]",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.4699
+                            },
+                            "uuid": "68cdc0dd-0e27-46d2-af81-7f37be9b7b9e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "ayab-esp32.kicad_sch"
+}
