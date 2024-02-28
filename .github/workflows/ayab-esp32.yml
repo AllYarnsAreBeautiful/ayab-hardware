@@ -36,7 +36,7 @@ jobs:
         run: kicad-cli pcb export gerbers -o ayab-esp32/outputs/gerbers -l "F.Cu, F.Mask, F.Silkscreen, F.Paste, In1.Cu, In2.Cu, B.Cu, B.Mask, B.Silkscreen, B.Paste, Edge.Cuts"--erd --ev --use-drill-file-origin ayab-esp32/ayab-esp32.kicad_pcb
 
       - name: Export drills
-        run: kicad-cli pcb export drill -o ayab-esp32/outputs/gerbers --drill-origin plot --generate-map --map-format gerberx2 ayab-esp32.kicad_pcb
+        run: kicad-cli pcb export drill -o ayab-esp32/outputs/gerbers/ --drill-origin plot --generate-map --map-format gerberx2 ayab-esp32/ayab-esp32.kicad_pcb
 
       - name: Zip gerbers
         run: cd ayab-esp32/outputs; zip -r ayab-esp32-gerbers.zip gerbers; sudo rm -r gerbers
