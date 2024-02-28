@@ -22,24 +22,21 @@ jobs:
 
       - name: Install KiCad
         run: sudo bash ./scripts/dependencies.sh
-        
-      - name: Change directory
-        run: cd ayab-esp32
 
       - name: Export schematic PDF 
-        run: kicad-cli sch export pdf -b -o outputs/ayab-esp32.pdf ayab-esp32.kicad_sch
+        run: kicad-cli sch export pdf -b -o ayab-esp32/outputs/ayab-esp32.pdf ayab-esp32/ayab-esp32.kicad_sch
 
       - name: Export gerbers
-        run: kicad-cli pcb export gerbers -o outputs/gerbers --erd -ev --use-drill-file-origin ayab-esp32.kicad_pcb
+        run: kicad-cli pcb export gerbers -o ayab-esp32/outputs/gerbers --erd -ev --use-drill-file-origin ayab-esp32/ayab-esp32.kicad_pcb
 
       - name: Zip gerbers
-        run: zip -r outputs/ayab-esp32.zip outputs/gerbers; sudo rm -r outputs/gerbers
+        run: zip -r ayab-esp32/outputs/ayab-esp32.zip ayab-esp32/outputs/gerbers; sudo rm -r ayab-esp32/outputs/gerbers
 
       - name: Export BOM
-        run: kicad-cli sch export bom -o outputs/ayab-esp32-BOM.csv --fields "Reference,Value,Footprint,JLCPCB PN" --exclude-dnp ayab-esp32.kicad_sch
+        run: kicad-cli sch export bom -o ayab-esp32/outputs/ayab-esp32-BOM.csv --fields "Reference,Value,Footprint,JLCPCB PN" --exclude-dnp ayab-esp32/ayab-esp32.kicad_sch
 
       - name: Export CPL
-        run: kicad-cli pcb export pos -o outputs/ayab-esp32-CPL.csv --side front --format ascii --use-drill-file-origin --exclude-dnp ayab-esp32.kicad_pcb
+        run: kicad-cli pcb export pos -o ayab-esp32/outputs/ayab-esp32-CPL.csv --side front --format ascii --use-drill-file-origin --exclude-dnp ayab-esp32/ayab-esp32.kicad_pcb
 
       - name: Archive artifacts
         uses: actions/upload-artifact@v4
