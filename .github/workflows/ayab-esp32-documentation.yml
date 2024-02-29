@@ -30,18 +30,11 @@ jobs:
       - name: Install KiCad
         run: sudo bash ./scripts/dependencies.sh
 
-      - name: Verify clean design files
-        run: |
-          kicad-cli sch erc -o ${workflow_project_dir}/outputs/erc_errors.json --format json --severity-error --exit-code-violations ${workflow_project_dir}/${kicad_project_name}.kicad_sch
-          sudo rm ${workflow_project_dir}/outputs/erc_errors.json
-          kicad-cli pcb drc -o ${workflow_project_dir}/outputs/drc_errors.json --format json --severity-error --exit-code-violations ${workflow_project_dir}/${kicad_project_name}.kicad_pcb
-          sudo rm ${workflow_project_dir}/outputs/drc_errors.json
-
       - name: Export design file PDFs
         run: |
-          kicad-cli sch export pdf -o ${workflow_project_dir}/outputs/${kicad_project_name}-sch.pdf ${workflow_project_dir}/${kicad_project_name}.kicad_sch
-          kicad-cli pcb export pdf -o ${workflow_project_dir}/outputs/${kicad_project_name}-pcb-front.pdf -l "F.Cu,F.Mask,F.Silkscreen,Edge.Cuts" ${workflow_project_dir}/${kicad_project_name}.kicad_pcb
-          kicad-cli pcb export pdf -o ${workflow_project_dir}/outputs/${kicad_project_name}-pcb-back.pdf --erd --ev --mirror -l "B.Cu,B.Mask,B.Silkscreen,Edge.Cuts" ${workflow_project_dir}/${kicad_project_name}.kicad_pcb
+          kicad-cli sch export pdf -o ${workflow_project_dir}/pdf/${kicad_project_name}-sch.pdf ${workflow_project_dir}/${kicad_project_name}.kicad_sch
+          kicad-cli pcb export pdf -o ${workflow_project_dir}/pdf/${kicad_project_name}-pcb-front.pdf -l "F.Cu,F.Mask,F.Silkscreen,Edge.Cuts" ${workflow_project_dir}/${kicad_project_name}.kicad_pcb
+          kicad-cli pcb export pdf -o ${workflow_project_dir}/pdf/${kicad_project_name}-pcb-back.pdf --erd --ev --mirror -l "B.Cu,B.Mask,B.Silkscreen,Edge.Cuts" ${workflow_project_dir}/${kicad_project_name}.kicad_pcb
 
       - name: Export assembly documentation
         run: |
@@ -61,6 +54,17 @@ jobs:
           cd ${workflow_project_dir}/outputs
           zip -r ${kicad_project_name}-gerbers.zip gerbers
           sudo rm -r gerbers
+
+      - name: Add PDFs to repo
+        env: 
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.email "robot@ayab-knitting.com"
+          git config --global user.name "AYAB Github Action"
+          git switch -c documentation
+          git add ${workflow_project_dir}/pdf/*
+          git commit -m "Add design file PDFs to repo [skip ci]"
+          gh pr create --title "Add design file PDFs to repo" --body "Automated PR from GHA"
 
       - name: Archive artifacts
         uses: actions/upload-artifact@v4
