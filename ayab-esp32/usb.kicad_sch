@@ -4819,12 +4819,12 @@
 				)
 			)
 			(project "stm32g431-mt6701-stspin233"
-				(path "/bcb2c98d-7159-437a-9ffb-b81c5fcc4307/9a7f39aa-afb0-48e5-a983-57776588e1e5"
-					(reference "#PWR0601")
-					(unit 1)
-				)
 				(path "/bcb2c98d-7159-437a-9ffb-b81c5fcc4307"
 					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/bcb2c98d-7159-437a-9ffb-b81c5fcc4307/9a7f39aa-afb0-48e5-a983-57776588e1e5"
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -5256,12 +5256,12 @@
 				)
 			)
 			(project "stm32g431-mt6701-stspin233"
-				(path "/bcb2c98d-7159-437a-9ffb-b81c5fcc4307/9a7f39aa-afb0-48e5-a983-57776588e1e5"
-					(reference "R601")
-					(unit 1)
-				)
 				(path "/bcb2c98d-7159-437a-9ffb-b81c5fcc4307"
 					(reference "R?")
+					(unit 1)
+				)
+				(path "/bcb2c98d-7159-437a-9ffb-b81c5fcc4307/9a7f39aa-afb0-48e5-a983-57776588e1e5"
+					(reference "R601")
 					(unit 1)
 				)
 			)

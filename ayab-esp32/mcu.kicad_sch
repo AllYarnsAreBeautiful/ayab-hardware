@@ -12999,30 +12999,28 @@
 	(symbol
 		(lib_id "ayab-lib:R_Small_US")
 		(at 83.82 104.14 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "253414f9-7e2e-4339-acba-cc9822d3dedf")
 		(property "Reference" "R204"
-			(at 81.28 102.87 0)
+			(at 81.28 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "5k1"
-			(at 81.28 105.41 0)
+		(property "Value" "10k"
+			(at 81.28 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -13052,7 +13050,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C23186"
+		(property "LCSC ID" "C25804"
 			(at 83.82 104.14 0)
 			(effects
 				(font

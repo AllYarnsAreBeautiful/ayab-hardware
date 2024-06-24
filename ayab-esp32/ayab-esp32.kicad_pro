@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -184,6 +185,7 @@
         0.15,
         0.2,
         0.4,
+        0.6,
         1.0,
         2.0
       ],
@@ -563,7 +565,10 @@
       "/PSU/INP_2": "PWR",
       "/USB/USB_VBUS": "PWR",
       "GND": "GND",
-      "Net-(Q501A-E1)": "PWR"
+      "Net-(D605-K)": "PWR",
+      "Net-(D606-K)": "PWR",
+      "Net-(Q501A-E1)": "PWR",
+      "Net-(Q601-S)": "PWR"
     },
     "netclass_patterns": [
       {
@@ -616,6 +621,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
