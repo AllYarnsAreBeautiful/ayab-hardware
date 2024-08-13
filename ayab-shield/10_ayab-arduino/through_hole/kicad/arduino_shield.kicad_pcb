@@ -5,6 +5,14 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "AYAB-Shield")
+    (date "2024-08-12")
+    (rev "1.4TH Rev A")
+    (company "AYAB Project")
+    (comment 1 "Converted from Eagle format (v1.4TH) with only cosmetic changes")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -68,9 +76,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "../gerber/")
     )
   )
 
@@ -2092,7 +2100,7 @@
   (gr_text "AYAB-Shield" (at 120.7008 103.0986 90) (layer "F.SilkS") (tstamp a69ec7d6-c519-4bed-af3c-569b0ec801aa)
     (effects (font (size 2.159 2.159) (thickness 0.381)) (justify left bottom))
   )
-  (gr_text "V1.4TH" (at 123.2408 103.0986 90) (layer "F.SilkS") (tstamp bd4decf2-af08-4467-bb91-99097fec6ae5)
+  (gr_text "V1.4TH Rev A" (at 123.2408 103.0986 90) (layer "F.SilkS") (tstamp bd4decf2-af08-4467-bb91-99097fec6ae5)
     (effects (font (size 1.5113 1.5113) (thickness 0.2667)) (justify left bottom))
   )
   (gr_text "1" (at 126 101.5 90) (layer "F.SilkS") (tstamp c00a80c9-3da5-4141-9917-789d688e7749)

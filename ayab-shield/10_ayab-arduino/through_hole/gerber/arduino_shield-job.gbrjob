@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.10-0)"
     },
-    "CreationDate": "2024-08-12T20:49:47-07:00"
+    "CreationDate": "2024-08-12T21:49:00-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "arduino_shield",
       "GUID": "61726475-696e-46f5-9f73-6869656c642e",
-      "Revision": "rev?"
+      "Revision": "1.4TH Rev A"
     },
     "Size": {
       "X": 72.3392,
