@@ -80,8 +80,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -364,7 +364,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../../../../../Applications/KiCad/KiCad.app/Contents/Applications/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -393,6 +393,15 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -403,7 +412,7 @@
   "sheets": [
     [
       "dc4e9b16-0d76-4cba-8254-625ae2e12c75",
-      "arduino_shield_0"
+      ""
     ]
   ],
   "text_variables": {}
