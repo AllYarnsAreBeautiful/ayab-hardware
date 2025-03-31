@@ -1,7 +1,7 @@
 (footprint "SHDR10W70P0X250_1X10_2740X490X590P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "99-99-0994")
 	(tags "Connector")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aa0c93ce-928d-445e-9960-aef8f81c2025")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -198,7 +186,7 @@
 	)
 	(pad "1" thru_hole rect
 		(at 22.5 0 180)
-		(size 1.35 1.35)
+		(size 1.75 1.75)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -206,7 +194,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 20 0 180)
-		(size 1.35 1.35)
+		(size 1.75 1.75)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -214,7 +202,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at 17.5 0 180)
-		(size 1.35 1.35)
+		(size 1.75 1.75)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -222,7 +210,7 @@
 	)
 	(pad "4" thru_hole circle
 		(at 15 0 180)
-		(size 1.35 1.35)
+		(size 1.75 1.75)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -230,7 +218,7 @@
 	)
 	(pad "5" thru_hole circle
 		(at 12.5 0 180)
-		(size 1.35 1.35)
+		(size 1.75 1.75)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -238,7 +226,7 @@
 	)
 	(pad "6" thru_hole circle
 		(at 10 0 180)
-		(size 1.35 1.35)
+		(size 1.75 1.75)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -246,7 +234,7 @@
 	)
 	(pad "7" thru_hole circle
 		(at 7.5 0 180)
-		(size 1.35 1.35)
+		(size 1.75 1.75)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -254,7 +242,7 @@
 	)
 	(pad "8" thru_hole circle
 		(at 5 0 180)
-		(size 1.35 1.35)
+		(size 1.75 1.75)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -262,7 +250,7 @@
 	)
 	(pad "9" thru_hole circle
 		(at 2.5 0 180)
-		(size 1.35 1.35)
+		(size 1.75 1.75)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -270,12 +258,13 @@
 	)
 	(pad "10" thru_hole circle
 		(at 0 0 180)
-		(size 1.35 1.35)
+		(size 1.75 1.75)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2da80e50-8550-42b1-83f2-def9f21c078f")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../ayab-library/packages3D/99-99-0994.stp"
 		(offset
 			(xyz 11.24999983 -0.6299999858 2.869999842)

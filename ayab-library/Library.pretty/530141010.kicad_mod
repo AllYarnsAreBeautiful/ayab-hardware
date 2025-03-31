@@ -1,7 +1,7 @@
 (footprint "530141010"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "53014-0810-2")
 	(tags "Connector")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0aa2753e-8b3a-411d-8453-72bbb53d40ab")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -147,45 +135,16 @@
 		(layer "F.SilkS")
 		(uuid "523583a8-6df6-427b-8528-54b3d8be7ffa")
 	)
-	(fp_line
-		(start -21 -2.65)
-		(end 3.56 -2.65)
+	(fp_rect
+		(start -20.3 -1.9)
+		(end 2.8 2.6)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "bb1d9743-af54-4d6a-8830-b5a3be8d6675")
-	)
-	(fp_line
-		(start -21 3.37)
-		(end -21 -2.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "9aa7a781-4a72-41bd-9442-da6f4be537be")
-	)
-	(fp_line
-		(start 3.56 -2.65)
-		(end 3.56 3.37)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f637cd32-7412-4b83-b24c-67f75c28a767")
-	)
-	(fp_line
-		(start 3.56 3.37)
-		(end -21 3.37)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "365a4d0d-6ed2-4107-9237-305ba0e27a0e")
+		(uuid "456c2db4-e836-4ca4-b8e9-a2c5a269c0a6")
 	)
 	(fp_line
 		(start -20 -1.65)
@@ -318,6 +277,7 @@
 		(remove_unused_layers no)
 		(uuid "caa216e4-953c-4eed-a40a-378a97a25351")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../ayab-library/packages3D/53014-1010.stp"
 		(offset
 			(xyz -8.44 -0.6 2.5)
