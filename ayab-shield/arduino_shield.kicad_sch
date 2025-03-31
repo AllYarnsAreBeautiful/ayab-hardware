@@ -4844,6 +4844,10 @@
 		(uuid "32c3fb05-870b-417a-a4a4-532c8ededc14")
 	)
 	(no_connect
+		(at 91.44 50.8)
+		(uuid "436dded6-46d5-4fc1-b2e3-ad1c8f02fb8f")
+	)
+	(no_connect
 		(at 175.26 96.52)
 		(uuid "59132d9f-3204-4c0c-8905-ed4aec2e3319")
 	)
@@ -4874,6 +4878,10 @@
 	(no_connect
 		(at 63.5 76.2)
 		(uuid "c304d7f5-7ee1-49c2-b221-b42e3b88f265")
+	)
+	(no_connect
+		(at 91.44 48.26)
+		(uuid "c6afe57c-edbf-4688-bde9-7f5e87a07a36")
 	)
 	(no_connect
 		(at 175.26 46.99)
@@ -5302,16 +5310,6 @@
 			(type default)
 		)
 		(uuid "282ce990-e2c0-43d6-b59f-56dfd937fd42")
-	)
-	(wire
-		(pts
-			(xy 91.44 50.8) (xy 104.14 50.8)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "2849c46f-0839-43a3-bf5f-884ac2d385c2")
 	)
 	(wire
 		(pts
@@ -6965,16 +6963,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 48.26) (xy 104.14 48.26)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "fb0a511c-f980-4659-8ab5-f4f661f339b1")
-	)
-	(wire
-		(pts
 			(xy 132.08 43.18) (xy 132.08 58.42)
 		)
 		(stroke
@@ -7023,7 +7011,7 @@
 		)
 		(uuid "0c7b820d-153f-4f85-a949-2e4b65876dff")
 	)
-	(label "TBD1"
+	(label "MYLAR1"
 		(at 133.35 161.29 180)
 		(effects
 			(font
@@ -7183,16 +7171,6 @@
 		)
 		(uuid "8d9fc09b-0dec-48b1-9530-e39c1e43f27f")
 	)
-	(label "TBD1"
-		(at 104.14 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "94aca91a-466f-477c-ad46-3dc1493602a6")
-	)
 	(label "ENC_C"
 		(at 104.14 78.74 180)
 		(effects
@@ -7273,7 +7251,7 @@
 		)
 		(uuid "ca773bda-fb8d-4fdf-80b6-e1c8d1679e81")
 	)
-	(label "TBD2"
+	(label "MYLAR2"
 		(at 133.35 163.83 180)
 		(effects
 			(font
@@ -7282,16 +7260,6 @@
 			(justify right bottom)
 		)
 		(uuid "d639fecb-38bb-4c4d-9c46-204915d558fa")
-	)
-	(label "TBD2"
-		(at 104.14 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d6589845-3153-454b-ae80-8e45daae5695")
 	)
 	(label "LED_YEL"
 		(at 104.14 76.2 180)
