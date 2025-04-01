@@ -11985,7 +11985,7 @@
 			(size 1.2 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(uuid "00ee98b7-331f-4a07-8d02-1198dc31e562")
+			(uuid "ebff500a-713b-47cf-b116-8af4eb8f6eed")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal.step"
@@ -15202,7 +15202,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 149 "/PSU/INP_1")
 			(pintype "passive")
-			(uuid "9f551dd3-99e1-4873-8cbe-f6cc16ddb6c1")
+			(uuid "d665cd9d-d69d-4eea-957c-a6cb8c1a6388")
 		)
 		(pad "2" smd rect
 			(at -3.05 5.5 90)
@@ -36195,7 +36195,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "ce90ebfb-b066-4fb5-9b46-1c21896f421a")
+			(uuid "0ce345a2-5856-4416-b113-6d486db80d9f")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.13)
@@ -36207,7 +36207,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "ce90ebfb-b066-4fb5-9b46-1c21896f421a")
+			(uuid "d0819b3c-9048-4b00-8bb5-d206410ac67e")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.05)
@@ -36219,7 +36219,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "ce90ebfb-b066-4fb5-9b46-1c21896f421a")
+			(uuid "b2eb1f3c-f39e-4f14-a2e9-812e9980ecdc")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
@@ -63626,7 +63626,7 @@
 			(size 1.2 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(uuid "206587b4-d487-485c-9a18-3a713592cf74")
+			(uuid "0945973f-847e-4efd-aaaa-8adb0a39dfad")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step"
@@ -74278,7 +74278,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "753ea10a-a196-41ed-98c7-3512f6c83fde")
+			(uuid "8f9bdf60-e376-4c1c-b64b-0e7d6fc73a75")
 		)
 		(pad "61" smd rect
 			(at -1.65 1.65)
@@ -74288,7 +74288,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "753ea10a-a196-41ed-98c7-3512f6c83fde")
+			(uuid "5067da52-8b29-47d4-a9b8-8c1f7951b265")
 		)
 		(pad "61" smd rect
 			(at 0 -1.65)
@@ -74298,7 +74298,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "753ea10a-a196-41ed-98c7-3512f6c83fde")
+			(uuid "9a15ffd6-4c90-4213-b268-b13e5e371d9e")
 		)
 		(pad "61" smd rect
 			(at 0 0)
@@ -74308,7 +74308,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "753ea10a-a196-41ed-98c7-3512f6c83fde")
+			(uuid "796bbe9f-5b62-40b8-a2ff-f2da71e56b9d")
 		)
 		(pad "61" smd rect
 			(at 0 1.65)
@@ -74318,7 +74318,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "753ea10a-a196-41ed-98c7-3512f6c83fde")
+			(uuid "f1582116-370c-4b98-9a15-ea8be6517806")
 		)
 		(pad "61" smd rect
 			(at 1.65 -1.65)
@@ -74328,7 +74328,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "753ea10a-a196-41ed-98c7-3512f6c83fde")
+			(uuid "201cac14-5407-4ec1-a3de-c156db8545e4")
 		)
 		(pad "61" smd rect
 			(at 1.65 0)
@@ -74338,7 +74338,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "753ea10a-a196-41ed-98c7-3512f6c83fde")
+			(uuid "0e7f2cf4-d853-47e5-93cd-2458134e17b7")
 		)
 		(pad "61" smd rect
 			(at 1.65 1.65)
@@ -74348,7 +74348,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "753ea10a-a196-41ed-98c7-3512f6c83fde")
+			(uuid "196cfd35-3b46-4c97-92c0-1be28f8f9565")
 		)
 		(pad "62" smd rect
 			(at -7 -7 180)

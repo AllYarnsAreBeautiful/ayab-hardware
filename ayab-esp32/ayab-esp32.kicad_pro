@@ -695,7 +695,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ayab-esp32.step",
       "svg": "",
       "vrml": ""
     },

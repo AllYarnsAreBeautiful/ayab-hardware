@@ -47,7 +47,7 @@
         "include_unspecified": true,
         "occt_format": 0,
         "optimize_step": true,
-        "output_filename": "ayab-shield.step",
+        "output_filename": "ayab-esp32.step",
         "overwrite": false,
         "subst_models": true,
         "use_drill_origin": false,
@@ -359,7 +359,7 @@
       ],
       "settings": {
         "format": "zip",
-        "output_path": "ayab-shield-gerbers.zip"
+        "output_path": "ayab-esp32-gerbers.zip"
       },
       "type": "archive"
     },
