@@ -1,3 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "arduino_shield-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/arduino_shield-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "ayab-lib")(type "KiCad")(uri "${KIPRJMOD}/../ayab-library/ayab-lib.kicad_sym")(options "")(descr ""))
 )
