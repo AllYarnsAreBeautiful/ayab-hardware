@@ -279,7 +279,7 @@
 		(uuid "8da7c98e-7d11-4c62-8695-37ff61e261bc")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/MBF-SMD_L4.8-W3.8-P2.54-LS6.8-TL.wrl"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/MBF-SMD_L4.8-W3.8-P2.54-LS6.8-TL.wrl"
 		(offset
 			(xyz 0 -0 0.75)
 		)

@@ -199,45 +199,16 @@
 		(layer "F.SilkS")
 		(uuid "47660f12-db99-4fc8-97f3-8238f85b5caf")
 	)
-	(fp_line
-		(start -10.44 -2.65)
-		(end -10.44 3.7)
+	(fp_rect
+		(start -9.7 -1.9)
+		(end 2.8 3)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b7cbc6db-c43a-47f6-86e6-c1fad6f918fb")
-	)
-	(fp_line
-		(start -10.44 3.7)
-		(end 3.56 3.7)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "37f55414-6ece-4e9f-b1a8-e5c378c457cf")
-	)
-	(fp_line
-		(start 3.56 -2.65)
-		(end -10.44 -2.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "011d74eb-f7c3-44e0-bf1e-249286ce1d25")
-	)
-	(fp_line
-		(start 3.56 3.7)
-		(end 3.56 -2.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "2e2cd895-bc0b-46fb-8193-70dcb9b2a455")
+		(uuid "41d292de-6402-44f4-8bd4-65c17ddaadef")
 	)
 	(fp_line
 		(start -9.44 -1.65)
@@ -331,7 +302,7 @@
 		(uuid "872c9e30-5c57-45aa-96d9-1e94d46f24d4")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/53014-0510.stp"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/53014-0510.stp"
 		(offset
 			(xyz -3.440000006 -0.5199999731 2.79999991)
 		)

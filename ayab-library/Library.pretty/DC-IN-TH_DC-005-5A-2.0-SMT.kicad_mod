@@ -287,7 +287,7 @@
 		(uuid "d16261d5-5730-43bd-ae93-07b8730b33c3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/DC-IN-SMD_L14.8-W9.0-H11.0-P6.1.wrl"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/DC-IN-SMD_L14.8-W9.0-H11.0-P6.1.wrl"
 		(offset
 			(xyz 3 5.75 0)
 		)

@@ -849,7 +849,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/ESP32-S3-MINI-1.STEP"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/ESP32-S3-MINI-1.STEP"
 		(offset
 			(xyz -7.7 -7.7 0)
 		)

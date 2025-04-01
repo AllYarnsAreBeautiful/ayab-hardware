@@ -194,6 +194,17 @@
 		(layer "F.SilkS")
 		(uuid "e3d2278f-1178-4b61-b44c-f78e68c68037")
 	)
+	(fp_rect
+		(start -8 -2.3)
+		(end 7.9 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "54ada4cf-9adb-4c69-90f5-e00292364840")
+	)
 	(fp_circle
 		(center -5 0)
 		(end -4.82 0)
@@ -312,7 +323,7 @@
 		(uuid "4761e59b-295f-4ec2-91be-a062b68cbd44")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/CONN-TH_X2564WV-05-N0SN.wrl"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/CONN-TH_X2564WV-05-N0SN.wrl"
 		(offset
 			(xyz -0 -0 0)
 		)

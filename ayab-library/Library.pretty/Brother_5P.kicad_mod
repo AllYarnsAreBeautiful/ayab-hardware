@@ -236,7 +236,7 @@
 		(uuid "20fb5d81-5383-4947-85b3-03c46c39101b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/Brother_5P.step"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/Brother_5P.step"
 		(offset
 			(xyz 0 0 0)
 		)

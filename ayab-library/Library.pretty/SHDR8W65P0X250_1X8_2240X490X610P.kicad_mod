@@ -313,7 +313,7 @@
 		(uuid "807b4321-00d6-4d78-87bc-1af3c3fd3e45")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/99-99-0992.stp"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/99-99-0992.stp"
 		(offset
 			(xyz -8.749999869 -0.6299999858 2.950000003)
 		)

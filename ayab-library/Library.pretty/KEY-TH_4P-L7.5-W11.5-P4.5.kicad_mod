@@ -315,7 +315,7 @@
 		(uuid "13ffcc60-b253-4a8c-809c-78fe8b5f96a4")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/KEY-TH_4P-L7.5-W11.5-P4.5.wrl"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/KEY-TH_4P-L7.5-W11.5-P4.5.wrl"
 		(offset
 			(xyz 0 4.35 3.6)
 		)

@@ -172,6 +172,17 @@
 		(layer "F.SilkS")
 		(uuid "465df026-232e-4fbf-ba9c-197e8f6eb4ab")
 	)
+	(fp_rect
+		(start -5 -5)
+		(end 5 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "40bf2274-79f8-4fac-ad27-2e65f2421811")
+	)
 	(fp_circle
 		(center -4.25 4.25)
 		(end -4.22 4.25)
@@ -231,7 +242,7 @@
 		(uuid "f7a3839f-d742-4ad6-8d5e-d5ce48d8c7c4")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/BUZ-SMD_4P-L8.5-W8.5-H4.0.wrl"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/BUZ-SMD_4P-L8.5-W8.5-H4.0.wrl"
 		(offset
 			(xyz 0 -0 -0)
 		)
