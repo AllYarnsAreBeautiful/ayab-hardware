@@ -4682,7 +4682,7 @@
 		(uuid "7cc197f9-c9c3-4040-abe6-6a04b0638b26")
 	)
 	(junction
-		(at 26.67 133.35)
+		(at 21.59 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81d11f47-c3f7-4301-b426-7a0eb7d0b3c9")
@@ -5013,7 +5013,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 135.89) (xy 30.48 135.89)
+			(xy 21.59 135.89) (xy 25.4 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5053,7 +5053,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 138.43) (xy 26.67 140.97)
+			(xy 21.59 138.43) (xy 21.59 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5063,7 +5063,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 133.35) (xy 30.48 133.35)
+			(xy 21.59 133.35) (xy 25.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5553,7 +5553,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 130.81) (xy 26.67 133.35)
+			(xy 21.59 130.81) (xy 21.59 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6303,7 +6303,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 138.43) (xy 30.48 138.43)
+			(xy 21.59 138.43) (xy 25.4 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6993,7 +6993,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 135.89) (xy 26.67 133.35)
+			(xy 21.59 135.89) (xy 21.59 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7805,9 +7805,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Molex"
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "90120-0768"
 			(at 68.58 50.8 0)
 			(effects
 				(font
@@ -8124,7 +8143,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 38.1 135.89 180)
+		(at 33.02 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8132,7 +8151,7 @@
 		(dnp no)
 		(uuid "2b9b625b-4a69-4502-9711-14fc664e8990")
 		(property "Reference" "X1"
-			(at 33.02 128.27 0)
+			(at 27.94 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,8 +8159,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "NEB1R"
-			(at 33.02 130.81 0)
+		(property "Value" "KLDX-0202-AC"
+			(at 27.94 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,8 +8168,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "arduino_shield:NEB1R"
-			(at 38.1 135.89 0)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
+			(at 33.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +8179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 134.874 0)
+			(at 31.75 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8188,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 38.1 135.89 0)
+			(at 33.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,8 +8196,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" ""
-			(at 38.1 135.89 0)
+		(property "Mfg" "Kycon"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "KLDX-0202-AC"
+			(at 33.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,6 +8265,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8245,6 +8274,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8379,9 +8409,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Molex"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "90120-0768"
 			(at 86.36 78.74 0)
 			(effects
 				(font
@@ -8784,6 +8833,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Molex"
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "22-28-4061"
 			(at 68.58 76.2 0)
 			(effects
 				(font
@@ -9242,7 +9309,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 26.67 130.81 0)
+		(at 21.59 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9250,7 +9317,7 @@
 		(dnp no)
 		(uuid "4f10e467-9814-4703-9689-4f949ca10f62")
 		(property "Reference" "#PWR036"
-			(at 26.67 134.62 0)
+			(at 21.59 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9260,7 +9327,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 26.67 127.254 0)
+			(at 21.59 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +9336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 130.81 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9279,7 +9346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 130.81 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +9356,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 26.67 130.81 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,6 +9644,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9585,6 +9653,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9780,6 +9849,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9788,6 +9858,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10805,7 +10876,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 140.97 0)
+		(at 21.59 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10813,7 +10884,7 @@
 		(dnp no)
 		(uuid "90d9fdb3-5610-4bed-96ab-6ad44c759ffa")
 		(property "Reference" "#PWR027"
-			(at 26.67 147.32 0)
+			(at 21.59 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10823,7 +10894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 146.05 0)
+			(at 21.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,7 +10903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 140.97 0)
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +10913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 140.97 0)
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10852,7 +10923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 140.97 0)
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10999,7 +11070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "TE Connectivity"
+		(property "Mfg" "Molex"
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -11008,7 +11079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "640456-2"
+		(property "Mfg P/N" "22-28-4028"
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -11591,9 +11662,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
+			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Molex"
+			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "22-28-4104"
 			(at 86.36 48.26 0)
 			(effects
 				(font
