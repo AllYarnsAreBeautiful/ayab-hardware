@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "5d1069fc-b373-4b85-bd87-2f013097ff0c")
 	(paper "A4")
 	(title_block
@@ -14,7 +14,9 @@
 	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -91,10 +93,10 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -104,9 +106,21 @@
 					)
 				)
 				(arc
-					(start -3.302 3.175)
+					(start -3.302 1.905)
 					(mid -3.9343 2.54)
-					(end -3.302 1.905)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -125,6 +139,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -151,29 +176,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "Barrel_Jack_Switch_1_1"
 				(pin passive line
@@ -187,24 +189,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -230,7 +214,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D_Bridge_+-AA"
 			(pin_names
@@ -239,20 +242,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D?"
-				(at -10.16 -3.81 0)
+			(property "Reference" "D"
+				(at 2.54 6.985 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "D_Bridge_+-AA"
-				(at -10.16 -6.35 0)
+				(at 2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -312,59 +317,12 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
+					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -374,6 +332,18 @@
 				(polyline
 					(pts
 						(xy -3.81 2.54) (xy -2.54 1.27) (xy -1.905 3.175) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.27 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -397,7 +367,65 @@
 				)
 				(polyline
 					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.27 2.54) (xy 2.54 3.81) (xy 3.175 1.905) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 3.81 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -419,29 +447,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(circle
 					(center 5.08 0)
 					(radius 0.254)
@@ -456,6 +461,24 @@
 			)
 			(symbol "D_Bridge_+-AA_1_1"
 				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 7.62 270)
 					(length 2.54)
 					(name "~"
@@ -465,7 +488,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -483,7 +506,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -501,25 +524,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -528,9 +533,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:AO3401A"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -603,6 +611,18 @@
 			(symbol "AO3401A_0_1"
 				(polyline
 					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
@@ -615,7 +635,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -637,60 +681,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -707,6 +702,52 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -733,39 +774,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "AO3401A_1_1"
 				(pin input line
@@ -779,24 +787,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -822,12 +812,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:C_Polarized_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -932,9 +945,9 @@
 					)
 				)
 				(arc
-					(start 1.524 -0.762)
+					(start -1.524 -0.762)
 					(mid 0 -0.3734)
-					(end -1.524 -0.762)
+					(end 1.524 -0.762)
 					(stroke
 						(width 0.3048)
 						(type default)
@@ -982,11 +995,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1056,10 +1074,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1068,10 +1086,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -1117,10 +1135,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1187,19 +1208,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1220,8 +1241,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1231,14 +1252,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1314,10 +1335,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:Conn_01x05"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1384,30 +1408,19 @@
 			)
 			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1428,8 +1441,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1439,14 +1452,25 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1540,11 +1564,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:D_Schottky"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1612,10 +1641,10 @@
 			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1636,10 +1665,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1685,11 +1714,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1756,32 +1790,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -1793,8 +1803,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1842,11 +1876,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1914,10 +1953,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1938,7 +1989,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1950,22 +2001,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2011,11 +2050,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2085,7 +2129,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -2097,7 +2141,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -2144,11 +2188,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2246,6 +2295,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:XL1509"
 			(exclude_from_sim no)
@@ -2401,16 +2451,16 @@
 					)
 				)
 				(pin input line
-					(at 10.16 1.27 180)
+					(at -10.16 1.27 0)
 					(length 2.54)
-					(name "VOUT"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2437,16 +2487,16 @@
 					)
 				)
 				(pin input line
-					(at -10.16 1.27 0)
+					(at 10.16 1.27 180)
 					(length 2.54)
-					(name "EN"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2455,11 +2505,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2532,7 +2587,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2544,7 +2599,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2558,8 +2613,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2575,11 +2630,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2652,7 +2712,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2664,7 +2724,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2678,8 +2738,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2695,11 +2755,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2772,7 +2837,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2784,7 +2849,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2798,8 +2863,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2815,11 +2880,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2894,8 +2964,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2911,12 +2981,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3007,7 +3082,118 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "not Z5U type"
+		(exclude_from_sim no)
+		(at 222.25 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39eb64f0-6c53-4aeb-9105-a401d1bdf4b5")
+	)
+	(text "BULK CAPACITANCE\n"
+		(exclude_from_sim no)
+		(at 20.32 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "737644ee-1c48-4bb3-a06f-d2aa14a2d6b4")
+	)
+	(text "5V SUPPLY"
+		(exclude_from_sim no)
+		(at 167.64 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "932c44b8-45cd-49e2-957f-ae39853728d9")
+	)
+	(text "INDICATORS"
+		(exclude_from_sim no)
+		(at 100.965 94.615 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9430bd20-d89c-4550-87c8-a1192935be6e")
+	)
+	(text "not Z5U type"
+		(exclude_from_sim no)
+		(at 222.25 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a04fcc38-96b6-4a84-b24e-92ac1540df16")
+	)
+	(text "3V3 SUPPLY"
+		(exclude_from_sim no)
+		(at 167.64 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a94bdcc3-4c56-4358-baec-f760e6736561")
+	)
+	(text "Vout = 1.23* (R2/R1+1)\ndue to BOM simplification this comes out 5.25V \nbut this is OK for parts used (SN74LVC4245)"
+		(exclude_from_sim no)
+		(at 180.34 78.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3fdeb35-449c-4e69-a614-88aff3083ace")
+	)
+	(text "white LEDs?"
+		(exclude_from_sim no)
+		(at 113.03 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5e9ae1b-324d-4835-bb8d-650b4f40033c")
+	)
+	(text "15V"
+		(exclude_from_sim no)
+		(at 90.17 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec8b5bf0-37fa-41b1-91e7-fd9e0adc97b3")
+	)
+	(text "BARREL JACK / BROTHER INPUT\nPOLARITY PROTECTION\nZERO VOLT DIODE"
+		(exclude_from_sim no)
+		(at 19.05 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f81a10d3-fb65-4ded-ab2f-58267dc83b1c")
 	)
 	(junction
 		(at 198.12 140.97)
@@ -5747,119 +5933,8 @@
 		)
 		(uuid "fe687c5b-5461-4112-9bf7-6f20ae96563e")
 	)
-	(text "not Z5U type"
-		(exclude_from_sim no)
-		(at 222.25 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39eb64f0-6c53-4aeb-9105-a401d1bdf4b5")
-	)
-	(text "BULK CAPACITANCE\n"
-		(exclude_from_sim no)
-		(at 20.32 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "737644ee-1c48-4bb3-a06f-d2aa14a2d6b4")
-	)
-	(text "5V SUPPLY"
-		(exclude_from_sim no)
-		(at 167.64 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "932c44b8-45cd-49e2-957f-ae39853728d9")
-	)
-	(text "INDICATORS"
-		(exclude_from_sim no)
-		(at 100.965 94.615 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9430bd20-d89c-4550-87c8-a1192935be6e")
-	)
-	(text "not Z5U type"
-		(exclude_from_sim no)
-		(at 222.25 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a04fcc38-96b6-4a84-b24e-92ac1540df16")
-	)
-	(text "3V3 SUPPLY"
-		(exclude_from_sim no)
-		(at 167.64 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a94bdcc3-4c56-4358-baec-f760e6736561")
-	)
-	(text "Vout = 1.23* (R2/R1+1)\ndue to BOM simplification this comes out 5.25V \nbut this is OK for parts used (SN74LVC4245)"
-		(exclude_from_sim no)
-		(at 180.34 78.105 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3fdeb35-449c-4e69-a614-88aff3083ace")
-	)
-	(text "white LEDs?"
-		(exclude_from_sim no)
-		(at 113.03 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5e9ae1b-324d-4835-bb8d-650b4f40033c")
-	)
-	(text "15V"
-		(exclude_from_sim no)
-		(at 90.17 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec8b5bf0-37fa-41b1-91e7-fd9e0adc97b3")
-	)
-	(text "BARREL JACK / BROTHER INPUT\nPOLARITY PROTECTION\nZERO VOLT DIODE"
-		(exclude_from_sim no)
-		(at 19.05 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f81a10d3-fb65-4ded-ab2f-58267dc83b1c")
-	)
 	(label "3V3_SW"
 		(at 238.76 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5868,20 +5943,8 @@
 		)
 		(uuid "a0b4564b-8bf1-485b-a480-8af72dc48c83")
 	)
-	(label "BRIDGE_P"
-		(at 71.12 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c65f5d7d-7d9e-4b16-816f-9cc47995682e")
-	)
 	(label "5V_SW"
 		(at 234.95 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5892,7 +5955,6 @@
 	)
 	(label "INP_2"
 		(at 50.8 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5903,7 +5965,6 @@
 	)
 	(label "INP_1"
 		(at 50.8 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5915,7 +5976,6 @@
 	(hierarchical_label "3V3"
 		(shape output)
 		(at 273.05 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5927,7 +5987,6 @@
 	(hierarchical_label "5V"
 		(shape output)
 		(at 124.46 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5939,7 +5998,6 @@
 	(hierarchical_label "5V"
 		(shape output)
 		(at 273.05 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5951,7 +6009,6 @@
 	(hierarchical_label "12V"
 		(shape output)
 		(at 124.46 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5963,7 +6020,6 @@
 	(hierarchical_label "GND"
 		(shape output)
 		(at 124.46 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6157,7 +6213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c4dcc78-cf20-4915-ac3b-1c08c704e555")
-		(property "Reference" "C?"
+		(property "Reference" "C607"
 			(at 172.085 60.3313 0)
 			(effects
 				(font
@@ -6402,7 +6458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101473fe-f002-429f-80b8-fa5b34d93ac1")
-		(property "Reference" "D404"
+		(property "Reference" "D604"
 			(at 136.525 127.9525 90)
 			(effects
 				(font
@@ -6523,7 +6579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12589d98-fa6a-4c04-9f50-2472913df903")
-		(property "Reference" "C?"
+		(property "Reference" "C604"
 			(at 51.435 123.8313 0)
 			(effects
 				(font
@@ -6656,7 +6712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "215d3ba4-c871-4173-90fe-e33bc0203e5b")
-		(property "Reference" "C417"
+		(property "Reference" "C611"
 			(at 182.88 133.9913 0)
 			(effects
 				(font
@@ -6786,7 +6842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21a9c261-0690-48d8-968a-cd29260b983b")
-		(property "Reference" "C420"
+		(property "Reference" "C612"
 			(at 230.505 59.8932 0)
 			(effects
 				(font
@@ -6917,7 +6973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2712946e-c747-4e06-a739-c6cba31467c0")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0603"
 			(at 110.49 116.84 0)
 			(effects
 				(font
@@ -6952,7 +7008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 110.49 113.03 0)
 			(effects
 				(font
@@ -6993,7 +7049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28d29cd2-b806-4777-b9b1-7be6358a2803")
-		(property "Reference" "U402"
+		(property "Reference" "U602"
 			(at 201.93 114.935 0)
 			(effects
 				(font
@@ -7129,7 +7185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28de0664-fb2f-435d-9c96-e31987eedcaf")
-		(property "Reference" "C?"
+		(property "Reference" "C602"
 			(at 172.085 133.9913 0)
 			(effects
 				(font
@@ -7376,7 +7432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2db4ad3b-c822-4fb5-bdaa-c744a6e1bf8e")
-		(property "Reference" "D402"
+		(property "Reference" "D603"
 			(at 125.73 127.9525 90)
 			(effects
 				(font
@@ -7497,7 +7553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f3428fe-8bf7-46b7-9948-5ae29bd7d1f9")
-		(property "Reference" "C?"
+		(property "Reference" "C619"
 			(at 250.825 133.9913 0)
 			(effects
 				(font
@@ -7630,7 +7686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37726983-0b84-4552-b0cf-ce018f4cd620")
-		(property "Reference" "L401"
+		(property "Reference" "L601"
 			(at 224.282 50.546 90)
 			(effects
 				(font
@@ -7748,7 +7804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38864272-b114-49ee-a035-13d9141ec0db")
-		(property "Reference" "C415"
+		(property "Reference" "C609"
 			(at 161.925 133.5532 0)
 			(effects
 				(font
@@ -7878,7 +7934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4213cf80-373e-4de1-9752-9fed2cd08c81")
-		(property "Reference" "R406"
+		(property "Reference" "R611"
 			(at 265.43 49.53 90)
 			(effects
 				(font
@@ -7997,7 +8053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4323833f-5328-4caa-8362-946d22c0cb8b")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR0605"
 			(at 133.35 116.84 0)
 			(effects
 				(font
@@ -8032,7 +8088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 133.35 113.03 0)
 			(effects
 				(font
@@ -8069,7 +8125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43c1c22f-ed3c-4d55-ad9c-b7d018187d15")
-		(property "Reference" "C?"
+		(property "Reference" "C618"
 			(at 250.825 60.3313 0)
 			(effects
 				(font
@@ -8202,7 +8258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d7a09a2-0376-4a21-b650-d973ec430df0")
-		(property "Reference" "R407"
+		(property "Reference" "R609"
 			(at 228.6 114.3 90)
 			(effects
 				(font
@@ -8321,7 +8377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4df9959a-a072-4e3f-9cc2-d21a823334ca")
-		(property "Reference" "R402"
+		(property "Reference" "R604"
 			(at 124.46 116.84 0)
 			(effects
 				(font
@@ -8441,7 +8497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "515c66e9-6cff-4f4d-8af4-c09b973623cf")
-		(property "Reference" "L402"
+		(property "Reference" "L602"
 			(at 224.155 122.682 90)
 			(effects
 				(font
@@ -8559,7 +8615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "577c04c0-e07a-48cf-8bae-e8f3fedefaae")
-		(property "Reference" "TP403"
+		(property "Reference" "TP603"
 			(at 251.46 116.84 0)
 			(effects
 				(font
@@ -8667,7 +8723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "578301cf-6538-4d18-8cee-9c934239bcbc")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR0609"
 			(at 212.09 46.99 0)
 			(effects
 				(font
@@ -8702,7 +8758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 212.09 40.64 0)
 			(effects
 				(font
@@ -8738,7 +8794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e092eef-807a-4fb9-ba64-78ae629878cd")
-		(property "Reference" "TP402"
+		(property "Reference" "TP601"
 			(at 95.25 27.94 0)
 			(effects
 				(font
@@ -8848,7 +8904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6749cb10-69bd-4936-9cbc-c215f60804d5")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0611"
 			(at 257.81 76.2 0)
 			(effects
 				(font
@@ -8883,7 +8939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 257.81 69.85 0)
 			(effects
 				(font
@@ -8924,7 +8980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a304807-157e-409b-9553-89a68115d629")
-		(property "Reference" "TP401"
+		(property "Reference" "TP602"
 			(at 244.856 45.466 0)
 			(effects
 				(font
@@ -9033,7 +9089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e5365ac-435e-4855-ab20-93edfdb1b2c5")
-		(property "Reference" "C?"
+		(property "Reference" "C616"
 			(at 240.665 60.3313 0)
 			(effects
 				(font
@@ -9166,7 +9222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7305de65-d34b-4fe3-9251-109fdd58c208")
-		(property "Reference" "R404"
+		(property "Reference" "R606"
 			(at 217.17 41.91 90)
 			(effects
 				(font
@@ -9285,7 +9341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75247ecb-ba8f-4f02-8794-075884bada86")
-		(property "Reference" "C421"
+		(property "Reference" "C613"
 			(at 230.505 133.5532 0)
 			(effects
 				(font
@@ -9480,7 +9536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fa44287-e143-40bb-bb17-600b08080088")
-		(property "Reference" "#PWR0414"
+		(property "Reference" "#PWR0610"
 			(at 212.09 119.38 0)
 			(effects
 				(font
@@ -9515,7 +9571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 212.09 113.03 0)
 			(effects
 				(font
@@ -9664,7 +9720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c43e374-2610-49fb-8ee9-641e9d82c873")
-		(property "Reference" "D401"
+		(property "Reference" "D602"
 			(at 114.3 127.9525 90)
 			(effects
 				(font
@@ -9784,7 +9840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e6f0c56-8dfb-40cb-b743-8de148c0e415")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0608"
 			(at 165.1 121.92 0)
 			(effects
 				(font
@@ -9819,7 +9875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 165.1 118.11 0)
 			(effects
 				(font
@@ -9856,7 +9912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90b7cbb2-0126-47d5-9413-001560d95ba3")
-		(property "Reference" "C?"
+		(property "Reference" "C601"
 			(at 29.845 123.8313 0)
 			(effects
 				(font
@@ -9991,7 +10047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cf5b075-c977-4c35-9d66-3098be1d116d")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0607"
 			(at 175.26 49.53 0)
 			(effects
 				(font
@@ -10026,7 +10082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 175.26 45.72 0)
 			(effects
 				(font
@@ -10132,7 +10188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a037b09c-877d-43da-97bd-968c89e01c94")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0604"
 			(at 121.92 116.84 0)
 			(effects
 				(font
@@ -10167,7 +10223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 121.92 113.03 0)
 			(effects
 				(font
@@ -10204,7 +10260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abc59437-34e4-45d9-b1fb-2e390a21879c")
-		(property "Reference" "C?"
+		(property "Reference" "C603"
 			(at 41.275 123.8313 0)
 			(effects
 				(font
@@ -10337,7 +10393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad6f42f5-64cf-418f-acab-fb494df1d2f2")
-		(property "Reference" "R401"
+		(property "Reference" "R603"
 			(at 113.03 116.84 0)
 			(effects
 				(font
@@ -10459,7 +10515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0c1c8d7-ca8b-4f81-bc59-df89c34173c1")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0602"
 			(at 68.58 138.43 0)
 			(effects
 				(font
@@ -10494,7 +10550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 132.08 0)
 			(effects
 				(font
@@ -10534,7 +10590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5d012fc-29ce-4500-a8b3-69517b087ba9")
-		(property "Reference" "R405"
+		(property "Reference" "R607"
 			(at 217.17 114.3 90)
 			(effects
 				(font
@@ -10653,7 +10709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68ce349-c33f-412a-b689-05a9b132479c")
-		(property "Reference" "#PWR0410"
+		(property "Reference" "#PWR0606"
 			(at 133.35 142.24 0)
 			(effects
 				(font
@@ -10688,7 +10744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 135.89 0)
 			(effects
 				(font
@@ -10725,7 +10781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8de604a-22a9-474c-bb3a-3250fdddf223")
-		(property "Reference" "C?"
+		(property "Reference" "C621"
 			(at 260.985 133.9913 0)
 			(effects
 				(font
@@ -10986,7 +11042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcfb0b5a-1be5-42ef-a5cb-f5b705a595df")
-		(property "Reference" "C?"
+		(property "Reference" "C617"
 			(at 240.665 133.9913 0)
 			(effects
 				(font
@@ -11120,7 +11176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c21a5c9b-f817-462b-b291-3ad9c05dd7a9")
-		(property "Reference" "R403"
+		(property "Reference" "R605"
 			(at 135.89 116.84 0)
 			(effects
 				(font
@@ -11241,7 +11297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c80269d4-9307-46ef-a13b-278c70a5ca1d")
-		(property "Reference" "U401"
+		(property "Reference" "U601"
 			(at 201.93 42.545 0)
 			(effects
 				(font
@@ -11378,7 +11434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daac17c2-edbe-4abc-adf6-035304751803")
-		(property "Reference" "J?"
+		(property "Reference" "J601"
 			(at 27.94 30.48 0)
 			(effects
 				(font
@@ -11394,7 +11450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:DC-IN-TH_DC-005-5A-2.0-SMT"
+		(property "Footprint" "Library:DC-IN-TH_DC-005-5A-2.0-SMT"
 			(at 29.21 40.386 0)
 			(effects
 				(font
@@ -11503,7 +11559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcc5bfb7-7f33-4493-a7ea-157d8d788ef5")
-		(property "Reference" "D406"
+		(property "Reference" "D606"
 			(at 217.17 133.6675 90)
 			(effects
 				(font
@@ -11623,7 +11679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0eaf2c3-fde8-4840-a2d1-d6f115530a14")
-		(property "Reference" "C416"
+		(property "Reference" "C610"
 			(at 182.88 60.3313 0)
 			(effects
 				(font
@@ -11753,7 +11809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e295343a-cb94-4cca-817b-fedc28782d5d")
-		(property "Reference" "C?"
+		(property "Reference" "C606"
 			(at 71.755 123.825 0)
 			(effects
 				(font
@@ -11887,7 +11943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9845c1d-cbb4-4c6e-b1c3-37e963f85b01")
-		(property "Reference" "D405"
+		(property "Reference" "D605"
 			(at 217.17 60.0075 90)
 			(effects
 				(font
@@ -12009,7 +12065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea0c64dd-7cb4-4601-93da-bb492284ebc5")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0601"
 			(at 26.67 120.65 0)
 			(effects
 				(font
@@ -12044,7 +12100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 26.67 116.84 0)
 			(effects
 				(font
@@ -12085,7 +12141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec6e00aa-970a-47f2-8095-3226e5582c2a")
-		(property "Reference" "C?"
+		(property "Reference" "C620"
 			(at 260.985 60.3313 0)
 			(effects
 				(font
@@ -12285,7 +12341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1501aeb-5227-4fce-83bc-d2f749199d2c")
-		(property "Reference" "C419"
+		(property "Reference" "C615"
 			(at 228.6063 100.33 90)
 			(effects
 				(font
@@ -12413,7 +12469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2936780-f1a1-4b17-9e97-95116b597062")
-		(property "Reference" "R406"
+		(property "Reference" "R610"
 			(at 264.16 121.92 90)
 			(effects
 				(font
@@ -12533,7 +12589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3fc9e5e-121d-4c44-859e-5cd50c961acc")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0612"
 			(at 257.81 149.86 0)
 			(effects
 				(font
@@ -12568,7 +12624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 257.81 143.51 0)
 			(effects
 				(font
@@ -12624,7 +12680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:MBF-SMD_L4.8-W3.8-P2.54-LS6.8-TL"
+		(property "Footprint" "Library:MBF-SMD_L4.8-W3.8-P2.54-LS6.8-TL"
 			(at 59.69 49.53 0)
 			(effects
 				(font
@@ -12642,7 +12698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode bridge, +ve/-ve/AC/AC"
 			(at 59.69 49.53 0)
 			(effects
 				(font
@@ -12718,7 +12774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f83a97ee-015d-44f6-83b5-540d36318177")
-		(property "Reference" "C?"
+		(property "Reference" "C605"
 			(at 61.595 123.8313 0)
 			(effects
 				(font
@@ -12851,7 +12907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcdb91ed-4817-4105-aa4c-6b9b9c46dd42")
-		(property "Reference" "R406"
+		(property "Reference" "R608"
 			(at 228.6 41.91 90)
 			(effects
 				(font
@@ -12970,7 +13026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda33804-b5a0-49b4-a329-a910d813dbe5")
-		(property "Reference" "C418"
+		(property "Reference" "C614"
 			(at 228.6063 26.67 90)
 			(effects
 				(font

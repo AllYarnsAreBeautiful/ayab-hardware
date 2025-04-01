@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ad16b75f-afc8-4717-a7c6-8dd7b69a18e2")
 	(paper "A4")
 	(title_block
@@ -91,11 +91,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -193,11 +198,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ayab-lib:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -267,7 +277,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -279,7 +289,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -326,11 +336,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -403,7 +418,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -415,7 +430,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -429,8 +444,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -446,11 +461,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -523,7 +543,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -535,7 +555,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -549,8 +569,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -566,11 +586,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -643,7 +668,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -655,7 +680,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -669,8 +694,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -686,11 +711,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -765,8 +795,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -782,6 +812,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(bus_alias "MCU_SOL"
@@ -794,6 +825,39 @@
 		(members "SOL_0" "SOL_1" "SOL_2" "SOL_3" "SOL_4" "SOL_5" "SOL_6" "SOL_7"
 			"SOL_8" "SOL_9" "SOL_A" "SOL_B" "SOL_C" "SOL_D" "SOL_E" "SOL_F"
 		)
+	)
+	(text "no USB-PD"
+		(exclude_from_sim no)
+		(at 80.01 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52216812-a289-49ce-b519-cc21eb09f05c")
+	)
+	(text "MECHANICAL"
+		(exclude_from_sim no)
+		(at 36.83 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5f7cd4b-d1ff-46e6-93ae-8dc95bd1d12a")
+	)
+	(text "analog"
+		(exclude_from_sim no)
+		(at 205.74 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c85c8254-3e8d-436b-b2f1-ffe35c77f243")
 	)
 	(junction
 		(at 76.2 146.05)
@@ -2469,40 +2533,43 @@
 			"RxH+IMFcQa60KN4cRTxSrC3thw8fPnz48OGj0eELWD58+PDhw4cPH40M3wfLhw8fPnz48OGjkeEL"
 			"WD58+PDhw4cPH40MX8Dy4cOHDx8+fPhoZPgClg8fPnz48OHDRyPDF7B8+PDhw4cPHz4aGb6A5cOH"
 			"Dx8+fPjw0cjwBSwfPnz48OHDh49Ghi9g+fDhw4cPHz58NDL+HwOxT9x2c0bDAAAAAElFTkSuQmCC"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILm9t"
+			"bWl0OiAlcwBGYWlsZWQgdG8gY3JlYXRlIGRpcmVjdG9yeSAnZGV2aWNlcycgLgBGYWlsZWQgdG8g"
+			"Y3JlYXRlIGZpbGUgJyVzJy4ARmFpbGVkIHRvIGNyZWF0ZSBmaWxlICclcycuCgBGYWlsZWQgdG8g"
+			"Y3JlYXRlIGZpbGUuAEZhaWxlZCB0byBjcmVhdGUgZm9sZGVyICclcycuAEZhaWxlZCB0byBjcmVh"
+			"dGUgb3V0cHV0IGRpcmVjdG9yeQoARmFpbGVkIHRvIGNyZWF0ZSBzeW1ib2wgbGlicmFyeSBmaWxl"
+			"ICclcycuAEZhaWxlZCB0byBjcmVhdGUgdGFnLgBGYWlsZWQgdG8gY3JlYXRlIHRlbXBvcmFyeSBm"
+			"aWxlICclcycuAEZhaWxlZCB0byBkZWxldGUgYnJhbmNoLgBGYWlsZWQgdG8gZGVsZXRlIHRhZy4A"
+			"RmFpbGVkIHRvIGRvd25sb2FkIHVybCAlcwolcwBGYWlsZWQgdG8gZXN0YWJsaXNoIGNvbm5lY3Rp"
+			"b24gd2l0aCByZW1vdGUgcmVwb3NpdG9yeS4ARmFpbGVkIHRvIGZldGNoIHNjaGVtYXRpYyBuZXRs"
+			"aXN0IGZvciBwYXJpdHkgdGVzdHMuCgBGYWlsZWQgdG8gZmluZCBicmFuY2ggaGVhZCBmb3IgJyVz"
+			"JwBGYWlsZWQgdG8gZ2V0IEhFQUQgcmVmZXJlbmNlOiAlcwBGYWlsZWQgdG8gZ2V0IGNvbW1pdDog"
+			"JXMARmFpbGVkIHRvIGdldCByZXBvc2l0b3J5IGluZGV4OiAlcwBGYWlsZWQgdG8gZ2V0IHdyaXRl"
+			"ciBmb3IgJXMARmFpbGVkIHRvIGluaXRpYWxpemUgZ2l0IHByb2plY3QuAEZhaWxlZCB0byBsb2Fk"
+			"ICclcycuAEZhaWxlZCB0byBsb2FkIGJvYXJkCgBGYWlsZWQgdG8gbG9hZCBraWZhY2UgbGlicmFy"
+			"eSAnJXMnLgBGYWlsZWQgdG8gbG9hZCBzY2hlbWF0aWMKAEZhaWxlZCB0byBsb2FkIHN5bWJvbCAl"
+			"cyBmcm9tIGxpYnJhcnkgJXMuAEZhaWxlZCB0byBsb29rdXAgYnJhbmNoICclcyc6ICVzAEZhaWxl"
+			"ZCB0byBsb29rdXAgdHJlZTogJXMARmFpbGVkIHRvIG1lcmdlIGJyYW5jaGVzLgBGYWlsZWQgdG8g"
+			"b3BlbiBmaWxlICclcycuAEZhaWxlZCB0byBvcGVuIHN5bWJvbC1mb290cHJpbnQgbGluayBmaWxl"
+			"ICclcycuAEZhaWxlZCB0byBvdXRwdXQgZGF0YQBGYWlsZWQgdG8gcGFyc2UgbG9jYWxseSBzdA=="
 		)
-	)
-	(text "no USB-PD"
-		(exclude_from_sim no)
-		(at 80.01 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52216812-a289-49ce-b519-cc21eb09f05c")
-	)
-	(text "MECHANICAL"
-		(exclude_from_sim no)
-		(at 36.83 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5f7cd4b-d1ff-46e6-93ae-8dc95bd1d12a")
-	)
-	(text "analog"
-		(exclude_from_sim no)
-		(at 205.74 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c85c8254-3e8d-436b-b2f1-ffe35c77f243")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -2929,7 +2996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 83.82 31.75 0)
 			(effects
 				(font
@@ -3352,7 +3419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 76.2 88.9 0)
 			(effects
 				(font
@@ -4017,7 +4084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 68.58 31.75 0)
 			(effects
 				(font
@@ -4083,7 +4150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -4512,7 +4579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 49.53 0)
 			(effects
 				(font
@@ -4578,7 +4645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 76.2 148.59 0)
 			(effects
 				(font
@@ -4602,6 +4669,10 @@
 	(sheet
 		(at 34.29 26.67)
 		(size 26.67 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4631,43 +4702,43 @@
 		)
 		(pin "12V" output
 			(at 60.96 35.56 0)
+			(uuid "422795e0-355c-46ac-a5cc-a812213e0065")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "422795e0-355c-46ac-a5cc-a812213e0065")
 		)
 		(pin "3V3" output
 			(at 60.96 43.18 0)
+			(uuid "a1cc67ec-3a56-4f6a-9e90-f53151284af5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a1cc67ec-3a56-4f6a-9e90-f53151284af5")
 		)
 		(pin "5V" output
 			(at 60.96 39.37 0)
+			(uuid "b3338384-dac2-4421-8535-b09f6c48542c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b3338384-dac2-4421-8535-b09f6c48542c")
 		)
 		(pin "GND" output
 			(at 60.96 46.99 0)
+			(uuid "a4301124-466a-4b82-8bee-d1886541732e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a4301124-466a-4b82-8bee-d1886541732e")
 		)
 		(instances
 			(project "ayab-esp32"
@@ -4680,6 +4751,10 @@
 	(sheet
 		(at 160.02 85.09)
 		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4709,33 +4784,33 @@
 		)
 		(pin "{SOL}" output
 			(at 200.66 95.25 0)
+			(uuid "45f4235c-da97-4897-85e1-608f8f959282")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "45f4235c-da97-4897-85e1-608f8f959282")
 		)
 		(pin "MCP_SDA" bidirectional
 			(at 160.02 93.98 180)
+			(uuid "52fb3f40-24f0-4064-83f6-51e9f95af75d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "52fb3f40-24f0-4064-83f6-51e9f95af75d")
 		)
 		(pin "MCP_SCL" input
 			(at 160.02 96.52 180)
+			(uuid "f2950997-06ac-4f53-86f7-36029eca2cbf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f2950997-06ac-4f53-86f7-36029eca2cbf")
 		)
 		(instances
 			(project "ayab-esp32"
@@ -4748,6 +4823,10 @@
 	(sheet
 		(at 34.29 64.77)
 		(size 26.67 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4777,43 +4856,43 @@
 		)
 		(pin "USB_M" bidirectional
 			(at 60.96 74.93 0)
+			(uuid "734af933-cd52-4724-ae9d-2a51e34dfa56")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "734af933-cd52-4724-ae9d-2a51e34dfa56")
 		)
 		(pin "UCPD_CC2" bidirectional
 			(at 60.96 86.36 0)
+			(uuid "0bdd945b-db63-466b-87f1-5617657ca7b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0bdd945b-db63-466b-87f1-5617657ca7b8")
 		)
 		(pin "UCPD_CC1" bidirectional
 			(at 60.96 81.28 0)
+			(uuid "8445a6b2-36bd-4fa9-ad4a-9155924f62ca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8445a6b2-36bd-4fa9-ad4a-9155924f62ca")
 		)
 		(pin "USB_P" bidirectional
 			(at 60.96 72.39 0)
+			(uuid "bb050837-532c-4d0e-8434-b347461c376c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bb050837-532c-4d0e-8434-b347461c376c")
 		)
 		(instances
 			(project "ayab-esp32"
@@ -4826,6 +4905,10 @@
 	(sheet
 		(at 219.71 85.09)
 		(size 38.1 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4855,83 +4938,83 @@
 		)
 		(pin "{SOL}" input
 			(at 219.71 95.25 180)
+			(uuid "c9fb8531-1c4f-4e4d-b9d4-5a66b5983fdd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c9fb8531-1c4f-4e4d-b9d4-5a66b5983fdd")
 		)
 		(pin "ENC_V2" output
 			(at 219.71 124.46 180)
+			(uuid "fb7eb23f-d11c-4064-bd89-cdf77f179c7c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fb7eb23f-d11c-4064-bd89-cdf77f179c7c")
 		)
 		(pin "ENC_BELTPHASE" output
 			(at 219.71 127 180)
+			(uuid "7e841c14-8c23-47ce-8e16-dffd194db90a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7e841c14-8c23-47ce-8e16-dffd194db90a")
 		)
 		(pin "ENC_V1" output
 			(at 219.71 121.92 180)
+			(uuid "d43766d8-bf5f-4a9a-a2a3-8bcff4230fed")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d43766d8-bf5f-4a9a-a2a3-8bcff4230fed")
 		)
 		(pin "EOL_R_N" output
 			(at 219.71 144.78 180)
+			(uuid "700ef92d-1d78-467e-b1d4-b92292c67889")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "700ef92d-1d78-467e-b1d4-b92292c67889")
 		)
 		(pin "EOL_R_S" output
 			(at 219.71 147.32 180)
+			(uuid "430905a7-5791-4ac8-9a52-71e7d216703d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "430905a7-5791-4ac8-9a52-71e7d216703d")
 		)
 		(pin "EOL_L" output
 			(at 219.71 134.62 180)
+			(uuid "c2fee704-b413-4457-b0ea-bde5f4ccbdf8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c2fee704-b413-4457-b0ea-bde5f4ccbdf8")
 		)
 		(pin "EOL_R" output
 			(at 219.71 137.16 180)
+			(uuid "537c4741-2bf7-4504-b870-bc08af4f58f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "537c4741-2bf7-4504-b870-bc08af4f58f9")
 		)
 		(instances
 			(project "ayab-esp32"
@@ -4944,6 +5027,10 @@
 	(sheet
 		(at 160.02 114.3)
 		(size 40.64 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4973,143 +5060,143 @@
 		)
 		(pin "ENC_B" output
 			(at 160.02 124.46 180)
+			(uuid "0ccc7929-c349-48e1-88af-ffa732be9d9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0ccc7929-c349-48e1-88af-ffa732be9d9d")
 		)
 		(pin "ENC_A" output
 			(at 160.02 121.92 180)
+			(uuid "c33f0c99-272b-46da-8290-1d2218dd2436")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c33f0c99-272b-46da-8290-1d2218dd2436")
 		)
 		(pin "ENC_BP" output
 			(at 160.02 127 180)
+			(uuid "9d7d8c44-50fa-45c4-8c7f-9a19e10965b1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9d7d8c44-50fa-45c4-8c7f-9a19e10965b1")
 		)
 		(pin "ENC_V2" input
 			(at 200.66 124.46 0)
+			(uuid "a61ce7eb-a6ce-41f1-82a0-757c619b8a0f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a61ce7eb-a6ce-41f1-82a0-757c619b8a0f")
 		)
 		(pin "ENC_BELTPHASE" input
 			(at 200.66 127 0)
+			(uuid "2a10a0c8-b718-4a56-88ce-5d626b5c3c66")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2a10a0c8-b718-4a56-88ce-5d626b5c3c66")
 		)
 		(pin "ENC_V1" input
 			(at 200.66 121.92 0)
+			(uuid "eeb8479d-fa2a-480b-8de6-cb9bd132cbb0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eeb8479d-fa2a-480b-8de6-cb9bd132cbb0")
 		)
 		(pin "EOL_L" input
 			(at 200.66 134.62 0)
+			(uuid "ed5c056f-455a-45dc-9096-cba3d1e57592")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ed5c056f-455a-45dc-9096-cba3d1e57592")
 		)
 		(pin "EOL_R" input
 			(at 200.66 137.16 0)
+			(uuid "1570fe5e-5677-4604-b810-99ffe1c2a54e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1570fe5e-5677-4604-b810-99ffe1c2a54e")
 		)
 		(pin "EOL_R_K" input
 			(at 200.66 144.78 0)
+			(uuid "dc15a8eb-f833-4b45-ae05-e7a00cd58dae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dc15a8eb-f833-4b45-ae05-e7a00cd58dae")
 		)
 		(pin "EOL_R_L" input
 			(at 200.66 147.32 0)
+			(uuid "77dff22a-19ef-41be-bf8b-93231401fceb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "77dff22a-19ef-41be-bf8b-93231401fceb")
 		)
 		(pin "EOL_L_N" output
 			(at 160.02 147.32 180)
+			(uuid "cdc11f4f-a2a7-4968-8e10-e62c96e47abe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cdc11f4f-a2a7-4968-8e10-e62c96e47abe")
 		)
 		(pin "EOL_R_P" output
 			(at 160.02 139.7 180)
+			(uuid "d2a99a8c-9b20-4060-a3e8-d018fef529e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d2a99a8c-9b20-4060-a3e8-d018fef529e8")
 		)
 		(pin "EOL_R_N" output
 			(at 160.02 142.24 180)
+			(uuid "34718e9d-ddf5-4c3f-bf7e-9111396b34f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "34718e9d-ddf5-4c3f-bf7e-9111396b34f6")
 		)
 		(pin "EOL_L_P" output
 			(at 160.02 144.78 180)
+			(uuid "42f90798-f96c-4c1c-8e14-48ef38c9f8cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "42f90798-f96c-4c1c-8e14-48ef38c9f8cd")
 		)
 		(instances
 			(project "ayab-esp32"
@@ -5122,6 +5209,10 @@
 	(sheet
 		(at 97.79 26.67)
 		(size 43.18 129.54)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5150,193 +5241,193 @@
 		)
 		(pin "ENC_BP" input
 			(at 140.97 127 0)
+			(uuid "1c037a6b-7e48-4eab-9751-69e635a2dd11")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1c037a6b-7e48-4eab-9751-69e635a2dd11")
 		)
 		(pin "ENC_A" input
 			(at 140.97 121.92 0)
+			(uuid "070db4e0-cc5c-43c5-90f4-d3373063ab1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "070db4e0-cc5c-43c5-90f4-d3373063ab1e")
 		)
 		(pin "ENC_B" input
 			(at 140.97 124.46 0)
+			(uuid "7d9412b2-952a-4dfa-af2d-693985962c4b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7d9412b2-952a-4dfa-af2d-693985962c4b")
 		)
 		(pin "USB_P" bidirectional
 			(at 97.79 72.39 180)
+			(uuid "82fa21bc-f337-4a07-8b13-eee59e58f019")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "82fa21bc-f337-4a07-8b13-eee59e58f019")
 		)
 		(pin "USB_M" bidirectional
 			(at 97.79 74.93 180)
+			(uuid "98bbb28e-2377-420c-a0d5-81ccc7a5be13")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "98bbb28e-2377-420c-a0d5-81ccc7a5be13")
 		)
 		(pin "EOL_L_P" input
 			(at 140.97 144.78 0)
+			(uuid "7b7ca9b9-508b-4fef-9fe0-701099f14016")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7b7ca9b9-508b-4fef-9fe0-701099f14016")
 		)
 		(pin "EOL_L_N" input
 			(at 140.97 147.32 0)
+			(uuid "00590d1d-84fb-4f60-9930-e09725633be7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "00590d1d-84fb-4f60-9930-e09725633be7")
 		)
 		(pin "EOL_R_P" input
 			(at 140.97 139.7 0)
+			(uuid "161fc795-6f6c-4933-ac47-476d7fd0ced1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "161fc795-6f6c-4933-ac47-476d7fd0ced1")
 		)
 		(pin "EOL_R_N" input
 			(at 140.97 142.24 0)
+			(uuid "2a03a07d-3b69-4a23-8856-706df5086495")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2a03a07d-3b69-4a23-8856-706df5086495")
 		)
 		(pin "I2C0_SDA" bidirectional
 			(at 140.97 93.98 0)
+			(uuid "7f78b02d-d721-433a-80a8-e829ca2813bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7f78b02d-d721-433a-80a8-e829ca2813bb")
 		)
 		(pin "I2C0_SCL" output
 			(at 140.97 96.52 0)
+			(uuid "b3726df6-cb15-4a13-9ece-95508caac25e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b3726df6-cb15-4a13-9ece-95508caac25e")
 		)
 		(pin "SPI0_COPI" output
 			(at 140.97 57.15 0)
+			(uuid "d8c7fde2-56b3-49ed-8d30-2b781cf44a50")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d8c7fde2-56b3-49ed-8d30-2b781cf44a50")
 		)
 		(pin "DISPLAY_CS" output
 			(at 140.97 52.07 0)
+			(uuid "1e98b3c5-215c-45f3-964c-541f198f87dc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1e98b3c5-215c-45f3-964c-541f198f87dc")
 		)
 		(pin "SPI0_CIPO" input
 			(at 140.97 54.61 0)
+			(uuid "d3933c5d-75bc-4f0b-9c8c-82e33571cced")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d3933c5d-75bc-4f0b-9c8c-82e33571cced")
 		)
 		(pin "SPI0_SCK" output
 			(at 140.97 59.69 0)
+			(uuid "52f7ae2a-8cd3-4f47-8f0f-824586b943ca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "52f7ae2a-8cd3-4f47-8f0f-824586b943ca")
 		)
 		(pin "UART_TX" output
 			(at 140.97 44.45 0)
+			(uuid "a548943e-5000-4b0f-a61d-f7d3a40b7be4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a548943e-5000-4b0f-a61d-f7d3a40b7be4")
 		)
 		(pin "UART_RX" input
 			(at 140.97 46.99 0)
+			(uuid "ad42545b-cf24-40c4-aa2b-7d32b26752d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ad42545b-cf24-40c4-aa2b-7d32b26752d2")
 		)
 		(pin "I2C1_SDA" bidirectional
 			(at 140.97 39.37 0)
+			(uuid "354cbf8c-52aa-4ea1-9048-c42b49bb3fa5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "354cbf8c-52aa-4ea1-9048-c42b49bb3fa5")
 		)
 		(pin "I2C1_SCL" output
 			(at 140.97 36.83 0)
+			(uuid "ca19e1c5-5c2c-41f3-810f-6cf1a1a12600")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ca19e1c5-5c2c-41f3-810f-6cf1a1a12600")
 		)
 		(instances
 			(project "ayab-esp32"
@@ -5349,6 +5440,10 @@
 	(sheet
 		(at 219.71 26.67)
 		(size 38.1 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5378,103 +5473,103 @@
 		)
 		(pin "I2C_SCL" input
 			(at 219.71 36.83 180)
+			(uuid "8766a560-dc2c-463f-bc49-d5a54f4422e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8766a560-dc2c-463f-bc49-d5a54f4422e8")
 		)
 		(pin "I2C_SDA" bidirectional
 			(at 219.71 39.37 180)
+			(uuid "d7dc403d-5438-4be5-b66b-42b0af3e3256")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d7dc403d-5438-4be5-b66b-42b0af3e3256")
 		)
 		(pin "UART_TX" input
 			(at 219.71 44.45 180)
+			(uuid "42a88af7-9d64-44a1-a671-d2d776cb2ad6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "42a88af7-9d64-44a1-a671-d2d776cb2ad6")
 		)
 		(pin "UART_RX" output
 			(at 219.71 46.99 180)
+			(uuid "2c730012-a520-41e8-ab0d-26852d860045")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2c730012-a520-41e8-ab0d-26852d860045")
 		)
 		(pin "AYAB_CS" input
 			(at 219.71 52.07 180)
+			(uuid "49fdecde-0568-4464-8e4d-dcb76c62d17c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "49fdecde-0568-4464-8e4d-dcb76c62d17c")
 		)
 		(pin "AYAB_CIPO" output
 			(at 219.71 54.61 180)
+			(uuid "943401db-fff9-4a5e-b02a-883a274a0462")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "943401db-fff9-4a5e-b02a-883a274a0462")
 		)
 		(pin "AYAB_SCK" input
 			(at 219.71 59.69 180)
+			(uuid "75165c74-daa3-411a-8176-090bcacce121")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "75165c74-daa3-411a-8176-090bcacce121")
 		)
 		(pin "AYAB_COPI" input
 			(at 219.71 57.15 180)
+			(uuid "43a49b66-62ee-43f2-806a-4ef0abdeefd6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "43a49b66-62ee-43f2-806a-4ef0abdeefd6")
 		)
 		(pin "AYAB_SCL" input
 			(at 219.71 67.31 180)
+			(uuid "9c2a8c4e-b1fc-4e84-b3c8-e2a42c10025b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9c2a8c4e-b1fc-4e84-b3c8-e2a42c10025b")
 		)
 		(pin "AYAB_SDA" bidirectional
 			(at 219.71 64.77 180)
+			(uuid "f6e4a0a2-c72a-453b-9f96-e38393a9bd98")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f6e4a0a2-c72a-453b-9f96-e38393a9bd98")
 		)
 		(instances
 			(project "ayab-esp32"
@@ -5489,4 +5584,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
