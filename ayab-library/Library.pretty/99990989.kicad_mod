@@ -1,0 +1,236 @@
+(footprint "99990989"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "99-99-0989-2")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 3.8 -0.2 90)
+		(layer "F.SilkS")
+		(uuid "e52c18ea-127a-4d78-9d38-4f898a528a96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Value" "1X5 2.5mm"
+		(at -5 0.65 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "834f6827-fe2a-48c7-aa1c-09555e199ec2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75992657-c573-4f14-85c2-729ac4745138")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2144240d-33aa-4e3d-8f7a-d465a0759172")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfg" "Molex"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a8faae1-5c67-4d7f-bd9c-ab4ee140d199")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfg P/N" "99-99-0989"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d177f88c-47f4-4f8d-8546-595ec83d6c8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.45 -1.8)
+		(end 2.45 -1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b35a057-8167-4d4f-8825-39f27681e5bf")
+	)
+	(fp_line
+		(start -12.45 3.1)
+		(end -12.45 -1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2513a275-00e9-428f-a14f-af090d708424")
+	)
+	(fp_line
+		(start 2.45 -1.8)
+		(end 2.45 3.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09d604b0-7e2d-40ad-9e3a-1f1d39c9f186")
+	)
+	(fp_line
+		(start 2.45 3.1)
+		(end -12.45 3.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0a96bd8-7537-48a3-91c5-f36a7d203363")
+	)
+	(fp_rect
+		(start -12.8 -2.2)
+		(end 2.8 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2500436d-5831-45a3-b3f1-3ac2d066ee5a")
+	)
+	(fp_line
+		(start -12.45 -1.8)
+		(end 2.45 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d554f586-c68c-4e19-bafc-1cc41c1e472f")
+	)
+	(fp_line
+		(start -12.45 3.1)
+		(end -12.45 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50140bb7-3c34-4e2b-9644-0146153f64d3")
+	)
+	(fp_line
+		(start 2.45 -1.8)
+		(end 2.45 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26fdd259-5879-4a27-b244-8323e3f2604a")
+	)
+	(fp_line
+		(start 2.45 3.1)
+		(end -12.45 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5d1b2ea-9807-473e-b21c-bbb01d4c051f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5 0.65 180)
+		(layer "F.Fab")
+		(uuid "3c4357e0-bcde-458f-b6e2-c2bba43a5c58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df1f8c92-6874-46f1-95ce-d2a6d1b9ca0f")
+	)
+	(pad "2" thru_hole circle
+		(at -2.5 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d07e24c-3842-4acc-b570-9c7892f08dc8")
+	)
+	(pad "3" thru_hole circle
+		(at -5 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb6b64b2-606c-4a22-b1b4-1bd446500751")
+	)
+	(pad "4" thru_hole circle
+		(at -7.5 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "99df2e09-a3df-4cef-a2ab-d79b849d9941")
+	)
+	(pad "5" thru_hole circle
+		(at -10 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "318b06e1-bf93-4a17-9552-85a5adb76dff")
+	)
+	(embedded_fonts no)
+	(model "/home/matei/Desktop/ayab-hardware/ayab-library/packages3D/CONN-TH_X2564WV-05-N0SN.wrl"
+		(offset
+			(xyz -5 -0.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
