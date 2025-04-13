@@ -1,4 +1,5 @@
 .DS_Store
 ayab-esp32/datasheets/*
-*/Gerbers/*
-*gerbers.zip
+*/Outputs/*
+*/DesignChecks/*
+*.zip
