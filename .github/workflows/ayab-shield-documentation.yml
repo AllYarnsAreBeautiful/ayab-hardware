@@ -64,8 +64,8 @@ jobs:
           git config --global user.name "robot"
           git add ${workflow_project_dir}/Reference/*
           git commit -m "Add reference materials to repo [skip ci]"
-          git push -u origin main
-
+          git push 
+          
       - name: Archive artifacts
         uses: actions/upload-artifact@v4
         if: always()
