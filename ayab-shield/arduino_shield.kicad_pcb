@@ -2837,7 +2837,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1ebc84bf-1afd-4aac-93a8-aaef23ecb4db")
+			(uuid "36c4fc49-c6bf-421e-9bec-025c9b48a36d")
 		)
 		(fp_line
 			(start 6 2.75)
@@ -2847,7 +2847,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "28e1ba75-af44-43bd-8ae5-71e85eb4e944")
+			(uuid "3414e2af-f0a9-4f7a-a48b-6e7ffb32f434")
 		)
 		(fp_line
 			(start 6 -1.85)
@@ -2857,7 +2857,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7af3daf1-636d-4e38-b905-5002be84135a")
+			(uuid "79727f8e-7563-416a-9cd0-b775eb9f51c5")
 		)
 		(fp_line
 			(start 6 -1.85)
@@ -2867,7 +2867,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7e00e01e-dd58-46d4-899e-4f5a8f19093e")
+			(uuid "31795d3d-fb62-4915-a127-a853e512b7fc")
 		)
 		(fp_poly
 			(pts
@@ -2879,7 +2879,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "2d4aad6b-e608-47db-9035-e422bdb5a792")
+			(uuid "ee3d066c-68e5-4504-82e1-22fde9f8b60c")
 		)
 		(fp_poly
 			(pts
@@ -2891,7 +2891,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "989e8c86-f737-408c-a05c-0ec8985dc8b0")
+			(uuid "57541f6c-1415-4969-8aee-5ea5d07e6fef")
 		)
 		(fp_rect
 			(start -6.3 -2.1)
@@ -2902,7 +2902,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "faf90a5e-9ae6-4c15-9ef8-f7e41038ce5e")
+			(uuid "d0a4d3e7-e317-4ee5-8cd1-b21346f91540")
 		)
 		(fp_circle
 			(center -4 0)
@@ -2913,7 +2913,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e440e319-0272-4001-b05b-dde2eba53600")
+			(uuid "18bc509c-7621-4955-b489-b2324d941e4c")
 		)
 		(fp_circle
 			(center -2 0)
@@ -2924,7 +2924,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "94ac5c85-112d-4588-8243-7ca38faf4be9")
+			(uuid "def9281e-dcae-428e-a839-2776f15c39f1")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2935,7 +2935,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "37f66571-9312-478b-beb9-8031c81bfb11")
+			(uuid "d6d7cb5d-e051-4d03-9e32-fdbf8eb08aa7")
 		)
 		(fp_circle
 			(center 2 0)
@@ -2946,7 +2946,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "2bc85015-7339-4e96-9614-1482d8cb3b3d")
+			(uuid "3487d782-80ae-4035-a658-e5bc6dae9923")
 		)
 		(fp_circle
 			(center 4 0)
@@ -2957,7 +2957,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "fd6c07ed-8a97-4e35-b038-d472a8995fda")
+			(uuid "82a71a6e-381b-439f-8195-d5da740c2075")
 		)
 		(fp_circle
 			(center 6.13 -1.98)
@@ -2968,10 +2968,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "239561cc-d124-44f0-9680-2c235cbb32c8")
+			(uuid "1c169e78-79ca-4a1d-8c9d-9054a6f48cb9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.6 90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "27c03340-d817-4760-9003-581e4072cfc8")
 			(effects
@@ -3040,6 +3040,17 @@
 		(model "/home/matei/Desktop/ayab-hardware/ayab-library/packages3D/53014-0510.stp"
 			(offset
 				(xyz 0 -0.55 1.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "C:/Users/Tom/Documents/hack/ayab-hardware/ayab-library/packages3D/53014-0510.stp"
+			(offset
+				(xyz 0 0 2.9)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4417,7 +4428,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2d8adcf4-e168-4d50-9e11-00d08f59604b")
+			(uuid "fceaee00-d5e9-4be6-80b1-9fafe9c5812f")
 		)
 		(fp_line
 			(start -4 -1.8)
@@ -4427,7 +4438,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "56d21214-632c-49ad-9df4-e43aaa1738f4")
+			(uuid "50ab49de-0b50-422e-a222-505f7bd0af0e")
 		)
 		(fp_line
 			(start 4 2.88)
@@ -4437,7 +4448,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ad1c4958-6969-47e4-88f5-3b0e3bd76591")
+			(uuid "79b0b7ab-316d-4d2d-a20e-bfa64ba64afc")
 		)
 		(fp_line
 			(start -4 2.88)
@@ -4447,7 +4458,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "93a31ae5-72be-4d32-8ad5-f4908830728c")
+			(uuid "e90b1663-dba6-458b-b78b-56bf2627204f")
 		)
 		(fp_poly
 			(pts
@@ -4459,7 +4470,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "af196fc8-8d4d-4e6d-bf68-97dbd82e0eea")
+			(uuid "5799b1ae-782c-41bd-958c-7204c45a04a3")
 		)
 		(fp_poly
 			(pts
@@ -4471,7 +4482,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "e5750bdf-4af5-4a3c-a55a-d661663d244a")
+			(uuid "30479b64-d346-4efa-86e8-8d55bc8d19ec")
 		)
 		(fp_rect
 			(start -4.4 -2.2)
@@ -4482,7 +4493,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "169d2ada-6a62-45a7-85f0-4cef1ecf24a1")
+			(uuid "59482662-1dde-4aa2-bdf7-9d007cde225d")
 		)
 		(fp_circle
 			(center 2 0)
@@ -4493,7 +4504,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "28190e31-df60-421c-8440-49b19dc284f6")
+			(uuid "ec3780e9-e5ae-4615-9297-5288c5a0c93b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4504,7 +4515,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "1f607757-c52b-46fe-a02f-17f08f24c9d3")
+			(uuid "3eba5576-35de-45dd-bbf5-a530df9485af")
 		)
 		(fp_circle
 			(center -2 0)
@@ -4515,7 +4526,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "859a004e-ec70-4881-beba-156ba5ef4f1c")
+			(uuid "a9fe0ddd-d483-42d0-a634-8c65bca7625c")
 		)
 		(fp_circle
 			(center 4.13 3.01)
@@ -4526,7 +4537,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d50af532-04a2-496e-909d-27ecba7d4c66")
+			(uuid "bcb6f442-a1c5-4247-bdff-09ff0ec4367b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.8 270)
@@ -4581,7 +4592,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -0)
+			)
+		)
+		(model "C:/Users/Tom/Documents/hack/ayab-hardware/ayab-library/packages3D/CONN-TH_3P-P2.00_A2004WV-3P.wrl"
+			(offset
+				(xyz 0 -1.38 1.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -9519,7 +9541,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "123665ca-e5ac-4608-a5fc-dbc37f3e29e6")
+			(uuid "57473300-2923-4b72-8637-545d48109cd2")
 		)
 		(fp_line
 			(start 4 2.88)
@@ -9529,7 +9551,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d9384918-cddc-4d40-9046-237810c7f057")
+			(uuid "71fc1040-6833-45d9-a0cf-8d7a2006ac2c")
 		)
 		(fp_line
 			(start -4 -1.8)
@@ -9539,7 +9561,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "be775199-9ced-49a0-8744-4ee82c7e1bdd")
+			(uuid "21034c99-f15c-4e25-8778-e489c48df725")
 		)
 		(fp_line
 			(start 4 -1.8)
@@ -9549,7 +9571,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b027ef78-d654-4981-80d9-04af9a9668ac")
+			(uuid "df911ced-2fc7-4dec-902a-5ea10bdbb3bb")
 		)
 		(fp_poly
 			(pts
@@ -9561,7 +9583,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "9848dedf-abf0-4e8e-88f8-46618d652049")
+			(uuid "df1e3398-59dd-4b9c-a04d-9b7f93d91245")
 		)
 		(fp_poly
 			(pts
@@ -9573,7 +9595,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "d93ea874-925e-4d8f-a6d2-575fa4c05874")
+			(uuid "ef69dad2-e0b7-4059-9da5-ccd946a8ae2d")
 		)
 		(fp_rect
 			(start -4.4 -2.2)
@@ -9584,7 +9606,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "131b1157-92ab-45e0-ab60-9eae1578f60e")
+			(uuid "9966ee91-4436-4622-a58e-c41966e58ca3")
 		)
 		(fp_circle
 			(center 4.13 3.01)
@@ -9595,7 +9617,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f1e692b4-3144-4b00-b055-089971877f67")
+			(uuid "b81bb96c-0fcb-4af2-a72b-3a9d6eed0f70")
 		)
 		(fp_circle
 			(center -2 0)
@@ -9606,7 +9628,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "9bf21540-6876-460e-8161-b8dcd5dc51f2")
+			(uuid "fb700a63-41e4-41b3-ad30-3095d10f1595")
 		)
 		(fp_circle
 			(center 0 0)
@@ -9617,7 +9639,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "9481fee8-cbcb-4e28-946a-8b5d2d27a75f")
+			(uuid "f7378dca-bd0c-4707-85b1-156b33fdb955")
 		)
 		(fp_circle
 			(center 2 0)
@@ -9628,7 +9650,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "dfa017cc-e1d4-478d-9b0e-446b4786115b")
+			(uuid "30b39274-f52e-4684-85be-a2f83bff6278")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.6 90)
@@ -9683,7 +9705,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -0)
+			)
+		)
+		(model "C:/Users/Tom/Documents/hack/ayab-hardware/ayab-library/packages3D/CONN-TH_3P-P2.00_A2004WV-3P.wrl"
+			(offset
+				(xyz 0 -1.38 1.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
 			)
 		)
 	)

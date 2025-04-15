@@ -288,7 +288,18 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -180 -0 -0)
+		)
+	)
+	(model "C:/Users/Tom/Documents/hack/ayab-hardware/ayab-library/packages3D/CONN-TH_3P-P2.00_A2004WV-3P.wrl"
+		(offset
+			(xyz 0 -1.38 1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
 		)
 	)
 )
