@@ -1,0 +1,293 @@
+(footprint "Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Molex SPOX Connector System, 5267-03A, 3 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator")
+	(tags "connector Molex SPOX vertical")
+	(property "Reference" "REF**"
+		(at 2.5 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "fbb3d1fd-4f0b-4e28-94d6-daf1ad3796e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
+		(at 2.5 3.01 0)
+		(layer "F.Fab")
+		(uuid "f056db99-a01e-4209-b20d-cf80d5a44cf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3144bccf-47e2-4912-8c42-a4ef9bfeed6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dfc1bd5-48a3-48b9-96eb-7ff3711edd96")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.86 -0.2)
+		(end -2.86 2.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65b7c959-31c1-4f06-9408-ef0d3948020e")
+	)
+	(fp_line
+		(start -2.86 2.21)
+		(end -0.45 2.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f27df4fe-ef43-4f9b-82c5-0a88dd41591a")
+	)
+	(fp_line
+		(start -2.56 -3.21)
+		(end -2.56 1.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7c3e1c3-95c6-4f69-abec-b4dec7075903")
+	)
+	(fp_line
+		(start -2.56 1.91)
+		(end 6.56 1.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9947048-cbde-4b2e-8991-1817013d06f8")
+	)
+	(fp_line
+		(start 6.56 1.91)
+		(end 7.56 0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "023da7e0-db6a-4247-ba6f-3db6f1e08a52")
+	)
+	(fp_line
+		(start 7.56 -3.21)
+		(end -2.56 -3.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1436daf8-c2ed-404b-a126-dec0ad36aa5e")
+	)
+	(fp_line
+		(start 7.56 0.91)
+		(end 7.56 -3.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66828928-b8e0-497a-8ec8-c957cbe8d9b6")
+	)
+	(fp_line
+		(start -2.95 -3.6)
+		(end -2.95 2.31)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3fbebd9-2779-4871-b87a-970ea3813c0e")
+	)
+	(fp_line
+		(start -2.95 2.31)
+		(end 6.95 2.31)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60122f83-9dd3-435f-9a1e-5643b329c2da")
+	)
+	(fp_line
+		(start 6.95 2.31)
+		(end 7.95 1.31)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43c5d27b-62e7-4970-bc46-9894f7e5f409")
+	)
+	(fp_line
+		(start 7.95 -3.6)
+		(end -2.95 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "552f0a24-1959-46fb-b673-63dfc5bd53c9")
+	)
+	(fp_line
+		(start 7.95 1.31)
+		(end 7.95 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6afed2b2-6ba8-4d2a-a8b8-a61fa2e9e3e6")
+	)
+	(fp_line
+		(start -2.45 -3.1)
+		(end -2.45 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd853e24-236d-4e63-ad38-42382c4b4664")
+	)
+	(fp_line
+		(start -2.45 1.8)
+		(end 6.45 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99911582-1a01-4b2f-a6a3-6b2d59174f64")
+	)
+	(fp_line
+		(start -0.5 1.8)
+		(end 0 1.092893)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1dabac65-ebb6-4c60-aff1-58450c1ea9ae")
+	)
+	(fp_line
+		(start 0 1.092893)
+		(end 0.5 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4782648-3176-440c-b0f8-2fa2e12cf6b6")
+	)
+	(fp_line
+		(start 6.45 1.8)
+		(end 7.45 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f981303-a8fe-44a7-bf24-6b312c4271e6")
+	)
+	(fp_line
+		(start 7.45 -3.1)
+		(end -2.45 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c164a46-f51b-45ce-9788-e0bb86f5ad61")
+	)
+	(fp_line
+		(start 7.45 0.8)
+		(end 7.45 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95019201-4a02-48a3-a63e-7cf6f884beb8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -2.4 0)
+		(layer "F.Fab")
+		(uuid "6225b93b-5a70-42c0-8e76-68b790164ba4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.7 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.147059)
+		(uuid "86f2b6fa-0fa1-4095-8c46-9e23eca958c2")
+	)
+	(pad "2" thru_hole oval
+		(at 2.5 0)
+		(size 1.7 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e82bb683-f90b-4016-9dd4-d50c4d1b3079")
+	)
+	(pad "3" thru_hole oval
+		(at 5 0)
+		(size 1.7 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8c38795-9aaf-48fb-94bd-f816c06f1fe8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

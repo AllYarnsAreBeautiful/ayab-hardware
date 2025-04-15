@@ -69,14 +69,6 @@
           ""
         ],
         [
-          "silk_edge_clearance|110200000|126560000|f5932e49-1a88-4f41-863b-404a1271f285|6987a02e-786b-4789-b2d4-2f84794b5f47",
-          ""
-        ],
-        [
-          "silk_edge_clearance|110223212|104428400|33992c24-0b51-47be-8e75-55bcf63ce487|d608f88d-fa05-4863-8a4e-8b4bb47995b6",
-          ""
-        ],
-        [
           "silk_edge_clearance|179410000|77910000|7bd656d4-12ec-465c-8576-9f44e29c7685|e7c1726a-1db8-4be0-99d3-e2f1a8892e05",
           ""
         ],
@@ -143,6 +135,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
