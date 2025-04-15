@@ -330,4 +330,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "C:/Users/Tom/Downloads/exports(3)/022035085.stp"
+		(offset
+			(xyz 0 0 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
 )
