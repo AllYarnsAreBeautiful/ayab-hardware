@@ -6,8 +6,6 @@ on:
   pull_request:
     branches:
       - main
-    types:
-      - closed
     paths:
       - ayab-shield/**
   
