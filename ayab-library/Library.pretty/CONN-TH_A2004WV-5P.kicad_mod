@@ -318,20 +318,9 @@
 		(uuid "2d401402-f288-429b-aa57-f731f6163992")
 	)
 	(embedded_fonts no)
-	(model "/home/matei/Desktop/ayab-hardware/ayab-library/packages3D/53014-0510.stp"
-		(offset
-			(xyz 0 -0.55 1.8)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
 	(model "C:/Users/Tom/Documents/hack/ayab-hardware/ayab-library/packages3D/53014-0510.stp"
 		(offset
-			(xyz 0 0 2.9)
+			(xyz 0.56 -0.71 2.9)
 		)
 		(scale
 			(xyz 1 1 1)

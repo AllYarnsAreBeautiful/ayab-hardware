@@ -293,13 +293,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../ayab-library/packages3D/53014-0510.stp"
 		(offset
-			(xyz -3.440000006 -0.5199999731 2.79999991)
+			(xyz -3.44 -0.71 2.8)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
