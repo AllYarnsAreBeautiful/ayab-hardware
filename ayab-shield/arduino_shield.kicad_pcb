@@ -116,7 +116,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -5420,18 +5419,6 @@
 			(layer "F.CrtYd")
 			(uuid "57757070-897d-4053-9d93-4a454f0889d8")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0.3 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b4e39c7-0fcb-482f-bf8c-a2fa97dd927e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.2 3.2)
@@ -5509,18 +5496,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "54aae37a-e41c-4a76-9e6a-083222e4890b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0.3 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d280c61b-3dcc-44b2-9b2e-7309f098169b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -6885,18 +6860,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "f09bfabe-07ae-4c7c-98de-a9a342ef7e04")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0.3 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c115cf1f-beba-4a2c-af45-f1f5d6378f14")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
