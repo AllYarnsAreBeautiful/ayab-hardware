@@ -318,7 +318,7 @@
 		(uuid "2d401402-f288-429b-aa57-f731f6163992")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Tom/Documents/hack/ayab-hardware/ayab-library/packages3D/53014-0510.stp"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/53014-0510.stp"
 		(offset
 			(xyz 0.56 -0.71 2.9)
 		)

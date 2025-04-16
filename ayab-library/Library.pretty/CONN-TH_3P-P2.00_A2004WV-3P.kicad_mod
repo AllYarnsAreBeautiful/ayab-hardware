@@ -280,31 +280,7 @@
 		(uuid "d3570d8f-d124-49f6-8773-9ae3b1d230a7")
 	)
 	(embedded_fonts no)
-	(model "/home/matei/Desktop/ayab-hardware/ayab-library/packages3D/CONN-TH_3P-P2.00_A2004WV-3P.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 1.46 1.9)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -180 -0 -0)
-		)
-	)
-	(model "C:/Users/Tom/Documents/hack/ayab-hardware/ayab-library/packages3D/CONN-TH_3P-P2.00_A2004WV-3P.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 -1.38 1.8)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -180)
-		)
-	)
-	(model "C:/Users/Tom/Downloads/LIB_53014-0310/53014-0310/3D/53014-0310.stp"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/53014-0310.stp"
 		(offset
 			(xyz 0.57 -0.71 2.9)
 		)
