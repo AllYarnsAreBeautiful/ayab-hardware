@@ -336,6 +336,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_SPOX_5267-10A_1x10_P2.50mm_Vertical.wrl"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -346,7 +347,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "C:/Users/Tom/Downloads/exports(4)/022035105.stp"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/022035105.stp"
 		(offset
 			(xyz 0 0 9)
 		)
