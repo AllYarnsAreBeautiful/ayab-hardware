@@ -21,7 +21,7 @@ env:
   
 jobs:
   buildfiles:
-    name: Design check & documentation build
+    name: Design check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
