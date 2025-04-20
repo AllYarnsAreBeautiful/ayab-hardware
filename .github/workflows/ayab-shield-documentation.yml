@@ -40,8 +40,6 @@ jobs:
           gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/default -dNOPAUSE -dQUIET -dBATCH -dDetectDuplicateImages -dCompressFonts=true -r150 -sOutputFile=Reference/${kicad_project_name}-assembly.pdf ${copper_files}
           sudo rm ${copper_files}
 
-          sudo mv Reference ${workflow_project_dir}/Reference
-
       - name: Export gerbers and assembly documentation
         run: |
           kicad-cli jobset run --file ./ayab-library/ayab-jobset.kicad_jobset --output aeb40242-edfd-4f73-854b-b9cc9a052a15 ./${workflow_project_dir}/${kicad_project_name}.kicad_pro
@@ -55,16 +53,6 @@ jobs:
           
           sudo mv Outputs/raw-bom.csv Outputs/${kicad_project_name}-bom.csv 
           sudo mv Outputs/raw-pos.csv Outputs/${kicad_project_name}-pos.csv
-
-      - name: Add reference materials to repo
-        env: 
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.email "robot@ayabknitting.com"
-          git config --global user.name "robot"
-          git add ${workflow_project_dir}/Reference/*
-          git commit -m "Add reference materials to repo [skip ci]"
-          git push origin main
           
       - name: Archive artifacts
         uses: actions/upload-artifact@v4
@@ -78,4 +66,4 @@ jobs:
         if: always()
         with:
           name: reference-artifacts
-          path: ayab-shield/Reference/
+          path: Reference/
