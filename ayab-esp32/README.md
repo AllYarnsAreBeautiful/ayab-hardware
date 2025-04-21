@@ -1,5 +1,5 @@
 [![Hardware Design](https://github.com/AllYarnsAreBeautiful/ayab-hardware/actions/workflows/ayab-esp32-design.yml/badge.svg?branch=main)](https://github.com/AllYarnsAreBeautiful/ayab-hardware/actions/workflows/ayab-esp32-design.yml)
-[![Assembly Documentation](https://github.com/AllYarnsAreBeautiful/ayab-hardware/actions/workflows/ayab-esp32-documentation.yml/badge.svg)](https://github.com/AllYarnsAreBeautiful/ayab-hardware/actions/workflows/ayab-esp32-documentation.yml)
+[![Fabrication Outputs](https://github.com/AllYarnsAreBeautiful/ayab-hardware/actions/workflows/ayab-esp32-documentation.yml/badge.svg)](https://github.com/AllYarnsAreBeautiful/ayab-hardware/actions/workflows/ayab-esp32-documentation.yml)
 
 # AYAB-ESP32
 These are the design files for the latest generation of AYAB hardware, a new, next controller for knitting machines.\
@@ -19,5 +19,6 @@ Based on the ESP32, many new features have been implemented:\
 The project was designed using KiCad 8. All symbols, footprints, and models are self contained to this repository so no additional files are required in order to view or modify the design.
 
 ![Prototype hardware assembly](images/ayab-esp32.png)
+![Live Render](Reference/top.png)
 
 Questions? Comments? Great ideas? Talk with us in [#hardware-development on Discord](https://discord.gg/A8KE3jcCn2)!
