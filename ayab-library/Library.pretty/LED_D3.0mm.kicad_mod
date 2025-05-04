@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "GRN_3MM"
+	(property "Value" "LED_3MM"
 		(at 1.27 2.96 0)
 		(layer "F.Fab")
 		(uuid "f2044bc4-02ec-4fad-ba9c-61f568ccabd9")

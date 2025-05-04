@@ -5403,6 +5403,16 @@
 		)
 		(uuid "25366dba-a96c-427f-b5c2-227893393b2e")
 	)
+	(wire
+		(pts
+			(xy 35.56 171.45) (xy 35.56 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25502140-9701-4425-9515-19f2139f4bc2")
+	)
 	(polyline
 		(pts
 			(xy 281.94 127) (xy 281.94 162.56)
@@ -5812,6 +5822,16 @@
 			(type dash)
 		)
 		(uuid "3ad418fc-8e23-4b4c-bebb-69a01293719a")
+	)
+	(wire
+		(pts
+			(xy 35.56 163.83) (xy 35.56 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3add3a2e-8dd8-45bf-916e-4474099cdec8")
 	)
 	(wire
 		(pts
@@ -6272,6 +6292,16 @@
 			(type default)
 		)
 		(uuid "67690f0f-6356-4368-b1d1-b0ed649ac7b5")
+	)
+	(wire
+		(pts
+			(xy 35.56 181.61) (xy 35.56 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ff4443-6955-429f-b631-88e5798b97c8")
 	)
 	(wire
 		(pts
@@ -8220,7 +8250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR8W65P0X250_1X8_2240X490X610P"
+		(property "Footprint" "ayab-library:Molex_0022035085 or Hirose_HNC2_2.5P_8DS"
 			(at 256.54 97.79 0)
 			(effects
 				(font
@@ -8326,7 +8356,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -8483,7 +8513,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR3W70P0X250_1X3_990X490X590P"
+		(property "Footprint" "ayab-library:Molex_0022035035 or Hirose_HNC2-2.5P-3DS"
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -8572,7 +8602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 60.96 52.07 0)
 			(effects
 				(font
@@ -8677,7 +8707,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR3W70P0X250_1X3_990X490X590P"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
 			(at 78.74 138.43 0)
 			(effects
 				(font
@@ -8768,7 +8798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 19.05 135.89 0)
 			(effects
 				(font
@@ -8837,7 +8867,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR10W70P0X250_1X10_2740X490X590P"
+		(property "Footprint" "ayab-library:Molex_0022035105 or Hirose_HNC2-2.5P-10DS"
 			(at 256.54 43.18 0)
 			(effects
 				(font
@@ -9154,7 +9184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 78.74 80.01 0)
 			(effects
 				(font
@@ -9329,7 +9359,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -9359,7 +9389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Broadcom"
+		(property "Mfg" ""
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -9368,7 +9398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "HLMP-1640-B00A1"
+		(property "Mfg P/N" ""
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -9490,7 +9520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 222.885 31.75 90)
 			(effects
 				(font
@@ -9638,7 +9668,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 116.84 81.28 90)
 			(effects
 				(font
@@ -9647,7 +9677,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 118.11 85.09 0)
 			(effects
 				(font
@@ -9802,7 +9832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 60.96 77.47 0)
 			(effects
 				(font
@@ -10486,7 +10516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52a2d445-febd-4157-93c2-b895bdf08460")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 257.81 146.05 90)
 			(effects
 				(font
@@ -10502,7 +10532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 259.334 147.574 90)
 			(effects
 				(font
@@ -10538,7 +10568,7 @@
 		(instances
 			(project "arduino_shield"
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10619,6 +10649,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" "C225243"
+			(at 104.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 104.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-5P"
+			(at 104.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 104.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62e2a229-aa62-441c-8610-f719d18b04f7")
 		)
@@ -10670,7 +10736,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm"
 			(at 236.22 111.76 0)
 			(effects
 				(font
@@ -11011,7 +11077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 160.02 109.22 0)
 			(effects
 				(font
@@ -11215,7 +11281,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:99990989"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical"
 			(at 78.74 171.45 0)
 			(effects
 				(font
@@ -11313,7 +11379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 206.375 31.75 90)
 			(effects
 				(font
@@ -11400,7 +11466,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm"
 			(at 236.22 59.69 0)
 			(effects
 				(font
@@ -11419,7 +11485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Darlington Transistor Arrays, SOIC18/DIP18"
+		(property "Description" "Darlington Transistor Arrays, SOIC18"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -11673,7 +11739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 206.375 83.82 90)
 			(effects
 				(font
@@ -11761,7 +11827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 55.88 181.61 0)
 			(effects
 				(font
@@ -11941,6 +12007,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 35.56 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "909acc93-93bd-4135-956e-2c4be8d1ee48")
+		(property "Reference" "#PWR040"
+			(at 35.56 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a2d3dee-1848-4db4-9817-072a91129ee8")
+		)
+		(instances
+			(project "arduino_shield_smd"
+				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 59.69 168.91 180)
 		(unit 1)
@@ -11968,7 +12104,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 54.61 168.91 0)
 			(effects
 				(font
@@ -12016,7 +12152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92922b48-1223-4bf5-b7f7-550d1047a5af")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 257.81 139.7 90)
 			(effects
 				(font
@@ -12032,7 +12168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 259.334 141.224 90)
 			(effects
 				(font
@@ -12068,7 +12204,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12241,7 +12377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -12310,7 +12446,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x02_P2.54mm_Vertical"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -12401,7 +12537,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x04_P2.54mm_Vertical"
 			(at 238.76 146.05 0)
 			(effects
 				(font
@@ -12494,7 +12630,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 20.32 168.91 0)
 			(effects
 				(font
@@ -12581,7 +12717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H"
 			(at 50.8 135.89 0)
 			(effects
 				(font
@@ -12720,7 +12856,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 107.95 85.09 0)
 			(effects
 				(font
@@ -12750,7 +12886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Broadcom"
+		(property "Mfg" ""
 			(at 107.95 85.09 0)
 			(effects
 				(font
@@ -12759,7 +12895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "HLMP-NL06"
+		(property "Mfg P/N" ""
 			(at 107.95 85.09 0)
 			(effects
 				(font
@@ -12810,7 +12946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 27.94 135.89 0)
 			(effects
 				(font
@@ -12880,7 +13016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 224.155 83.82 90)
 			(effects
 				(font
@@ -12935,6 +13071,76 @@
 			(project "arduino_shield_smd"
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
 					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 35.56 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3fbd0a0-f586-43d5-8ec0-a4d47a04e1bf")
+		(property "Reference" "#PWR039"
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 35.56 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 35.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c482984-569a-4c20-ab57-67b689354a17")
+		)
+		(instances
+			(project "arduino_shield_smd"
+				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13006,6 +13212,42 @@
 			)
 		)
 		(property "Mfg P/N" "53014-0810"
+			(at 269.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" "C225246"
+			(at 269.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 269.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-8P"
+			(at 269.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 269.24 97.79 0)
 			(effects
 				(font
@@ -13325,7 +13567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 78.74 49.53 0)
 			(effects
 				(font
@@ -13549,7 +13791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 60.96 135.89 0)
 			(effects
 				(font
@@ -13689,7 +13931,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_0022035105 or Hirose_HNC2-2.5P-10DS"
+		(property "Footprint" "ayab-library:HNC2-2.5P-10DS"
 			(at 121.92 153.67 0)
 			(effects
 				(font
@@ -13872,7 +14114,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 20.32 177.8 0)
 			(effects
 				(font
@@ -13902,7 +14144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Broadcom"
+		(property "Mfg" ""
 			(at 20.32 177.8 0)
 			(effects
 				(font
@@ -13911,7 +14153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "HLMP-NG07"
+		(property "Mfg P/N" ""
 			(at 20.32 177.8 0)
 			(effects
 				(font
@@ -13930,6 +14172,183 @@
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ayab-lib:R_Small_US")
+		(at 35.56 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec6af2cf-26df-4843-8c9c-9388b6fdf14d")
+		(property "Reference" "R4"
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1K"
+			(at 38.1 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Vishay"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "RL07S151GRE6"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1d04d0c-b2fb-4bc4-bcd0-d9d3522b409a")
+		)
+		(pin "2"
+			(uuid "5c953813-e096-4d7c-b95c-7657bf24f680")
+		)
+		(instances
+			(project "arduino_shield_smd"
+				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ayab-lib:LED")
+		(at 35.56 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f72755b5-2a51-4120-9cc9-93d50328290f")
+		(property "Reference" "D4"
+			(at 40.64 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BLUE_0603"
+			(at 38.1 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 35.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 35.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" ""
+			(at 35.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" ""
+			(at 35.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f9c8027-417b-41af-a23b-c8d13a7ef700")
+		)
+		(pin "2"
+			(uuid "77e8cf42-ba10-4115-8ed3-dad4f24eafd2")
+		)
+		(instances
+			(project "arduino_shield_smd"
+				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13963,7 +14382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 45.72 168.91 0)
 			(effects
 				(font
@@ -14077,6 +14496,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" "C225241"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-3P"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8827655c-e531-4cef-8c09-3e50703c3805")
 		)
@@ -14162,6 +14617,42 @@
 			)
 		)
 		(property "Mfg P/N" "53015-0310"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" "C225241"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-3P"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 190.5 148.59 0)
 			(effects
 				(font
