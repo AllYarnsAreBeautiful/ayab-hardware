@@ -20996,7 +20996,7 @@
 		)
 	)
 	(gr_text "Woolly Logic"
-		(at 147.7 104.2 0)
+		(at 148.1 104.6 0)
 		(layer "B.SilkS")
 		(uuid "745b165d-01d9-41c7-934e-a28036369e26")
 		(effects
@@ -21243,7 +21243,7 @@
 		(uuid "493e9270-5a12-49ed-a6a7-1acdb042884a")
 	)
 	(via
-		(at 148 97)
+		(at 148.5 98.7)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -21369,7 +21369,7 @@
 		(uuid "82feb177-d0d0-46ec-9d10-7e76e1f8805c")
 	)
 	(via
-		(at 152 97)
+		(at 152.3 96.8)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -21378,7 +21378,7 @@
 		(uuid "882ba077-620b-4b75-9354-1cf47d16d83c")
 	)
 	(via
-		(at 143.1 98)
+		(at 143.7726 97.3)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
