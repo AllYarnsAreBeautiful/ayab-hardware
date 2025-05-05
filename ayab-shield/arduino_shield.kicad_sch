@@ -4884,6 +4884,10 @@
 		(uuid "214ac53e-cdf1-44ae-bae9-f31f141239a3")
 	)
 	(no_connect
+		(at 123.19 161.29)
+		(uuid "31d7841d-262c-436b-b62c-d223b35a25f1")
+	)
+	(no_connect
 		(at 123.19 146.05)
 		(uuid "32c3fb05-870b-417a-a4a4-532c8ededc14")
 	)
@@ -4938,6 +4942,10 @@
 	(no_connect
 		(at 91.44 43.18)
 		(uuid "e54c17ec-4ac2-47ee-a3ed-080d9144ddd5")
+	)
+	(no_connect
+		(at 123.19 163.83)
+		(uuid "eb176c4b-2ddb-4e20-b245-ad0869506aa5")
 	)
 	(polyline
 		(pts
@@ -6141,16 +6149,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 161.29) (xy 133.35 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ffc7a87-cb3d-4824-b96f-2178eeb82ee1")
-	)
-	(wire
-		(pts
 			(xy 91.44 60.96) (xy 93.98 60.96)
 		)
 		(stroke
@@ -6208,16 +6206,6 @@
 			(type default)
 		)
 		(uuid "848ef849-55d9-409d-a80b-ab7d2db20b82")
-	)
-	(wire
-		(pts
-			(xy 123.19 163.83) (xy 133.35 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86fcbab3-d93f-48ab-8848-047e8e9cfbb6")
 	)
 	(wire
 		(pts
@@ -7089,16 +7077,6 @@
 		)
 		(uuid "0c7b820d-153f-4f85-a949-2e4b65876dff")
 	)
-	(label "MYLAR1"
-		(at 133.35 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d046f4b-00b5-4ad4-960e-804792e7c1d6")
-	)
 	(label "ENC_A"
 		(at 104.14 83.82 180)
 		(effects
@@ -7318,16 +7296,6 @@
 			(justify right bottom)
 		)
 		(uuid "ca773bda-fb8d-4fdf-80b6-e1c8d1679e81")
-	)
-	(label "MYLAR2"
-		(at 133.35 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d639fecb-38bb-4c4d-9c46-204915d558fa")
 	)
 	(label "LED_YEL"
 		(at 104.14 76.2 180)
@@ -11304,74 +11272,6 @@
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
 					(reference "JP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ayab-lib:R_Small_US")
-		(at 257.81 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f98e1c7-44b1-4ef2-8004-4453e6a41463")
-		(property "Reference" "R?"
-			(at 257.81 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Small_US"
-			(at 257.81 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 257.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbf60408-0086-4b8f-a6d2-98fcd22ba721")
-		)
-		(pin "2"
-			(uuid "bc2e8538-2290-47d6-ae40-29e1e0db2e8c")
-		)
-		(instances
-			(project ""
-				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "R?")
 					(unit 1)
 				)
 			)
