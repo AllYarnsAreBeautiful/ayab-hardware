@@ -567,10 +567,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../../../../../../Applications/KiCad/KiCad.app/Contents/Applications/",
-      "plot": "./Gerbers",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": ".step",
+      "step": "ayab-shield.step",
       "svg": "",
       "vrml": ""
     },
