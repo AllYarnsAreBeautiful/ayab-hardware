@@ -655,7 +655,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "2K7"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "eaf0b883-8d48-490e-a5df-fa4e617f879e")
@@ -1384,7 +1384,7 @@
 				)
 			)
 		)
-		(property "Mfg" "Broadcom"
+		(property "Mfg" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1397,7 +1397,7 @@
 				)
 			)
 		)
-		(property "Mfg P/N" "HLMP-1640-B00A1"
+		(property "Mfg P/N" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1714,7 +1714,7 @@
 				)
 			)
 		)
-		(property "Mfg" "Broadcom"
+		(property "Mfg" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1727,7 +1727,7 @@
 				)
 			)
 		)
-		(property "Mfg P/N" "HLMP-1640-B00A1"
+		(property "Mfg P/N" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2044,7 +2044,7 @@
 				)
 			)
 		)
-		(property "Mfg" "Broadcom"
+		(property "Mfg" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2057,7 +2057,7 @@
 				)
 			)
 		)
-		(property "Mfg P/N" "HLMP-1640-B00A1"
+		(property "Mfg P/N" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3842,7 +3842,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2c8d7f9b-8879-402c-a815-a3e39d329293")
@@ -6197,7 +6197,7 @@
 				)
 			)
 		)
-		(property "Mfg" "Broadcom"
+		(property "Mfg" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6210,7 +6210,7 @@
 				)
 			)
 		)
-		(property "Mfg P/N" "HLMP-1640-B00A1"
+		(property "Mfg P/N" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8297,7 +8297,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "48f610e1-8028-44ec-98ba-830efd4efe4e")
@@ -9587,7 +9587,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "99fb2ad6-cb32-47be-9c81-f9499e420272")

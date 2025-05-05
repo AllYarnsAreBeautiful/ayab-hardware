@@ -8347,7 +8347,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 116.84 71.12 90)
 			(effects
 				(font
@@ -8383,7 +8383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Vishay"
+		(property "Mfg" ""
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -8392,7 +8392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "RL07S151GRE6"
+		(property "Mfg P/N" ""
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -9668,7 +9668,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 116.84 81.28 90)
 			(effects
 				(font
@@ -9704,7 +9704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Vishay"
+		(property "Mfg" ""
 			(at 118.11 85.09 0)
 			(effects
 				(font
@@ -9713,7 +9713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "RL07S151GRE6"
+		(property "Mfg P/N" ""
 			(at 118.11 85.09 0)
 			(effects
 				(font
@@ -12621,7 +12621,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 22.86 170.18 0)
 			(effects
 				(font
@@ -12657,7 +12657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Vishay"
+		(property "Mfg" ""
 			(at 20.32 168.91 0)
 			(effects
 				(font
@@ -12666,7 +12666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "RL07S151GRE6"
+		(property "Mfg P/N" ""
 			(at 20.32 168.91 0)
 			(effects
 				(font
@@ -14195,7 +14195,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "2K7"
 			(at 38.1 170.18 0)
 			(effects
 				(font
@@ -14231,7 +14231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Vishay"
+		(property "Mfg" ""
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -14240,7 +14240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "RL07S151GRE6"
+		(property "Mfg P/N" ""
 			(at 35.56 168.91 0)
 			(effects
 				(font
