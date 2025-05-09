@@ -196,8 +196,8 @@
 	(net 64 "unconnected-(J3-Pin_4-Pad4)")
 	(net 65 "unconnected-(J4-Pin_7-Pad7)")
 	(net 66 "unconnected-(J4-Pin_8-Pad8)")
-	(net 67 "/MYLAR2")
-	(net 68 "/MYLAR1")
+	(net 67 "unconnected-(JP5-Pin_10-Pad10)")
+	(net 68 "unconnected-(JP5-Pin_9-Pad9)")
 	(net 69 "unconnected-(J1-Pin_3-Pad3)")
 	(net 70 "unconnected-(J1-Pin_2-Pad2)")
 	(net 71 "unconnected-(J2-Pin_3-Pad3)")
@@ -646,10 +646,10 @@
 		(at 117.5 127 90)
 		(descr "Molex SPOX Connector System, 5267-10A, 10 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex SPOX vertical")
-		(property "Reference" "JP4A"
+		(property "Reference" "JPA4"
 			(at 26 -1.4 0)
 			(layer "F.SilkS")
-			(uuid "8d9ee66c-0437-4536-a6df-ea8bba1e4e2a")
+			(uuid "bbd4d0a5-282f-4d69-a6a2-cae4a40ae3a7")
 			(effects
 				(font
 					(size 1 1)
@@ -661,7 +661,7 @@
 		(property "Value" "1X10 2.5mm"
 			(at 11.25 3.01 90)
 			(layer "F.Fab")
-			(uuid "d541374f-1d33-4d20-bba0-34d6d71956ad")
+			(uuid "3ab4272e-db40-4570-91a1-f89c813f85c4")
 			(effects
 				(font
 					(size 1 1)
@@ -673,7 +673,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a178da0-67d0-451e-8ae7-f5293c5c84cb")
+			(uuid "723846a2-60b8-4ee3-8834-d5f36b83c922")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -681,11 +681,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f9bc311-347f-4300-be6e-0cd997b7d41e")
+			(uuid "8941cd33-dd62-4807-bab3-042f99f2f3df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,6 +720,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/23303eb5-fc7d-44c3-893e-b8e47747e783")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -2028,10 +2029,10 @@
 		(layer "F.Cu")
 		(uuid "538e27a9-4ba8-497b-80a3-96b286f04ff5")
 		(at 174.95 93.2 -90)
-		(property "Reference" "JP8B"
+		(property "Reference" "JPB8"
 			(at 7.3 -0.35 0)
 			(layer "F.SilkS")
-			(uuid "06a496fe-7260-4ad3-b93a-be8a8fbc2d7a")
+			(uuid "d1b48e13-b102-407f-bac5-bc0cde497db1")
 			(effects
 				(font
 					(size 1 1)
@@ -2043,7 +2044,7 @@
 		(property "Value" "1X5 2mm"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "c079beed-1005-4ee8-91f2-85e0b59c2328")
+			(uuid "85ffa808-1af9-4e31-ad8c-dfd984b6e22f")
 			(effects
 				(font
 					(size 1 1)
@@ -2055,7 +2056,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39ef778b-6657-4033-8aed-3ef9e462c211")
+			(uuid "5be23e4e-e9fb-46a2-8027-ff73af9d5246")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2068,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "453b5b06-f70e-4639-894a-c78bd8301b4e")
+			(uuid "0a7053f5-e505-4a99-a52c-217aabe94dba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,6 +2151,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/53abb6ff-0d68-4985-9e6d-56137ddce522")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -2661,7 +2663,7 @@
 		(at 131.1 99.8 -90)
 		(descr "53014-0810-2")
 		(tags "Connector")
-		(property "Reference" "JP3B"
+		(property "Reference" "JPB3"
 			(at -16.8 0.6 0)
 			(layer "F.SilkS")
 			(uuid "658ba869-db07-4418-b119-665028aa3138")
@@ -2735,7 +2737,7 @@
 			)
 		)
 		(property "LCSC ID" "C225246"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1d6a573-1fc1-4683-9bcf-d15425fea03a")
@@ -2747,7 +2749,7 @@
 			)
 		)
 		(property "OEM" "CJT(Changjiang Connectors)"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "03fafdd6-ba92-4dfe-a18d-529b0ee75653")
@@ -2759,7 +2761,7 @@
 			)
 		)
 		(property "OEM PN" "A2004WV-8P"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "515b63ea-9ec7-44d0-8cc5-5c9e4a3d678e")
@@ -2771,7 +2773,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "297698a2-aae6-48eb-b730-ed56d6dadb99")
@@ -2783,6 +2785,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/bbe99e51-f192-4ea2-8955-fe82d59fd526")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -3064,7 +3067,7 @@
 		(property "Reference" "JP5"
 			(at -3.5 -0.8 180)
 			(layer "F.SilkS")
-			(uuid "953e05c5-a5ff-4e53-9b22-cefd1d3e0b8e")
+			(uuid "14bc2e65-3965-48db-ac66-86819e1d3c86")
 			(effects
 				(font
 					(size 1 1)
@@ -3076,7 +3079,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f40d5769-181b-4d12-abf1-62863f5e6c80")
+			(uuid "a0fa1001-1553-49de-8cb3-e5e51090fcd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3091,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd3a9fb1-759f-4b3c-9501-3bf4cd7b65c4")
+			(uuid "79b84072-714a-40db-abb6-f39d8ce482d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3103,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f73e5ce-d7d3-4e2c-a093-26755c0cef28")
+			(uuid "f171adb6-1be8-4feb-a2b2-5bf10bd8dfb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,9 +3367,9 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 68 "/MYLAR1")
+			(net 68 "unconnected-(JP5-Pin_9-Pad9)")
 			(pinfunction "Pin_9")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "ef707b72-045b-4e43-848f-57edd4edbedc")
 		)
 		(pad "10" thru_hole circle
@@ -3375,9 +3378,9 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 67 "/MYLAR2")
+			(net 67 "unconnected-(JP5-Pin_10-Pad10)")
 			(pinfunction "Pin_10")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "62d2a234-d888-441c-916a-96352a84084f")
 		)
 		(embedded_fonts no)
@@ -3620,10 +3623,10 @@
 		(layer "F.Cu")
 		(uuid "645079cb-8337-47db-8792-a778ef4ef994")
 		(at 149.1 121.1 90)
-		(property "Reference" "JP2B"
+		(property "Reference" "JPB2"
 			(at 5 1.2 180)
 			(layer "F.SilkS")
-			(uuid "1712863e-0742-47e1-ae4f-fa0e4524554b")
+			(uuid "f5a0153d-ba25-4069-84db-7a4df7fd1ccd")
 			(effects
 				(font
 					(size 1 1)
@@ -3635,7 +3638,7 @@
 		(property "Value" "1X3 2mm"
 			(at 0 4 270)
 			(layer "F.Fab")
-			(uuid "914b1254-684a-4c97-ad9b-6927cc57f1a4")
+			(uuid "a1326c68-237b-4ad0-9bf2-e04d86fb5d07")
 			(effects
 				(font
 					(size 1 1)
@@ -3647,7 +3650,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc2628da-c893-49aa-b521-56584f7aee5c")
+			(uuid "6046b360-7777-481f-8b91-2f994b4c34f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3662,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f36248b1-edeb-4e00-8efa-16a5c244eced")
+			(uuid "b176ec9c-dcab-491c-9613-933e0971cf05")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,6 +3745,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/fe7ab580-ce1f-45c4-830e-de19a591ae54")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -3927,10 +3931,10 @@
 		(at 112 124 -90)
 		(descr "53014-0810-2")
 		(tags "Connector")
-		(property "Reference" "JP4B"
+		(property "Reference" "JPB4"
 			(at -21.5 -0.7 45)
 			(layer "F.SilkS")
-			(uuid "48d4f182-ae3b-4f5f-95c3-32f33d18c0a7")
+			(uuid "4076548f-0378-4c46-bbf6-e722c630384b")
 			(effects
 				(font
 					(size 1 1)
@@ -3942,7 +3946,7 @@
 			(at -6.44 0.36 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6d8f5526-f32c-4911-991a-625754908024")
+			(uuid "a18c55ee-b9fb-4ac4-9611-9364a0febbd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3958,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea69c46a-5aa9-4de9-b92b-82440fd46737")
+			(uuid "d93e78c7-a957-4d23-9fb3-11e1362b72aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +3970,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e12d5f0-e065-4f76-babb-7bd1782a4874")
+			(uuid "a44d8721-f403-44c9-8046-973d62d10033")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,6 +4005,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/cbea4aaf-ad6b-429f-b0e2-8161c8c09308")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -5421,7 +5426,7 @@
 		(property "Reference" "R2"
 			(at 2.6 2.4 180)
 			(layer "F.SilkS")
-			(uuid "9850b772-d576-466a-b96f-d50a23b491ad")
+			(uuid "271d1832-ba77-4bd7-88ce-fe877762497f")
 			(effects
 				(font
 					(size 1 1)
@@ -5429,10 +5434,10 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4K7"
 			(at 1.27 1.92 0)
 			(layer "F.Fab")
-			(uuid "9bf1b678-5e70-4f54-ad95-0c0b603922b4")
+			(uuid "688ada08-4b3f-488d-9e46-b2e67aedcad0")
 			(effects
 				(font
 					(size 1 1)
@@ -5445,7 +5450,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75a5b836-1f75-4fdf-918f-a3bdd2689d14")
+			(uuid "44191ab4-23f7-490f-ab43-4fe00e508766")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5463,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db188598-104c-4529-89da-273ec5c1ced4")
+			(uuid "a2faf345-7ef0-4fc9-b490-abf82ef16e39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Mfg" "Vishay"
+		(property "Mfg" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5479,7 +5484,7 @@
 				)
 			)
 		)
-		(property "Mfg P/N" "MBE04140C1002DC100"
+		(property "Mfg P/N" "CFR-25JB-52-4K7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5493,6 +5498,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
+		(path "/ae4323c9-0ff0-43dd-9f10-9d67386b1b2c")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -6689,22 +6695,22 @@
 		(at 126.1 99.7 90)
 		(descr "Molex SPOX Connector System, 5267-08A, 8 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex SPOX vertical")
-		(property "Reference" "JP3A"
-			(at 8.75 -4.3 90)
+		(property "Reference" "JPA3"
+			(at 20.8 -1.5 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d8f478c9-fc59-4b40-a777-feea83a1ad05")
+			(uuid "208d3e1e-1fa2-49e9-831c-c58b98664184")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.25)
+					(bold yes)
 				)
 			)
 		)
 		(property "Value" "1X8 2.5mm"
 			(at 8.75 3.01 90)
 			(layer "F.Fab")
-			(uuid "274f6b6b-2add-4a13-bc95-c7d1d41eb040")
+			(uuid "f3650725-c43b-4deb-98ad-caf029b48302")
 			(effects
 				(font
 					(size 1 1)
@@ -6716,7 +6722,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96473425-f618-4b5c-b835-9cd9237acb04")
+			(uuid "6fe54fcb-ec43-41dd-a181-67cf7e8ea89a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,11 +6730,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b594eb1b-130c-4990-99c8-cc1e33ef5831")
+			(uuid "eb653316-b3d6-43a1-b68c-f12d530a31f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,6 +6769,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/0e603ddb-d3da-456b-8ee5-978258dd58db")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -7087,10 +7094,10 @@
 		(at 143.3 117.6 -90)
 		(descr "Molex SPOX Connector System, 5267-03A, 3 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex SPOX vertical")
-		(property "Reference" "JP2A"
+		(property "Reference" "JPA2"
 			(at -3.6 -1.4 0)
 			(layer "F.SilkS")
-			(uuid "3e5e90c7-fe81-4b55-9a97-98785f2aceb4")
+			(uuid "786f565c-970e-43dd-a0d5-923a2cb1af59")
 			(effects
 				(font
 					(size 1 1)
@@ -7100,9 +7107,9 @@
 			)
 		)
 		(property "Value" "1X3 2.5mm"
-			(at 2.5 3.01 270)
+			(at 2.5 3.01 90)
 			(layer "F.Fab")
-			(uuid "ab1c9917-6f84-413c-b540-7a10bacd1abc")
+			(uuid "62b7c1e4-48e9-4032-8d5b-ef9b1de25131")
 			(effects
 				(font
 					(size 1 1)
@@ -7111,10 +7118,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d445265-6fed-421c-adcb-e2f99d0aef15")
+			(uuid "896ef0c5-72cf-47e2-a0e7-2aa9c278548b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,11 +7129,11 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 270)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fe6ada4-bc80-4f01-8f93-1f32c8d7fe22")
+			(uuid "ff65a85a-a184-4632-9e70-8f1967b331fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,6 +7168,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/18d13c23-64e5-4c8f-8063-a3933163c3a6")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -7355,7 +7363,7 @@
 			(uuid "05d1629d-573e-46d5-a9dc-b5ccfa866938")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 -2 270)
+			(at 2.5 -2 90)
 			(layer "F.Fab")
 			(uuid "62bcdf1c-6633-4a15-b91a-e079045018d0")
 			(effects
@@ -7640,10 +7648,10 @@
 		(at 169.45 94.7 90)
 		(descr "Molex SPOX Connector System, 5267-05A, 5 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex SPOX vertical")
-		(property "Reference" "JP8A"
+		(property "Reference" "JPA8"
 			(at -3.8 0.2 0)
 			(layer "F.SilkS")
-			(uuid "72e1e3e4-de12-4344-830c-376c400a4417")
+			(uuid "43a77e6e-e753-4502-b21d-a763618398d4")
 			(effects
 				(font
 					(size 1 1)
@@ -7655,7 +7663,7 @@
 		(property "Value" "1X5 2.5mm"
 			(at 5 3.01 90)
 			(layer "F.Fab")
-			(uuid "ec89384f-8ab2-4f14-8859-293a93e2650b")
+			(uuid "85fa5a25-b177-4a57-b54c-f1ab253e472a")
 			(effects
 				(font
 					(size 1 1)
@@ -7667,7 +7675,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da016e48-b702-4d89-b0db-94c2ededcebe")
+			(uuid "d4eb803e-62d7-4786-83f8-ec6ec7e6841c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,11 +7683,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7a47f9c-cd2a-476d-aedc-18da4a673ce9")
+			(uuid "274e5f0f-bea8-40fa-98ea-be029cd6d5fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,6 +7722,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/64c4a8cf-0881-4a36-afa1-205bc08621c8")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -8002,10 +8011,10 @@
 		(layer "F.Cu")
 		(uuid "daa10bed-2a2f-4fdc-bbcb-4e45d995ee5e")
 		(at 175.1 105.8 -90)
-		(property "Reference" "JP7B"
+		(property "Reference" "JPB7"
 			(at 5.2 -0.2 0)
 			(layer "F.SilkS")
-			(uuid "0b1a9c92-e9fe-46c7-8078-3c174a854bd5")
+			(uuid "93c3d928-64ee-4dec-859f-7272089c4049")
 			(effects
 				(font
 					(size 1 1)
@@ -8017,7 +8026,7 @@
 		(property "Value" "1X3 2mm"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "fa2c53cf-7fff-4b21-bdd1-be21626754c5")
+			(uuid "530fae81-d02f-419a-9aff-62c282dc8ea6")
 			(effects
 				(font
 					(size 1 1)
@@ -8029,7 +8038,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9340d7cd-d8ac-4eeb-8c99-eae0151f2c54")
+			(uuid "19c37b08-1dce-400b-992b-125331d8c221")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,7 +8050,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0152565-182a-4049-b421-78db20cdc182")
+			(uuid "bb587469-dc97-4606-97e0-f75853cc18a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,6 +8133,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/fd37c038-bd92-4d35-b322-1cc57dd09769")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -8312,7 +8322,7 @@
 		(property "Reference" "R1"
 			(at 0.08 -2.4 180)
 			(layer "F.SilkS")
-			(uuid "e6923029-e587-4e3e-8358-4bdc1dc2ac4a")
+			(uuid "56dec14c-694f-4aa9-ad8d-3f704f78043f")
 			(effects
 				(font
 					(size 1 1)
@@ -8320,10 +8330,10 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4K7"
 			(at 1.27 1.92 0)
 			(layer "F.Fab")
-			(uuid "5b9d10c0-64d2-43e2-98ba-0815c7d96281")
+			(uuid "8752a179-0b18-4238-9694-f3c716a2bd0a")
 			(effects
 				(font
 					(size 1 1)
@@ -8336,7 +8346,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8058d6c-0d1c-4730-85f8-9d04b843cb7b")
+			(uuid "f1ef85a7-5608-4516-9dfe-a383b496c600")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,7 +8359,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0bbcc14e-e2f3-46da-a407-94221920e192")
+			(uuid "0f03b1b7-95c9-4c6c-8334-0fae6a97783c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8367,7 @@
 				)
 			)
 		)
-		(property "Mfg" "Vishay"
+		(property "Mfg" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8370,7 +8380,7 @@
 				)
 			)
 		)
-		(property "Mfg P/N" "MBE04140C1002DC100"
+		(property "Mfg P/N" "CFR-25JB-52-4K7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8384,6 +8394,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
+		(path "/728189a7-4c75-447f-ab7e-b55198aa4165")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)
@@ -8958,10 +8969,10 @@
 		(at 169.45 107.2 90)
 		(descr "Molex SPOX Connector System, 5267-03A, 3 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex SPOX vertical")
-		(property "Reference" "JP7A"
+		(property "Reference" "JPA7"
 			(at -3.8 0.2 0)
 			(layer "F.SilkS")
-			(uuid "672c96b4-7a9e-46a6-8a08-200a0c3d79cc")
+			(uuid "157f970f-628d-4903-9c98-c59dfcba9550")
 			(effects
 				(font
 					(size 1 1)
@@ -8973,7 +8984,7 @@
 		(property "Value" "1X3 2.5mm"
 			(at 2.5 3.01 90)
 			(layer "F.Fab")
-			(uuid "25cca49c-4dab-4a7b-983b-a07da400828c")
+			(uuid "085c3423-e9f3-49ec-b8c4-f76b05d50b3a")
 			(effects
 				(font
 					(size 1 1)
@@ -8985,7 +8996,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eed9cba5-7ec5-46d8-b384-f096fd717539")
+			(uuid "1cca43a7-aa85-4f83-980d-8a13c5a05125")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,11 +9004,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45682001-58b5-4dd0-9d7b-d4535311d9b7")
+			(uuid "c295ab47-6887-4cce-b52a-9745394fb135")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9032,6 +9043,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/1fc675c6-bea1-4ba1-8f30-a88f97547800")
 		(sheetname "/")
 		(sheetfile "arduino_shield.kicad_sch")
 		(attr through_hole)

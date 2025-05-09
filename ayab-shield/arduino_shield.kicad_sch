@@ -4495,28 +4495,6 @@
 		)
 		(uuid "52269ab3-d101-4c47-80ee-474105aea5f2")
 	)
-	(text "JP8A"
-		(exclude_from_sim no)
-		(at 82.55 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54509237-4bed-47c5-b90e-0853d7220c74")
-	)
-	(text "JP3A"
-		(exclude_from_sim no)
-		(at 265.43 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ded1bd4-e472-4f20-af28-776e5203b183")
-	)
 	(text "~{RESET}"
 		(exclude_from_sim no)
 		(at 57.912 48.006 0)
@@ -4526,17 +4504,6 @@
 			)
 		)
 		(uuid "636ccd80-9a00-44fd-b727-96a901b31b4a")
-	)
-	(text "JP4A"
-		(exclude_from_sim no)
-		(at 264.16 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8e585ce-e1af-404e-a6a9-7a7f0a57cdf9")
 	)
 	(text "POWER"
 		(exclude_from_sim no)
@@ -4548,17 +4515,6 @@
 			(justify left bottom)
 		)
 		(uuid "af2eead4-d7b6-4e22-8554-f87b4173d8c7")
-	)
-	(text "JP2A"
-		(exclude_from_sim no)
-		(at 187.96 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c327844b-6027-4f0f-a67f-15434e422c12")
 	)
 	(text "COMMON"
 		(exclude_from_sim no)
@@ -4581,17 +4537,6 @@
 			(justify left bottom)
 		)
 		(uuid "d5baa518-32b5-4741-a0b3-6eaa74c604ce")
-	)
-	(text "JP7A"
-		(exclude_from_sim no)
-		(at 82.55 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e68242ea-5250-40ff-a936-c0889ee25999")
 	)
 	(text "IOREF"
 		(exclude_from_sim no)
@@ -7436,7 +7381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e603ddb-d3da-456b-8ee5-978258dd58db")
-		(property "Reference" "JP3"
+		(property "Reference" "JPA3"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -7527,7 +7472,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP3")
+					(reference "JPA3")
 					(unit 1)
 				)
 			)
@@ -7699,7 +7644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18d13c23-64e5-4c8f-8063-a3933163c3a6")
-		(property "Reference" "JP2"
+		(property "Reference" "JPA2"
 			(at 166.37 138.43 0)
 			(effects
 				(font
@@ -7775,7 +7720,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP2")
+					(reference "JPA2")
 					(unit 1)
 				)
 			)
@@ -7893,7 +7838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fc675c6-bea1-4ba1-8f30-a88f97547800")
-		(property "Reference" "JP7"
+		(property "Reference" "JPA7"
 			(at 58.42 127 0)
 			(effects
 				(font
@@ -7969,7 +7914,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP7")
+					(reference "JPA7")
 					(unit 1)
 				)
 			)
@@ -7984,7 +7929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23303eb5-fc7d-44c3-893e-b8e47747e783")
-		(property "Reference" "JP4"
+		(property "Reference" "JPA4"
 			(at 251.46 58.42 0)
 			(effects
 				(font
@@ -8081,7 +8026,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP4")
+					(reference "JPA4")
 					(unit 1)
 				)
 			)
@@ -9403,18 +9348,17 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53abb6ff-0d68-4985-9e6d-56137ddce522")
-		(property "Reference" "JP8A0"
-			(at 82.55 178.435 0)
+		(property "Reference" "JPB8"
+			(at 87.63 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "1X5 2mm"
-			(at 87.63 160.02 0)
+			(at 92.202 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +9430,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP8A0")
+					(reference "JPB8")
 					(unit 1)
 				)
 			)
@@ -9977,7 +9921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64c4a8cf-0881-4a36-afa1-205bc08621c8")
-		(property "Reference" "JP8"
+		(property "Reference" "JPA8"
 			(at 58.42 157.48 0)
 			(effects
 				(font
@@ -10059,7 +10003,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP8")
+					(reference "JPA8")
 					(unit 1)
 				)
 			)
@@ -11636,14 +11580,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbe99e51-f192-4ea2-8955-fe82d59fd526")
-		(property "Reference" "JP3A0"
-			(at 264.16 80.645 0)
+		(property "Reference" "JPB3"
+			(at 265.43 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "1X8 2mm"
@@ -11728,7 +11671,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP3A0")
+					(reference "JPB3")
 					(unit 1)
 				)
 			)
@@ -11923,14 +11866,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbea4aaf-ad6b-429f-b0e2-8161c8c09308")
-		(property "Reference" "JP4A0"
+		(property "Reference" "JPB4"
 			(at 264.16 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "1X10 2mm"
@@ -12021,7 +11963,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP4A0")
+					(reference "JPB4")
 					(unit 1)
 				)
 			)
@@ -12535,18 +12477,17 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd37c038-bd92-4d35-b322-1cc57dd09769")
-		(property "Reference" "JP7A0"
-			(at 82.55 142.875 0)
+		(property "Reference" "JPB7"
+			(at 88.138 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "1X3 2mm"
-			(at 86.36 129.54 0)
+			(at 92.456 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12612,7 +12553,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP7A0")
+					(reference "JPB7")
 					(unit 1)
 				)
 			)
@@ -12628,18 +12569,17 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe7ab580-ce1f-45c4-830e-de19a591ae54")
-		(property "Reference" "JP2A0"
-			(at 187.96 154.305 0)
+		(property "Reference" "JPB2"
+			(at 193.548 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "1X3 2mm"
-			(at 191.77 140.97 0)
+			(at 197.866 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,7 +12645,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP2A0")
+					(reference "JPB2")
 					(unit 1)
 				)
 			)
