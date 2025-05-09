@@ -4495,28 +4495,6 @@
 		)
 		(uuid "52269ab3-d101-4c47-80ee-474105aea5f2")
 	)
-	(text "JP8A"
-		(exclude_from_sim no)
-		(at 82.55 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54509237-4bed-47c5-b90e-0853d7220c74")
-	)
-	(text "JP3A"
-		(exclude_from_sim no)
-		(at 265.43 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ded1bd4-e472-4f20-af28-776e5203b183")
-	)
 	(text "~{RESET}"
 		(exclude_from_sim no)
 		(at 57.912 48.006 0)
@@ -4526,17 +4504,6 @@
 			)
 		)
 		(uuid "636ccd80-9a00-44fd-b727-96a901b31b4a")
-	)
-	(text "JP4A"
-		(exclude_from_sim no)
-		(at 264.16 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8e585ce-e1af-404e-a6a9-7a7f0a57cdf9")
 	)
 	(text "POWER"
 		(exclude_from_sim no)
@@ -4548,17 +4515,6 @@
 			(justify left bottom)
 		)
 		(uuid "af2eead4-d7b6-4e22-8554-f87b4173d8c7")
-	)
-	(text "JP2A"
-		(exclude_from_sim no)
-		(at 187.96 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c327844b-6027-4f0f-a67f-15434e422c12")
 	)
 	(text "COMMON"
 		(exclude_from_sim no)
@@ -4582,17 +4538,6 @@
 		)
 		(uuid "d5baa518-32b5-4741-a0b3-6eaa74c604ce")
 	)
-	(text "JP7A"
-		(exclude_from_sim no)
-		(at 82.55 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e68242ea-5250-40ff-a936-c0889ee25999")
-	)
 	(text "IOREF"
 		(exclude_from_sim no)
 		(at 58.166 45.212 0)
@@ -4602,6 +4547,12 @@
 			)
 		)
 		(uuid "f2d6dba5-c986-4326-910a-c10328fc938a")
+	)
+	(junction
+		(at 278.13 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0992e460-7011-4f50-a98c-ff40ce4f5dc4")
 	)
 	(junction
 		(at 248.92 39.37)
@@ -4734,6 +4685,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cc39356-442c-4707-a196-3c85c9dd1d80")
+	)
+	(junction
+		(at 278.13 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d3d6832-a391-424f-8bee-b4c0c65ffa5b")
 	)
 	(junction
 		(at 187.96 78.74)
@@ -4872,6 +4829,10 @@
 		(uuid "214ac53e-cdf1-44ae-bae9-f31f141239a3")
 	)
 	(no_connect
+		(at 123.19 161.29)
+		(uuid "31d7841d-262c-436b-b62c-d223b35a25f1")
+	)
+	(no_connect
 		(at 123.19 146.05)
 		(uuid "32c3fb05-870b-417a-a4a4-532c8ededc14")
 	)
@@ -4926,6 +4887,10 @@
 	(no_connect
 		(at 91.44 43.18)
 		(uuid "e54c17ec-4ac2-47ee-a3ed-080d9144ddd5")
+	)
+	(no_connect
+		(at 123.19 163.83)
+		(uuid "eb176c4b-2ddb-4e20-b245-ad0869506aa5")
 	)
 	(polyline
 		(pts
@@ -5279,6 +5244,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 139.7) (xy 278.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cf7cc9-e9dd-4beb-98f3-abdbe1bfc2ec")
+	)
+	(wire
+		(pts
 			(xy 132.08 73.66) (xy 132.08 83.82)
 		)
 		(stroke
@@ -5356,16 +5331,6 @@
 			(type default)
 		)
 		(uuid "294baeb0-0fa9-4b75-b287-8bc08adc21a4")
-	)
-	(wire
-		(pts
-			(xy 261.62 143.51) (xy 271.78 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a28b0bc-f0ee-4d02-a8b8-769fb898701f")
 	)
 	(polyline
 		(pts
@@ -5529,16 +5494,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 151.13) (xy 275.59 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3db445d1-7b2d-4088-8cad-2baa98f1909c")
-	)
-	(wire
-		(pts
 			(xy 170.18 29.21) (xy 170.18 36.83)
 		)
 		(stroke
@@ -5616,6 +5571,16 @@
 			(type default)
 		)
 		(uuid "45e9cede-eaee-4575-982a-8e06d389244d")
+	)
+	(wire
+		(pts
+			(xy 278.13 142.24) (xy 278.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e47eb1-ed48-4001-b613-1fd26de42148")
 	)
 	(wire
 		(pts
@@ -5769,6 +5734,26 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 148.59) (xy 278.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0f2e9f-3bea-419f-bc58-56f443ac8fea")
+	)
+	(wire
+		(pts
+			(xy 254 140.97) (xy 254 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d50a2b6-8c3f-408e-990b-b55f2ec5fdb5")
+	)
+	(wire
+		(pts
 			(xy 187.96 78.74) (xy 187.96 81.28)
 		)
 		(stroke
@@ -5879,6 +5864,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 148.59) (xy 278.13 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69842dce-98f2-41ed-83a1-a0be273c9b19")
+	)
+	(wire
+		(pts
 			(xy 80.01 172.72) (xy 72.39 172.72)
 		)
 		(stroke
@@ -5896,16 +5891,6 @@
 			(type default)
 		)
 		(uuid "6b1702d5-f648-4990-87d8-a006205356d7")
-	)
-	(wire
-		(pts
-			(xy 261.62 151.13) (xy 275.59 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d5d716b-e3e5-4456-b98e-743abbd14c9e")
 	)
 	(wire
 		(pts
@@ -5999,6 +5984,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 142.24) (xy 278.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c107c0-7098-41c5-bac6-04dda84e563d")
+	)
+	(wire
+		(pts
 			(xy 200.66 39.37) (xy 215.9 39.37)
 		)
 		(stroke
@@ -6049,6 +6044,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 142.24) (xy 267.97 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd9e084-b153-4d96-a2d1-914d6a8f91fd")
+	)
+	(wire
+		(pts
 			(xy 224.79 142.24) (xy 224.79 144.78)
 		)
 		(stroke
@@ -6086,16 +6091,6 @@
 			(type solid)
 		)
 		(uuid "7fcdb727-7028-4b21-934c-59aa71bac77f")
-	)
-	(wire
-		(pts
-			(xy 123.19 161.29) (xy 133.35 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ffc7a87-cb3d-4824-b96f-2178eeb82ee1")
 	)
 	(wire
 		(pts
@@ -6156,16 +6151,6 @@
 			(type default)
 		)
 		(uuid "848ef849-55d9-409d-a80b-ab7d2db20b82")
-	)
-	(wire
-		(pts
-			(xy 123.19 163.83) (xy 133.35 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86fcbab3-d93f-48ab-8848-047e8e9cfbb6")
 	)
 	(wire
 		(pts
@@ -6246,6 +6231,16 @@
 			(type solid)
 		)
 		(uuid "954cedde-a317-4015-b2e0-f9c9897b203a")
+	)
+	(wire
+		(pts
+			(xy 269.24 142.24) (xy 267.97 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ec8a83-9207-452c-8746-e073bdc9a00f")
 	)
 	(wire
 		(pts
@@ -6389,7 +6384,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 146.05) (xy 269.24 146.05)
+			(xy 261.62 146.05) (xy 267.97 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6416,6 +6411,16 @@
 			(type default)
 		)
 		(uuid "ae486b08-6b01-4114-bdc2-043c6e56476f")
+	)
+	(wire
+		(pts
+			(xy 261.62 151.13) (xy 278.13 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af882773-2e8d-49e7-8a61-c57026054fb5")
 	)
 	(polyline
 		(pts
@@ -6566,6 +6571,16 @@
 			(type default)
 		)
 		(uuid "c95c0281-5ae0-49ac-be43-858e2c47bd80")
+	)
+	(wire
+		(pts
+			(xy 261.62 143.51) (xy 261.62 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8ccbad-33a8-42fb-918d-7149e7c3d17c")
 	)
 	(wire
 		(pts
@@ -6749,6 +6764,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 140.97) (xy 254 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d424ed-e01e-4624-be06-58419efbefe9")
+	)
+	(wire
+		(pts
 			(xy 72.39 177.8) (xy 72.39 172.72)
 		)
 		(stroke
@@ -6786,16 +6811,6 @@
 			(type default)
 		)
 		(uuid "eaf1b2fc-fb2f-4250-9c20-d8aac0f0d0ba")
-	)
-	(wire
-		(pts
-			(xy 271.78 143.51) (xy 271.78 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb2a7252-5f22-4bef-a55e-50294c525b32")
 	)
 	(wire
 		(pts
@@ -7007,16 +7022,6 @@
 		)
 		(uuid "0c7b820d-153f-4f85-a949-2e4b65876dff")
 	)
-	(label "MYLAR1"
-		(at 133.35 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d046f4b-00b5-4ad4-960e-804792e7c1d6")
-	)
 	(label "ENC_A"
 		(at 104.14 83.82 180)
 		(effects
@@ -7218,7 +7223,7 @@
 		(uuid "bb61a17b-9175-446c-8f40-cda78d6fe5f0")
 	)
 	(label "SCL"
-		(at 269.24 146.05 180)
+		(at 266.7 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7236,16 +7241,6 @@
 			(justify right bottom)
 		)
 		(uuid "ca773bda-fb8d-4fdf-80b6-e1c8d1679e81")
-	)
-	(label "MYLAR2"
-		(at 133.35 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d639fecb-38bb-4c4d-9c46-204915d558fa")
 	)
 	(label "LED_YEL"
 		(at 104.14 76.2 180)
@@ -7288,7 +7283,7 @@
 		(uuid "de03d7e6-e4c0-4c8a-8e9e-884c36539a62")
 	)
 	(label "SDA"
-		(at 269.24 148.59 180)
+		(at 266.7 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7386,7 +7381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e603ddb-d3da-456b-8ee5-978258dd58db")
-		(property "Reference" "JP3"
+		(property "Reference" "JPA3"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -7404,7 +7399,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR8W65P0X250_1X8_2240X490X610P"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical"
 			(at 254 93.98 0)
 			(effects
 				(font
@@ -7477,7 +7472,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP3")
+					(reference "JPA3")
 					(unit 1)
 				)
 			)
@@ -7510,7 +7505,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -7649,7 +7644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18d13c23-64e5-4c8f-8063-a3933163c3a6")
-		(property "Reference" "JP2"
+		(property "Reference" "JPA2"
 			(at 166.37 138.43 0)
 			(effects
 				(font
@@ -7667,7 +7662,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR3W70P0X250_1X3_990X490X590P"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -7725,7 +7720,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP2")
+					(reference "JPA2")
 					(unit 1)
 				)
 			)
@@ -7756,11 +7751,13 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 68.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -7843,7 +7840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fc675c6-bea1-4ba1-8f30-a88f97547800")
-		(property "Reference" "JP7"
+		(property "Reference" "JPA7"
 			(at 58.42 127 0)
 			(effects
 				(font
@@ -7861,7 +7858,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR3W70P0X250_1X3_990X490X590P"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -7919,7 +7916,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP7")
+					(reference "JPA7")
 					(unit 1)
 				)
 			)
@@ -7934,7 +7931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23303eb5-fc7d-44c3-893e-b8e47747e783")
-		(property "Reference" "JP4"
+		(property "Reference" "JPA4"
 			(at 251.46 58.42 0)
 			(effects
 				(font
@@ -7952,7 +7949,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR10W70P0X250_1X10_2740X490X590P"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-10A_1x10_P2.50mm_Vertical"
 			(at 254 41.91 0)
 			(effects
 				(font
@@ -8031,7 +8028,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP4")
+					(reference "JPA4")
 					(unit 1)
 				)
 			)
@@ -8134,7 +8131,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
+		(property "Footprint" "ayab-library:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
 			(at 33.02 135.89 0)
 			(effects
 				(font
@@ -8360,7 +8357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 86.36 78.74 0)
 			(effects
 				(font
@@ -8535,7 +8532,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "ayab-library:LED_D3.0mm"
 			(at 115.57 73.66 0)
 			(effects
 				(font
@@ -8625,7 +8622,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -8780,7 +8777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 68.58 76.2 0)
 			(effects
 				(font
@@ -9064,7 +9061,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 275.59 137.16 0)
+		(at 278.13 139.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9073,7 +9070,7 @@
 		(dnp no)
 		(uuid "479e285b-0e2e-49c0-a636-c78bc7c4aa2d")
 		(property "Reference" "#PWR034"
-			(at 275.59 140.97 0)
+			(at 278.13 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +9080,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 275.59 133.35 0)
+			(at 278.13 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +9089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 137.16 0)
+			(at 278.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 137.16 0)
+			(at 278.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9112,7 +9109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 275.59 137.16 0)
+			(at 278.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,18 +9350,17 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53abb6ff-0d68-4985-9e6d-56137ddce522")
-		(property "Reference" "JP8A0"
-			(at 82.55 178.435 0)
+		(property "Reference" "JPB8"
+			(at 87.63 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "1X5 2mm"
-			(at 87.63 160.02 0)
+			(at 92.202 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,6 +9414,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" "C225243"
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-5P"
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62e2a229-aa62-441c-8610-f719d18b04f7")
 		)
@@ -9436,7 +9468,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP8A0")
+					(reference "JPB8")
 					(unit 1)
 				)
 			)
@@ -9469,7 +9501,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "ayab-library:DIP-18_W7.62mm_LongPads"
 			(at 227.33 107.95 0)
 			(effects
 				(font
@@ -9927,7 +9959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64c4a8cf-0881-4a36-afa1-205bc08621c8")
-		(property "Reference" "JP8"
+		(property "Reference" "JPA8"
 			(at 58.42 157.48 0)
 			(effects
 				(font
@@ -9945,7 +9977,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:99990989"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical"
 			(at 59.69 170.18 0)
 			(effects
 				(font
@@ -10009,7 +10041,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP8")
+					(reference "JPA8")
 					(unit 1)
 				)
 			)
@@ -10042,7 +10074,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "ayab-library:DIP-18_W7.62mm_LongPads"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -10177,7 +10209,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "ayab-library:DIP-18_W7.62mm_LongPads"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -10287,6 +10319,91 @@
 		)
 	)
 	(symbol
+		(lib_id "ayab-lib:R_Small_US")
+		(at 271.78 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "728189a7-4c75-447f-ab7e-b55198aa4165")
+		(property "Reference" "R1"
+			(at 269.748 145.796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 274.574 145.796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "YAGEO"
+			(at 271.78 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "CFR-25JB-52-4K7"
+			(at 271.78 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ae9ad1b-0a29-4569-a0b4-e233666561a0")
+		)
+		(pin "2"
+			(uuid "ed0e50e4-11b8-4eb8-94ec-2305f192ac3e")
+		)
+		(instances
+			(project ""
+				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 48.26 53.34 0)
 		(unit 1)
@@ -10380,7 +10497,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "ayab-library:DIP-18_W7.62mm_LongPads"
 			(at 187.96 123.19 0)
 			(effects
 				(font
@@ -11003,7 +11120,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x02_P2.54mm_Vertical"
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -11094,7 +11211,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x04_P2.54mm_Vertical"
 			(at 256.54 146.05 0)
 			(effects
 				(font
@@ -11187,7 +11304,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 26.67 165.1 0)
 			(effects
 				(font
@@ -11344,7 +11461,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "ayab-library:LED_D3.0mm"
 			(at 115.57 83.82 0)
 			(effects
 				(font
@@ -11408,6 +11525,91 @@
 		)
 	)
 	(symbol
+		(lib_id "ayab-lib:R_Small_US")
+		(at 271.78 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae4323c9-0ff0-43dd-9f10-9d67386b1b2c")
+		(property "Reference" "R2"
+			(at 269.748 139.446 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 274.574 139.446 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+			(at 271.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 271.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "YAGEO"
+			(at 271.78 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "CFR-25JB-52-4K7"
+			(at 271.78 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf6f28f2-6b1e-4377-8188-628d5c9b27fc")
+		)
+		(pin "2"
+			(uuid "4ed26406-38fb-4f3f-a7ba-b11bda434f08")
+		)
+		(instances
+			(project "arduino_shield"
+				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ayab-lib:Conn_01x08")
 		(at 266.7 93.98 0)
 		(unit 1)
@@ -11416,14 +11618,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbe99e51-f192-4ea2-8955-fe82d59fd526")
-		(property "Reference" "JP3A0"
-			(at 264.16 80.645 0)
+		(property "Reference" "JPB3"
+			(at 265.43 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "1X8 2mm"
@@ -11481,6 +11682,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" "C225246"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-8P"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8d3806c-500d-4a71-938f-a5034adeb3af")
 		)
@@ -11508,7 +11745,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP3A0")
+					(reference "JPB3")
 					(unit 1)
 				)
 			)
@@ -11610,7 +11847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 86.36 48.26 0)
 			(effects
 				(font
@@ -11703,14 +11940,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbea4aaf-ad6b-429f-b0e2-8161c8c09308")
-		(property "Reference" "JP4A0"
+		(property "Reference" "JPB4"
 			(at 264.16 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "1X10 2mm"
@@ -11801,7 +12037,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP4A0")
+					(reference "JPB4")
 					(unit 1)
 				)
 			)
@@ -11861,7 +12097,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" ""
+		(property "Mfg" "N/A"
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "N/A"
 			(at 209.55 146.05 0)
 			(effects
 				(font
@@ -12146,7 +12391,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 153.67 0)
+		(at 254 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12155,7 +12400,7 @@
 		(dnp no)
 		(uuid "d9aa0168-b6d1-4af4-8a08-99c4b76b3c0e")
 		(property "Reference" "#PWR035"
-			(at 271.78 160.02 0)
+			(at 254 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12410,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 158.75 0)
+			(at 254 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 153.67 0)
+			(at 254 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12184,7 +12429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 153.67 0)
+			(at 254 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12194,7 +12439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 153.67 0)
+			(at 254 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12242,7 +12487,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "ayab-library:LED_D3.0mm"
 			(at 26.67 173.99 0)
 			(effects
 				(font
@@ -12315,18 +12560,17 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd37c038-bd92-4d35-b322-1cc57dd09769")
-		(property "Reference" "JP7A0"
-			(at 82.55 142.875 0)
+		(property "Reference" "JPB7"
+			(at 88.138 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "1X3 2mm"
-			(at 86.36 129.54 0)
+			(at 92.456 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12372,6 +12616,42 @@
 			)
 		)
 		(property "Mfg P/N" "53015-0310"
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" "C225241"
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-3P"
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -12392,7 +12672,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP7A0")
+					(reference "JPB7")
 					(unit 1)
 				)
 			)
@@ -12408,18 +12688,17 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe7ab580-ce1f-45c4-830e-de19a591ae54")
-		(property "Reference" "JP2A0"
-			(at 187.96 154.305 0)
+		(property "Reference" "JPB2"
+			(at 193.548 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "1X3 2mm"
-			(at 191.77 140.97 0)
+			(at 197.866 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12473,6 +12752,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" "C225241"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-3P"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8fc9264-76f6-4879-a9ca-289e7a90982c")
 		)
@@ -12485,7 +12800,7 @@
 		(instances
 			(project ""
 				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JP2A0")
+					(reference "JPB2")
 					(unit 1)
 				)
 			)
