@@ -7399,7 +7399,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR8W65P0X250_1X8_2240X490X610P"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical"
 			(at 254 93.98 0)
 			(effects
 				(font
@@ -7505,7 +7505,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -7662,7 +7662,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR3W70P0X250_1X3_990X490X590P"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -7751,7 +7751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 68.58 50.8 0)
 			(effects
 				(font
@@ -7858,7 +7858,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR3W70P0X250_1X3_990X490X590P"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -7949,7 +7949,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR10W70P0X250_1X10_2740X490X590P"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-10A_1x10_P2.50mm_Vertical"
 			(at 254 41.91 0)
 			(effects
 				(font
@@ -8131,7 +8131,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
+		(property "Footprint" "ayab-library:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
 			(at 33.02 135.89 0)
 			(effects
 				(font
@@ -8357,7 +8357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 86.36 78.74 0)
 			(effects
 				(font
@@ -8532,7 +8532,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "ayab-library:LED_D3.0mm"
 			(at 115.57 73.66 0)
 			(effects
 				(font
@@ -8622,7 +8622,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -8777,7 +8777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 68.58 76.2 0)
 			(effects
 				(font
@@ -9414,6 +9414,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" "C225243"
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-5P"
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62e2a229-aa62-441c-8610-f719d18b04f7")
 		)
@@ -9465,7 +9501,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "ayab-library:DIP-18_W7.62mm_LongPads"
 			(at 227.33 107.95 0)
 			(effects
 				(font
@@ -9941,7 +9977,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:99990989"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical"
 			(at 59.69 170.18 0)
 			(effects
 				(font
@@ -10038,7 +10074,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "ayab-library:DIP-18_W7.62mm_LongPads"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -10173,7 +10209,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "ayab-library:DIP-18_W7.62mm_LongPads"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -10307,7 +10343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 271.78 148.59 0)
 			(effects
 				(font
@@ -10461,7 +10497,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "ayab-library:DIP-18_W7.62mm_LongPads"
 			(at 187.96 123.19 0)
 			(effects
 				(font
@@ -11084,7 +11120,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x02_P2.54mm_Vertical"
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -11175,7 +11211,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x04_P2.54mm_Vertical"
 			(at 256.54 146.05 0)
 			(effects
 				(font
@@ -11268,7 +11304,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 26.67 165.1 0)
 			(effects
 				(font
@@ -11425,7 +11461,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "ayab-library:LED_D3.0mm"
 			(at 115.57 83.82 0)
 			(effects
 				(font
@@ -11513,7 +11549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 271.78 142.24 0)
 			(effects
 				(font
@@ -11638,6 +11674,42 @@
 			)
 		)
 		(property "Mfg P/N" "53014-0810"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" "C225246"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-8P"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -11775,7 +11847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 86.36 48.26 0)
 			(effects
 				(font
@@ -12415,7 +12487,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "ayab-library:LED_D3.0mm"
 			(at 26.67 173.99 0)
 			(effects
 				(font
@@ -12552,6 +12624,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" "C225241"
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-3P"
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8827655c-e531-4cef-8c09-3e50703c3805")
 		)
@@ -12636,6 +12744,42 @@
 			)
 		)
 		(property "Mfg P/N" "53015-0310"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" "C225241"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM" "CJT(Changjiang Connectors)"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEM PN" "A2004WV-3P"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 190.5 148.59 0)
 			(effects
 				(font
