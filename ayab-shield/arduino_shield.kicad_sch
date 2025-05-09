@@ -10353,7 +10353,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "4K7"
 			(at 274.574 145.796 90)
 			(effects
 				(font
@@ -10381,6 +10381,24 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "YAGEO"
+			(at 271.78 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "CFR-25JB-52-4K7"
+			(at 271.78 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11541,7 +11559,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "4K7"
 			(at 274.574 139.446 90)
 			(effects
 				(font
@@ -11569,6 +11587,24 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 271.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "YAGEO"
+			(at 271.78 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" "CFR-25JB-52-4K7"
+			(at 271.78 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
