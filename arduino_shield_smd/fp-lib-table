@@ -1,7 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "arduino_shield")(type "KiCad")(uri "$(KIPRJMOD)/arduino_shield_smd.pretty")(options "")(descr ""))
   (lib (name "ayab-library")(type "KiCad")(uri "${KIPRJMOD}/../ayab-library/Library.pretty")(options "")(descr ""))
-  (lib (name "schematic")(type "KiCad")(uri "C:/Users/Tom/Documents/hack/ayab-hardware/ayab-interface/schematic.pretty")(options "")(descr ""))
-  (lib (name "gschem-symbols")(type "KiCad")(uri "C:/Users/Tom/Documents/hack/ayab-hardware/ayab-interface/schematic/gschem-symbols.pretty")(options "")(descr ""))
 )
