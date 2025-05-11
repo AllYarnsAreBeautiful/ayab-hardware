@@ -6,7 +6,6 @@ on:
   push:
     paths:
       - ayab-esp32/**
-      - ayab-library/**
 
 env:
   workflow_project_dir: ayab-esp32

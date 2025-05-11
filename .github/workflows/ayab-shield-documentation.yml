@@ -6,7 +6,6 @@ on:
   push:
     paths:
       - ayab-shield/**
-      - ayab-library/**
 
 env:
   workflow_project_dir: ayab-shield
