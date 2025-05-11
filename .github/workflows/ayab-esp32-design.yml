@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install KiCad
-        run: sudo bash ./scripts/dependencies.sh
+        run: bash ./scripts/dependencies.sh
 
       - name: Verify clean design files
         run: |
