@@ -50,6 +50,7 @@ jobs:
           sudo mv Outputs/raw-pos.csv Outputs/${kicad_project_name}-pos.csv
 
       - name: Add reference materials to repo 
+        if: ${{ github.ref != 'refs/heads/main' }} # can't push to a protected branch
         env: 
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
