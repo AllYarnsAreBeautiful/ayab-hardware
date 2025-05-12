@@ -63,34 +63,6 @@
         [
           "courtyards_overlap|128346812|125833563|a6980581-5726-4c3e-a2fe-9f9d272701ae|ac7c3496-da7f-4173-820a-f53997fc221a",
           ""
-        ],
-        [
-          "courtyards_overlap|140845000|125755000|4c563048-b85e-46b2-be8c-c7922093359d|6bb3c8ad-886c-47a0-9007-1ec0d3aae19d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|110200000|126560000|f5932e49-1a88-4f41-863b-404a1271f285|6987a02e-786b-4789-b2d4-2f84794b5f47",
-          ""
-        ],
-        [
-          "silk_edge_clearance|110223212|104428400|33992c24-0b51-47be-8e75-55bcf63ce487|d608f88d-fa05-4863-8a4e-8b4bb47995b6",
-          ""
-        ],
-        [
-          "silk_edge_clearance|179410000|77910000|7bd656d4-12ec-465c-8576-9f44e29c7685|e7c1726a-1db8-4be0-99d3-e2f1a8892e05",
-          ""
-        ],
-        [
-          "silk_edge_clearance|179530000|78030000|7bd656d4-12ec-465c-8576-9f44e29c7685|2943c404-65e6-4b50-9617-73d5d3608412",
-          ""
-        ],
-        [
-          "silk_edge_clearance|180740000|89095000|7ed7620e-e1f0-4a50-8131-a53a41af4e6c|55588414-1c4b-406c-a382-78fd93924085",
-          ""
-        ],
-        [
-          "silk_edge_clearance|181700000|90360000|1f0a7618-6f80-43eb-8d2f-41e7d1137f71|55554493-d2fb-419c-946c-93c02e1a5040",
-          ""
         ]
       ],
       "meta": {
@@ -282,16 +254,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "label_dangling|1333500|1612900|0d046f4b-00b5-4ad4-960e-804792e7c1d6|00000000-0000-0000-0000-000000000000|/dc4e9b16-0d76-4cba-8254-625ae2e12c75||",
-        ""
-      ],
-      [
-        "label_dangling|1333500|1638300|d639fecb-38bb-4c4d-9c46-204915d558fa|00000000-0000-0000-0000-000000000000|/dc4e9b16-0d76-4cba-8254-625ae2e12c75||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -604,10 +567,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../../../../../../Applications/KiCad/KiCad.app/Contents/Applications/",
-      "plot": "",
+      "plot": "./Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ayab-shield.step",
+      "step": ".step",
       "svg": "",
       "vrml": ""
     },

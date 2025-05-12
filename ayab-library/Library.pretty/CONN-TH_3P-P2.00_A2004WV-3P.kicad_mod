@@ -146,66 +146,6 @@
 		(uuid "14dad2bf-1f27-4880-b376-4aac15eb4647")
 	)
 	(fp_line
-		(start -3.5 -1)
-		(end -3.5 2.4)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4ea58340-a0d1-42ed-8627-7581153670ed")
-	)
-	(fp_line
-		(start -3.5 2.4)
-		(end 3.5 2.4)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "92685e24-310a-4fbc-ad4e-97dfc68ac289")
-	)
-	(fp_line
-		(start -3.1 -1.4)
-		(end -3.5 -1)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "10cfd753-9437-4549-91a2-b6619bea216d")
-	)
-	(fp_line
-		(start 3 -1.4)
-		(end -3.1 -1.4)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6d56e4c7-4423-48d6-b636-59c6c3875e7e")
-	)
-	(fp_line
-		(start 3.5 -0.9)
-		(end 3 -1.4)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "62e5238f-83bf-49ee-ae92-da9dded151ab")
-	)
-	(fp_line
-		(start 3.5 2.4)
-		(end 3.5 -0.9)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9d7b6477-3304-4ed5-82a4-e3c0636bd9e0")
-	)
-	(fp_line
 		(start 4 -1.8)
 		(end -4 -1.8)
 		(stroke
@@ -224,6 +164,30 @@
 		)
 		(layer "F.SilkS")
 		(uuid "b0cf0ece-cc17-4fc0-a593-28c92ff69ed1")
+	)
+	(fp_poly
+		(pts
+			(xy -4 -1.8) (xy -2.5 -1.8) (xy -4 -0.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3a594374-6409-4a8a-b920-d75f31074669")
+	)
+	(fp_poly
+		(pts
+			(xy 4 -1.8) (xy 2.5 -1.8) (xy 4 -0.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "eaf3f632-6dbc-4315-99f0-10c9b8b02ca7")
 	)
 	(fp_rect
 		(start -4.4 -2.2)
@@ -316,15 +280,15 @@
 		(uuid "d3570d8f-d124-49f6-8773-9ae3b1d230a7")
 	)
 	(embedded_fonts no)
-	(model "/home/matei/Desktop/ayab-hardware/ayab-library/packages3D/CONN-TH_3P-P2.00_A2004WV-3P.wrl"
+	(model "${KIPRJMOD}/../ayab-library/packages3D/53014-0310.stp"
 		(offset
-			(xyz 0 1.46 1.9)
+			(xyz 0.57 -0.71 2.9)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
