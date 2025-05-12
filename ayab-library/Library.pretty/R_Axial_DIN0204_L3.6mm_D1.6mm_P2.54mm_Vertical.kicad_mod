@@ -81,7 +81,7 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 0.92 0)
+		(start 1 0)
 		(end 1.54 0)
 		(stroke
 			(width 0.12)
@@ -92,7 +92,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 0.92 0)
+		(end 1 0)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -102,8 +102,8 @@
 		(uuid "14efe7f6-14d8-4571-9ca7-32348f2a1a27")
 	)
 	(fp_line
-		(start -1.05 -1.05)
-		(end -1.05 1.05)
+		(start -1.1 -1.1)
+		(end -1.1 1.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -112,8 +112,8 @@
 		(uuid "8f8caae4-ba62-4b19-80b3-7d001eff2a1c")
 	)
 	(fp_line
-		(start -1.05 1.05)
-		(end 3.49 1.05)
+		(start -1.1 1.1)
+		(end 3.54 1.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -122,8 +122,8 @@
 		(uuid "543756d8-3a96-4833-bfe8-62a059d63510")
 	)
 	(fp_line
-		(start 3.49 -1.05)
-		(end -1.05 -1.05)
+		(start 3.54 -1.1)
+		(end -1.1 -1.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -132,8 +132,8 @@
 		(uuid "44bdf023-8ec0-4fa8-a0d4-49623658e5b1")
 	)
 	(fp_line
-		(start 3.49 1.05)
-		(end 3.49 -1.05)
+		(start 3.54 1.1)
+		(end 3.54 -1.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -173,9 +173,9 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole oval
 		(at 0 0)
-		(size 1.4 1.4)
+		(size 1.4 1.9)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -183,7 +183,7 @@
 	)
 	(pad "2" thru_hole oval
 		(at 2.54 0)
-		(size 1.4 1.4)
+		(size 1.4 1.9)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)

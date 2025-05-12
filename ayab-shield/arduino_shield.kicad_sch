@@ -7729,7 +7729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x08_P2.54mm_Vertical"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -7855,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -8335,7 +8335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x08_P2.54mm_Vertical"
 			(at 78.74 83.82 0)
 			(effects
 				(font
@@ -8755,7 +8755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x06_P2.54mm_Vertical"
 			(at 60.96 81.28 0)
 			(effects
 				(font
@@ -11825,7 +11825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x10_P2.54mm_Vertical"
 			(at 78.74 53.34 0)
 			(effects
 				(font
