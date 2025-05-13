@@ -4705,18 +4705,6 @@
 		(uuid "8f6a21c3-d155-4b22-aae0-241370bc721e")
 	)
 	(junction
-		(at 76.2 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92b590e8-8501-4f1c-86b2-94b3df37d655")
-	)
-	(junction
-		(at 76.2 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9abd818b-2da0-4bac-85e1-fc5b02f52185")
-	)
-	(junction
 		(at 170.18 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4949,16 +4937,6 @@
 			(type default)
 		)
 		(uuid "049c921c-d542-4a54-92dd-896461f99d29")
-	)
-	(wire
-		(pts
-			(xy 80.01 139.7) (xy 76.2 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "052be578-04ef-4da2-956f-c1fd922d68b0")
 	)
 	(wire
 		(pts
@@ -5322,17 +5300,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 139.7) (xy 76.2 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f1d91c1-6354-45e2-848a-e2b0d484034c")
-	)
-	(wire
-		(pts
-			(xy 76.2 139.7) (xy 76.2 140.97)
+			(xy 76.2 137.16) (xy 76.2 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5379,6 +5347,16 @@
 			(type default)
 		)
 		(uuid "3106b74f-1025-43c6-94ac-178e09e08995")
+	)
+	(wire
+		(pts
+			(xy 64.77 137.16) (xy 76.2 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31cbdc8f-681b-4092-844e-695df444ec4e")
 	)
 	(wire
 		(pts
@@ -6122,16 +6100,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 134.62) (xy 76.2 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90b15d3d-b7dd-4a2f-9c51-ad05d58bfd81")
-	)
-	(wire
-		(pts
 			(xy 236.22 91.44) (xy 248.92 91.44)
 		)
 		(stroke
@@ -6409,16 +6377,6 @@
 			(type default)
 		)
 		(uuid "b8176fb3-77c3-4512-a644-ecf0f43503f3")
-	)
-	(wire
-		(pts
-			(xy 64.77 137.16) (xy 80.01 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b824a9ff-dfcf-41a2-afad-c7ec2883b727")
 	)
 	(wire
 		(pts
@@ -6752,6 +6710,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 139.7) (xy 67.31 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8581db9-4e9d-4980-bfd6-27892aeff2b4")
+	)
+	(wire
+		(pts
 			(xy 124.46 43.18) (xy 124.46 45.72)
 		)
 		(stroke
@@ -7051,7 +7019,7 @@
 		(uuid "379754aa-3984-4d71-b86c-45401db82b4b")
 	)
 	(label "EOL_R"
-		(at 67.31 137.16 0)
+		(at 67.31 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7615,7 +7583,8 @@
 	)
 	(symbol
 		(lib_id "ayab-lib:Conn_01x03")
-		(at 167.64 148.59 180)
+		(at 167.64 148.59 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7623,7 +7592,7 @@
 		(dnp no)
 		(uuid "18d13c23-64e5-4c8f-8063-a3933163c3a6")
 		(property "Reference" "JPA2"
-			(at 166.37 138.43 0)
+			(at 166.37 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7601,7 @@
 			)
 		)
 		(property "Value" "1X3 2.5mm"
-			(at 166.37 140.97 0)
+			(at 166.37 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,7 +7780,8 @@
 	)
 	(symbol
 		(lib_id "ayab-lib:Conn_01x03")
-		(at 59.69 137.16 180)
+		(at 59.69 137.16 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7819,7 +7789,7 @@
 		(dnp no)
 		(uuid "1fc675c6-bea1-4ba1-8f30-a88f97547800")
 		(property "Reference" "JPA7"
-			(at 58.42 127 0)
+			(at 58.42 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,7 +7798,7 @@
 			)
 		)
 		(property "Value" "1X3 2.5mm"
-			(at 58.42 129.54 0)
+			(at 58.42 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,7 +9291,6 @@
 	(symbol
 		(lib_id "ayab-lib:Conn_01x05")
 		(at 85.09 170.18 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9329,7 +9298,7 @@
 		(dnp no)
 		(uuid "53abb6ff-0d68-4985-9e6d-56137ddce522")
 		(property "Reference" "JPB8"
-			(at 87.63 157.226 0)
+			(at 88.138 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,7 +9307,7 @@
 			)
 		)
 		(property "Value" "1X5 2mm"
-			(at 92.202 159.766 0)
+			(at 92.71 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9938,7 +9907,7 @@
 		(dnp no)
 		(uuid "64c4a8cf-0881-4a36-afa1-205bc08621c8")
 		(property "Reference" "JPA8"
-			(at 58.42 157.48 0)
+			(at 57.912 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9947,7 +9916,7 @@
 			)
 		)
 		(property "Value" "1X5 2.5mm"
-			(at 58.42 160.02 0)
+			(at 57.912 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,7 +10539,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 140.97 0)
+		(at 76.2 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10578,7 +10547,7 @@
 		(dnp no)
 		(uuid "7d994909-8893-4235-8746-1e3ff1901431")
 		(property "Reference" "#PWR029"
-			(at 76.2 147.32 0)
+			(at 76.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10588,7 +10557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 146.05 0)
+			(at 76.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 140.97 0)
+			(at 76.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,7 +10576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 140.97 0)
+			(at 76.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +10586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 140.97 0)
+			(at 76.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12530,134 +12499,6 @@
 	)
 	(symbol
 		(lib_id "ayab-lib:Conn_01x03")
-		(at 85.09 137.16 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd37c038-bd92-4d35-b322-1cc57dd09769")
-		(property "Reference" "JPB7"
-			(at 88.138 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "1X3 2mm"
-			(at 92.456 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "ayab-library:CONN-TH_3P-P2.00_A2004WV-3P"
-			(at 85.09 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 85.09 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" "Molex"
-			(at 85.09 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg P/N" "53015-0310"
-			(at 85.09 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC ID" "C225241"
-			(at 85.09 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEM" "CJT(Changjiang Connectors)"
-			(at 85.09 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEM PN" "A2004WV-3P"
-			(at 85.09 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 85.09 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8827655c-e531-4cef-8c09-3e50703c3805")
-		)
-		(pin "2"
-			(uuid "26dbfc77-d272-49db-b9c6-7ec5549e1236")
-		)
-		(pin "3"
-			(uuid "ead12d2f-0a17-4dde-b202-50ed12c9b3e4")
-		)
-		(instances
-			(project ""
-				(path "/dc4e9b16-0d76-4cba-8254-625ae2e12c75"
-					(reference "JPB7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ayab-lib:Conn_01x03")
 		(at 190.5 148.59 0)
 		(mirror x)
 		(unit 1)
@@ -12667,7 +12508,7 @@
 		(dnp no)
 		(uuid "fe7ab580-ce1f-45c4-830e-de19a591ae54")
 		(property "Reference" "JPB2"
-			(at 193.548 138.684 0)
+			(at 193.802 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12676,7 +12517,7 @@
 			)
 		)
 		(property "Value" "1X3 2mm"
-			(at 197.866 140.97 0)
+			(at 198.12 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
