@@ -11279,7 +11279,7 @@
 		(uuid "5cea52af-3fb9-41cd-a97b-f894a76af287")
 	)
 	(via
-		(at 146.4 121)
+		(at 146.9 121.4)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
