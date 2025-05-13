@@ -7583,7 +7583,8 @@
 	)
 	(symbol
 		(lib_id "ayab-lib:Conn_01x03")
-		(at 167.64 148.59 180)
+		(at 167.64 148.59 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7591,7 +7592,7 @@
 		(dnp no)
 		(uuid "18d13c23-64e5-4c8f-8063-a3933163c3a6")
 		(property "Reference" "JPA2"
-			(at 166.37 138.43 0)
+			(at 166.37 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7601,7 @@
 			)
 		)
 		(property "Value" "1X3 2.5mm"
-			(at 166.37 140.97 0)
+			(at 166.37 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,7 +12508,7 @@
 		(dnp no)
 		(uuid "fe7ab580-ce1f-45c4-830e-de19a591ae54")
 		(property "Reference" "JPB2"
-			(at 193.548 138.684 0)
+			(at 193.802 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12517,7 @@
 			)
 		)
 		(property "Value" "1X3 2mm"
-			(at 197.866 140.97 0)
+			(at 198.12 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
