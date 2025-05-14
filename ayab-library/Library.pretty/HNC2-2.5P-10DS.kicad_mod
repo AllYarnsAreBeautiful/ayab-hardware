@@ -236,7 +236,7 @@
 		(uuid "717379db-aa75-4e8c-a06a-85a709658faf")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../ayab-library/packages3d/HNC2-2_5P-10DS.step"
+	(model "${KIPRJMOD}/../ayab-library/packages3d/HNC2-2.5P-10DS.step"
 		(offset
 			(xyz 27.5 2 0)
 		)
