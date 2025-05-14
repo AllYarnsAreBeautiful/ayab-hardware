@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "GRN_3MM"
+	(property "Value" "LED_3MM"
 		(at 1.27 2.96 0)
 		(layer "F.Fab")
 		(uuid "f2044bc4-02ec-4fad-ba9c-61f568ccabd9")
@@ -79,8 +79,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -0.2 -1.341326)
-		(end -0.2 -1.181326)
+		(start -0.29 -1.236)
+		(end -0.29 -1.08)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -89,8 +89,8 @@
 		(uuid "359d7bcd-9445-4bc0-a61b-29ba69185889")
 	)
 	(fp_line
-		(start -0.2 1.341326)
-		(end -0.2 1.181326)
+		(start -0.29 1.08)
+		(end -0.29 1.236)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -99,9 +99,9 @@
 		(uuid "d78674e7-5e7b-493b-b239-53d0dc38aff7")
 	)
 	(fp_arc
-		(start -0.2 -1.341326)
-		(mid 1.300542 -1.989754)
-		(end 2.780476 -1.295576)
+		(start -0.29 -1.235516)
+		(mid 1.365624 -1.987701)
+		(end 2.941397 -1.080061)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -110,9 +110,9 @@
 		(uuid "96ef8c14-2635-498a-9726-f5b78192ad3c")
 	)
 	(fp_arc
-		(start 0.38716 -1.212686)
-		(mid 1.27 -1.5)
-		(end 2.15284 -1.212686)
+		(start 0.229039 -1.08)
+		(mid 1.269964 -1.5)
+		(end 2.31091 -1.080049)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -121,9 +121,9 @@
 		(uuid "d7f1f972-ef91-4c79-a121-c1e44a5ae3a1")
 	)
 	(fp_arc
-		(start 2.15284 1.212636)
-		(mid 1.27 1.5)
-		(end 0.38716 1.212636)
+		(start 2.31091 1.080049)
+		(mid 1.269964 1.5)
+		(end 0.229039 1.08)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -132,9 +132,9 @@
 		(uuid "0c176f80-4b0d-4ecc-a4d5-a23e6fa963e1")
 	)
 	(fp_arc
-		(start 2.780476 1.295576)
-		(mid 1.300542 1.989754)
-		(end -0.2 1.341326)
+		(start 2.941397 1.080061)
+		(mid 1.365624 1.987701)
+		(end -0.29 1.235516)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -225,18 +225,17 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
+	(pad "1" thru_hole rect
 		(at 0 0)
-		(size 1.6 2.2)
+		(size 1.8 1.8)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.15625)
 		(uuid "edfde3a6-809f-4653-b1e8-dbf4f40750f9")
 	)
-	(pad "2" thru_hole oval
+	(pad "2" thru_hole circle
 		(at 2.54 0)
-		(size 1.6 2.2)
+		(size 1.8 1.8)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
