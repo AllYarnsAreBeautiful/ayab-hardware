@@ -7,8 +7,8 @@
 	(title_block
 		(title "AYAB arduino_shield_smd")
 		(date "2025-04-16")
-		(rev "1.5THT")
-		(company "AYAB Project")
+		(rev "KI02.1")
+		(company "Woolly Logic")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
