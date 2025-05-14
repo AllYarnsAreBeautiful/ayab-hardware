@@ -1,4 +1,4 @@
-(footprint "Molex_0022035035 or Hirose_HNC2-2.5P-3DS"
+(footprint "Molex_0022035035_or_Hirose_HNC2-2.5P-3DS"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Molex_0022035035 or Hirose_HNC2-2.5P-3DS"
+	(property "Value" "Molex_0022035035_or_Hirose_HNC2-2.5P-3DS"
 		(at 2.5 3.01 0)
 		(layer "F.Fab")
 		(uuid "f056db99-a01e-4209-b20d-cf80d5a44cf1")
@@ -291,7 +291,7 @@
 			(xyz -180 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/../ayab-library/packages3d/HNC2-2_5P-3DS.step"
+	(model "${KIPRJMOD}/../ayab-library/packages3d/HNC2-2.5P-3DS.step"
 		(offset
 			(xyz 10 2 0)
 		)
