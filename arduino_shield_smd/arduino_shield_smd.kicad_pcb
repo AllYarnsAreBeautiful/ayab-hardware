@@ -6367,7 +6367,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.5 90)
+			(at 0 9.95 90)
 			(layer "F.SilkS")
 			(uuid "d1e5cad2-b373-4918-86f8-7a2cd798d611")
 			(effects
@@ -20336,6 +20336,16 @@
 		(uuid "0e69be36-2915-4e92-8c88-9e0249035847")
 	)
 	(gr_line
+		(start 153.7 84.45)
+		(end 153.7 81.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a536a313-2780-4000-9d08-e49b857d2577")
+	)
+	(gr_line
 		(start 108.35 86.225)
 		(end 124.225 86.225)
 		(stroke
@@ -20737,6 +20747,7 @@
 				(size 2 2)
 				(thickness 0.36)
 				(bold yes)
+				(italic yes)
 			)
 			(justify left bottom)
 		)
@@ -20813,6 +20824,18 @@
 			(justify right bottom)
 		)
 	)
+	(gr_text "+5V"
+		(at 155.1 87.35 90)
+		(layer "F.SilkS")
+		(uuid "d0be1dc8-d997-460b-853b-206eaa04865a")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "www.ayab-knitting.com"
 		(at 154.5 112.2 90)
 		(layer "F.SilkS")
@@ -20825,13 +20848,13 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BUZZER"
-		(at 155.1 87.35 90)
+	(gr_text "BUZZ"
+		(at 155.1 84.7 90)
 		(layer "F.SilkS")
 		(uuid "f19d777a-caad-460d-af9e-a074205069aa")
 		(effects
 			(font
-				(size 1 1)
+				(size 1 0.8)
 				(thickness 0.125)
 			)
 			(justify left bottom)
