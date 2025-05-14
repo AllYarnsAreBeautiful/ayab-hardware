@@ -1,4 +1,4 @@
-(footprint "530140310"
+(footprint "530140310_(dashed_outline)"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -127,11 +127,21 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -5.44 -1.65)
-		(end -5.44 2.9)
+		(start -5.44 -0.3)
+		(end -4.09 -1.65)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "5082eff3-aff3-48da-abb9-d5cdda100481")
+	)
+	(fp_line
+		(start -5.44 2.9)
+		(end -5.44 -1.65)
+		(stroke
+			(width 0.2)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "384da1c2-46fc-4e36-a95f-fca568c420da")
@@ -141,7 +151,7 @@
 		(end 2.56 2.9)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "14dad2bf-1f27-4880-b376-4aac15eb4647")
@@ -151,17 +161,27 @@
 		(end -5.44 -1.65)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "6c7ba733-0705-4550-8d20-1ef5a5b67638")
+	)
+	(fp_line
+		(start 2.56 -0.3)
+		(end 1.21 -1.65)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "135dcadd-d14d-4333-9994-b16831c8c07b")
 	)
 	(fp_line
 		(start 2.56 2.9)
 		(end 2.56 -1.65)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "b0cf0ece-cc17-4fc0-a593-28c92ff69ed1")
@@ -175,31 +195,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "a5883a4c-a840-4727-8a96-9b75668209f4")
-	)
-	(fp_poly
-		(pts
-			(xy -5.44 -1.65) (xy -4.09 -1.65) (xy -5.44 -0.3)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "3a594374-6409-4a8a-b920-d75f31074669")
-	)
-	(fp_poly
-		(pts
-			(xy 2.56 -1.65) (xy 1.21 -1.65) (xy 2.56 -0.3)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "eaf3f632-6dbc-4315-99f0-10c9b8b02ca7")
+		(uuid "15156382-dbeb-40fd-a242-02c76d461d9a")
 	)
 	(fp_rect
 		(start -5.69 -1.9)
@@ -217,7 +213,7 @@
 		(end 2.56 2.9)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type dash)
 		)
 		(fill no)
 		(layer "F.Fab")
