@@ -6,7 +6,7 @@
 	(descr "53014-0810-2")
 	(tags "Connector")
 	(property "Reference" "REF**"
-		(at -21.7 -0.9 135)
+		(at -20.5 0.5 270)
 		(layer "F.SilkS")
 		(uuid "528ca89d-c087-4cc8-8925-5265cac9c3b2")
 		(effects
@@ -80,7 +80,7 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -20 -1.65)
+		(start -19.44 -1.65)
 		(end 2.56 -1.65)
 		(stroke
 			(width 0.2)
@@ -90,8 +90,8 @@
 		(uuid "0cbc8ccc-4071-4c2a-a44c-264f5fbcc014")
 	)
 	(fp_line
-		(start -20 2.37)
-		(end -20 -1.65)
+		(start -19.44 2.9)
+		(end -19.44 -1.65)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -100,28 +100,8 @@
 		(uuid "a5d8e7f9-760a-450c-a6f4-fd4f2a4a84f7")
 	)
 	(fp_line
-		(start 0 -2.2)
-		(end 0 -2.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "17393c94-d8f2-4b17-9b75-ccfd3775ad4d")
-	)
-	(fp_line
-		(start 0 -2.1)
-		(end 0 -2.1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "3539c82a-177a-4f31-b031-77fa7d0492ac")
-	)
-	(fp_line
 		(start 2.56 -1.65)
-		(end 2.56 2.37)
+		(end 2.56 2.9)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -130,8 +110,8 @@
 		(uuid "7a59b8c2-ee1b-4ec8-a926-d9213aadf826")
 	)
 	(fp_line
-		(start 2.56 2.37)
-		(end -20 2.37)
+		(start 2.56 2.9)
+		(end -19.44 2.9)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -139,31 +119,9 @@
 		(layer "F.SilkS")
 		(uuid "88318679-86c8-4837-b6eb-95e06606ff24")
 	)
-	(fp_arc
-		(start 0 -2.2)
-		(mid 0.05 -2.15)
-		(end 0 -2.1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "efc787be-e663-45f1-ba0b-889b90667789")
-	)
-	(fp_arc
-		(start 0 -2.1)
-		(mid -0.05 -2.15)
-		(end 0 -2.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e834cb9c-a167-4783-bf58-37b01077790a")
-	)
 	(fp_poly
 		(pts
-			(xy -20 -1.65) (xy -18.5 -1.65) (xy -20 0)
+			(xy -19.349774 -1.595249) (xy -17.849774 -1.595249) (xy -19.349774 0.054751)
 		)
 		(stroke
 			(width 0.1)
@@ -186,18 +144,18 @@
 		(uuid "76f09e6b-b272-42ee-b02e-494110853f6c")
 	)
 	(fp_rect
-		(start -20.3 -1.9)
-		(end 2.8 2.6)
+		(start -19.69 -1.9)
+		(end 2.81 3.15)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4d10e3f3-b2ef-48e0-89df-173f3bfbc041")
 	)
 	(fp_line
-		(start -20 -1.65)
+		(start -19.44 -1.65)
 		(end 2.56 -1.65)
 		(stroke
 			(width 0.1)
@@ -207,8 +165,8 @@
 		(uuid "816af891-c2c4-40d6-91fe-aae79a1a93e0")
 	)
 	(fp_line
-		(start -20 2.37)
-		(end -20 -1.65)
+		(start -19.44 2.9)
+		(end -19.44 -1.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -218,7 +176,7 @@
 	)
 	(fp_line
 		(start 2.56 -1.65)
-		(end 2.56 2.37)
+		(end 2.56 2.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -227,8 +185,8 @@
 		(uuid "944dba3f-83ad-4521-87d9-e205b7f1370f")
 	)
 	(fp_line
-		(start 2.56 2.37)
-		(end -20 2.37)
+		(start 2.56 2.9)
+		(end -19.44 2.9)
 		(stroke
 			(width 0.1)
 			(type solid)
