@@ -1,4 +1,4 @@
-(footprint "Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical"
+(footprint "Molex_0022035085_or_Hirose_HNC2_2.5P_8DS"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical"
+	(property "Value" "Molex_0022035085_or_Hirose_HNC2_2.5P_8DS"
 		(at 8.75 3.01 0)
 		(layer "F.Fab")
 		(uuid "d565ec1e-da87-485a-bf97-e590065d2e06")
@@ -102,9 +102,33 @@
 		(layer "F.SilkS")
 		(uuid "b9d77cf8-0d5a-43a1-a39d-65c8946b23bd")
 	)
+	(fp_circle
+		(center 0 -2)
+		(end 0.001 -2)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "052939cf-023a-4be1-9779-9ebd3f9c799e")
+	)
+	(fp_poly
+		(pts
+			(xy 22.5 1.1) (xy 20.31 1.1) (xy 19.21 2.21) (xy -2.96 2.21) (xy -2.96 1.1) (xy -5 1.1) (xy -5 2.4)
+			(xy 22.5 2.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9a81f605-89aa-4efc-a802-4abfa6db3254")
+	)
 	(fp_line
-		(start -2.95 -3.6)
-		(end -2.95 2.31)
+		(start -5.5 -3.6)
+		(end -5.5 2.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -113,8 +137,8 @@
 		(uuid "b271bcab-58a9-4de0-8977-63ffacd3a5c3")
 	)
 	(fp_line
-		(start -2.95 2.31)
-		(end 19.45 2.31)
+		(start -5.5 2.8)
+		(end 23 2.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -123,18 +147,8 @@
 		(uuid "99ec320e-62f4-45fe-8923-876128e048c9")
 	)
 	(fp_line
-		(start 19.45 2.31)
-		(end 20.45 1.31)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "171caf0b-d385-449b-b9d2-3a82f1efea06")
-	)
-	(fp_line
-		(start 20.45 -3.6)
-		(end -2.95 -3.6)
+		(start 23 -3.6)
+		(end -5.5 -3.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -143,8 +157,8 @@
 		(uuid "d09dc4cd-59dd-455f-94b2-f09bcc831fd0")
 	)
 	(fp_line
-		(start 20.45 1.31)
-		(end 20.45 -3.6)
+		(start 23 2.8)
+		(end 23 -3.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -236,16 +250,16 @@
 	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 1.6 2.4)
-		(drill 0.85)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.15625)
+		(roundrect_rratio 0.125)
 		(uuid "05edacb4-2d26-4f56-83d4-4d2af75f2f48")
 	)
 	(pad "2" thru_hole oval
 		(at 2.5 0)
 		(size 1.6 2.4)
-		(drill 0.85)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8df1e670-61e9-464b-aa73-4b654bd483df")
@@ -253,7 +267,7 @@
 	(pad "3" thru_hole oval
 		(at 5 0)
 		(size 1.6 2.4)
-		(drill 0.85)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "29afbf09-6fa3-4f9b-bc97-2df4171b018e")
@@ -261,7 +275,7 @@
 	(pad "4" thru_hole oval
 		(at 7.5 0)
 		(size 1.6 2.4)
-		(drill 0.85)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "71347f6f-e5c7-4537-9f10-dc2ad1bf2783")
@@ -269,7 +283,7 @@
 	(pad "5" thru_hole oval
 		(at 10 0)
 		(size 1.6 2.4)
-		(drill 0.85)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "af51ec02-48c4-42d1-9e5a-6a72ffe87f78")
@@ -277,7 +291,7 @@
 	(pad "6" thru_hole oval
 		(at 12.5 0)
 		(size 1.6 2.4)
-		(drill 0.85)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "db5b2103-f70f-4541-ba29-c708854a090f")
@@ -285,7 +299,7 @@
 	(pad "7" thru_hole oval
 		(at 15 0)
 		(size 1.6 2.4)
-		(drill 0.85)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "99194f65-82e0-4cc8-ba87-7bcba533a75a")
@@ -293,14 +307,13 @@
 	(pad "8" thru_hole oval
 		(at 17.5 0)
 		(size 1.6 2.4)
-		(drill 0.85)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1a1cd5d8-2b91-470f-9cf0-24759d135148")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical.wrl"
-		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -308,7 +321,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 	(model "${KIPRJMOD}/../ayab-library/packages3D/022035085.stp"
@@ -320,6 +333,17 @@
 		)
 		(rotate
 			(xyz -180 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/../ayab-library/packages3D/HNC2-2.5P-8DS.step"
+		(offset
+			(xyz 22.5 2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
 		)
 	)
 )

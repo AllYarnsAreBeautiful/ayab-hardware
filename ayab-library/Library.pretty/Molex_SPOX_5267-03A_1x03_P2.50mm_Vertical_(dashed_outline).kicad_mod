@@ -1,4 +1,4 @@
-(footprint "Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
+(footprint "Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical_(dashed_outline)"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
+	(property "Value" "Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical_(dashed_outline)"
 		(at 2.5 3.01 0)
 		(layer "F.Fab")
 		(uuid "f056db99-a01e-4209-b20d-cf80d5a44cf1")
@@ -57,7 +57,7 @@
 		(end -2.56 1.91)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "b7c3e1c3-95c6-4f69-abec-b4dec7075903")
@@ -67,7 +67,7 @@
 		(end 6.56 1.91)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "a9947048-cbde-4b2e-8991-1817013d06f8")
@@ -77,7 +77,7 @@
 		(end 7.56 0.91)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "023da7e0-db6a-4247-ba6f-3db6f1e08a52")
@@ -87,7 +87,7 @@
 		(end -2.56 -3.21)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "1436daf8-c2ed-404b-a126-dec0ad36aa5e")
@@ -97,7 +97,7 @@
 		(end 7.56 -3.21)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "66828928-b8e0-497a-8ec8-c957cbe8d9b6")
@@ -111,7 +111,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "2f26f15b-b3f5-48dc-b92f-69f1de35b376")
+		(uuid "24bc5769-c18e-4c3c-8920-6cd56d6d9200")
 	)
 	(fp_line
 		(start -2.95 -3.6)
@@ -168,7 +168,7 @@
 		(end -2.45 1.8)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.Fab")
 		(uuid "fd853e24-236d-4e63-ad38-42382c4b4664")
@@ -178,7 +178,7 @@
 		(end 6.45 1.8)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.Fab")
 		(uuid "99911582-1a01-4b2f-a6a3-6b2d59174f64")
@@ -208,7 +208,7 @@
 		(end 7.45 0.8)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.Fab")
 		(uuid "1f981303-a8fe-44a7-bf24-6b312c4271e6")
@@ -218,7 +218,7 @@
 		(end -2.45 -3.1)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.Fab")
 		(uuid "7c164a46-f51b-45ce-9788-e0bb86f5ad61")
@@ -228,7 +228,7 @@
 		(end 7.45 -3.1)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type dash)
 		)
 		(layer "F.Fab")
 		(uuid "95019201-4a02-48a3-a63e-7cf6f884beb8")

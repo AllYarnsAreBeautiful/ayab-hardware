@@ -1,10 +1,10 @@
-(footprint "CONN-TH_3P-P2.00_A2004WV-3P"
+(footprint "530140310_(dashed_outline)"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 5.2 -0.2 90)
+		(at -6.5 0.5 90)
 		(layer "F.SilkS")
 		(uuid "b16a4eda-384e-4288-b5c7-004d94e546d5")
 		(effects
@@ -18,6 +18,7 @@
 	(property "Value" "1X3 2mm"
 		(at 0 4 180)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "42d979cd-c3dd-43a2-bec8-5a55cda10d3e")
 		(effects
 			(font
@@ -126,79 +127,97 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -4 -1.8)
-		(end -4 2.88)
+		(start -5.44 -0.3)
+		(end -4.09 -1.65)
 		(stroke
-			(width 0.25)
-			(type solid)
+			(width 0.2)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "5082eff3-aff3-48da-abb9-d5cdda100481")
+	)
+	(fp_line
+		(start -5.44 2.9)
+		(end -5.44 -1.65)
+		(stroke
+			(width 0.2)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "384da1c2-46fc-4e36-a95f-fca568c420da")
 	)
 	(fp_line
-		(start -4 2.88)
-		(end 4 2.88)
+		(start -5.44 2.9)
+		(end 2.56 2.9)
 		(stroke
-			(width 0.25)
-			(type solid)
+			(width 0.2)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "14dad2bf-1f27-4880-b376-4aac15eb4647")
 	)
 	(fp_line
-		(start 4 -1.8)
-		(end -4 -1.8)
+		(start 2.56 -1.65)
+		(end -5.44 -1.65)
 		(stroke
-			(width 0.25)
-			(type solid)
+			(width 0.2)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "6c7ba733-0705-4550-8d20-1ef5a5b67638")
 	)
 	(fp_line
-		(start 4 2.88)
-		(end 4 -1.8)
+		(start 2.56 -0.3)
+		(end 1.21 -1.65)
 		(stroke
-			(width 0.25)
-			(type solid)
+			(width 0.2)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "135dcadd-d14d-4333-9994-b16831c8c07b")
+	)
+	(fp_line
+		(start 2.56 2.9)
+		(end 2.56 -1.65)
+		(stroke
+			(width 0.2)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "b0cf0ece-cc17-4fc0-a593-28c92ff69ed1")
 	)
-	(fp_poly
-		(pts
-			(xy -4 -1.8) (xy -2.5 -1.8) (xy -4 -0.3)
-		)
+	(fp_circle
+		(center 0 2)
+		(end 0.001 2)
 		(stroke
-			(width 0.1)
+			(width 0.4)
 			(type solid)
 		)
-		(fill yes)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "3a594374-6409-4a8a-b920-d75f31074669")
-	)
-	(fp_poly
-		(pts
-			(xy 4 -1.8) (xy 2.5 -1.8) (xy 4 -0.3)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "eaf3f632-6dbc-4315-99f0-10c9b8b02ca7")
+		(uuid "15156382-dbeb-40fd-a242-02c76d461d9a")
 	)
 	(fp_rect
-		(start -4.4 -2.2)
-		(end 4.4 3.3)
+		(start -5.69 -1.9)
+		(end 2.81 3.15)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "18411e08-01d7-442b-8492-d936760e6e0d")
+	)
+	(fp_rect
+		(start -5.44 -1.65)
+		(end 2.56 2.9)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "82880ecf-6f7b-4a57-9dd5-66e8e7b3cf83")
 	)
 	(fp_circle
 		(center -2 0)
@@ -222,60 +241,39 @@
 		(layer "F.Fab")
 		(uuid "c03fbd58-b95e-4608-b44d-9de987c96988")
 	)
-	(fp_circle
-		(center 2 0)
-		(end 2.2 0)
-		(stroke
-			(width 0.4)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "4afb0007-6410-485d-8428-5146997cfbaf")
-	)
-	(fp_circle
-		(center 4.13 3.01)
-		(end 4.16 3.01)
-		(stroke
-			(width 0.06)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "fff11a3a-edc0-436f-b6d6-2a6c35a344e2")
-	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 180)
+		(at -1.44 0.525 180)
 		(layer "F.Fab")
 		(uuid "34f9af66-1f9c-461a-aaa8-0940576bfd2d")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.17 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at 2 0)
-		(size 1.4 2.1)
-		(drill 1)
+		(at 0 0)
+		(size 1.6 2.4)
+		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1785714286)
+		(roundrect_rratio 0.15625)
 		(uuid "0e103d92-750d-476c-a00c-9ec13acd2066")
 	)
 	(pad "2" thru_hole oval
-		(at 0 0)
-		(size 1.4 2.1)
-		(drill 1)
+		(at -2 0)
+		(size 1.6 2.4)
+		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b0b5fedb-926b-421a-b19f-3852c7940385")
 	)
 	(pad "3" thru_hole oval
-		(at -2 0)
-		(size 1.4 2.1)
-		(drill 1)
+		(at -4 0)
+		(size 1.6 2.4)
+		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d3570d8f-d124-49f6-8773-9ae3b1d230a7")
@@ -283,7 +281,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../ayab-library/packages3D/53014-0310.stp"
 		(offset
-			(xyz 0.57 -0.71 2.9)
+			(xyz -1.43 -0.71 2.9)
 		)
 		(scale
 			(xyz 1 1 1)
