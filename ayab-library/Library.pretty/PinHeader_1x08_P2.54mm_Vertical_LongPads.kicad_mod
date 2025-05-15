@@ -1,4 +1,4 @@
-(footprint "PinHeader_1x08_P2.54mm_Vertical"
+(footprint "PinHeader_1x08_P2.54mm_Vertical_LongPads"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "PinHeader_1x08_P2.54mm_Vertical"
+	(property "Value" "PinHeader_1x08_P2.54mm_Vertical_LongPads"
 		(at 0 20.16 0)
 		(layer "F.Fab")
 		(uuid "68096bf8-35f1-4302-ad9d-e439d71a666d")

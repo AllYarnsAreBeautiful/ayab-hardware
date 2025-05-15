@@ -1,4 +1,4 @@
-(footprint "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+(footprint "R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical_LongPads"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")

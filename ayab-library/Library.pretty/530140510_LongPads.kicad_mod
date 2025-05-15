@@ -1,4 +1,4 @@
-(footprint "530140510"
+(footprint "530140510_LongPads"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "530140510"
+	(property "Value" "530140510_LongPads"
 		(at -3.44 0.525 0)
 		(layer "F.SilkS")
 		(hide yes)

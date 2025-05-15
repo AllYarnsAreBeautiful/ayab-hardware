@@ -1,4 +1,4 @@
-(footprint "Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical"
+(footprint "Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical_LongPads"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical"
+	(property "Value" "Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical_LongPads"
 		(at 8.75 3.01 0)
 		(layer "F.Fab")
 		(uuid "d565ec1e-da87-485a-bf97-e590065d2e06")

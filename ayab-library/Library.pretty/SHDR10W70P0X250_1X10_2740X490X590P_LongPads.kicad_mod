@@ -1,4 +1,4 @@
-(footprint "SHDR10W70P0X250_1X10_2740X490X590P"
+(footprint "SHDR10W70P0X250_1X10_2740X490X590P_LongPads"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")

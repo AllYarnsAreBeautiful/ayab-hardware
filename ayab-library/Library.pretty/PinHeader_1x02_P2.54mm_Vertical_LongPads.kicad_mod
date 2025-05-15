@@ -1,4 +1,4 @@
-(footprint "PinHeader_1x02_P2.54mm_Vertical"
+(footprint "PinHeader_1x02_P2.54mm_Vertical_LongPads"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -242,17 +242,18 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 1.7 1.7)
+		(size 2.4 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
 		(uuid "296603e4-60ad-4577-a258-1f560ef49e6a")
 	)
 	(pad "2" thru_hole oval
 		(at 0 2.54)
-		(size 1.7 1.7)
+		(size 2.4 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)

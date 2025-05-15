@@ -1,4 +1,4 @@
-(footprint "CONN-TH_3P-P2.00_A2004WV-3P"
+(footprint "CONN-TH_3P-P2.00_A2004WV-3P_LongPads"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")

@@ -1,14 +1,14 @@
-(footprint "HNC2-2.5P-8DS"
+(footprint "HNC2-2.5P-3DS_LongPads"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Unnamed StepUp generated footprint")
 	(property "Reference" "FC_"
-		(at 13.75 1 180)
+		(at 7.5 1 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6d4a3448-8711-4eb2-ad0b-8fbfff64f2c2")
+		(uuid "e0a7e5a4-61a9-403e-8781-57f1a49f159d")
 		(effects
 			(font
 				(size 1 1)
@@ -17,10 +17,10 @@
 		)
 	)
 	(property "Value" "Val_"
-		(at 13.75 3 180)
+		(at 7.5 3 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "744e668e-637e-4326-9d07-7bc217648520")
+		(uuid "3a10deb5-dad7-49c8-a977-6cd836da24b5")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bcf47ace-3f35-4a9b-ae00-001163040f8d")
+		(uuid "eaaeb253-8b33-4917-ad77-9997bfd19efd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1cef0033-4336-4a98-82c0-d64dc9136283")
+		(uuid "54a4ef65-9e72-49bc-8e7b-77708a4e5617")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,34 +54,34 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.25 -1.25)
-		(end -1.25 1.25)
+		(start -1.25 1.25)
+		(end -1.25 -1.25)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b61733cc-3de6-43a1-9798-b63e098d923e")
+		(uuid "a35f9ae3-e92d-4c83-81aa-48fbf5ad20c9")
 	)
 	(fp_line
-		(start 1.25 -1.25)
-		(end 1.25 1.25)
+		(start 1.25 1.25)
+		(end 1.25 -1.25)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5de0f96f-dc53-4a62-82c0-b805ca6a8db6")
+		(uuid "a3f4a591-3b74-4a26-a0d7-ffa7e29f74e9")
 	)
 	(fp_line
-		(start 18.75 -1.25)
-		(end 18.75 1.25)
+		(start 6.25 1.25)
+		(end 6.25 -1.25)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "62ad9436-9367-4468-b36a-c87641c64934")
+		(uuid "f3325eb5-3525-427b-b97a-bead2be80af7")
 	)
 	(fp_rect
 		(start -5 1.1)
@@ -92,40 +92,40 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "980f19b8-71c0-4e96-9559-060a16ee48be")
+		(uuid "d1d34ac8-d07c-4f39-88c9-ffc79d8ca29d")
 	)
 	(fp_rect
 		(start -5 1.25)
-		(end 22.5 2.4)
+		(end 10 2.4)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "e748c79f-6ef4-4e48-bd58-b5323bfabc85")
+		(uuid "80900e60-228a-4f30-ac85-8e1042af9365")
 	)
 	(fp_rect
 		(start -2.95 -2)
-		(end 20.45 -1.25)
+		(end 7.95 -1.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "cb98bca2-c6e5-484d-8666-d828564a62b0")
+		(uuid "d4303170-bbcc-4ecd-bdb0-2623effae5a6")
 	)
 	(fp_rect
-		(start 18.75 1.1)
-		(end 22.5 1.25)
+		(start 6.275 1.1)
+		(end 10 1.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "306ade77-072d-427b-b199-acebdf55bb46")
+		(uuid "800fa275-738c-429f-b22b-1c438c9501d8")
 	)
 	(fp_circle
 		(center -2 0)
@@ -136,52 +136,52 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "aec6d1fb-0465-4f25-9759-7c7d80ee1a0c")
+		(uuid "85790aaf-eeae-4f3f-bdcb-dfed4ce90490")
 	)
 	(fp_line
 		(start -5.5 -2.5)
-		(end 23 -2.5)
+		(end 10.5 -2.5)
 		(stroke
-			(width 0.006)
+			(width 0.007)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "99962f4e-4ec5-4a3b-b476-a39a1b5b4619")
+		(uuid "b65b38f2-a726-4eee-9d9b-9d7657cfd9ab")
 	)
 	(fp_line
 		(start -5.5 2.8)
 		(end -5.5 -2.5)
 		(stroke
-			(width 0.006)
+			(width 0.007)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "62c5a9d0-5d6e-4b90-a1bd-60a3816bee7e")
+		(uuid "076ca2af-357c-414e-b142-a0b87aa86c56")
 	)
 	(fp_line
-		(start 23 -2.5)
-		(end 23 2.8)
+		(start 10.5 -2.5)
+		(end 10.5 2.8)
 		(stroke
-			(width 0.006)
+			(width 0.007)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6a942701-54a6-40d1-8cc7-ceb3f72f97d9")
+		(uuid "f856e1aa-617d-4f3a-8eae-650644390b09")
 	)
 	(fp_line
-		(start 23 2.8)
+		(start 10.5 2.8)
 		(end -5.5 2.8)
 		(stroke
-			(width 0.006)
+			(width 0.007)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8380a8d7-8ec3-4d65-a6b5-3a197c0be392")
+		(uuid "caac2754-b40b-4dac-adf2-7f1c1c38ca3d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 13.75 1 180)
+		(at 7.5 1 180)
 		(layer "F.Fab")
-		(uuid "0704d2d2-a4a0-4a80-a220-c53d8a915bc7")
+		(uuid "15468729-b0cc-495c-b418-33fdc8cced44")
 		(effects
 			(font
 				(size 1 1)
@@ -196,7 +196,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.125)
-		(uuid "b7bbf9b9-1efe-4596-b8bd-4ead85b722e3")
+		(uuid "7a754b7a-4614-49cc-a2ca-53064b99cff5")
 	)
 	(pad "2" thru_hole oval
 		(at 2.5 0 180)
@@ -204,7 +204,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "62cd438b-9981-460b-bd30-c77f863ac4a9")
+		(uuid "c8f48478-4666-47fd-8ebb-b68db0b5cd3d")
 	)
 	(pad "3" thru_hole oval
 		(at 5 0 180)
@@ -212,52 +212,12 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2274e82d-364c-4d1b-8934-6923f741339d")
-	)
-	(pad "4" thru_hole oval
-		(at 7.5 0 180)
-		(size 1.6 2.4)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "707c83bb-98bb-48cd-b958-bee994ab7d05")
-	)
-	(pad "5" thru_hole oval
-		(at 10 0 180)
-		(size 1.6 2.4)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "13cdbad1-7430-497c-baab-347b47c349c3")
-	)
-	(pad "6" thru_hole oval
-		(at 12.5 0 180)
-		(size 1.6 2.4)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "13507369-5c73-4a36-b545-3820f302b8f5")
-	)
-	(pad "7" thru_hole oval
-		(at 15 0 180)
-		(size 1.6 2.4)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "3630d9c5-9182-4aa3-8099-c3d2f7523710")
-	)
-	(pad "8" thru_hole oval
-		(at 17.5 0 180)
-		(size 1.6 2.4)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "8af2af6b-aaaf-4822-bdb0-47ae6b25f076")
+		(uuid "d44976d0-fe24-490f-8774-dd314a43a026")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../ayab-library/packages3d/HNC2-2.5P-8DS.step"
+	(model "${KIPRJMOD}/../ayab-library/packages3d/HNC2-2.5P-3DS.step"
 		(offset
-			(xyz 22.5 2 0)
+			(xyz 10 2 0)
 		)
 		(scale
 			(xyz 1 1 1)
