@@ -1,0 +1,247 @@
+(footprint "530140510_LongPads"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "53014-0510-2")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at -10.5 0.5 90)
+		(layer "F.SilkS")
+		(uuid "6e1c1919-4ea2-49f9-9214-55dd8b2703e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "530140510_LongPads"
+		(at -3.44 0.525 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "745199fa-0306-4d73-a4a2-dfbf85379a57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41b5d973-13af-490f-8047-b33bbc694b81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "756c826b-e30f-4fdb-9541-f995bb2a59ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.44 -1.65)
+		(end 2.56 -1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e06ec35c-ce84-4e8a-a1d2-e6e7a7cefa44")
+	)
+	(fp_line
+		(start -9.44 2.9)
+		(end -9.44 -1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39f40f2b-2cae-4484-beb1-071edbf018da")
+	)
+	(fp_line
+		(start 2.56 -1.65)
+		(end 2.56 2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5869281-6a1f-4a46-a648-54b4b708aa88")
+	)
+	(fp_line
+		(start 2.56 2.9)
+		(end -9.44 2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc2b635f-b28b-4551-9d2f-ebca1a5aec39")
+	)
+	(fp_circle
+		(center 0 2)
+		(end 0.001 2)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9797d6fe-c44a-4bd4-b280-34adc05d4373")
+	)
+	(fp_poly
+		(pts
+			(xy -9.44 -1.65) (xy -8.09 -1.65) (xy -9.44 -0.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4adb52a0-82c5-4e89-af1c-5b81efb97ccc")
+	)
+	(fp_poly
+		(pts
+			(xy 2.56 -1.65) (xy 1.21 -1.65) (xy 2.56 -0.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c5e1529e-368e-4894-84e1-d64c7520abe8")
+	)
+	(fp_rect
+		(start -9.69 -1.9)
+		(end 2.81 3.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f02c69a9-33ff-417c-a784-41af4fb6ad6f")
+	)
+	(fp_line
+		(start -9.44 -1.65)
+		(end 2.56 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52b9a560-5ddf-4563-aa54-c1bfeeb9079d")
+	)
+	(fp_line
+		(start -9.44 2.9)
+		(end -9.44 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0b5fdef-4a27-4f33-a8bb-0944b4bb0dd5")
+	)
+	(fp_line
+		(start 2.56 -1.65)
+		(end 2.56 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ebd95b2e-9a21-4430-ae76-ca81b508081d")
+	)
+	(fp_line
+		(start 2.56 2.9)
+		(end -9.44 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "660c262e-6c6e-4328-8ea9-944b0bf399bd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.44 0.525 0)
+		(layer "F.Fab")
+		(uuid "daeaac8c-7935-450e-bd84-1d8c2019b99b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.6 2.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "5a6e8258-61f9-4b63-ac9b-a31a2a174107")
+	)
+	(pad "2" thru_hole oval
+		(at -2 0)
+		(size 1.6 2.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a505003-941e-48b6-835a-370add953469")
+	)
+	(pad "3" thru_hole oval
+		(at -4 0)
+		(size 1.6 2.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e87cded8-3515-4c35-beb3-859bdcde8cc1")
+	)
+	(pad "4" thru_hole oval
+		(at -6 0)
+		(size 1.6 2.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f072c1a4-975d-4693-9f6f-76ef920e5773")
+	)
+	(pad "5" thru_hole oval
+		(at -8 0)
+		(size 1.6 2.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b8b0efe-1465-4cc4-85a3-ac4c37a886af")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../ayab-library/packages3D/53014-0510.stp"
+		(offset
+			(xyz -3.44 -0.71 2.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
