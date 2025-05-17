@@ -7698,7 +7698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x08_P2.54mm_Vertical_LongPads"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -8305,7 +8305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x08_P2.54mm_Vertical_LongPads"
 			(at 78.74 83.82 0)
 			(effects
 				(font
@@ -8725,7 +8725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x06_P2.54mm_Vertical_LongPads"
 			(at 60.96 81.28 0)
 			(effects
 				(font
@@ -9315,7 +9315,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:CONN-TH_A2004WV-5P_LongPads"
+		(property "Footprint" "ayab-library:530140510_LongPads"
 			(at 85.09 170.18 0)
 			(effects
 				(font
@@ -9334,7 +9334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 85.09 170.18 0)
 			(effects
 				(font
@@ -11498,7 +11498,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:530140810"
+		(property "Footprint" "ayab-library:530140810_LongPads"
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -12525,7 +12525,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:CONN-TH_3P-P2.00_A2004WV-3P"
+		(property "Footprint" "ayab-library:530140310_LongPads"
 			(at 190.5 148.59 0)
 			(effects
 				(font
