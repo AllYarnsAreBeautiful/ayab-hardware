@@ -164,7 +164,7 @@
 		(uuid "b01ead6d-2906-4e63-8f8f-8fb64b93c7ca")
 	)
 	(fp_line
-		(start -5.5 -3.6)
+		(start -5.5 0.6)
 		(end -5.5 2.8)
 		(stroke
 			(width 0.05)
@@ -184,8 +184,28 @@
 		(uuid "60122f83-9dd3-435f-9a1e-5643b329c2da")
 	)
 	(fp_line
-		(start 10.5 -3.6)
-		(end -5.5 -3.6)
+		(start -2.95 -3.6)
+		(end -2.95 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26308f7e-990d-432f-aaef-dac7953926b2")
+	)
+	(fp_line
+		(start -2.95 0.6)
+		(end -5.5 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba2e4fb2-e21f-4275-807b-bd6dfbbd27e8")
+	)
+	(fp_line
+		(start 7.95 -3.6)
+		(end -2.95 -3.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -194,8 +214,28 @@
 		(uuid "552f0a24-1959-46fb-b673-63dfc5bd53c9")
 	)
 	(fp_line
+		(start 7.95 0.6)
+		(end 7.95 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf70497a-132a-42e1-a363-213e9e3ea383")
+	)
+	(fp_line
+		(start 10.5 0.6)
+		(end 7.95 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18e14b0f-6af3-40a5-86c9-58805354ddaf")
+	)
+	(fp_line
 		(start 10.5 2.8)
-		(end 10.5 -3.6)
+		(end 10.5 0.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -334,6 +374,7 @@
 		)
 	)
 	(model "${KIPRJMOD}/../ayab-library/packages3D/HNC2-2.5P-3DS.step"
+		(hide yes)
 		(offset
 			(xyz 10 2 0)
 		)

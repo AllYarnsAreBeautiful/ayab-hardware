@@ -4792,6 +4792,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 151.13) (xy 278.13 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044c4067-0d30-41e3-8cc7-98a6b517e8c8")
+	)
+	(wire
+		(pts
 			(xy 134.62 140.97) (xy 134.62 143.51)
 		)
 		(stroke
@@ -4992,6 +5002,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 146.05) (xy 273.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ec9dd9-8442-450a-8a3e-2817fe4553ef")
+	)
+	(wire
+		(pts
 			(xy 226.06 59.69) (xy 226.06 62.23)
 		)
 		(stroke
@@ -5139,6 +5159,16 @@
 			(type default)
 		)
 		(uuid "282ce990-e2c0-43d6-b59f-56dfd937fd42")
+	)
+	(wire
+		(pts
+			(xy 278.13 139.7) (xy 278.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b703f9b-23ba-4374-a5f8-8b20ab621bea")
 	)
 	(wire
 		(pts
@@ -5312,16 +5342,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 143.51) (xy 265.43 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e0b909e-97f2-450a-981a-86a448e1e8d8")
-	)
-	(wire
-		(pts
 			(xy 111.76 78.74) (xy 115.57 78.74)
 		)
 		(stroke
@@ -5419,16 +5439,6 @@
 			(type default)
 		)
 		(uuid "4aa2e346-cbaa-472c-affc-96ddc64ae41f")
-	)
-	(wire
-		(pts
-			(xy 261.62 148.59) (xy 273.05 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b3b6a0a-a513-43cd-bf96-e653a045f9d5")
 	)
 	(wire
 		(pts
@@ -5912,6 +5922,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 148.59) (xy 278.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a443a58-c99a-47ca-b643-dea7c6be368a")
+	)
+	(wire
+		(pts
 			(xy 111.76 88.9) (xy 115.57 88.9)
 		)
 		(stroke
@@ -6052,16 +6072,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 143.51) (xy 265.43 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a31b03e2-5780-45b0-a58b-2dffd6b47014")
-	)
-	(wire
-		(pts
 			(xy 229.87 143.51) (xy 231.14 143.51)
 		)
 		(stroke
@@ -6112,13 +6122,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 146.05) (xy 273.05 146.05)
+			(xy 261.62 151.13) (xy 278.13 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac886338-f28a-4e75-85e6-3ed4d925b1ed")
+		(uuid "ae0c94c9-6036-4416-9f6d-2e2f8baba8d1")
 	)
 	(wire
 		(pts
@@ -6129,16 +6139,6 @@
 			(type default)
 		)
 		(uuid "af280ba5-8025-4a65-90b4-2fc680812d44")
-	)
-	(wire
-		(pts
-			(xy 261.62 151.13) (xy 278.13 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af882773-2e8d-49e7-8a61-c57026054fb5")
 	)
 	(polyline
 		(pts
@@ -6352,16 +6352,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 139.7) (xy 278.13 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d14b46bd-f8ab-4f31-bbd0-44c53b4ada09")
-	)
-	(wire
-		(pts
 			(xy 170.18 106.68) (xy 170.18 114.3)
 		)
 		(stroke
@@ -6439,6 +6429,16 @@
 			(type default)
 		)
 		(uuid "d838a837-3a1b-4d88-9ac0-91c9c5aa9bae")
+	)
+	(wire
+		(pts
+			(xy 261.62 143.51) (xy 273.05 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9699500-6076-40c1-904d-ec41a8be39cb")
 	)
 	(polyline
 		(pts
@@ -7011,7 +7011,7 @@
 		(uuid "af1f19d0-9024-4da8-8304-d64405fd3824")
 	)
 	(label "SCL"
-		(at 273.05 146.05 180)
+		(at 273.05 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7071,7 +7071,7 @@
 		(uuid "de03d7e6-e4c0-4c8a-8e9e-884c36539a62")
 	)
 	(label "SDA"
-		(at 273.05 148.59 180)
+		(at 273.05 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7188,7 +7188,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical"
+		(property "Footprint" "ayab-library:Molex_0022035085_or_Hirose_HNC2_2.5P_8DS"
 			(at 252.73 96.52 0)
 			(effects
 				(font
@@ -7207,7 +7207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 252.73 96.52 0)
 			(effects
 				(font
@@ -7452,7 +7452,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "ayab-library:Molex_0022035035_or_Hirose_HNC2-2.5P-3DS_(dashed_bar)"
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -7471,7 +7471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -7649,7 +7649,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical_(dashed_outline)"
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -7741,7 +7741,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-10A_1x10_P2.50mm_Vertical"
+		(property "Footprint" "ayab-library:Molex_0022035105_or_Hirose_HNC2-2.5P-10DS"
 			(at 252.73 44.45 0)
 			(effects
 				(font
@@ -7760,7 +7760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 252.73 44.45 0)
 			(effects
 				(font
@@ -9159,7 +9159,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:CONN-TH_A2004WV-5P"
+		(property "Footprint" "ayab-library:530140510"
 			(at 85.09 170.18 0)
 			(effects
 				(font
@@ -9178,7 +9178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 85.09 170.18 0)
 			(effects
 				(font
@@ -10827,7 +10827,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 256.54 146.05 0)
 			(effects
 				(font
@@ -10845,7 +10845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 256.54 146.05 0)
 			(effects
 				(font
@@ -11165,7 +11165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 109.22 45.72 0)
 			(effects
 				(font
@@ -11183,7 +11183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 109.22 45.72 0)
 			(effects
 				(font
@@ -11393,7 +11393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at -53.34 -59.69 0)
 			(effects
 				(font
@@ -11411,7 +11411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at -53.34 -59.69 0)
 			(effects
 				(font
@@ -11937,7 +11937,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR10W70P0X250_1X10_2740X490X590P"
+		(property "Footprint" "ayab-library:HNC2-2.5P-10DS"
 			(at 113.03 153.67 0)
 			(effects
 				(font
@@ -11956,7 +11956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 113.03 153.67 0)
 			(effects
 				(font
@@ -12094,7 +12094,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 153.67 0)
+		(at 278.13 153.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12103,7 +12103,7 @@
 		(dnp no)
 		(uuid "d9aa0168-b6d1-4af4-8a08-99c4b76b3c0e")
 		(property "Reference" "#PWR035"
-			(at 265.43 160.02 0)
+			(at 278.13 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,7 +12113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 158.75 0)
+			(at 278.13 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12122,7 +12122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 153.67 0)
+			(at 278.13 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +12132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 153.67 0)
+			(at 278.13 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12142,7 +12142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 153.67 0)
+			(at 278.13 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12281,7 +12281,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:CONN-TH_3P-P2.00_A2004WV-3P"
+		(property "Footprint" "ayab-library:530140310"
 			(at 190.5 148.59 0)
 			(effects
 				(font
