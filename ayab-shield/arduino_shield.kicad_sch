@@ -7345,7 +7345,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical_LongPads"
 			(at 254 93.98 0)
 			(effects
 				(font
@@ -7364,7 +7364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 254 93.98 0)
 			(effects
 				(font
@@ -7451,7 +7451,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical_LongPads"
 			(at 118.11 78.74 0)
 			(effects
 				(font
@@ -7487,7 +7487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "RL07S151GRE6"
+		(property "Mfg P/N" "MBE04140C1002DC100"
 			(at 118.11 78.74 0)
 			(effects
 				(font
@@ -7609,7 +7609,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical_LongPads"
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -7628,7 +7628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -7698,7 +7698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x08_P2.54mm_Vertical_LongPads"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -7806,7 +7806,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical_LongPads"
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -7897,7 +7897,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-10A_1x10_P2.50mm_Vertical"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-10A_1x10_P2.50mm_Vertical_LongPads"
 			(at 254 41.91 0)
 			(effects
 				(font
@@ -7916,7 +7916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 254 41.91 0)
 			(effects
 				(font
@@ -8305,7 +8305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x08_P2.54mm_Vertical_LongPads"
 			(at 78.74 83.82 0)
 			(effects
 				(font
@@ -8570,7 +8570,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical_LongPads"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -8606,7 +8606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "RL07S151GRE6"
+		(property "Mfg P/N" "MBE04140C1002DC100"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -8725,7 +8725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x06_P2.54mm_Vertical_LongPads"
 			(at 60.96 81.28 0)
 			(effects
 				(font
@@ -9315,7 +9315,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:CONN-TH_A2004WV-5P"
+		(property "Footprint" "ayab-library:530140510_LongPads"
 			(at 85.09 170.18 0)
 			(effects
 				(font
@@ -9334,7 +9334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 85.09 170.18 0)
 			(effects
 				(font
@@ -9924,7 +9924,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical_LongPads"
 			(at 59.69 170.18 0)
 			(effects
 				(font
@@ -9943,7 +9943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 59.69 170.18 0)
 			(effects
 				(font
@@ -10982,7 +10982,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x02_P2.54mm_Vertical_LongPads"
 			(at 104.14 68.58 0)
 			(effects
 				(font
@@ -11073,7 +11073,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x04_P2.54mm_Vertical_LongPads"
 			(at 256.54 146.05 0)
 			(effects
 				(font
@@ -11166,7 +11166,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical_LongPads"
 			(at 26.67 165.1 0)
 			(effects
 				(font
@@ -11202,7 +11202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "RL07S151GRE6"
+		(property "Mfg P/N" "MBE04140C1002DC100"
 			(at 26.67 165.1 0)
 			(effects
 				(font
@@ -11411,7 +11411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical_LongPads"
 			(at 109.22 45.72 0)
 			(effects
 				(font
@@ -11438,7 +11438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "YAGEO"
+		(property "Mfg" "Vishay"
 			(at -53.34 -53.34 90)
 			(effects
 				(font
@@ -11447,7 +11447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "CFR-25JB-52-4K7"
+		(property "Mfg P/N" "MBE04140C1002DC100"
 			(at -53.34 -53.34 90)
 			(effects
 				(font
@@ -11498,7 +11498,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:530140810"
+		(property "Footprint" "ayab-library:530140810_LongPads"
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -11638,7 +11638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical_LongPads"
 			(at -53.34 -59.69 0)
 			(effects
 				(font
@@ -11665,7 +11665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "YAGEO"
+		(property "Mfg" "Vishay"
 			(at -53.34 -59.69 90)
 			(effects
 				(font
@@ -11674,7 +11674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "CFR-25JB-52-4K7"
+		(property "Mfg P/N" "MBE04140C1002DC100"
 			(at -53.34 -59.69 90)
 			(effects
 				(font
@@ -11794,7 +11794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ayab-library:PinHeader_1x10_P2.54mm_Vertical"
+		(property "Footprint" "ayab-library:PinHeader_1x10_P2.54mm_Vertical_LongPads"
 			(at 78.74 53.34 0)
 			(effects
 				(font
@@ -11905,7 +11905,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:530141010"
+		(property "Footprint" "ayab-library:530141010_LongPads"
 			(at 266.7 41.91 0)
 			(effects
 				(font
@@ -12181,7 +12181,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR10W70P0X250_1X10_2740X490X590P"
+		(property "Footprint" "ayab-library:SHDR10W70P0X250_1X10_2740X490X590P_LongPads"
 			(at 113.03 153.67 0)
 			(effects
 				(font
@@ -12525,7 +12525,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:CONN-TH_3P-P2.00_A2004WV-3P"
+		(property "Footprint" "ayab-library:530140310_LongPads"
 			(at 190.5 148.59 0)
 			(effects
 				(font
