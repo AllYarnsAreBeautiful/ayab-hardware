@@ -8324,7 +8324,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:LED_D3.0mm"
+		(property "Footprint" "ayab-library:LED_D3.0mm_LongPads"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -10827,7 +10827,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "ayab-library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical_LongPads"
 			(at 256.54 146.05 0)
 			(effects
 				(font
@@ -11077,7 +11077,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:LED_D3.0mm"
+		(property "Footprint" "ayab-library:LED_D3.0mm_LongPads"
 			(at 107.95 88.9 0)
 			(effects
 				(font
@@ -11116,7 +11116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "HLMP-NL06"
+		(property "Mfg P/N" "HLMP-1640-B00A1"
 			(at 107.95 88.9 0)
 			(effects
 				(font
@@ -12190,7 +12190,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:LED_D3.0mm"
+		(property "Footprint" "ayab-library:LED_D3.0mm_LongPads"
 			(at 26.67 173.99 0)
 			(effects
 				(font
@@ -12229,7 +12229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "HLMP-NG07"
+		(property "Mfg P/N" "HLMP-1640-B00A1"
 			(at 26.67 173.99 0)
 			(effects
 				(font
