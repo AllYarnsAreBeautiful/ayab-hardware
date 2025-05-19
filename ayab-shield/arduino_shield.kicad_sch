@@ -7807,7 +7807,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical_LongPads_dashed_outline"
+		(property "Footprint" "ayab-library:Molex_530140310_or_SPOX_5267-03A_1x03_P2.50mm_Vertical_LongPads_dashed_outline_1"
 			(at 59.69 137.16 0)
 			(effects
 				(font
