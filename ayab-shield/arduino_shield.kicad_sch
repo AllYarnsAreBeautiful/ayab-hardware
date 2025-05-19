@@ -7346,7 +7346,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-08A_1x08_P2.50mm_Vertical_LongPads"
+		(property "Footprint" "ayab-library:Molex_0022035085_or_Hirose_HNC2_2.5P_8DS_LongPads"
 			(at 254 96.52 0)
 			(effects
 				(font
@@ -7610,7 +7610,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical_LongPads"
+		(property "Footprint" "ayab-library:Molex_0022035035_or_Hirose_HNC2-2.5P-3DS_LongPads_dashed_bar"
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -7807,7 +7807,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical_LongPads"
+		(property "Footprint" "ayab-library:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical_LongPads_dashed_outline"
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -7899,7 +7899,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:Molex_SPOX_5267-10A_1x10_P2.50mm_Vertical_LongPads"
+		(property "Footprint" "ayab-library:Molex_0022035105_or_Hirose_HNC2-2.5P-10DS_LongPads"
 			(at 254 44.45 0)
 			(effects
 				(font
@@ -12185,7 +12185,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ayab-library:SHDR10W70P0X250_1X10_2740X490X590P_LongPads"
+		(property "Footprint" "ayab-library:HNC2-2.5P-10DS_LongPads"
 			(at 113.03 153.67 0)
 			(effects
 				(font
@@ -12204,7 +12204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 113.03 153.67 0)
 			(effects
 				(font
