@@ -283,6 +283,7 @@
 		)
 	)
 	(model "${KIPRJMOD}/../ayab-library/packages3D/022035035.stp"
+		(hide yes)
 		(offset
 			(xyz 0 0 9)
 		)
