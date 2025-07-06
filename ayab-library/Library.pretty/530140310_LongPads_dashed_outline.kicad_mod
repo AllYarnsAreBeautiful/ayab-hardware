@@ -280,6 +280,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../ayab-library/packages3D/53014-0310.stp"
+		(hide yes)
 		(offset
 			(xyz -1.43 -0.71 2.9)
 		)
