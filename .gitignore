@@ -3,3 +3,13 @@ ayab-esp32/datasheets/*
 */Outputs/*
 */DesignChecks/*
 *.zip
+
+# gEDA pcb / gschem backups
+*~
+*.pcb-
+
+# KiCad local state and backups
+*-backups/
+*.lck
+fp-info-cache
+*.kicad_prl

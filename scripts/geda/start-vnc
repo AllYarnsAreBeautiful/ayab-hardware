@@ -1,0 +1,23 @@
+#!/bin/sh
+# Run a virtual X desktop (Openbox) on TigerVNC's X server, served over VNC on port 5900.
+# With a command, run it on the desktop and exit when it does;
+# without one, keep the desktop up so apps can be started with `docker exec`.
+# Usage: start-vnc [command [args...]]
+set -e
+
+export DISPLAY=:1
+mkdir -p "$HOME/.vnc"
+printf '%s\n' "${VNC_PASSWORD:-ayab}" | vncpasswd -f >"$HOME/.vnc/passwd"
+chmod 600 "$HOME/.vnc/passwd"
+
+Xtigervnc $DISPLAY -geometry "${GEOMETRY:-1680x1000}" -depth 24 -rfbport 5900 \
+  -rfbauth "$HOME/.vnc/passwd" -SecurityTypes VncAuth -AlwaysShared >/tmp/xvnc.log 2>&1 &
+XVNC=$!
+for i in $(seq 1 50); do [ -S /tmp/.X11-unix/X1 ] && break; sleep 0.1; done
+
+openbox >/tmp/openbox.log 2>&1 &
+
+if [ $# -gt 0 ]; then
+  exec "$@"
+fi
+wait $XVNC

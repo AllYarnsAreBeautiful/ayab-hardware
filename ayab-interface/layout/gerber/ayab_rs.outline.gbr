@@ -1,16 +1,16 @@
 G04 start of page 3 for group 2 idx 6 *
-G04 Title: AYAB-RS_F, outline *
-G04 Creator: pcb 4.0.2 *
-G04 CreationDate: Wed Aug 18 08:19:12 2021 UTC *
-G04 For: tom *
+G04 Title: AYAB-RS_G, outline *
+G04 Creator: pcb 4.2.2 *
+G04 CreationDate: Sun Oct 25 14:31:24 2026 UTC *
+G04 For: user *
 G04 Format: Gerber/RS-274X *
 G04 PCB-Dimensions (mil): 11000.00 1900.00 *
 G04 PCB-Coordinate-Origin: lower left *
 %MOIN*%
 %FSLAX25Y25*%
 %LNOUTLINE*%
-%ADD48C,0.0100*%
-G54D48*X12550Y-52D02*X1087551D01*
+%ADD42C,0.0100*%
+G54D42*X12550Y-52D02*X1087551D01*
 X1088833Y12D01*
 X1090077Y201D01*
 X1091277Y508D01*

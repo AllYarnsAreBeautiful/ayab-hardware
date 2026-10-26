@@ -1,4 +1,4 @@
-AYAB-EMS Interface Board - Rev F
+AYAB Interface Board - Rev G
 Designed by Evil Mad Scientist Laboratories
 in cooperation with ayab-knitting.com
 
@@ -17,7 +17,7 @@ ayab_rs.bottomsilk.gbr			- Bottom Silkscreen
 ayab_rs.plated-drill.cnc      		- NC drill file (For plated holes)
 ayab_rs.unplated-drill.cnc    		- NC drill file (for unplated holes)
 
-ayab_rs.DrillDrawing.gbr   	 	- drill Drawing with outline 
+ayab_rs.fab.gbr   	 	- Fabrication drawing (drill drawing with outline)
 ayab_rs.outline.gbr			- Outline drawing
 
 ayab_rs.toppaste.gbr    	 	- Solder paste file (top)
